@@ -1,0 +1,737 @@
+No.,Pos.,Player,Date of birth (age),Caps,Club,Country
+1,GK,Hugo Lloris,26 December 1986 (aged 23),11,Lyon,France
+2,DF,Bacary Sagna,14 February 1983 (aged 27),20,Arsenal,France
+3,DF,Eric Abidal,11 September 1979 (aged 30),48,Barcelona,France
+4,DF,Anthony Réveillère,10 November 1979 (aged 30),6,Lyon,France
+5,DF,William Gallas,17 August 1977 (aged 32),81,Arsenal,France
+6,DF,Marc Planus,7 March 1982 (aged 28),1,Bordeaux,France
+7,MF,Franck Ribéry,7 April 1983 (aged 27),45,Bayern Munich,France
+8,MF,Yoann Gourcuff,11 July 1986 (aged 23),20,Bordeaux,France
+9,FW,Djibril Cissé,12 August 1981 (aged 28),39,Panathinaikos,France
+10,FW,Sidney Govou,27 July 1979 (aged 30),46,Lyon,France
+11,FW,André-Pierre Gignac,5 December 1985 (aged 24),13,Toulouse,France
+12,FW,Thierry Henry (c),17 August 1977 (aged 32),121,Barcelona,France
+13,DF,Patrice Evra,15 May 1981 (aged 29),30,Manchester United,France
+14,MF,Jérémy Toulalan,10 September 1983 (aged 26),34,Lyon,France
+15,MF,Florent Malouda,13 June 1980 (aged 29),54,Chelsea,France
+16,GK,Steve Mandanda,28 March 1985 (aged 25),13,Marseille,France
+17,DF,Sébastien Squillaci,11 August 1980 (aged 29),20,Sevilla,France
+18,MF,Alou Diarra,15 July 1981 (aged 28),25,Bordeaux,France
+19,MF,Abou Diaby,11 May 1986 (aged 24),5,Arsenal,France
+20,MF,Mathieu Valbuena,28 September 1984 (aged 25),2,Marseille,France
+21,FW,Nicolas Anelka,14 March 1979 (aged 31),67,Chelsea,France
+22,DF,Gaël Clichy,26 July 1985 (aged 24),4,Arsenal,France
+23,GK,Cédric Carrasso,30 December 1981 (aged 28),0,Bordeaux,France
+1,GK,Óscar Pérez,1 February 1973 (aged 37),52,Chiapas,Mexico
+2,DF,Francisco Rodríguez,20 October 1981 (aged 28),48,PSV Eindhoven,Mexico
+3,DF,Carlos Salcido,2 April 1980 (aged 30),73,PSV Eindhoven,Mexico
+4,DF,Rafael Márquez,13 February 1979 (aged 31),91,Barcelona,Mexico
+5,DF,Ricardo Osorio,30 March 1980 (aged 30),76,VfB Stuttgart,Mexico
+6,MF,Gerardo Torrado,30 April 1979 (aged 31),114,Cruz Azul,Mexico
+7,MF,Pablo Barrera,21 June 1987 (aged 22),21,UNAM,Mexico
+8,MF,Israel Castro,29 December 1980 (aged 29),31,UNAM,Mexico
+9,FW,Guillermo Franco,3 November 1976 (aged 33),21,West Ham United,Mexico
+10,FW,Cuauhtémoc Blanco (c),17 January 1973 (aged 37),115,Veracruz,Mexico
+11,FW,Carlos Vela,1 March 1989 (aged 21),28,Arsenal,Mexico
+12,DF,Paul Aguilar,6 March 1986 (aged 24),10,Pachuca,Mexico
+13,GK,Guillermo Ochoa,13 July 1985 (aged 24),37,América,Mexico
+14,FW,Javier Hernández,1 June 1988 (aged 22),12,Guadalajara,Mexico
+15,DF,Héctor Moreno,17 January 1988 (aged 22),10,AZ,Mexico
+16,DF,Efraín Juárez,22 February 1988 (aged 22),19,UNAM,Mexico
+17,FW,Giovani dos Santos,11 May 1989 (aged 21),26,Galatasaray,Mexico
+18,MF,Andrés Guardado,28 September 1986 (aged 23),56,Deportivo La Coruña,Mexico
+19,DF,Jonny Magallón,21 November 1981 (aged 28),52,Guadalajara,Mexico
+20,DF,Jorge Torres Nilo,16 January 1988 (aged 22),8,Atlas,Mexico
+21,FW,Adolfo Bautista,15 May 1979 (aged 31),37,Guadalajara,Mexico
+22,MF,Alberto Medina,29 May 1983 (aged 27),56,Guadalajara,Mexico
+23,GK,Luis Ernesto Michel,21 July 1979 (aged 30),4,Guadalajara,Mexico
+1,GK,Moeneeb Josephs,19 May 1980 (aged 30),17,Orlando Pirates,South Africa
+2,DF,Siboniso Gaxa,6 April 1984 (aged 26),37,Mamelodi Sundowns,South Africa
+3,DF,Tsepo Masilela,5 May 1985 (aged 25),31,Maccabi Haifa,South Africa
+4,DF,Aaron Mokoena (c),25 November 1980 (aged 29),101,Portsmouth,South Africa
+5,DF,Anele Ngcongca,20 October 1987 (aged 22),5,Genk,South Africa
+6,MF,MacBeth Sibaya,25 November 1977 (aged 32),58,Rubin Kazan,South Africa
+7,MF,Lance Davids,11 April 1985 (aged 25),22,Ajax Cape Town,South Africa
+8,MF,Siphiwe Tshabalala,25 September 1984 (aged 25),48,Kaizer Chiefs,South Africa
+9,FW,Katlego Mphela,29 November 1984 (aged 25),31,Mamelodi Sundowns,South Africa
+10,MF,Steven Pienaar,17 March 1982 (aged 28),50,Everton,South Africa
+11,MF,Teko Modise,22 December 1982 (aged 27),52,Orlando Pirates,South Africa
+12,MF,Reneilwe Letsholonyane,9 June 1982 (aged 28),13,Kaizer Chiefs,South Africa
+13,MF,Kagisho Dikgacoi,24 November 1984 (aged 25),37,Fulham,South Africa
+14,DF,Matthew Booth,14 March 1977 (aged 33),27,Mamelodi Sundowns,South Africa
+15,DF,Lucas Thwala,19 October 1981 (aged 28),24,Orlando Pirates,South Africa
+16,GK,Itumeleng Khune,20 June 1987 (aged 22),27,Kaizer Chiefs,South Africa
+17,FW,Bernard Parker,16 March 1986 (aged 24),28,Twente,South Africa
+18,FW,Siyabonga Nomvethe,2 December 1977 (aged 32),76,Moroka Swallows,South Africa
+19,MF,Surprise Moriri,20 March 1980 (aged 30),34,Mamelodi Sundowns,South Africa
+20,DF,Bongani Khumalo,6 January 1987 (aged 23),14,Supersport United,South Africa
+21,DF,Siyabonga Sangweni,29 September 1981 (aged 28),8,Golden Arrows,South Africa
+22,GK,Shu-Aib Walters,26 December 1981 (aged 28),0,Maritzburg United,South Africa
+23,MF,Thanduyise Khuboni,23 May 1986 (aged 24),9,Golden Arrows,South Africa
+1,GK,Fernando Muslera,16 June 1986 (aged 23),6,Lazio,Uruguay
+2,DF,Diego Lugano (c),2 November 1980 (aged 29),42,Fenerbahçe,Uruguay
+3,DF,Diego Godín,16 February 1986 (aged 24),38,Villarreal,Uruguay
+4,DF,Jorge Fucile,19 November 1984 (aged 25),24,Porto,Uruguay
+5,MF,Walter Gargano,23 July 1984 (aged 25),28,Napoli,Uruguay
+6,DF,Mauricio Victorino,11 October 1982 (aged 27),4,Universidad de Chile,Uruguay
+7,FW,Edinson Cavani,14 February 1987 (aged 23),14,Palermo,Uruguay
+8,MF,Sebastián Eguren,8 January 1981 (aged 29),27,AIK,Uruguay
+9,FW,Luis Suárez,24 January 1987 (aged 23),30,Ajax,Uruguay
+10,FW,Diego Forlán,19 May 1979 (aged 31),62,Atlético Madrid,Uruguay
+11,DF,Álvaro Pereira,28 November 1985 (aged 24),15,Porto,Uruguay
+12,GK,Juan Castillo,17 April 1978 (aged 32),11,Deportivo Cali,Uruguay
+13,FW,Sebastián Abreu,17 October 1976 (aged 33),56,Botafogo,Uruguay
+14,MF,Nicolás Lodeiro,21 March 1989 (aged 21),4,Ajax,Uruguay
+15,MF,Diego Pérez,18 May 1980 (aged 30),50,Monaco,Uruguay
+16,DF,Maxi Pereira,8 June 1984 (aged 26),37,Benfica,Uruguay
+17,MF,Egidio Arévalo Ríos,1 January 1982 (aged 28),6,Peñarol,Uruguay
+18,MF,Ignacio González,14 May 1982 (aged 28),17,Levadiakos,Uruguay
+19,DF,Andrés Scotti,14 December 1975 (aged 34),26,Colo-Colo,Uruguay
+20,MF,Álvaro Fernández,11 October 1985 (aged 24),7,Universidad de Chile,Uruguay
+21,FW,Sebastián Fernández,23 May 1985 (aged 25),6,Banfield,Uruguay
+22,DF,Martín Cáceres,7 April 1987 (aged 23),19,Juventus,Uruguay
+23,GK,Martín Silva,25 March 1983 (aged 27),1,Defensor Sporting,Uruguay
+1,GK,Diego Pozo,16 February 1978 (aged 32),3,Colón,Argentina
+2,DF,Martín Demichelis,20 December 1980 (aged 29),25,Bayern Munich,Argentina
+3,DF,Clemente Rodríguez,31 July 1981 (aged 28),12,Estudiantes,Argentina
+4,DF,Nicolás Burdisso,12 April 1981 (aged 29),29,Roma,Argentina
+5,MF,Mario Bolatti,17 February 1985 (aged 25),5,Fiorentina,Argentina
+6,DF,Gabriel Heinze,19 April 1978 (aged 32),64,Marseille,Argentina
+7,MF,Ángel Di María,14 February 1988 (aged 22),8,Benfica,Argentina
+8,MF,Juan Sebastián Verón,9 March 1975 (aged 35),70,Estudiantes,Argentina
+9,FW,Gonzalo Higuaín,10 December 1987 (aged 22),5,Real Madrid,Argentina
+10,FW,Lionel Messi,24 June 1987 (aged 22),45,Barcelona,Argentina
+11,FW,Carlos Tevez,5 February 1984 (aged 26),54,Manchester City,Argentina
+12,DF,Ariel Garcé,14 July 1979 (aged 30),4,Colón,Argentina
+13,DF,Walter Samuel,23 March 1978 (aged 32),54,Inter Milan,Argentina
+14,MF,Javier Mascherano (c),8 June 1984 (aged 26),57,Liverpool,Argentina
+15,DF,Nicolás Otamendi,12 February 1988 (aged 22),7,Vélez Sársfield,Argentina
+16,FW,Sergio Agüero,2 June 1988 (aged 22),22,Atlético Madrid,Argentina
+17,MF,Jonás Gutiérrez,5 July 1983 (aged 26),16,Newcastle United,Argentina
+18,FW,Martín Palermo,7 November 1973 (aged 36),14,Boca Juniors,Argentina
+19,FW,Diego Milito,12 June 1979 (aged 30),21,Inter Milan,Argentina
+20,MF,Maxi Rodríguez,2 January 1981 (aged 29),36,Liverpool,Argentina
+21,GK,Mariano Andújar,30 July 1983 (aged 26),4,Catania,Argentina
+22,GK,Sergio Romero,22 February 1987 (aged 23),6,AZ,Argentina
+23,MF,Javier Pastore,20 June 1989 (aged 20),1,Palermo,Argentina
+1,GK,Kostas Chalkias,30 May 1974 (aged 36),27,PAOK,Greece
+2,DF,Giourkas Seitaridis,4 June 1981 (aged 29),69,Panathinaikos,Greece
+3,DF,Christos Patsatzoglou,19 March 1979 (aged 31),43,Omonia,Greece
+4,DF,Nikos Spyropoulos,10 October 1983 (aged 26),19,Panathinaikos,Greece
+5,DF,Vangelis Moras,18 August 1981 (aged 28),11,Bologna,Greece
+6,MF,Alexandros Tziolis,13 February 1985 (aged 25),19,Siena,Greece
+7,FW,Georgios Samaras,21 February 1985 (aged 25),34,Celtic,Greece
+8,DF,Avraam Papadopoulos,3 December 1984 (aged 25),14,Olympiacos,Greece
+9,FW,Angelos Charisteas,9 February 1980 (aged 30),84,1. FC Nürnberg,Greece
+10,MF,Giorgos Karagounis (c),6 March 1977 (aged 33),93,Panathinaikos,Greece
+11,DF,Loukas Vyntra,5 February 1981 (aged 29),29,Panathinaikos,Greece
+12,GK,Alexandros Tzorvas,12 August 1982 (aged 27),8,Panathinaikos,Greece
+13,GK,Michalis Sifakis,9 September 1984 (aged 25),2,Aris,Greece
+14,FW,Dimitris Salpingidis,18 August 1981 (aged 28),36,Panathinaikos,Greece
+15,DF,Vasilis Torosidis,10 June 1985 (aged 25),26,Olympiacos,Greece
+16,DF,Sotirios Kyrgiakos,23 July 1979 (aged 30),58,Liverpool,Greece
+17,FW,Theofanis Gekas,23 May 1980 (aged 30),47,Hertha BSC,Greece
+18,MF,Sotiris Ninis,3 April 1990 (aged 20),4,Panathinaikos,Greece
+19,DF,Sokratis Papastathopoulos,9 June 1988 (aged 22),10,Genoa,Greece
+20,FW,Pantelis Kapetanos,8 June 1983 (aged 27),3,FCSB,Greece
+21,MF,Kostas Katsouranis,21 June 1979 (aged 30),69,Panathinaikos,Greece
+22,DF,Stelios Malezas,11 March 1985 (aged 25),0,PAOK,Greece
+23,MF,Sakis Prittas,9 January 1979 (aged 31),0,Aris,Greece
+1,GK,Vincent Enyeama,29 August 1982 (aged 27),51,Hapoel Tel Aviv,Nigeria
+2,DF,Joseph Yobo,6 September 1980 (aged 29),64,Everton,Nigeria
+3,DF,Taye Taiwo,16 April 1985 (aged 25),35,Marseille,Nigeria
+4,FW,Nwankwo Kanu (c),1 August 1976 (aged 33),72,Portsmouth,Nigeria
+5,DF,Rabiu Afolabi,18 April 1980 (aged 30),12,Red Bull Salzburg,Nigeria
+6,DF,Danny Shittu,2 September 1980 (aged 29),23,Bolton Wanderers,Nigeria
+7,FW,John Utaka,8 January 1982 (aged 28),41,Portsmouth,Nigeria
+8,FW,Yakubu,22 November 1982 (aged 27),47,Everton,Nigeria
+9,FW,Obafemi Martins,28 October 1984 (aged 25),27,VfL Wolfsburg,Nigeria
+10,FW,Brown Ideye[4],10 October 1988 (aged 21),0,Sochaux,Nigeria
+11,FW,Peter Odemwingie,15 July 1981 (aged 28),43,Lokomotiv Moscow,Nigeria
+12,FW,Kalu Uche,15 November 1982 (aged 27),18,Almería,Nigeria
+13,MF,Ayila Yussuf,4 November 1984 (aged 25),24,Dynamo Kyiv,Nigeria
+14,MF,Sani Kaita,2 May 1986 (aged 24),16,Alania Vladikavkaz,Nigeria
+15,MF,Lukman Haruna,4 December 1990 (aged 19),5,Monaco,Nigeria
+16,GK,Austin Ejide,8 April 1984 (aged 26),16,Hapoel Petah Tikva,Nigeria
+17,DF,Chidi Odiah,17 December 1983 (aged 26),21,CSKA Moscow,Nigeria
+18,FW,Victor Obinna,25 March 1987 (aged 23),30,Málaga,Nigeria
+19,FW,Chinedu Obasi,1 June 1986 (aged 24),17,1899 Hoffenheim,Nigeria
+20,MF,Dickson Etuhu,8 June 1982 (aged 28),11,Fulham,Nigeria
+21,DF,Elderson Echiéjilé,20 January 1988 (aged 22),9,Rennes,Nigeria
+22,DF,Dele Adeleye,25 December 1988 (aged 21),5,Sparta Rotterdam,Nigeria
+23,GK,Dele Aiyenugba,20 November 1983 (aged 26),9,Bnei Yehuda,Nigeria
+1,GK,Lee Woon-jae,26 April 1973 (aged 37),130,Suwon Samsung Bluewings,South Korea
+2,DF,Oh Beom-seok,29 July 1984 (aged 25),37,Ulsan Hyundai,South Korea
+3,DF,Kim Hyung-il,27 April 1984 (aged 26),2,Pohang Steelers,South Korea
+4,DF,Cho Yong-hyung,3 November 1983 (aged 26),31,Jeju United,South Korea
+5,MF,Kim Nam-il,14 March 1977 (aged 33),92,Tom Tomsk,South Korea
+6,MF,Kim Bo-kyung,6 October 1989 (aged 20),6,Oita Trinita,South Korea
+7,MF,Park Ji-sung (c),30 March 1981 (aged 29),88,Manchester United,South Korea
+8,MF,Kim Jung-woo,9 May 1982 (aged 28),54,Gwangju Sangmu,South Korea
+9,FW,Ahn Jung-hwan,27 January 1976 (aged 34),70,Dalian Shide,South Korea
+10,FW,Park Chu-young,10 July 1985 (aged 24),40,Monaco,South Korea
+11,FW,Lee Seung-yeoul,6 March 1989 (aged 21),8,FC Seoul,South Korea
+12,DF,Lee Young-pyo,23 April 1977 (aged 33),112,Al Hilal,South Korea
+13,MF,Kim Jae-sung,3 October 1983 (aged 26),7,Pohang Steelers,South Korea
+14,DF,Lee Jung-soo,8 January 1980 (aged 30),24,Kashima Antlers,South Korea
+15,DF,Kim Dong-jin,29 January 1982 (aged 28),61,Ulsan Hyundai,South Korea
+16,MF,Ki Sung-yueng,24 January 1989 (aged 21),21,Celtic,South Korea
+17,FW,Lee Chung-yong,2 July 1988 (aged 21),23,Bolton Wanderers,South Korea
+18,GK,Jung Sung-ryong,4 January 1985 (aged 25),15,Seongnam Ilhwa Chunma,South Korea
+19,FW,Yeom Ki-hun,30 March 1983 (aged 27),33,Suwon Samsung Bluewings,South Korea
+20,FW,Lee Dong-gook,29 April 1979 (aged 31),83,Jeonbuk Hyundai Motors,South Korea
+21,GK,Kim Young-kwang,28 June 1983 (aged 26),14,Ulsan Hyundai,South Korea
+22,DF,Cha Du-ri,25 July 1980 (aged 29),46,SC Freiburg,South Korea
+23,DF,Kang Min-soo,14 February 1986 (aged 24),31,Suwon Samsung Bluewings,South Korea
+1,GK,Lounès Gaouaoui,28 September 1977 (aged 32),48,ASO Chlef,Algeria
+2,DF,Madjid Bougherra,7 October 1982 (aged 27),41,Rangers,Algeria
+3,DF,Nadir Belhadj,18 June 1982 (aged 27),45,Portsmouth,Algeria
+4,DF,Antar Yahia (c),21 March 1982 (aged 28),44,VfL Bochum,Algeria
+5,DF,Rafik Halliche,2 September 1986 (aged 23),17,Nacional,Algeria
+6,MF,Yazid Mansouri,25 February 1978 (aged 32),67,Lorient,Algeria
+7,MF,Ryad Boudebouz,19 February 1990 (aged 20),2,Sochaux,Algeria
+8,MF,Mehdi Lacen,5 January 1984 (aged 26),3,Racing Santander,Algeria
+9,FW,Abdelkader Ghezzal,5 December 1984 (aged 25),19,Siena,Algeria
+10,FW,Rafik Saïfi,7 February 1975 (aged 35),62,Istres,Algeria
+11,FW,Rafik Djebbour,8 March 1984 (aged 26),16,AEK Athens,Algeria
+12,DF,Habib Bellaïd,28 March 1986 (aged 24),1,Eintracht Frankfurt,Algeria
+13,FW,Karim Matmour,25 June 1985 (aged 24),23,Borussia Mönchengladbach,Algeria
+14,DF,Abdelkader Laïfaoui,29 July 1981 (aged 28),7,ES Sétif,Algeria
+15,MF,Karim Ziani,17 August 1982 (aged 27),55,VfL Wolfsburg,Algeria
+16,GK,Faouzi Chaouchi,5 December 1984 (aged 25),10,ES Sétif,Algeria
+17,MF,Adlène Guedioura,12 November 1985 (aged 24),2,Wolverhampton Wanderers,Algeria
+18,DF,Carl Medjani,15 May 1985 (aged 25),0,Ajaccio,Algeria
+19,MF,Hassan Yebda,14 April 1984 (aged 26),9,Portsmouth,Algeria
+20,DF,Djamel Mesbah,9 October 1984 (aged 25),1,Lecce,Algeria
+21,MF,Foued Kadir,5 December 1983 (aged 26),2,Valenciennes,Algeria
+22,MF,Djamel Abdoun,14 February 1986 (aged 24),7,Nantes,Algeria
+23,GK,Raïs M'Bolhi,25 April 1986 (aged 24),1,Slavia Sofia,Algeria
+1,GK,David James,1 August 1970 (aged 39),50,Portsmouth,England
+2,DF,Glen Johnson,23 August 1984 (aged 25),22,Liverpool,England
+3,DF,Ashley Cole,20 December 1980 (aged 29),78,Chelsea,England
+4,MF,Steven Gerrard (c),30 May 1980 (aged 30),80,Liverpool,England
+5,DF,Michael Dawson[5],18 November 1983 (aged 26),0,Tottenham Hotspur,England
+6,DF,John Terry,7 December 1980 (aged 29),60,Chelsea,England
+7,MF,Aaron Lennon,16 April 1987 (aged 23),17,Tottenham Hotspur,England
+8,MF,Frank Lampard,20 June 1978 (aged 31),78,Chelsea,England
+9,FW,Peter Crouch,30 January 1981 (aged 29),38,Tottenham Hotspur,England
+10,FW,Wayne Rooney,24 October 1985 (aged 24),60,Manchester United,England
+11,MF,Joe Cole,8 November 1981 (aged 28),54,Chelsea,England
+12,GK,Robert Green,18 January 1980 (aged 30),10,West Ham United,England
+13,DF,Stephen Warnock,12 December 1981 (aged 28),1,Aston Villa,England
+14,MF,Gareth Barry,23 February 1981 (aged 29),36,Manchester City,England
+15,DF,Matthew Upson,18 April 1979 (aged 31),19,West Ham United,England
+16,MF,James Milner,4 January 1986 (aged 24),8,Aston Villa,England
+17,MF,Shaun Wright-Phillips,25 October 1981 (aged 28),31,Manchester City,England
+18,DF,Jamie Carragher,28 January 1978 (aged 32),36,Liverpool,England
+19,FW,Jermain Defoe,7 October 1982 (aged 27),39,Tottenham Hotspur,England
+20,DF,Ledley King,12 October 1980 (aged 29),20,Tottenham Hotspur,England
+21,FW,Emile Heskey,11 January 1978 (aged 32),58,Aston Villa,England
+22,MF,Michael Carrick,28 July 1981 (aged 28),22,Manchester United,England
+23,GK,Joe Hart,19 April 1987 (aged 23),3,Birmingham City,England
+1,GK,Samir Handanović,14 July 1984 (aged 25),39,Udinese,Slovenia
+2,DF,Mišo Brečko,1 May 1984 (aged 26),31,1. FC Köln,Slovenia
+3,DF,Elvedin Džinić,25 August 1985 (aged 24),0,Maribor,Slovenia
+4,DF,Marko Šuler,9 March 1983 (aged 27),17,Gent,Slovenia
+5,DF,Boštjan Cesar,9 July 1982 (aged 27),43,Grenoble,Slovenia
+6,DF,Branko Ilić,6 February 1983 (aged 27),37,Lokomotiv Moscow,Slovenia
+7,FW,Nejc Pečnik,3 January 1986 (aged 24),8,Nacional,Slovenia
+8,MF,Robert Koren (c),20 September 1980 (aged 29),46,West Bromwich Albion,Slovenia
+9,FW,Zlatan Ljubijankić,15 December 1983 (aged 26),17,Gent,Slovenia
+10,FW,Valter Birsa,7 August 1986 (aged 23),34,Auxerre,Slovenia
+11,FW,Milivoje Novaković,18 May 1979 (aged 31),38,1. FC Köln,Slovenia
+12,GK,Jasmin Handanović,28 January 1978 (aged 32),3,Mantova,Slovenia
+13,DF,Bojan Jokić,17 May 1986 (aged 24),34,Chievo,Slovenia
+14,FW,Zlatko Dedić,10 May 1984 (aged 26),24,VfL Bochum,Slovenia
+15,MF,Rene Krhin,21 May 1990 (aged 20),4,Inter Milan,Slovenia
+16,GK,Aleksander Šeliga,1 February 1980 (aged 30),1,Sparta Rotterdam,Slovenia
+17,MF,Andraž Kirm,6 September 1984 (aged 25),26,Wisła Kraków,Slovenia
+18,MF,Aleksandar Radosavljević,25 April 1979 (aged 31),15,Larissa,Slovenia
+19,DF,Suad Fileković,16 September 1978 (aged 31),14,Maribor,Slovenia
+20,MF,Andrej Komac,4 December 1979 (aged 30),41,Maccabi Tel Aviv,Slovenia
+21,MF,Dalibor Stevanović,27 September 1984 (aged 25),15,Vitesse,Slovenia
+22,DF,Matej Mavrič,29 January 1979 (aged 31),32,TuS Koblenz,Slovenia
+23,FW,Tim Matavž,13 January 1989 (aged 21),1,Groningen,Slovenia
+1,GK,Tim Howard,6 March 1979 (aged 31),51,Everton,United States
+2,DF,Jonathan Spector,1 March 1986 (aged 24),25,West Ham United,United States
+3,DF,Carlos Bocanegra (c),25 May 1979 (aged 31),79,Rennes,United States
+4,MF,Michael Bradley,31 July 1987 (aged 22),43,Borussia Mönchengladbach,United States
+5,DF,Oguchi Onyewu,13 May 1982 (aged 28),54,Milan,United States
+6,DF,Steve Cherundolo,19 February 1979 (aged 31),60,Hannover 96,United States
+7,MF,DaMarcus Beasley,24 May 1982 (aged 28),92,Rangers,United States
+8,MF,Clint Dempsey,9 March 1983 (aged 27),62,Fulham,United States
+9,FW,Herculez Gomez,6 April 1982 (aged 28),4,Puebla,United States
+10,MF,Landon Donovan,4 March 1982 (aged 28),123,LA Galaxy,United States
+11,MF,Stuart Holden,1 August 1985 (aged 24),14,Bolton Wanderers,United States
+12,DF,Jonathan Bornstein,7 November 1984 (aged 25),32,Chivas USA,United States
+13,MF,Ricardo Clark,10 March 1983 (aged 27),29,Eintracht Frankfurt,United States
+14,FW,Edson Buddle,21 May 1981 (aged 29),3,LA Galaxy,United States
+15,DF,Jay DeMerit,4 December 1979 (aged 30),19,Watford,United States
+16,MF,José Francisco Torres,29 October 1987 (aged 22),10,Pachuca,United States
+17,FW,Jozy Altidore,6 November 1989 (aged 20),25,Hull City,United States
+18,GK,Brad Guzan,9 September 1984 (aged 25),16,Aston Villa,United States
+19,MF,Maurice Edu,18 April 1986 (aged 24),13,Rangers,United States
+20,FW,Robbie Findley,4 August 1985 (aged 24),6,Real Salt Lake,United States
+21,DF,Clarence Goodson,17 May 1982 (aged 28),14,Start,United States
+22,MF,Benny Feilhaber,19 January 1985 (aged 25),32,AGF,United States
+23,GK,Marcus Hahnemann,15 June 1972 (aged 37),7,Wolverhampton Wanderers,United States
+1,GK,Mark Schwarzer,6 October 1972 (aged 37),75,Fulham,Australia
+2,DF,Lucas Neill (c),9 March 1978 (aged 32),56,Galatasaray,Australia
+3,DF,Craig Moore,12 December 1975 (aged 34),50,Rangers,Australia
+4,MF,Tim Cahill,6 December 1979 (aged 30),40,Everton,Australia
+5,MF,Jason Culina,5 August 1980 (aged 29),49,Gold Coast United,Australia
+6,DF,Michael Beauchamp,8 March 1981 (aged 29),21,Al Jazira,Australia
+7,MF,Brett Emerton,22 February 1979 (aged 31),72,Blackburn Rovers,Australia
+8,DF,Luke Wilkshire,1 October 1981 (aged 28),42,Dynamo Moscow,Australia
+9,FW,Joshua Kennedy,20 August 1982 (aged 27),19,Nagoya Grampus,Australia
+10,FW,Harry Kewell,22 September 1978 (aged 31),45,Galatasaray,Australia
+11,DF,Scott Chipperfield,30 December 1975 (aged 34),65,Basel,Australia
+12,GK,Adam Federici,31 January 1985 (aged 25),1,Reading,Australia
+13,MF,Vince Grella,5 October 1979 (aged 30),45,Blackburn Rovers,Australia
+14,FW,Brett Holman,27 March 1984 (aged 26),31,AZ,Australia
+15,MF,Mile Jedinak,3 August 1984 (aged 25),11,Antalyaspor,Australia
+16,MF,Carl Valeri,14 August 1984 (aged 25),22,Sassuolo,Australia
+17,FW,Nikita Rukavytsya,22 June 1987 (aged 22),3,Roeselare,Australia
+18,GK,Eugene Galekovic[6],12 June 1981 (aged 28),4,Adelaide United,Australia
+19,MF,Richard Garcia,4 September 1981 (aged 28),7,Hull City,Australia
+20,DF,Mark Milligan,4 September 1985 (aged 24),10,JEF United,Australia
+21,DF,David Carney,30 November 1983 (aged 26),25,Twente,Australia
+22,MF,Dario Vidošić,12 April 1987 (aged 23),7,MSV Duisburg,Australia
+23,MF,Mark Bresciano,11 February 1980 (aged 30),55,Palermo,Australia
+1,GK,Manuel Neuer,27 March 1986 (aged 24),5,Schalke 04,Germany
+2,MF,Marcell Jansen,4 November 1985 (aged 24),31,Hamburger SV,Germany
+3,DF,Arne Friedrich,29 May 1979 (aged 31),72,Hertha BSC,Germany
+4,DF,Dennis Aogo,14 January 1987 (aged 23),2,Hamburger SV,Germany
+5,DF,Serdar Tasci,24 April 1987 (aged 23),12,VfB Stuttgart,Germany
+6,MF,Sami Khedira,4 April 1987 (aged 23),5,VfB Stuttgart,Germany
+7,MF,Bastian Schweinsteiger,1 August 1984 (aged 25),74,Bayern Munich,Germany
+8,MF,Mesut Özil,15 October 1988 (aged 21),10,Werder Bremen,Germany
+9,FW,Stefan Kießling,25 January 1984 (aged 26),4,Bayer Leverkusen,Germany
+10,MF,Lukas Podolski,4 June 1985 (aged 25),73,1. FC Köln,Germany
+11,FW,Miroslav Klose,9 June 1978 (aged 32),96,Bayern Munich,Germany
+12,GK,Tim Wiese,17 December 1981 (aged 28),2,Werder Bremen,Germany
+13,MF,Thomas Müller,13 September 1989 (aged 20),2,Bayern Munich,Germany
+14,DF,Holger Badstuber,13 March 1989 (aged 21),2,Bayern Munich,Germany
+15,MF,Piotr Trochowski,22 March 1984 (aged 26),31,Hamburger SV,Germany
+16,DF,Philipp Lahm (c),11 November 1983 (aged 26),65,Bayern Munich,Germany
+17,DF,Per Mertesacker,29 September 1984 (aged 25),62,Werder Bremen,Germany
+18,MF,Toni Kroos,4 January 1990 (aged 20),4,Bayer Leverkusen,Germany
+19,FW,Cacau,27 March 1981 (aged 29),8,VfB Stuttgart,Germany
+20,DF,Jérôme Boateng,3 September 1988 (aged 21),5,Hamburger SV,Germany
+21,MF,Marko Marin,13 March 1989 (aged 21),9,Werder Bremen,Germany
+22,GK,Hans-Jörg Butt,28 May 1974 (aged 36),3,Bayern Munich,Germany
+23,FW,Mario Gómez,10 July 1985 (aged 24),34,Bayern Munich,Germany
+1,GK,Daniel Agyei,10 November 1989 (aged 20),2,Liberty Professionals,Ghana
+2,DF,Hans Sarpei,28 June 1976 (aged 33),23,Bayer Leverkusen,Ghana
+3,FW,Asamoah Gyan,22 November 1985 (aged 24),32,Rennes,Ghana
+4,DF,John Paintsil,15 June 1981 (aged 28),65,Fulham,Ghana
+5,DF,John Mensah (c),29 November 1982 (aged 27),58,Sunderland,Ghana
+6,MF,Anthony Annan,21 July 1986 (aged 23),38,Rosenborg,Ghana
+7,DF,Samuel Inkoom,1 June 1989 (aged 21),15,Basel,Ghana
+8,DF,Jonathan Mensah,13 July 1990 (aged 19),3,Granada,Ghana
+9,MF,Derek Boateng,2 May 1983 (aged 27),19,Getafe,Ghana
+10,MF,Stephen Appiah,24 December 1980 (aged 29),56,Bologna,Ghana
+11,MF,Sulley Muntari,27 August 1984 (aged 25),52,Inter Milan,Ghana
+12,FW,Prince Tagoe,9 November 1986 (aged 23),17,1899 Hoffenheim,Ghana
+13,MF,André Ayew,17 December 1989 (aged 20),15,Arles-Avignon,Ghana
+14,FW,Matthew Amoah,24 October 1980 (aged 29),31,NAC,Ghana
+15,DF,Isaac Vorsah,21 June 1988 (aged 21),6,1899 Hoffenheim,Ghana
+16,GK,Stephen Ahorlu,5 September 1988 (aged 21),0,Heart of Lions,Ghana
+17,DF,Ibrahim Ayew,16 April 1988 (aged 22),6,Zamalek,Ghana
+18,FW,Dominic Adiyiah,29 November 1989 (aged 20),4,Milan,Ghana
+19,DF,Lee Addy,26 September 1985 (aged 24),3,Bechem Chelsea,Ghana
+20,MF,Quincy Owusu-Abeyie,15 April 1986 (aged 24),12,Al Sadd,Ghana
+21,MF,Kwadwo Asamoah,9 December 1988 (aged 21),29,Udinese,Ghana
+22,GK,Richard Kingson,13 June 1978 (aged 31),58,Wigan Athletic,Ghana
+23,MF,Kevin-Prince Boateng,6 March 1987 (aged 23),0,Portsmouth,Ghana
+1,GK,Vladimir Stojković,29 July 1983 (aged 26),33,Wigan Athletic,Serbia
+2,DF,Antonio Rukavina,26 January 1984 (aged 26),20,1860 Munich,Serbia
+3,DF,Aleksandar Kolarov,10 November 1985 (aged 24),13,Lazio,Serbia
+4,MF,Gojko Kačar,26 January 1987 (aged 23),17,Hertha BSC,Serbia
+5,DF,Nemanja Vidić,21 October 1981 (aged 28),45,Manchester United,Serbia
+6,DF,Branislav Ivanović,22 February 1984 (aged 26),31,Chelsea,Serbia
+7,MF,Zoran Tošić,28 April 1987 (aged 23),21,1. FC Köln,Serbia
+8,FW,Danko Lazović,17 May 1983 (aged 27),37,Zenit Saint Petersburg,Serbia
+9,FW,Marko Pantelić,15 September 1978 (aged 31),32,Ajax,Serbia
+10,MF,Dejan Stanković (c),11 September 1978 (aged 31),88,Inter Milan,Serbia
+11,MF,Nenad Milijaš,30 April 1983 (aged 27),17,Wolverhampton Wanderers,Serbia
+12,GK,Bojan Isailović,25 March 1980 (aged 30),4,Zagłębie Lubin,Serbia
+13,DF,Aleksandar Luković,23 October 1982 (aged 27),21,Udinese,Serbia
+14,MF,Milan Jovanović,18 April 1981 (aged 29),26,Standard Liège,Serbia
+15,FW,Nikola Žigić,25 September 1980 (aged 29),45,Valencia,Serbia
+16,DF,Ivan Obradović,25 July 1988 (aged 21),12,Zaragoza,Serbia
+17,MF,Miloš Krasić,1 November 1984 (aged 25),31,CSKA Moscow,Serbia
+18,MF,Miloš Ninković,25 December 1984 (aged 25),9,Dynamo Kyiv,Serbia
+19,MF,Radosav Petrović,8 March 1989 (aged 21),9,Partizan,Serbia
+20,DF,Neven Subotić,10 December 1988 (aged 21),13,Borussia Dortmund,Serbia
+21,FW,Dragan Mrđa,23 January 1984 (aged 26),6,Vojvodina,Serbia
+22,MF,Zdravko Kuzmanović,22 September 1987 (aged 22),27,VfB Stuttgart,Serbia
+23,GK,Anđelko Đuričić,21 November 1980 (aged 29),1,União de Leiria,Serbia
+1,GK,Carlos Kameni,18 February 1984 (aged 26),58,Espanyol,Cameroon
+2,DF,Benoît Assou-Ekotto,24 March 1984 (aged 26),4,Tottenham Hotspur,Cameroon
+3,DF,Nicolas Nkoulou,27 March 1990 (aged 20),6,Monaco,Cameroon
+4,DF,Rigobert Song,1 July 1976 (aged 33),133,Trabzonspor,Cameroon
+5,DF,Sébastien Bassong,9 July 1986 (aged 23),3,Tottenham Hotspur,Cameroon
+6,MF,Alex Song,9 September 1987 (aged 22),20,Arsenal,Cameroon
+7,MF,Landry N'Guémo,28 November 1985 (aged 24),17,Celtic,Cameroon
+8,DF,Geremi,20 December 1978 (aged 31),109,Ankaragücü,Cameroon
+9,FW,Samuel Eto'o (c),10 March 1981 (aged 29),92,Inter Milan,Cameroon
+10,MF,Achille Emaná,5 June 1982 (aged 28),32,Real Betis,Cameroon
+11,MF,Jean Makoun,29 May 1983 (aged 27),46,Lyon,Cameroon
+12,DF,Gaëtan Bong,25 April 1988 (aged 22),0,Valenciennes,Cameroon
+13,FW,Eric Maxim Choupo-Moting,23 March 1989 (aged 21),0,1. FC Nürnberg,Cameroon
+14,DF,Aurélien Chedjou,20 June 1985 (aged 24),8,Lille,Cameroon
+15,FW,Pierre Webó,20 January 1982 (aged 28),39,Mallorca,Cameroon
+16,GK,Souleymanou Hamidou,22 November 1973 (aged 36),40,Kayserispor,Cameroon
+17,FW,Mohammadou Idrissou,8 March 1980 (aged 30),28,SC Freiburg,Cameroon
+18,MF,Eyong Enoh,23 March 1986 (aged 24),12,Ajax,Cameroon
+19,DF,Stéphane Mbia,20 May 1986 (aged 24),29,Marseille,Cameroon
+20,MF,Georges Mandjeck,9 December 1988 (aged 21),4,1. FC Kaiserslautern,Cameroon
+21,MF,Joël Matip,8 August 1991 (aged 18),1,Schalke 04,Cameroon
+22,GK,Guy N'dy Assembé,28 February 1986 (aged 24),0,Valenciennes,Cameroon
+23,FW,Vincent Aboubakar,22 January 1992 (aged 18),0,Cotonsport Garoua,Cameroon
+1,GK,Thomas Sørensen,12 June 1976 (aged 33),86,Stoke City,Denmark
+2,MF,Christian Poulsen,28 February 1980 (aged 30),74,Juventus,Denmark
+3,DF,Simon Kjær,26 March 1989 (aged 21),9,Palermo,Denmark
+4,DF,Daniel Agger,12 December 1984 (aged 25),32,Liverpool,Denmark
+5,DF,William Kvist,24 February 1985 (aged 25),14,Copenhagen,Denmark
+6,DF,Lars Jacobsen,20 September 1979 (aged 30),31,Blackburn Rovers,Denmark
+7,MF,Daniel Jensen,25 June 1979 (aged 30),49,Werder Bremen,Denmark
+8,MF,Jesper Grønkjær,12 August 1977 (aged 32),78,Copenhagen,Denmark
+9,FW,Jon Dahl Tomasson (c),29 August 1976 (aged 33),110,Feyenoord,Denmark
+10,MF,Martin Jørgensen,6 October 1975 (aged 34),96,AGF,Denmark
+11,FW,Nicklas Bendtner,16 January 1988 (aged 22),32,Arsenal,Denmark
+12,MF,Thomas Kahlenberg,20 March 1983 (aged 27),31,VfL Wolfsburg,Denmark
+13,DF,Per Krøldrup,31 July 1979 (aged 30),30,Fiorentina,Denmark
+14,MF,Jakob Poulsen,7 July 1983 (aged 26),13,AGF,Denmark
+15,DF,Simon Poulsen,7 October 1984 (aged 25),5,AZ,Denmark
+16,GK,Stephan Andersen,26 November 1981 (aged 28),7,Brøndby,Denmark
+17,FW,Mikkel Beckmann,24 October 1983 (aged 26),5,Randers,Denmark
+18,FW,Søren Larsen,6 September 1981 (aged 28),19,MSV Duisburg,Denmark
+19,MF,Dennis Rommedahl,22 July 1978 (aged 31),96,Ajax,Denmark
+20,MF,Thomas Enevoldsen,27 July 1987 (aged 22),6,Groningen,Denmark
+21,MF,Christian Eriksen,14 February 1992 (aged 18),3,Ajax,Denmark
+22,GK,Jesper Christiansen,24 April 1978 (aged 32),11,Copenhagen,Denmark
+23,DF,Patrick Mtiliga,28 January 1981 (aged 29),4,Málaga,Denmark
+1,GK,Seigo Narazaki,15 April 1976 (aged 34),76,Nagoya Grampus,Japan
+2,MF,Yuki Abe,6 September 1981 (aged 28),45,Urawa Red Diamonds,Japan
+3,DF,Yūichi Komano,25 July 1981 (aged 28),53,Júbilo Iwata,Japan
+4,DF,Marcus Tulio Tanaka,24 April 1981 (aged 29),39,Nagoya Grampus,Japan
+5,DF,Yuto Nagatomo,12 September 1986 (aged 23),26,FC Tokyo,Japan
+6,DF,Atsuto Uchida,27 March 1988 (aged 22),31,Kashima Antlers,Japan
+7,MF,Yasuhito Endō,28 January 1980 (aged 30),94,Gamba Osaka,Japan
+8,FW,Daisuke Matsui,11 May 1981 (aged 29),23,Grenoble,Japan
+9,FW,Shinji Okazaki,16 April 1986 (aged 24),28,Shimizu S-Pulse,Japan
+10,MF,Shunsuke Nakamura,24 June 1978 (aged 31),97,Yokohama F. Marinos,Japan
+11,FW,Keiji Tamada,11 April 1980 (aged 30),70,Nagoya Grampus,Japan
+12,FW,Kisho Yano,5 April 1984 (aged 26),18,Albirex Niigata,Japan
+13,DF,Daiki Iwamasa,30 January 1982 (aged 28),2,Kashima Antlers,Japan
+14,MF,Kengo Nakamura,31 October 1980 (aged 29),47,Kawasaki Frontale,Japan
+15,DF,Yasuyuki Konno,25 January 1983 (aged 27),37,FC Tokyo,Japan
+16,FW,Yoshito Ōkubo,9 June 1982 (aged 28),49,Vissel Kobe,Japan
+17,MF,Makoto Hasebe,18 January 1984 (aged 26),31,VfL Wolfsburg,Japan
+18,MF,Keisuke Honda,13 June 1986 (aged 23),15,CSKA Moscow,Japan
+19,FW,Takayuki Morimoto,7 May 1988 (aged 22),6,Catania,Japan
+20,MF,Junichi Inamoto,18 September 1979 (aged 30),80,Kawasaki Frontale,Japan
+21,GK,Eiji Kawashima,20 March 1983 (aged 27),10,Kawasaki Frontale,Japan
+22,DF,Yuji Nakazawa (c),25 February 1978 (aged 32),105,Yokohama F. Marinos,Japan
+23,GK,Yoshikatsu Kawaguchi,15 August 1975 (aged 34),116,Júbilo Iwata,Japan
+1,GK,Maarten Stekelenburg,22 September 1982 (aged 27),25,Ajax,Netherlands
+2,DF,Gregory van der Wiel,3 February 1988 (aged 22),8,Ajax,Netherlands
+3,DF,John Heitinga,15 November 1983 (aged 26),51,Everton,Netherlands
+4,DF,Joris Mathijsen,5 April 1980 (aged 30),53,Hamburger SV,Netherlands
+5,DF,Giovanni van Bronckhorst (c),5 February 1975 (aged 35),97,Feyenoord,Netherlands
+6,MF,Mark van Bommel,22 April 1977 (aged 33),54,Bayern Munich,Netherlands
+7,FW,Dirk Kuyt,22 July 1980 (aged 29),60,Liverpool,Netherlands
+8,MF,Nigel de Jong,30 November 1984 (aged 25),40,Manchester City,Netherlands
+9,FW,Robin van Persie,6 August 1983 (aged 26),41,Arsenal,Netherlands
+10,MF,Wesley Sneijder,9 June 1984 (aged 26),59,Inter Milan,Netherlands
+11,FW,Arjen Robben,23 January 1984 (aged 26),46,Bayern Munich,Netherlands
+12,DF,Khalid Boulahrouz,28 December 1981 (aged 28),28,VfB Stuttgart,Netherlands
+13,DF,André Ooijer,11 July 1974 (aged 35),53,PSV Eindhoven,Netherlands
+14,MF,Demy de Zeeuw,26 May 1983 (aged 27),23,Ajax,Netherlands
+15,DF,Edson Braafheid,8 April 1983 (aged 27),5,Celtic,Netherlands
+16,GK,Michel Vorm,20 October 1983 (aged 26),3,Utrecht,Netherlands
+17,FW,Eljero Elia,13 February 1987 (aged 23),5,Hamburger SV,Netherlands
+18,MF,Stijn Schaars,11 January 1984 (aged 26),11,AZ,Netherlands
+19,FW,Ryan Babel,19 December 1986 (aged 23),38,Liverpool,Netherlands
+20,MF,Ibrahim Afellay,2 April 1986 (aged 24),20,PSV Eindhoven,Netherlands
+21,FW,Klaas-Jan Huntelaar,12 August 1983 (aged 26),30,Milan,Netherlands
+22,GK,Sander Boschker,20 October 1970 (aged 39),1[7],Twente,Netherlands
+23,MF,Rafael van der Vaart,11 February 1983 (aged 27),75,Real Madrid,Netherlands
+1,GK,Gianluigi Buffon,28 January 1978 (aged 32),101,Juventus,Italy
+2,DF,Christian Maggio,11 February 1982 (aged 28),5,Napoli,Italy
+3,DF,Domenico Criscito,30 December 1986 (aged 23),7,Genoa,Italy
+4,DF,Giorgio Chiellini,14 August 1984 (aged 25),29,Juventus,Italy
+5,DF,Fabio Cannavaro (c),13 September 1973 (aged 36),133,Juventus,Italy
+6,MF,Daniele De Rossi,24 July 1983 (aged 26),54,Roma,Italy
+7,MF,Simone Pepe,30 August 1983 (aged 26),15,Udinese,Italy
+8,MF,Gennaro Gattuso,9 January 1978 (aged 32),72,Milan,Italy
+9,FW,Vincenzo Iaquinta,21 November 1979 (aged 30),37,Juventus,Italy
+10,FW,Antonio Di Natale,13 October 1977 (aged 32),33,Udinese,Italy
+11,FW,Alberto Gilardino,5 July 1982 (aged 27),41,Fiorentina,Italy
+12,GK,Federico Marchetti,7 February 1983 (aged 27),5,Cagliari,Italy
+13,DF,Salvatore Bocchetti,30 November 1986 (aged 23),5,Genoa,Italy
+14,GK,Morgan De Sanctis,26 March 1977 (aged 33),3,Napoli,Italy
+15,MF,Claudio Marchisio,19 January 1986 (aged 24),4,Juventus,Italy
+16,MF,Mauro Camoranesi,4 October 1976 (aged 33),53,Juventus,Italy
+17,MF,Angelo Palombo,25 September 1981 (aged 28),17,Sampdoria,Italy
+18,FW,Fabio Quagliarella,31 January 1983 (aged 27),20,Napoli,Italy
+19,DF,Gianluca Zambrotta,19 February 1977 (aged 33),94,Milan,Italy
+20,FW,Giampaolo Pazzini,2 August 1984 (aged 25),8,Sampdoria,Italy
+21,MF,Andrea Pirlo,19 May 1979 (aged 31),66,Milan,Italy
+22,MF,Riccardo Montolivo,18 January 1985 (aged 25),13,Fiorentina,Italy
+23,DF,Leonardo Bonucci,1 May 1987 (aged 23),2,Bari,Italy
+1,GK,Mark Paston,13 December 1976 (aged 33),23,Wellington Phoenix,New Zealand
+2,DF,Ben Sigmund,3 February 1981 (aged 29),14,Wellington Phoenix,New Zealand
+3,DF,Tony Lochhead,12 January 1982 (aged 28),30,Wellington Phoenix,New Zealand
+4,DF,Winston Reid,3 July 1988 (aged 21),3,Midtjylland,New Zealand
+5,DF,Ivan Vicelich,3 September 1976 (aged 33),66,Auckland City,New Zealand
+6,DF,Ryan Nelsen (c),18 October 1977 (aged 32),41,Blackburn Rovers,New Zealand
+7,MF,Simon Elliott,10 June 1974 (aged 36),63,Chivas USA,New Zealand
+8,MF,Tim Brown,6 March 1981 (aged 29),25,Wellington Phoenix,New Zealand
+9,FW,Shane Smeltz,29 September 1981 (aged 28),30,Gold Coast United,New Zealand
+10,FW,Chris Killen,8 October 1981 (aged 28),31,Middlesbrough,New Zealand
+11,MF,Leo Bertos,20 December 1981 (aged 28),34,Wellington Phoenix,New Zealand
+12,GK,Glen Moss,19 January 1983 (aged 27),15,Melbourne Victory,New Zealand
+13,MF,Andy Barron,24 December 1980 (aged 29),11,Team Wellington,New Zealand
+14,FW,Rory Fallon,20 March 1982 (aged 28),7,Plymouth Argyle,New Zealand
+15,MF,Michael McGlinchey,7 January 1987 (aged 23),5,Motherwell[8],New Zealand
+16,MF,Aaron Clapham,15 January 1987 (aged 23),0,Canterbury United,New Zealand
+17,MF,Dave Mulligan,24 March 1982 (aged 28),25,Wellington Phoenix,New Zealand
+18,DF,Andrew Boyens,18 September 1983 (aged 26),15,New York Red Bulls,New Zealand
+19,DF,Tommy Smith,31 March 1990 (aged 20),4,Ipswich Town,New Zealand
+20,FW,Chris Wood,7 December 1991 (aged 18),9,West Bromwich Albion,New Zealand
+21,MF,Jeremy Christie,22 May 1983 (aged 27),22,FC Tampa Bay,New Zealand
+22,MF,Jeremy Brockie,7 October 1987 (aged 22),18,Newcastle Jets,New Zealand
+23,GK,James Bannatyne,30 June 1975 (aged 34),3,Team Wellington,New Zealand
+1,GK,Justo Villar,30 June 1977 (aged 32),71,Valladolid,Paraguay
+2,DF,Darío Verón,26 June 1979 (aged 30),27,UNAM,Paraguay
+3,DF,Claudio Morel,2 February 1978 (aged 32),25,Boca Juniors,Paraguay
+4,DF,Denis Caniza (c),29 August 1974 (aged 35),95,León,Paraguay
+5,DF,Julio César Cáceres,5 October 1979 (aged 30),59,Atlético Mineiro,Paraguay
+6,DF,Carlos Bonet,2 October 1977 (aged 32),60,Olimpia,Paraguay
+7,FW,Óscar Cardozo,20 May 1983 (aged 27),29,Benfica,Paraguay
+8,MF,Édgar Barreto,15 July 1984 (aged 25),47,Atalanta,Paraguay
+9,FW,Roque Santa Cruz,16 August 1981 (aged 28),66,Manchester City,Paraguay
+10,FW,Édgar Benítez,8 November 1987 (aged 22),12,Pachuca,Paraguay
+11,MF,Jonathan Santana,19 October 1981 (aged 28),21,VfL Wolfsburg,Paraguay
+12,GK,Diego Barreto,16 July 1981 (aged 28),2,Cerro Porteño,Paraguay
+13,MF,Enrique Vera,10 March 1979 (aged 31),25,LDU Quito,Paraguay
+14,DF,Paulo da Silva,1 February 1980 (aged 30),67,Sunderland,Paraguay
+15,MF,Víctor Cáceres,25 March 1985 (aged 25),25,Libertad,Paraguay
+16,MF,Cristian Riveros,16 October 1982 (aged 27),45,Cruz Azul,Paraguay
+17,DF,Aureliano Torres,16 June 1982 (aged 27),25,San Lorenzo,Paraguay
+18,FW,Nelson Valdez,28 November 1983 (aged 26),38,Borussia Dortmund,Paraguay
+19,FW,Lucas Barrios,13 November 1984 (aged 25),3,Borussia Dortmund,Paraguay
+20,MF,Néstor Ortigoza,7 October 1984 (aged 25),3,Argentinos Juniors,Paraguay
+21,DF,Antolín Alcaraz,30 July 1982 (aged 27),5,Club Brugge,Paraguay
+22,GK,Aldo Bobadilla,20 April 1976 (aged 34),18,Independiente Medellín,Paraguay
+23,FW,Rodolfo Gamarra,10 December 1988 (aged 21),2,Libertad,Paraguay
+1,GK,Ján Mucha,5 December 1982 (aged 27),15,Legia Warsaw,Slovakia
+2,DF,Peter Pekarík,30 October 1986 (aged 23),21,VfL Wolfsburg,Slovakia
+3,DF,Martin Škrtel,15 December 1984 (aged 25),39,Liverpool,Slovakia
+4,DF,Marek Čech,26 January 1983 (aged 27),40,West Bromwich Albion,Slovakia
+5,DF,Radoslav Zabavník,16 September 1980 (aged 29),44,Mainz 05,Slovakia
+6,MF,Zdeno Štrba,9 June 1976 (aged 34),21,Skoda Xanthi,Slovakia
+7,MF,Vladimír Weiss Jr.,30 November 1989 (aged 20),9,Bolton Wanderers,Slovakia
+8,MF,Ján Kozák,22 April 1980 (aged 30),24,Timișoara,Slovakia
+9,MF,Stanislav Šesták,16 December 1982 (aged 27),33,VfL Bochum,Slovakia
+10,MF,Marek Sapara,31 July 1982 (aged 27),25,Ankaragücü,Slovakia
+11,FW,Róbert Vittek,1 April 1982 (aged 28),70,Ankaragücü,Slovakia
+12,GK,Dušan Perniš,28 November 1984 (aged 25),3,Dundee United,Slovakia
+13,FW,Filip Hološko,17 January 1984 (aged 26),38,Beşiktaş,Slovakia
+14,FW,Martin Jakubko,26 February 1980 (aged 30),24,Saturn Moscow Oblast,Slovakia
+15,MF,Miroslav Stoch,19 October 1989 (aged 20),12,Twente,Slovakia
+16,DF,Ján Ďurica,10 December 1981 (aged 28),39,Hannover 96,Slovakia
+17,MF,Marek Hamšík (c),27 July 1987 (aged 22),32,Napoli,Slovakia
+18,FW,Erik Jendrišek,26 October 1986 (aged 23),15,1. FC Kaiserslautern,Slovakia
+19,MF,Juraj Kucka,26 February 1987 (aged 23),6,Sparta Prague,Slovakia
+20,MF,Kamil Kopúnek,18 May 1984 (aged 26),9,Spartak Trnava,Slovakia
+21,DF,Kornel Saláta,4 January 1985 (aged 25),4,Slovan Bratislava,Slovakia
+22,DF,Martin Petráš,2 November 1979 (aged 30),38,Cesena,Slovakia
+23,GK,Dušan Kuciak,21 May 1985 (aged 25),3,Vaslui,Slovakia
+1,GK,Júlio César,3 September 1979 (aged 30),48,Inter Milan,Brazil
+2,DF,Maicon,26 July 1981 (aged 28),58,Inter Milan,Brazil
+3,DF,Lúcio (c),8 May 1978 (aged 32),91,Inter Milan,Brazil
+4,DF,Juan,1 February 1979 (aged 31),74,Roma,Brazil
+5,MF,Felipe Melo,26 August 1983 (aged 26),18,Juventus,Brazil
+6,DF,Michel Bastos,2 August 1983 (aged 26),5,Lyon,Brazil
+7,MF,Elano,14 June 1981 (aged 28),43,Galatasaray,Brazil
+8,MF,Gilberto Silva,7 October 1976 (aged 33),88,Panathinaikos,Brazil
+9,FW,Luís Fabiano,8 November 1980 (aged 29),38,Sevilla,Brazil
+10,MF,Kaká,22 April 1982 (aged 28),78,Real Madrid,Brazil
+11,FW,Robinho,25 January 1984 (aged 26),75,Santos,Brazil
+12,GK,Heurelho Gomes,15 February 1981 (aged 29),11,Tottenham Hotspur,Brazil
+13,DF,Dani Alves,6 May 1983 (aged 27),35,Barcelona,Brazil
+14,DF,Luisão,13 February 1981 (aged 29),42,Benfica,Brazil
+15,DF,Thiago Silva,22 September 1984 (aged 25),7,Milan,Brazil
+16,DF,Gilberto,25 April 1976 (aged 34),33,Cruzeiro,Brazil
+17,MF,Josué,19 July 1979 (aged 30),27,VfL Wolfsburg,Brazil
+18,MF,Ramires,24 March 1987 (aged 23),12,Benfica,Brazil
+19,MF,Júlio Baptista,1 October 1981 (aged 28),46,Roma,Brazil
+20,MF,Kléberson,19 June 1979 (aged 30),31,Flamengo,Brazil
+21,FW,Nilmar,14 July 1984 (aged 25),17,Villarreal,Brazil
+22,GK,Doni,22 October 1979 (aged 30),10,Roma,Brazil
+23,FW,Grafite,2 April 1979 (aged 31),3,VfL Wolfsburg,Brazil
+1,GK,Boubacar Barry,30 December 1979 (aged 30),45,Lokeren,Ivory Coast
+2,DF,Benjamin Angoua,28 November 1986 (aged 23),7,Valenciennes,Ivory Coast
+3,DF,Arthur Boka,2 April 1983 (aged 27),54,VfB Stuttgart,Ivory Coast
+4,DF,Kolo Touré,19 March 1981 (aged 29),76,Manchester City,Ivory Coast
+5,MF,Didier Zokora,14 December 1980 (aged 29),80,Sevilla,Ivory Coast
+6,DF,Steve Gohouri,8 February 1981 (aged 29),11,Wigan Athletic,Ivory Coast
+7,FW,Seydou Doumbia,31 December 1987 (aged 22),5,Young Boys,Ivory Coast
+8,FW,Salomon Kalou,5 August 1985 (aged 24),28,Chelsea,Ivory Coast
+9,MF,Cheick Tioté,21 June 1986 (aged 23),8,Twente,Ivory Coast
+10,FW,Gervinho,27 May 1987 (aged 23),15,Lille,Ivory Coast
+11,FW,Didier Drogba (c),11 March 1978 (aged 32),68,Chelsea,Ivory Coast
+12,MF,Jean-Jacques Gosso,15 March 1983 (aged 27),6,Monaco,Ivory Coast
+13,MF,Romaric,4 June 1983 (aged 27),38,Sevilla,Ivory Coast
+14,MF,Emmanuel Koné,31 December 1986 (aged 23),12,Internațional,Ivory Coast
+15,FW,Aruna Dindane,26 November 1980 (aged 29),54,Portsmouth,Ivory Coast
+16,GK,Aristide Zogbo,30 December 1981 (aged 28),6,Maccabi Netanya,Ivory Coast
+17,DF,Siaka Tiéné,22 March 1982 (aged 28),55,Valenciennes,Ivory Coast
+18,MF,Kader Keïta,6 August 1981 (aged 28),55,Galatasaray,Ivory Coast
+19,MF,Yaya Touré,13 May 1983 (aged 27),47,Barcelona,Ivory Coast
+20,DF,Guy Demel,13 June 1981 (aged 28),26,Hamburger SV,Ivory Coast
+21,DF,Emmanuel Eboué,4 June 1983 (aged 27),52,Arsenal,Ivory Coast
+22,DF,Sol Bamba,13 January 1985 (aged 25),16,Hibernian,Ivory Coast
+23,GK,Daniel Yeboah,13 November 1984 (aged 25),4,ASEC Mimosas,Ivory Coast
+1,GK,Ri Myong-guk,9 September 1986 (aged 23),28,Pyongyang City,North Korea
+2,DF,Cha Jong-hyok,25 September 1985 (aged 24),31,Amrokgang,North Korea
+3,DF,Ri Jun-il,24 August 1987 (aged 22),26,Sobaeksu,North Korea
+4,MF,Pak Nam-chol I,2 July 1985 (aged 24),35,April 25,North Korea
+5,DF,Ri Kwang-chon,4 September 1985 (aged 24),41,April 25,North Korea
+6,FW,Kim Kum-il,10 October 1987 (aged 22),11,April 25,North Korea
+7,FW,An Chol-hyok,27 June 1987 (aged 22),16,Rimyongsu,North Korea
+8,DF,Ji Yun-nam,20 November 1976 (aged 33),23,April 25,North Korea
+9,FW,Jong Tae-se,2 March 1984 (aged 26),20,Kawasaki Frontale,North Korea
+10,FW,Hong Yong-jo (c),22 May 1982 (aged 28),40,Rostov,North Korea
+11,MF,Mun In-guk,29 September 1978 (aged 31),42,April 25,North Korea
+12,FW,Choe Kum-chol,9 February 1987 (aged 23),16,April 25,North Korea
+13,DF,Pak Chol-jin,5 September 1985 (aged 24),34,Amrokgang,North Korea
+14,DF,Pak Nam-chol II,3 October 1988 (aged 21),12,Amrokgang,North Korea
+15,MF,Kim Yong-jun,19 July 1983 (aged 26),52,Pyongyang City,North Korea
+16,DF,Nam Song-chol,7 May 1982 (aged 28),41,April 25,North Korea
+17,MF,An Yong-hak,25 October 1978 (aged 31),24,Omiya Ardija,North Korea
+18,GK,Kim Myong-gil,16 October 1984 (aged 25),10,Amrokgang,North Korea
+19,MF,Ri Chol-myong,18 February 1988 (aged 22),10,Pyongyang City,North Korea
+20,GK,Kim Myong-won[9],15 July 1983 (aged 26),9,Amrokgang,North Korea
+21,DF,Ri Kwang-hyok,17 August 1987 (aged 22),15,Kyonggongop,North Korea
+22,MF,Kim Kyong-il,11 December 1988 (aged 21),7,Rimyongsu,North Korea
+23,DF,Pak Sung-hyok,30 May 1990 (aged 20),3,Sobaeksu,North Korea
+1,GK,Eduardo,19 September 1982 (aged 27),15,Braga,Portugal
+2,DF,Bruno Alves,27 November 1981 (aged 28),31,Porto,Portugal
+3,DF,Paulo Ferreira,18 January 1979 (aged 31),61,Chelsea,Portugal
+4,DF,Rolando,31 August 1985 (aged 24),8,Porto,Portugal
+5,MF,Duda,27 June 1980 (aged 29),16,Málaga,Portugal
+6,DF,Ricardo Carvalho,18 May 1978 (aged 32),63,Chelsea,Portugal
+7,FW,Cristiano Ronaldo (c),5 February 1985 (aged 25),72,Real Madrid,Portugal
+8,MF,Pedro Mendes,26 February 1979 (aged 31),8,Sporting CP,Portugal
+9,FW,Liédson,17 December 1977 (aged 32),10,Sporting CP,Portugal
+10,MF,Danny,7 August 1983 (aged 26),11,Zenit Saint Petersburg,Portugal
+11,MF,Simão,31 October 1979 (aged 30),81,Atlético Madrid,Portugal
+12,GK,Beto,1 May 1982 (aged 28),1,Porto,Portugal
+13,DF,Miguel,4 January 1980 (aged 30),57,Valencia,Portugal
+14,MF,Miguel Veloso,11 May 1986 (aged 24),12,Sporting CP,Portugal
+15,DF,Pepe,26 February 1983 (aged 27),25,Real Madrid,Portugal
+16,MF,Raul Meireles,17 March 1983 (aged 27),34,Porto,Portugal
+17,MF,Ruben Amorim[10],27 January 1985 (aged 25),0,Benfica,Portugal
+18,FW,Hugo Almeida,23 May 1984 (aged 26),26,Werder Bremen,Portugal
+19,MF,Tiago,2 May 1981 (aged 29),51,Atlético Madrid,Portugal
+20,MF,Deco,27 August 1977 (aged 32),74,Chelsea,Portugal
+21,DF,Ricardo Costa,16 May 1981 (aged 29),8,Lille,Portugal
+22,GK,Daniel Fernandes,25 September 1983 (aged 26),2,Iraklis,Portugal
+23,DF,Fábio Coentrão,11 March 1988 (aged 22),4,Benfica,Portugal
+1,GK,Claudio Bravo (c),13 April 1983 (aged 27),41,Real Sociedad,Chile
+2,DF,Ismael Fuentes,4 August 1981 (aged 28),25,Universidad Católica,Chile
+3,DF,Waldo Ponce,4 December 1982 (aged 27),23,Universidad Católica,Chile
+4,MF,Mauricio Isla,12 June 1988 (aged 21),10,Udinese,Chile
+5,DF,Pablo Contreras,11 September 1978 (aged 31),49,PAOK,Chile
+6,MF,Carlos Carmona,21 February 1987 (aged 23),18,Reggina,Chile
+7,FW,Alexis Sánchez,19 December 1988 (aged 21),26,Udinese,Chile
+8,MF,Arturo Vidal,22 May 1987 (aged 23),21,Bayer Leverkusen,Chile
+9,FW,Humberto Suazo,10 May 1981 (aged 29),41,Zaragoza,Chile
+10,MF,Jorge Valdivia,19 October 1983 (aged 26),36,Al Ain,Chile
+11,FW,Mark González,10 July 1984 (aged 25),38,CSKA Moscow,Chile
+12,GK,Miguel Pinto,4 July 1983 (aged 26),13,Universidad de Chile,Chile
+13,MF,Marco Estrada,28 May 1983 (aged 27),20,Universidad de Chile,Chile
+14,MF,Matías Fernández,15 May 1986 (aged 24),35,Sporting CP,Chile
+15,DF,Jean Beausejour,1 June 1984 (aged 26),23,América,Chile
+16,FW,Fabián Orellana,27 January 1986 (aged 24),13,Xerez,Chile
+17,DF,Gary Medel,3 August 1987 (aged 22),23,Boca Juniors,Chile
+18,DF,Gonzalo Jara,29 August 1985 (aged 24),31,West Bromwich Albion,Chile
+19,DF,Gonzalo Fierro,21 March 1983 (aged 27),16,Flamengo,Chile
+20,MF,Rodrigo Millar,3 November 1981 (aged 28),19,Colo-Colo,Chile
+21,MF,Rodrigo Tello,14 October 1979 (aged 30),32,Beşiktaş,Chile
+22,FW,Esteban Paredes,1 August 1980 (aged 29),12,Colo-Colo,Chile
+23,GK,Luis Marín,18 May 1983 (aged 27),2,Unión Española,Chile
+1,GK,Ricardo Canales,30 May 1982 (aged 28),2,Motagua,Honduras
+2,DF,Osman Chávez,29 July 1984 (aged 25),26,Platense,Honduras
+3,DF,Maynor Figueroa,2 May 1983 (aged 27),66,Wigan Athletic,Honduras
+4,DF,Johnny Palacios,20 December 1986 (aged 23),4,Olimpia,Honduras
+5,DF,Víctor Bernárdez,24 May 1982 (aged 28),40,Anderlecht,Honduras
+6,MF,Hendry Thomas,23 February 1985 (aged 25),39,Wigan Athletic,Honduras
+7,MF,Ramón Núñez,14 November 1984 (aged 25),16,Olimpia,Honduras
+8,MF,Wilson Palacios,29 July 1984 (aged 25),69,Tottenham Hotspur,Honduras
+9,FW,Carlos Pavón,19 October 1973 (aged 36),98,Real España,Honduras
+10,FW,Jerry Palacios[11],1 November 1982 (aged 27),11,Hangzhou Greentown,Honduras
+11,FW,David Suazo,5 November 1979 (aged 30),50,Genoa,Honduras
+12,FW,Georgie Welcome,9 March 1985 (aged 25),11,Motagua,Honduras
+13,FW,Roger Espinoza,25 October 1986 (aged 23),10,Kansas City Wizards,Honduras
+14,DF,Boniek García,4 September 1984 (aged 25),42,Olimpia,Honduras
+15,FW,Walter Martínez,29 March 1982 (aged 28),34,Marathón,Honduras
+16,DF,Mauricio Sabillón,11 November 1978 (aged 31),25,Hangzhou Greentown,Honduras
+17,MF,Édgar Álvarez,9 January 1980 (aged 30),46,Bari,Honduras
+18,GK,Noel Valladares,3 May 1977 (aged 33),71,Olimpia,Honduras
+19,MF,Danilo Turcios,8 May 1978 (aged 32),82,Olimpia,Honduras
+20,MF,Amado Guevara (c),2 May 1976 (aged 34),133,Motagua,Honduras
+21,DF,Emilio Izaguirre,10 May 1986 (aged 24),39,Motagua,Honduras
+22,GK,Donis Escober,3 February 1981 (aged 29),11,Olimpia,Honduras
+23,DF,Sergio Mendoza,23 May 1981 (aged 29),46,Motagua,Honduras
+1,GK,Iker Casillas (c),20 May 1981 (aged 29),104,Real Madrid,Spain
+2,DF,Raúl Albiol,4 September 1985 (aged 24),23,Real Madrid,Spain
+3,DF,Gerard Piqué,2 February 1987 (aged 23),16,Barcelona,Spain
+4,DF,Carlos Marchena,31 July 1979 (aged 30),59,Valencia,Spain
+5,DF,Carles Puyol,13 April 1978 (aged 32),83,Barcelona,Spain
+6,MF,Andrés Iniesta,11 May 1984 (aged 26),43,Barcelona,Spain
+7,FW,David Villa,3 December 1981 (aged 28),58,Valencia,Spain
+8,MF,Xavi,25 January 1980 (aged 30),87,Barcelona,Spain
+9,FW,Fernando Torres,20 March 1984 (aged 26),73,Liverpool,Spain
+10,MF,Cesc Fàbregas,4 May 1987 (aged 23),49,Arsenal,Spain
+11,DF,Joan Capdevila,3 February 1978 (aged 32),46,Villarreal,Spain
+12,GK,Víctor Valdés,14 January 1982 (aged 28),1,Barcelona,Spain
+13,MF,Juan Mata,28 April 1988 (aged 22),8,Valencia,Spain
+14,MF,Xabi Alonso,25 November 1981 (aged 28),69,Real Madrid,Spain
+15,DF,Sergio Ramos,30 March 1986 (aged 24),60,Real Madrid,Spain
+16,MF,Sergio Busquets,16 July 1988 (aged 21),13,Barcelona,Spain
+17,DF,Álvaro Arbeloa,17 January 1983 (aged 27),15,Real Madrid,Spain
+18,FW,Pedro,28 July 1987 (aged 22),3,Barcelona,Spain
+19,FW,Fernando Llorente,26 February 1985 (aged 25),7,Athletic Bilbao,Spain
+20,MF,Javi Martínez,2 September 1988 (aged 21),2,Athletic Bilbao,Spain
+21,MF,David Silva,8 January 1986 (aged 24),36,Valencia,Spain
+22,MF,Jesús Navas,21 November 1985 (aged 24),6,Sevilla,Spain
+23,GK,Pepe Reina,31 August 1982 (aged 27),20,Liverpool,Spain
+1,GK,Diego Benaglio,8 September 1983 (aged 26),27,VfL Wolfsburg,Switzerland
+2,DF,Stephan Lichtsteiner,16 January 1984 (aged 26),28,Lazio,Switzerland
+3,DF,Ludovic Magnin,20 April 1979 (aged 31),62,Zürich,Switzerland
+4,DF,Philippe Senderos,14 February 1985 (aged 25),40,Everton,Switzerland
+5,DF,Steve von Bergen,10 June 1983 (aged 27),11,Hertha BSC,Switzerland
+6,MF,Benjamin Huggel,7 July 1977 (aged 32),38,Basel,Switzerland
+7,MF,Tranquillo Barnetta,22 May 1985 (aged 25),52,Bayer Leverkusen,Switzerland
+8,MF,Gökhan Inler,27 June 1984 (aged 25),36,Udinese,Switzerland
+9,FW,Alexander Frei (c),15 July 1979 (aged 30),75,Basel,Switzerland
+10,FW,Blaise Nkufo,25 May 1975 (aged 35),31,Twente,Switzerland
+11,MF,Valon Behrami,19 April 1985 (aged 25),27,West Ham United,Switzerland
+12,GK,Marco Wölfli,22 August 1982 (aged 27),5,Young Boys,Switzerland
+13,DF,Stéphane Grichting,30 March 1979 (aged 31),35,Auxerre,Switzerland
+14,MF,Marco Padalino,8 December 1983 (aged 26),8,Sampdoria,Switzerland
+15,MF,Hakan Yakin,22 February 1977 (aged 33),81,Luzern,Switzerland
+16,MF,Gélson Fernandes,2 September 1986 (aged 23),24,Saint-Étienne,Switzerland
+17,DF,Reto Ziegler,16 January 1986 (aged 24),12,Sampdoria,Switzerland
+18,FW,Albert Bunjaku,29 November 1983 (aged 26),3,1. FC Nürnberg,Switzerland
+19,FW,Eren Derdiyok,12 June 1988 (aged 21),21,Bayer Leverkusen,Switzerland
+20,MF,Pirmin Schwegler,9 March 1987 (aged 23),4,Eintracht Frankfurt,Switzerland
+21,GK,Johnny Leoni,30 June 1984 (aged 25),0,Zürich,Switzerland
+22,DF,Mario Eggimann,24 January 1981 (aged 29),8,Hannover 96,Switzerland
+23,MF,Xherdan Shaqiri,10 October 1991 (aged 18),3,Basel,Switzerland
