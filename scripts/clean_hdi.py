@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-def clean_hdi(path="Socioeconomic Data/HDI 1990-2023.csv", verbose=True):
+def clean_hdi(path="data/raw_data_files/Socioeconomic Data/HDI 1990-2023.csv", verbose=True):
     """Load, clean, and reshape the UNDP HDI dataset (1990–2023)."""
 
     # Load dataset

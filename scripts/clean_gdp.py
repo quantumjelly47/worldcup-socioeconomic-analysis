@@ -1,6 +1,6 @@
 import pandas as pd
 
-def clean_gdp(path="Socioeconomic Data/GDP per Capita Data.csv", verbose=True):
+def clean_gdp(path="data/raw_data_files/Socioeconomic Data/GDP per Capita Data.csv", verbose=True):
     """Load, clean, and reshape the GDP per Capita dataset (1960–2024)."""
 
     # Load dataset
