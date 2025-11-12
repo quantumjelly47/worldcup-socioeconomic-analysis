@@ -18,6 +18,7 @@ def read_file(file_name):
     return(out_df)
 
 # Import
+world_cup_hosts_import = read_file("world_cups.csv")
 world_cup_matches_1930_2018_import = read_file("world_cup_matches.csv")
 world_cup_matches_2022_import = read_file("2022_world_cup_matches.csv")
 
@@ -180,5 +181,19 @@ expanded_summary = (
                  ascending = [True, True])
 )
 
+expanded_summary_w_host = (
+    pd.merge(
+        expanded_summary,
+        world_cup_hosts_import[['Year', 'Host Country']],
+        on = ['Year'],
+        how = 'left')
+    .rename(columns = {'Host Country': 'host_country', 'Year': 'world_cup_year', 'Team': 'team'})
+    [['world_cup_year', 'host_country', 'team', 'max_stage', 'max_stage_numeric',
+      'matches_played', 'matches_won', 'goals_for', 'goals_against']]
+    )
 
+dataset_folder = "../../data/created_datasets/world_cup"
+expanded_summary_w_host.to_csv(os.path.join(dataset_folder, 
+                                            "performance_by_world_cup_and_team.csv"), 
+                               index=False)
 
