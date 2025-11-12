@@ -1,0 +1,529 @@
+No.,Pos.,Player,Date of birth (age),Caps,Club,Country
+1,GK,Óscar Córdoba,"February 3, 1970 (aged 24)",26,América de Cali,Colombia
+2,DF,Andrés Escobar,"March 13, 1967 (aged 27)",48,Atlético Nacional,Colombia
+3,DF,Alexis Mendoza,"November 8, 1961 (aged 32)",37,Atlético Junior,Colombia
+4,DF,Luis Herrera,"June 12, 1962 (aged 32)",56,Atlético Nacional,Colombia
+5,MF,Hermán Gaviria,"November 27, 1969 (aged 24)",5,Atlético Nacional,Colombia
+6,MF,Gabriel Gómez,"December 8, 1959 (aged 34)",44,Atlético Nacional,Colombia
+7,FW,Antony de Ávila,"December 21, 1962 (aged 31)",23,América de Cali,Colombia
+8,MF,Harold Lozano,"March 30, 1972 (aged 22)",6,América de Cali,Colombia
+9,FW,Iván Valenciano,"March 18, 1972 (aged 22)",9,Atlético Junior,Colombia
+10,MF,Carlos Valderrama (captain),"September 2, 1961 (aged 32)",65,Atlético Junior,Colombia
+11,FW,Adolfo Valencia,"February 6, 1968 (aged 26)",14,Bayern Munich,Colombia
+12,GK,Faryd Mondragón,"June 21, 1971 (aged 22)",1,Argentinos Juniors,Colombia
+13,DF,Néstor Ortiz,"September 20, 1968 (aged 25)",2,Once Caldas,Colombia
+14,MF,Leonel Álvarez,"July 29, 1965 (aged 28)",71,América de Cali,Colombia
+15,DF,Luis Carlos Perea,"December 29, 1963 (aged 30)",75,Atlético Junior,Colombia
+16,FW,Víctor Aristizábal,"December 9, 1971 (aged 22)",12,Valencia,Colombia
+17,MF,Mauricio Serna,"January 22, 1968 (aged 26)",7,Atlético Nacional,Colombia
+18,DF,Óscar Cortés,"October 19, 1968 (aged 25)",1,Millonarios,Colombia
+19,MF,Freddy Rincón,"August 14, 1966 (aged 27)",39,Palmeiras,Colombia
+20,DF,Wilson Pérez,"August 6, 1967 (aged 26)",43,América de Cali,Colombia
+21,FW,Faustino Asprilla,"November 10, 1969 (aged 24)",8,Parma,Colombia
+22,GK,José María Pazo,"April 4, 1964 (aged 30)",1,Atlético Junior,Colombia
+1,GK,Florin Prunea,"August 8, 1968 (aged 25)",21,Dinamo București,Romania
+2,DF,Dan Petrescu,"December 22, 1967 (aged 26)",33,Genoa,Romania
+3,DF,Daniel Prodan,"March 23, 1972 (aged 22)",12,Steaua București,Romania
+4,DF,Miodrag Belodedici,"May 20, 1964 (aged 30)",32,Valencia,Romania
+5,MF,Ioan Lupescu,"December 9, 1968 (aged 25)",30,Bayer Leverkusen,Romania
+6,MF,Gheorghe Popescu,"October 9, 1967 (aged 26)",45,PSV Eindhoven,Romania
+7,MF,Dorinel Munteanu,"June 25, 1968 (aged 25)",28,Cercle Brugge,Romania
+8,MF,Iulian Chiriță,"February 2, 1967 (aged 27)",3,Rapid București,Romania
+9,FW,Florin Răducioiu,"March 17, 1970 (aged 24)",25,Milan,Romania
+10,MF,Gheorghe Hagi (captain),"February 5, 1965 (aged 29)",81,Brescia,Romania
+11,FW,Ilie Dumitrescu,"January 6, 1969 (aged 25)",38,Steaua București,Romania
+12,GK,Bogdan Stelea,"December 5, 1967 (aged 26)",18,Rapid București,Romania
+13,DF,Tibor Selymes,"May 14, 1970 (aged 24)",11,Cercle Brugge,Romania
+14,DF,Gheorghe Mihali,"December 9, 1965 (aged 28)",19,Dinamo București,Romania
+15,MF,Basarab Panduru,"July 11, 1970 (aged 23)",11,Steaua București,Romania
+16,FW,Ion Vlădoiu,"November 5, 1968 (aged 25)",6,Rapid București,Romania
+17,FW,Viorel Moldovan,"July 8, 1972 (aged 21)",4,Dinamo București,Romania
+18,MF,Constantin Gâlcă,"March 8, 1972 (aged 22)",7,Steaua București,Romania
+19,DF,Corneliu Papură,"September 5, 1973 (aged 20)",5,Universitatea Craiova,Romania
+20,MF,Ovidiu Stîngă,"December 5, 1972 (aged 21)",9,Universitatea Craiova,Romania
+21,FW,Marian Ivan,"June 1, 1969 (aged 25)",3,Brașov,Romania
+22,GK,Ștefan Preda,"June 18, 1970 (aged 23)",1,Petrolul Ploiești,Romania
+1,GK,Marco Pascolo,"May 9, 1966 (aged 28)",18,Servette,Switzerland
+2,DF,Marc Hottiger,"November 7, 1967 (aged 26)",41,Sion,Switzerland
+3,DF,Yvan Quentin,"May 2, 1970 (aged 24)",14,Sion,Switzerland
+4,MF,Dominique Herr,"October 25, 1965 (aged 28)",39,Sion,Switzerland
+5,DF,Alain Geiger (captain),"November 5, 1960 (aged 33)",94,Sion,Switzerland
+6,MF,Georges Bregy,"January 17, 1958 (aged 36)",50,Young Boys,Switzerland
+7,MF,Alain Sutter,"January 22, 1968 (aged 26)",46,1. FC Nürnberg,Switzerland
+8,DF,Christophe Ohrel,"April 7, 1968 (aged 26)",28,Servette,Switzerland
+9,FW,Adrian Knup,"July 2, 1968 (aged 25)",34,VfB Stuttgart,Switzerland
+10,MF,Ciriaco Sforza,"March 2, 1970 (aged 24)",23,1. FC Kaiserslautern,Switzerland
+11,FW,Stéphane Chapuisat,"June 28, 1969 (aged 24)",36,Borussia Dortmund,Switzerland
+12,GK,Stephan Lehmann,"August 15, 1963 (aged 30)",6,Sion,Switzerland
+13,DF,André Egli,"May 8, 1958 (aged 36)",79,Servette,Switzerland
+14,FW,Nestor Subiat,"April 23, 1966 (aged 28)",7,Lugano,Switzerland
+15,FW,Marco Grassi,"August 8, 1968 (aged 25)",9,Servette,Switzerland
+16,MF,Thomas Bickel,"October 6, 1963 (aged 30)",41,Grasshopper,Switzerland
+17,MF,Sébastien Fournier,"June 27, 1971 (aged 22)",4,Sion,Switzerland
+18,DF,Martin Rueda,"January 9, 1963 (aged 31)",5,Luzern,Switzerland
+19,DF,Jürg Studer,"September 8, 1966 (aged 27)",5,Zürich,Switzerland
+20,MF,Patrick Sylvestre,"September 1, 1968 (aged 25)",9,Lausanne,Switzerland
+21,MF,Thomas Wyss,"August 29, 1966 (aged 27)",5,Aarau,Switzerland
+22,GK,Martin Brunner,"April 23, 1963 (aged 31)",33,Grasshopper,Switzerland
+1,GK,Tony Meola (captain),"February 21, 1969 (aged 25)",78,United States Soccer Federation,United States
+2,DF,Mike Lapper,"August 28, 1970 (aged 23)",41,United States Soccer Federation,United States
+3,DF,Mike Burns,"September 14, 1970 (aged 23)",23,United States Soccer Federation,United States
+4,DF,Cle Kooiman,"July 3, 1963 (aged 30)",10,Cruz Azul,United States
+5,MF,Thomas Dooley,"May 12, 1961 (aged 33)",38,United States Soccer Federation,United States
+6,MF,John Harkes,"March 8, 1967 (aged 27)",45,Derby County,United States
+7,MF,Hugo Pérez,"November 8, 1963 (aged 30)",73,Los Angeles Salsa,United States
+8,FW,Earnie Stewart,"March 28, 1969 (aged 25)",16,Willem II,United States
+9,MF,Tab Ramos,"September 21, 1966 (aged 27)",47,Real Betis,United States
+10,FW,Roy Wegerle,"March 19, 1964 (aged 30)",17,Coventry City,United States
+11,FW,Eric Wynalda,"June 9, 1969 (aged 25)",52,1. FC Saarbrücken,United States
+12,GK,Juergen Sommer,"February 27, 1969 (aged 25)",1,Luton Town,United States
+13,MF,Cobi Jones,"June 16, 1970 (aged 24)",50,United States Soccer Federation,United States
+14,FW,Frank Klopas,"September 1, 1966 (aged 27)",30,United States Soccer Federation,United States
+15,FW,Joe-Max Moore,"February 23, 1971 (aged 23)",34,United States Soccer Federation,United States
+16,MF,Mike Sorber,"May 14, 1971 (aged 23)",39,United States Soccer Federation,United States
+17,DF,Marcelo Balboa,"August 8, 1967 (aged 26)",88,United States Soccer Federation,United States
+18,GK,Brad Friedel,"May 18, 1971 (aged 23)",33,United States Soccer Federation,United States
+19,MF,Claudio Reyna,"July 20, 1973 (aged 20)",23,United States Soccer Federation,United States
+20,DF,Paul Caligiuri,"March 9, 1964 (aged 30)",86,United States Soccer Federation,United States
+21,DF,Fernando Clavijo,"January 23, 1956 (aged 38)",58,United States Soccer Federation,United States
+22,DF,Alexi Lalas,"June 1, 1970 (aged 24)",47,United States Soccer Federation,United States
+1,GK,Cláudio Taffarel,"May 8, 1966 (aged 28)",59,Reggiana,Brazil
+2,DF,Jorginho,"August 17, 1964 (aged 29)",45,Bayern Munich,Brazil
+3,DF,Ricardo Rocha,"September 11, 1962 (aged 31)",36,Vasco da Gama,Brazil
+4,DF,Ronaldão,"June 19, 1965 (aged 28)",7,Shimizu S-Pulse,Brazil
+5,MF,Mauro Silva,"January 12, 1968 (aged 26)",35,Deportivo La Coruña,Brazil
+6,DF,Branco,"April 4, 1964 (aged 30)",67,Fluminense,Brazil
+7,FW,Bebeto,"February 16, 1964 (aged 30)",53,Deportivo La Coruña,Brazil
+8,MF,Dunga (captain),"October 31, 1963 (aged 30)",43,VfB Stuttgart,Brazil
+9,MF,Zinho,"June 17, 1967 (aged 27)",30,Palmeiras,Brazil
+10,MF,Raí,"May 15, 1965 (aged 29)",43,Paris Saint-Germain,Brazil
+11,FW,Romário,"January 29, 1966 (aged 28)",31,Barcelona,Brazil
+12,GK,Zetti,"January 10, 1965 (aged 29)",7,São Paulo,Brazil
+13,DF,Aldair,"November 30, 1965 (aged 28)",21,Roma,Brazil
+14,DF,Cafu,"June 7, 1970 (aged 24)",30,São Paulo,Brazil
+15,DF,Márcio Santos,"September 15, 1969 (aged 24)",27,Bordeaux,Brazil
+16,MF,Leonardo,"September 5, 1969 (aged 24)",12,São Paulo,Brazil
+17,MF,Mazinho,"April 8, 1966 (aged 28)",29,Palmeiras,Brazil
+18,FW,Paulo Sérgio,"June 2, 1969 (aged 25)",10,Bayer Leverkusen,Brazil
+19,FW,Müller,"January 31, 1966 (aged 28)",53,São Paulo,Brazil
+20,FW,Ronaldo,18 September 1976 (aged 17),3,Cruzeiro,Brazil
+21,FW,Viola,"January 1, 1969 (aged 25)",5,Corinthians,Brazil
+22,GK,Gilmar Rinaldi,"January 13, 1959 (aged 35)",7,Flamengo,Brazil
+1,GK,Joseph-Antoine Bell,"October 8, 1954 (aged 39)",21,Saint-Étienne,Cameroon
+2,DF,André Kana-Biyik,"September 1, 1965 (aged 28)",41,Le Havre,Cameroon
+3,DF,Rigobert Song,"July 1, 1976 (aged 17)",3,Tonnerre Yaoundé,Cameroon
+4,DF,Samuel Ekemé,"July 12, 1966 (aged 27)",2,Canon Yaoundé,Cameroon
+5,DF,Victor N'Dip,"August 18, 1967 (aged 26)",36,Olympic Mvolyé,Cameroon
+6,MF,Thomas Libiih,"November 17, 1967 (aged 26)",20,Ohod,Cameroon
+7,FW,François Omam-Biyik,"May 21, 1966 (aged 28)",39,Lens,Cameroon
+8,MF,Emile M'Bouh,"May 30, 1966 (aged 28)",46,Nadi Qatar,Cameroon
+9,FW,Roger Milla,"May 20, 1952 (aged 42)",26,Tonnerre Yaoundé,Cameroon
+10,FW,Louis-Paul M'Fédé,"February 26, 1961 (aged 33)",42,Canon Yaoundé,Cameroon
+11,MF,Emmanuel Maboang,"November 27, 1968 (aged 25)",12,Rio Ave,Cameroon
+12,MF,Paul Loga,"August 14, 1969 (aged 24)",16,Prévoyance Yaoundé,Cameroon
+13,DF,Raymond Kalla,"April 22, 1975 (aged 19)",4,Canon Yaoundé,Cameroon
+14,DF,Stephen Tataw (captain),"March 31, 1963 (aged 31)",46,Olympic Mvolyé,Cameroon
+15,DF,Hans Agbo,"September 26, 1967 (aged 26)",18,Olympic Mvolyé,Cameroon
+16,FW,Alphonse Tchami,"September 14, 1971 (aged 22)",12,Odense,Cameroon
+17,MF,Marc-Vivien Foé,"May 1, 1975 (aged 19)",4,Canon Yaoundé,Cameroon
+18,MF,Jean-Pierre Fiala,"April 22, 1969 (aged 25)",4,Canon Yaoundé,Cameroon
+19,FW,David Embé,"November 13, 1973 (aged 20)",5,Belenenses,Cameroon
+20,FW,Georges Mouyémé,"April 15, 1971 (aged 23)",5,Troyes,Cameroon
+21,GK,Thomas N'Kono,"July 20, 1956 (aged 37)",18,L'Hospitalet,Cameroon
+22,GK,Jacques Songo'o,"March 17, 1964 (aged 30)",16,Metz,Cameroon
+1,GK,Stanislav Cherchesov,"September 2, 1963 (aged 30)",19,Dynamo Dresden,Russia
+2,DF,Dmitri Kuznetsov,"August 28, 1965 (aged 28)",26,Espanyol,Russia
+3,DF,Sergei Gorlukovich,"November 18, 1961 (aged 32)",32,Bayer Uerdingen,Russia
+4,DF,Dmitri Galiamin,"January 8, 1963 (aged 31)",18,Espanyol,Russia
+5,DF,Yuriy Nikiforov,"September 16, 1970 (aged 23)",8,Spartak Moscow,Russia
+6,DF,Vladislav Ternavsky,"May 2, 1969 (aged 25)",2,Spartak Moscow,Russia
+7,MF,Andrey Pyatnitsky,"September 27, 1967 (aged 26)",9,Spartak Moscow,Russia
+8,MF,Dmitri Popov,"February 27, 1967 (aged 27)",11,Racing Santander,Russia
+9,FW,Oleg Salenko,"October 25, 1969 (aged 24)",5,Logroñés,Russia
+10,MF,Valeri Karpin,"February 2, 1969 (aged 25)",10,Spartak Moscow,Russia
+11,FW,Vladimir Beschastnykh,"April 1, 1974 (aged 20)",6,Spartak Moscow,Russia
+12,DF,Omari Tetradze,"October 13, 1969 (aged 24)",9,Dynamo Moscow,Russia
+13,MF,Aleksandr Borodyuk,"November 30, 1962 (aged 31)",13,SC Freiburg,Russia
+14,MF,Igor Korneev,"September 4, 1967 (aged 26)",13,Espanyol,Russia
+15,FW,Dmitri Radchenko,"December 2, 1970 (aged 23)",14,Racing Santander,Russia
+16,GK,Dmitri Kharine (captain),"August 16, 1968 (aged 25)",22,Chelsea,Russia
+17,MF,Ilya Tsymbalar,"June 17, 1969 (aged 25)",2,Spartak Moscow,Russia
+18,DF,Viktor Onopko,"October 14, 1969 (aged 24)",21,Spartak Moscow,Russia
+19,MF,Aleksandr Mostovoi,"August 22, 1968 (aged 25)",20,Caen,Russia
+20,MF,Igor Lediakhov,"May 22, 1968 (aged 26)",15,Spartak Moscow,Russia
+21,MF,Dmitri Khlestov,"January 21, 1971 (aged 23)",12,Spartak Moscow,Russia
+22,FW,Sergei Yuran,"June 11, 1969 (aged 25)",26,Benfica,Russia
+1,GK,Thomas Ravelli,"August 13, 1959 (aged 34)",110,IFK Göteborg,Sweden
+2,DF,Roland Nilsson,"November 27, 1963 (aged 30)",62,Sheffield Wednesday,Sweden
+3,DF,Patrik Andersson,"August 18, 1971 (aged 22)",23,Borussia Mönchengladbach,Sweden
+4,DF,Joachim Björklund,"March 15, 1971 (aged 23)",22,IFK Göteborg,Sweden
+5,DF,Roger Ljung,"January 8, 1966 (aged 28)",46,Galatasaray,Sweden
+6,MF,Stefan Schwarz,"April 18, 1969 (aged 25)",29,Benfica,Sweden
+7,FW,Henrik Larsson,"September 20, 1971 (aged 22)",7,Feyenoord,Sweden
+8,MF,Klas Ingesson,"August 20, 1968 (aged 25)",42,PSV Eindhoven,Sweden
+9,MF,Jonas Thern (captain),"March 20, 1967 (aged 27)",47,Napoli,Sweden
+10,FW,Martin Dahlin,"April 16, 1968 (aged 26)",29,Borussia Mönchengladbach,Sweden
+11,FW,Tomas Brolin,"November 29, 1969 (aged 24)",31,Parma,Sweden
+12,GK,Lars Eriksson,"September 21, 1965 (aged 28)",14,IFK Norrköping,Sweden
+13,DF,Mikael Nilsson,"September 28, 1968 (aged 25)",12,IFK Göteborg,Sweden
+14,DF,Pontus Kåmark,"April 5, 1969 (aged 25)",12,IFK Göteborg,Sweden
+15,DF,Teddy Lučić,"April 15, 1973 (aged 21)",0,Västra Frölunda,Sweden
+16,MF,Anders Limpar,"September 24, 1965 (aged 28)",51,Everton,Sweden
+17,MF,Stefan Rehn,"September 22, 1966 (aged 27)",38,IFK Göteborg,Sweden
+18,MF,Håkan Mild,"June 14, 1971 (aged 23)",12,Servette,Sweden
+19,FW,Kennet Andersson,"October 6, 1967 (aged 26)",24,Lille,Sweden
+20,DF,Magnus Erlingmark,"July 8, 1968 (aged 25)",24,IFK Göteborg,Sweden
+21,MF,Jesper Blomqvist,"February 5, 1974 (aged 20)",8,IFK Göteborg,Sweden
+22,GK,Magnus Hedman,"March 19, 1973 (aged 21)",0,AIK,Sweden
+1,GK,Carlos Trucco,"August 11, 1957 (aged 36)",21,Bolívar,Bolivia
+2,DF,Juan Manuel Peña,"January 17, 1973 (aged 21)",21,Santa Fe,Bolivia
+3,DF,Marco Sandy,"August 29, 1971 (aged 22)",26,Bolívar,Bolivia
+4,DF,Miguel Rimba,"November 1, 1967 (aged 26)",35,Bolívar,Bolivia
+5,DF,Gustavo Quinteros,"February 15, 1965 (aged 29)",5,The Strongest,Bolivia
+6,MF,Carlos Borja (captain),"December 25, 1956 (aged 37)",76,Bolívar,Bolivia
+7,MF,Mario Pinedo,"April 9, 1964 (aged 30)",1,Oriente Petrolero,Bolivia
+8,MF,José Milton Melgar,"September 20, 1959 (aged 34)",65,Cobreloa,Bolivia
+9,FW,Álvaro Peña,"February 11, 1965 (aged 29)",11,Deportes Temuco,Bolivia
+10,MF,Marco Etcheverry,"September 26, 1970 (aged 23)",23,Colo-Colo,Bolivia
+11,FW,Jaime Moreno,"January 19, 1974 (aged 20)",23,Blooming,Bolivia
+12,GK,Darío Rojas,"January 20, 1960 (aged 34)",4,Oriente Petrolero,Bolivia
+13,DF,Modesto Soruco,"February 12, 1966 (aged 28)",3,Blooming,Bolivia
+14,MF,Mauricio Ramos,"September 23, 1969 (aged 24)",1,Guabirá,Bolivia
+15,MF,Vladimir Soria,"July 15, 1964 (aged 29)",16,Bolívar,Bolivia
+16,DF,Luis Cristaldo,"August 31, 1969 (aged 24)",29,Bolivar,Bolivia
+17,DF,Óscar Sánchez,"July 16, 1971 (aged 22)",3,The Strongest,Bolivia
+18,FW,William Ramallo,"July 4, 1963 (aged 30)",3,Oriente Petrolero,Bolivia
+19,GK,Marcelo Torrico,"January 11, 1972 (aged 22)",?,The Strongest,Bolivia
+20,MF,Ramiro Castillo,"March 27, 1966 (aged 28)",25,Platense,Bolivia
+21,MF,Erwin Sánchez,"October 19, 1969 (aged 24)",29,Boavista,Bolivia
+22,MF,Julio César Baldivieso,"December 2, 1971 (aged 22)",31,Bolívar,Bolivia
+1,GK,Bodo Illgner,"April 7, 1967 (aged 27)",49,1. FC Köln,Germany
+2,MF,Thomas Strunz,"April 25, 1968 (aged 26)",13,VfB Stuttgart,Germany
+3,DF,Andreas Brehme,"November 9, 1960 (aged 33)",81,1. FC Kaiserslautern,Germany
+4,DF,Jürgen Kohler,"October 6, 1965 (aged 28)",65,Juventus,Germany
+5,DF,Thomas Helmer,"April 21, 1965 (aged 29)",25,Bayern Munich,Germany
+6,DF,Guido Buchwald,"January 24, 1961 (aged 33)",73,VfB Stuttgart,Germany
+7,MF,Andreas Möller,"September 2, 1967 (aged 26)",40,Juventus,Germany
+8,MF,Thomas Häßler,"May 30, 1966 (aged 28)",50,Roma,Germany
+9,FW,Karl-Heinz Riedle,"September 16, 1965 (aged 28)",39,Borussia Dortmund,Germany
+10,MF,Lothar Matthäus (captain),"March 21, 1961 (aged 33)",112,Bayern Munich,Germany
+11,FW,Stefan Kuntz,"October 30, 1962 (aged 31)",4,1. FC Kaiserslautern,Germany
+12,GK,Andreas Köpke,"March 12, 1962 (aged 32)",14,1. FC Nürnberg,Germany
+13,FW,Rudi Völler,"April 13, 1960 (aged 34)",87,Marseille,Germany
+14,DF,Thomas Berthold,"November 12, 1964 (aged 29)",54,VfB Stuttgart,Germany
+15,MF,Maurizio Gaudino,"December 12, 1966 (aged 27)",5,Eintracht Frankfurt,Germany
+16,DF,Matthias Sammer,"September 5, 1967 (aged 26)",24,Borussia Dortmund,Germany
+17,MF,Martin Wagner,"February 24, 1968 (aged 26)",3,1. FC Kaiserslautern,Germany
+18,FW,Jürgen Klinsmann,"July 30, 1964 (aged 29)",60,Monaco,Germany
+19,FW,Ulf Kirsten,"December 4, 1965 (aged 28)",10,Bayer Leverkusen,Germany
+20,MF,Stefan Effenberg,"August 2, 1968 (aged 25)",30,Fiorentina,Germany
+21,MF,Mario Basler,"December 18, 1968 (aged 25)",5,Werder Bremen,Germany
+22,GK,Oliver Kahn,"June 15, 1969 (aged 25)",0,Karlsruher SC,Germany
+1,GK,Choi In-young (captain),"March 5, 1962 (aged 32)",3,Hyundai Horangi,South Korea
+2,MF,Chung Jong-son,"March 20, 1966 (aged 28)",3,Hyundai Horangi,South Korea
+3,DF,Lee Jong-hwa,"July 20, 1963 (aged 30)",?,Ilhwa Chunma,South Korea
+4,DF,Kim Pan-keun,"March 5, 1966 (aged 28)",0,LG Cheetahs,South Korea
+5,DF,Park Jung-bae,"February 19, 1967 (aged 27)",0,Daewoo Royals,South Korea
+6,MF,Lee Young-jin,"October 27, 1963 (aged 30)",1,LG Cheetahs,South Korea
+7,DF,Shin Hong-gi,"May 4, 1968 (aged 26)",0,Hyundai Horangi,South Korea
+8,MF,Noh Jung-yoon,"March 28, 1971 (aged 23)",3,Sanfrecce Hiroshima,South Korea
+9,FW,Kim Joo-sung,"January 17, 1966 (aged 28)",14,VfL Bochum,South Korea
+10,FW,Ko Jeong-woon,"June 27, 1966 (aged 27)",0,Ilhwa Chunma,South Korea
+11,FW,Seo Jung-won,"December 17, 1970 (aged 23)",3,Sangmu FC,South Korea
+12,DF,Choi Young-il,"April 25, 1966 (aged 28)",0,Hyundai Horangi,South Korea
+13,DF,An Ik-soo,"May 6, 1965 (aged 29)",?,Ilhwa Chunma,South Korea
+14,MF,Choi Dae-shik,"January 10, 1965 (aged 29)",0,LG Cheetahs,South Korea
+15,MF,Cho Jin-ho,"August 2, 1971 (aged 22)",0,POSCO Atoms,South Korea
+16,MF,Ha Seok-ju,"February 20, 1968 (aged 26)",33,Daewoo Royals,South Korea
+17,DF,Gu Sang-bum,"June 15, 1964 (aged 30)",63,Daewoo Royals,South Korea
+18,FW,Hwang Sun-hong,"July 14, 1968 (aged 25)",46,POSCO Atoms,South Korea
+19,MF,Choi Moon-sik,"January 6, 1971 (aged 23)",0,POSCO Atoms,South Korea
+20,DF,Hong Myung-bo,"February 12, 1969 (aged 25)",47,POSCO Atoms,South Korea
+21,GK,Park Chul-woo,"September 29, 1965 (aged 28)",?,LG Cheetahs,South Korea
+22,GK,Lee Woon-jae,"April 26, 1973 (aged 21)",1,Kyung Hee University,South Korea
+1,GK,Andoni Zubizarreta (captain),"October 23, 1961 (aged 32)",87,Barcelona,Spain
+2,DF,Albert Ferrer,"June 6, 1970 (aged 24)",16,Barcelona,Spain
+3,DF,Jorge Otero,"January 28, 1969 (aged 25)",5,Celta Vigo,Spain
+4,DF,Paco Camarasa,"September 27, 1967 (aged 26)",9,Valencia,Spain
+5,DF,Abelardo Fernández,"April 19, 1970 (aged 24)",9,Sporting Gijón,Spain
+6,MF,Fernando Hierro,"March 23, 1968 (aged 26)",23,Real Madrid,Spain
+7,MF,Jon Goikoetxea,"October 21, 1965 (aged 28)",22,Barcelona,Spain
+8,MF,Julen Guerrero,"January 7, 1974 (aged 20)",9,Athletic Bilbao,Spain
+9,MF,Josep Guardiola,"January 18, 1971 (aged 23)",11,Barcelona,Spain
+10,MF,José María Bakero,"February 11, 1963 (aged 31)",25,Barcelona,Spain
+11,FW,Aitor Begiristain,"August 12, 1964 (aged 29)",21,Barcelona,Spain
+12,DF,Sergi Barjuán,"December 28, 1971 (aged 22)",2,Barcelona,Spain
+13,GK,Santiago Cañizares,"December 18, 1969 (aged 24)",4,Celta Vigo,Spain
+14,FW,Juanele,"April 10, 1971 (aged 23)",5,Sporting Gijón,Spain
+15,MF,José Luis Caminero,"November 8, 1967 (aged 26)",4,Atlético Madrid,Spain
+16,MF,Felipe Miñambres,"April 29, 1965 (aged 29)",4,Tenerife,Spain
+17,DF,Voro,"October 9, 1963 (aged 30)",4,Deportivo La Coruña,Spain
+18,DF,Rafael Alkorta,"September 16, 1968 (aged 25)",19,Real Madrid,Spain
+19,FW,Julio Salinas,"September 11, 1962 (aged 31)",43,Barcelona,Spain
+20,DF,Miguel Ángel Nadal,"July 28, 1966 (aged 27)",12,Barcelona,Spain
+21,FW,Luis Enrique,"May 8, 1970 (aged 24)",5,Real Madrid,Spain
+22,GK,Julen Lopetegui,"August 28, 1966 (aged 27)",1,Logroñés,Spain
+1,GK,Sergio Goycochea,"October 17, 1963 (aged 30)",36,River Plate,Argentina
+2,DF,Sergio Vázquez,"November 23, 1965 (aged 28)",24,Universidad Católica,Argentina
+3,DF,José Chamot,"May 17, 1969 (aged 25)",9,Foggia,Argentina
+4,DF,Roberto Sensini,"October 12, 1966 (aged 27)",21,Parma,Argentina
+5,MF,Fernando Redondo,"June 6, 1969 (aged 25)",16,Tenerife,Argentina
+6,DF,Oscar Ruggeri,"January 26, 1962 (aged 32)",93,San Lorenzo,Argentina
+7,FW,Claudio Caniggia,"January 9, 1967 (aged 27)",35,Roma,Argentina
+8,MF,José Basualdo,"June 20, 1963 (aged 30)",21,Vélez Sársfield,Argentina
+9,FW,Gabriel Batistuta,"February 1, 1969 (aged 25)",33,Fiorentina,Argentina
+10,MF,Diego Maradona (captain),"October 30, 1960 (aged 33)",89,Newell's Old Boys,Argentina
+11,FW,Ramón Medina Bello,"April 29, 1966 (aged 28)",10,Yokohama Marinos,Argentina
+12,GK,Luis Islas,"December 22, 1965 (aged 28)",27,Independiente,Argentina
+13,DF,Fernando Cáceres,"February 7, 1969 (aged 25)",7,Zaragoza,Argentina
+14,MF,Diego Simeone,"April 28, 1970 (aged 24)",37,Sevilla,Argentina
+15,DF,Jorge Borelli,"November 2, 1964 (aged 29)",12,Racing,Argentina
+16,DF,Hernán Díaz,"February 26, 1965 (aged 29)",21,River Plate,Argentina
+17,MF,Ariel Ortega,"March 4, 1974 (aged 20)",10,River Plate,Argentina
+18,MF,Hugo Pérez,"October 6, 1968 (aged 25)",8,Independiente,Argentina
+19,FW,Abel Balbo,"June 1, 1966 (aged 28)",11,Roma,Argentina
+20,MF,Leonardo Rodríguez,"August 27, 1966 (aged 27)",24,Borussia Dortmund,Argentina
+21,MF,Alejandro Mancuso,"September 4, 1968 (aged 25)",5,Boca Juniors,Argentina
+22,GK,Norberto Scoponi,"January 13, 1961 (aged 33)",0,Newell's Old Boys,Argentina
+1,GK,Borislav Mihaylov (captain),"February 12, 1963 (aged 31)",66,Mulhouse,Bulgaria
+2,DF,Emil Kremenliev,"August 13, 1969 (aged 24)",7,Levski Sofia,Bulgaria
+3,DF,Trifon Ivanov,"July 27, 1965 (aged 28)",39,Neuchâtel Xamax,Bulgaria
+4,DF,Tsanko Tsvetanov,"January 6, 1970 (aged 24)",16,Levski Sofia,Bulgaria
+5,DF,Petar Hubchev,"February 26, 1964 (aged 30)",15,Hamburger SV,Bulgaria
+6,MF,Zlatko Yankov,"August 7, 1966 (aged 27)",31,Levski Sofia,Bulgaria
+7,FW,Emil Kostadinov,"August 12, 1967 (aged 26)",32,Porto,Bulgaria
+8,FW,Hristo Stoichkov,"February 8, 1966 (aged 28)",41,Barcelona,Bulgaria
+9,MF,Yordan Letchkov,"July 9, 1967 (aged 26)",14,Hamburger SV,Bulgaria
+10,FW,Nasko Sirakov,"April 26, 1962 (aged 32)",55,Levski Sofia,Bulgaria
+11,MF,Daniel Borimirov,"January 16, 1970 (aged 24)",9,Levski Sofia,Bulgaria
+12,GK,Plamen Nikolov,"August 20, 1961 (aged 32)",5,Levski Sofia,Bulgaria
+13,MF,Ivaylo Yordanov,"April 22, 1968 (aged 26)",10,Sporting CP,Bulgaria
+14,MF,Boncho Genchev,"July 7, 1964 (aged 29)",4,Ipswich Town,Bulgaria
+15,DF,Nikolay Iliev,"March 31, 1964 (aged 30)",48,Rennes,Bulgaria
+16,DF,Iliyan Kiryakov,"August 4, 1967 (aged 26)",35,Mérida,Bulgaria
+17,FW,Petar Mihtarski,"July 15, 1966 (aged 27)",5,Pirin Blagoevgrad,Bulgaria
+18,FW,Petar Aleksandrov,"December 7, 1962 (aged 31)",26,Levski Sofia,Bulgaria
+19,MF,Georgi Georgiev,"January 10, 1963 (aged 31)",10,Mulhouse,Bulgaria
+20,MF,Krasimir Balakov,"March 29, 1966 (aged 28)",33,Sporting CP,Bulgaria
+21,FW,Velko Yotov,"August 26, 1970 (aged 23)",6,Espanyol,Bulgaria
+22,FW,Ivaylo Andonov,"August 14, 1967 (aged 26)",5,CSKA Sofia,Bulgaria
+1,GK,Antonis Minou,"May 4, 1958 (aged 36)",15,Apollon Athens,Greece
+2,DF,Stratos Apostolakis,"May 11, 1964 (aged 30)",60,Panathinaikos,Greece
+3,DF,Thanasis Kolitsidakis,"November 20, 1966 (aged 27)",12,Panathinaikos,Greece
+4,DF,Stelios Manolas,"July 13, 1961 (aged 32)",70,AEK Athens,Greece
+5,DF,Giannis Kalitzakis,"February 10, 1966 (aged 28)",36,Panathinaikos,Greece
+6,MF,Panagiotis Tsalouchidis,"March 30, 1963 (aged 31)",60,Olympiacos,Greece
+7,FW,Dimitris Saravakos,"July 26, 1961 (aged 32)",76,Panathinaikos,Greece
+8,MF,Nikos Nioplias,"January 17, 1965 (aged 29)",36,Panathinaikos,Greece
+9,FW,Nikos Machlas,"June 16, 1973 (aged 21)",12,OFI,Greece
+10,MF,Tasos Mitropoulos (captain),"August 23, 1957 (aged 36)",74,AEK Athens,Greece
+11,MF,Nikos Tsiantakis,"October 20, 1963 (aged 30)",45,Olympiacos,Greece
+12,MF,Spyros Marangos,"February 20, 1967 (aged 27)",21,Panathinaikos,Greece
+13,DF,Vaios Karagiannis,"June 25, 1968 (aged 25)",6,AEK Athens,Greece
+14,FW,Vasilis Dimitriadis,"February 1, 1966 (aged 28)",26,AEK Athens,Greece
+15,GK,Christos Karkamanis,"September 22, 1969 (aged 24)",5,Aris,Greece
+16,FW,Alexis Alexoudis,"June 20, 1972 (aged 21)",3,OFI,Greece
+17,MF,Minas Hantzidis,"July 4, 1966 (aged 27)",7,Olympiacos,Greece
+18,DF,Kyriakos Karataidis,"July 4, 1965 (aged 28)",14,Olympiacos,Greece
+19,MF,Savvas Kofidis,"March 21, 1961 (aged 33)",64,Aris,Greece
+20,GK,Ilias Atmatsidis,"April 24, 1969 (aged 25)",4,AEK Athens,Greece
+21,FW,Alexis Alexandris,"October 21, 1968 (aged 25)",10,Olympiacos,Greece
+22,DF,Alexandros Alexiou,"September 8, 1963 (aged 30)",8,PAOK,Greece
+1,GK,Peter Rufai,"August 24, 1963 (aged 30)",49,Go Ahead Eagles,Nigeria
+2,DF,Augustine Eguavoen,"August 19, 1965 (aged 28)",35,Kortrijk,Nigeria
+3,DF,Benedict Iroha,"November 29, 1969 (aged 24)",1,Vitesse,Nigeria
+4,DF,Stephen Keshi (captain),"January 23, 1962 (aged 32)",66,Molenbeek,Nigeria
+5,DF,Uche Okechukwu,"September 27, 1967 (aged 26)",26,Fenerbahçe,Nigeria
+6,DF,Chidi Nwanu,"January 1, 1967 (aged 27)",3,Anderlecht,Nigeria
+7,MF,Finidi George,"April 15, 1971 (aged 23)",23,Ajax,Nigeria
+8,MF,Thompson Oliha,"October 4, 1968 (aged 25)",6,Africa Sports,Nigeria
+9,FW,Rashidi Yekini,"October 23, 1963 (aged 30)",49,Vitória de Setúbal,Nigeria
+10,MF,Jay-Jay Okocha,"August 14, 1973 (aged 20)",10,Eintracht Frankfurt,Nigeria
+11,MF,Emmanuel Amunike,"December 25, 1970 (aged 23)",8,Zamalek,Nigeria
+12,FW,Samson Siasia,"August 14, 1967 (aged 26)",32,Nantes,Nigeria
+13,DF,Emeka Ezeugo,"December 16, 1965 (aged 28)",8,Budapest Honvéd,Nigeria
+14,FW,Daniel Amokachi,"December 30, 1972 (aged 21)",26,Club Brugge,Nigeria
+15,MF,Sunday Oliseh,"September 14, 1974 (aged 19)",8,FC Liège,Nigeria
+16,GK,Alloysius Agu,"July 12, 1967 (aged 26)",5,FC Liège,Nigeria
+17,FW,Victor Ikpeba,"June 12, 1973 (aged 21)",10,Monaco,Nigeria
+18,FW,Efan Ekoku,"June 8, 1967 (aged 27)",3,Norwich City,Nigeria
+19,DF,Michael Emenalo,"July 14, 1965 (aged 28)",0,Eintracht Trier,Nigeria
+20,DF,Uche Okafor,"August 8, 1967 (aged 26)",6,Hannover 96,Nigeria
+21,MF,Mutiu Adepoju,"December 22, 1970 (aged 23)",18,Racing Santander,Nigeria
+22,GK,Wilfred Agbonavbare,"October 5, 1966 (aged 27)",1,Rayo Vallecano,Nigeria
+1,GK,Gianluca Pagliuca,"December 18, 1966 (aged 27)",18,Sampdoria,Italy
+2,DF,Luigi Apolloni,"May 2, 1967 (aged 27)",1,Parma,Italy
+3,DF,Antonio Benarrivo,"August 21, 1968 (aged 25)",8,Parma,Italy
+4,DF,Alessandro Costacurta,"April 24, 1966 (aged 28)",20,Milan,Italy
+5,DF,Paolo Maldini,"June 26, 1968 (aged 25)",51,Milan,Italy
+6,DF,Franco Baresi (captain),"May 8, 1960 (aged 34)",77,Milan,Italy
+7,DF,Lorenzo Minotti,"February 8, 1967 (aged 27)",2,Parma,Italy
+8,DF,Roberto Mussi,"August 25, 1963 (aged 30)",2,Torino,Italy
+9,DF,Mauro Tassotti,"January 19, 1960 (aged 34)",5,Milan,Italy
+10,FW,Roberto Baggio,"February 18, 1967 (aged 27)",36,Juventus,Italy
+11,MF,Demetrio Albertini,"August 23, 1971 (aged 22)",15,Milan,Italy
+12,GK,Luca Marchegiani,"February 22, 1966 (aged 28)",5,Lazio,Italy
+13,MF,Dino Baggio,"July 24, 1971 (aged 22)",13,Juventus,Italy
+14,MF,Nicola Berti,"April 14, 1967 (aged 27)",26,Inter Milan,Italy
+15,MF,Antonio Conte,"July 31, 1969 (aged 24)",1,Juventus,Italy
+16,MF,Roberto Donadoni,"September 9, 1963 (aged 30)",51,Milan,Italy
+17,MF,Alberico Evani,"January 1, 1963 (aged 31)",11,Sampdoria,Italy
+18,FW,Pierluigi Casiraghi,"March 4, 1969 (aged 25)",16,Lazio,Italy
+19,FW,Daniele Massaro,"May 23, 1961 (aged 33)",9,Milan,Italy
+20,FW,Giuseppe Signori,"February 17, 1968 (aged 26)",16,Lazio,Italy
+21,FW,Gianfranco Zola,"July 5, 1966 (aged 27)",6,Parma,Italy
+22,GK,Luca Bucci,"March 13, 1969 (aged 25)",0,Parma,Italy
+1,GK,Jorge Campos,"October 15, 1966 (aged 27)",54,UNAM,Mexico
+2,DF,Claudio Suárez,"December 17, 1968 (aged 25)",41,UNAM,Mexico
+3,DF,Juan Ramírez Perales,"March 8, 1969 (aged 25)",42,UNAM,Mexico
+4,DF,Ignacio Ambríz (captain),"February 7, 1965 (aged 29)",51,Necaxa,Mexico
+5,MF,Ramón Ramírez,"December 5, 1969 (aged 24)",31,Santos Laguna,Mexico
+6,MF,Marcelino Bernal,"May 27, 1962 (aged 32)",28,Toluca,Mexico
+7,FW,Carlos Hermosillo,"August 24, 1964 (aged 29)",57,Cruz Azul,Mexico
+8,MF,Alberto García Aspe,"May 11, 1967 (aged 27)",29,Necaxa,Mexico
+9,FW,Hugo Sánchez,"July 11, 1958 (aged 35)",57,Rayo Vallecano,Mexico
+10,FW,Luis García Postigo,"June 1, 1969 (aged 25)",31,Atlético Madrid,Mexico
+11,FW,Zague,"May 23, 1967 (aged 27)",48,América,Mexico
+12,GK,Félix Fernández,"January 11, 1967 (aged 27)",3,Atlante,Mexico
+13,MF,Juan Carlos Chávez,"January 18, 1967 (aged 27)",2,Atlas,Mexico
+14,MF,Joaquín del Olmo,"April 20, 1969 (aged 25)",17,Veracruz,Mexico
+15,MF,Missael Espinoza,"April 12, 1965 (aged 29)",35,Guadalajara,Mexico
+16,FW,Luis Antonio Valdéz,"July 1, 1965 (aged 28)",11,León,Mexico
+17,MF,Benjamín Galindo,"December 11, 1960 (aged 33)",35,Guadalajara,Mexico
+18,DF,José Luis Salgado,"April 3, 1966 (aged 28)",2,Tecos UAG,Mexico
+19,FW,Luis Miguel Salvador,"February 26, 1968 (aged 26)",17,Atlante,Mexico
+20,MF,Jorge Rodríguez,"April 18, 1968 (aged 26)",22,Toluca,Mexico
+21,DF,Raúl Gutiérrez,"October 16, 1966 (aged 27)",21,Atlante,Mexico
+22,GK,Adrián Chávez,"June 27, 1962 (aged 31)",7,América,Mexico
+1,GK,Erik Thorstvedt,"October 28, 1962 (aged 31)",84,Tottenham Hotspur,Norway
+2,DF,Gunnar Halle,"August 11, 1965 (aged 28)",44,Oldham Athletic,Norway
+3,DF,Erland Johnsen,"April 5, 1967 (aged 27)",20,Chelsea,Norway
+4,DF,Rune Bratseth (captain),"March 19, 1961 (aged 33)",57,Werder Bremen,Norway
+5,DF,Stig Inge Bjørnebye,"December 11, 1969 (aged 24)",34,Liverpool,Norway
+6,FW,Jostein Flo,"October 3, 1964 (aged 29)",23,Sheffield United,Norway
+7,MF,Erik Mykland,"July 21, 1971 (aged 22)",25,Start,Norway
+8,MF,Øyvind Leonhardsen,"August 17, 1970 (aged 23)",29,Rosenborg,Norway
+9,FW,Jan Åge Fjørtoft,"January 10, 1967 (aged 27)",50,Swindon Town,Norway
+10,MF,Kjetil Rekdal,"November 6, 1968 (aged 25)",32,Lierse,Norway
+11,FW,Mini Jakobsen,"November 8, 1965 (aged 28)",44,Lierse,Norway
+12,GK,Frode Grodås,"October 24, 1964 (aged 29)",12,Lillestrøm,Norway
+13,GK,Ola By Rise,"November 14, 1960 (aged 33)",25,Rosenborg,Norway
+14,DF,Roger Nilsen,"August 8, 1969 (aged 24)",20,Sheffield United,Norway
+15,DF,Karl Petter Løken,"August 14, 1966 (aged 27)",32,Rosenborg,Norway
+16,FW,Gøran Sørloth,"July 16, 1962 (aged 31)",54,Bursaspor,Norway
+17,DF,Dan Eggen,"January 13, 1970 (aged 24)",2,Brøndby,Norway
+18,DF,Alfie Haaland,"November 23, 1972 (aged 21)",3,Nottingham Forest,Norway
+19,MF,Roar Strand,"February 2, 1970 (aged 24)",1,Rosenborg,Norway
+20,DF,Henning Berg,"September 1, 1969 (aged 24)",16,Blackburn Rovers,Norway
+21,FW,Sigurd Rushfeldt,"December 11, 1972 (aged 21)",1,Tromsø,Norway
+22,MF,Lars Bohinen,"September 8, 1969 (aged 24)",29,Nottingham Forest,Norway
+1,GK,Packie Bonner,"May 24, 1960 (aged 34)",73,Celtic,Republic of Ireland
+2,DF,Denis Irwin,"October 31, 1965 (aged 28)",26,Manchester United,Republic of Ireland
+3,DF,Terry Phelan,"March 16, 1967 (aged 27)",22,Manchester City,Republic of Ireland
+4,DF,Kevin Moran,"April 29, 1956 (aged 38)",71,Blackburn Rovers,Republic of Ireland
+5,DF,Paul McGrath,"December 4, 1959 (aged 34)",65,Aston Villa,Republic of Ireland
+6,MF,Roy Keane,"August 10, 1971 (aged 22)",22,Manchester United,Republic of Ireland
+7,MF,Andy Townsend (captain),"July 23, 1963 (aged 30)",45,Aston Villa,Republic of Ireland
+8,MF,Ray Houghton,"January 9, 1962 (aged 32)",58,Aston Villa,Republic of Ireland
+9,FW,John Aldridge,"September 18, 1958 (aged 35)",57,Tranmere Rovers,Republic of Ireland
+10,MF,John Sheridan,"October 1, 1964 (aged 29)",20,Sheffield Wednesday,Republic of Ireland
+11,DF,Steve Staunton,"January 19, 1969 (aged 25)",47,Aston Villa,Republic of Ireland
+12,DF,Gary Kelly,"July 9, 1974 (aged 19)",5,Leeds United,Republic of Ireland
+13,DF,Alan Kernaghan,"April 25, 1967 (aged 27)",11,Manchester City,Republic of Ireland
+14,DF,Phil Babb,"October 30, 1970 (aged 23)",5,Coventry City,Republic of Ireland
+15,FW,Tommy Coyne,"November 14, 1962 (aged 31)",14,Motherwell,Republic of Ireland
+16,FW,Tony Cascarino,"September 1, 1962 (aged 31)",50,Chelsea,Republic of Ireland
+17,FW,Eddie McGoldrick,"April 30, 1965 (aged 29)",12,Arsenal,Republic of Ireland
+18,MF,Ronnie Whelan,"September 25, 1961 (aged 32)",50,Liverpool,Republic of Ireland
+19,MF,Alan McLoughlin,"April 20, 1967 (aged 27)",17,Portsmouth,Republic of Ireland
+20,FW,David Kelly,"November 25, 1965 (aged 28)",16,Wolverhampton Wanderers,Republic of Ireland
+21,MF,Jason McAteer,"June 18, 1971 (aged 22)",5,Bolton Wanderers,Republic of Ireland
+22,GK,Alan Kelly,"August 11, 1968 (aged 25)",3,Sheffield United,Republic of Ireland
+1,GK,Michel Preud'homme,"January 24, 1959 (aged 35)",51,Mechelen,Belgium
+2,DF,Dirk Medved,"September 15, 1968 (aged 25)",13,Club Brugge,Belgium
+3,DF,Vital Borkelmans,"June 1, 1963 (aged 31)",19,Club Brugge,Belgium
+4,DF,Philippe Albert,"August 10, 1967 (aged 26)",30,Anderlecht,Belgium
+5,DF,Rudi Smidts,"August 12, 1963 (aged 30)",12,Antwerp,Belgium
+6,MF,Lorenzo Staelens,"April 30, 1964 (aged 30)",19,Club Brugge,Belgium
+7,MF,Franky Van der Elst,"April 30, 1961 (aged 33)",61,Club Brugge,Belgium
+8,FW,Luc Nilis,"May 25, 1967 (aged 27)",25,Anderlecht,Belgium
+9,FW,Marc Degryse,"September 4, 1965 (aged 28)",48,Anderlecht,Belgium
+10,MF,Enzo Scifo,"February 19, 1966 (aged 28)",64,Monaco,Belgium
+11,FW,Alexandre Czerniatynski,"July 28, 1960 (aged 33)",30,Mechelen,Belgium
+12,GK,Filip De Wilde,"July 5, 1964 (aged 29)",4,Anderlecht,Belgium
+13,DF,Georges Grün (captain),"January 25, 1962 (aged 32)",69,Parma,Belgium
+14,DF,Michel De Wolf,"January 19, 1958 (aged 36)",37,Anderlecht,Belgium
+15,MF,Marc Emmers,"February 25, 1966 (aged 28)",33,Anderlecht,Belgium
+16,MF,Danny Boffin,"July 10, 1965 (aged 28)",19,Anderlecht,Belgium
+17,FW,Josip Weber,"November 16, 1964 (aged 29)",2,Cercle Brugge,Belgium
+18,MF,Marc Wilmots,"February 22, 1969 (aged 25)",23,Standard Liège,Belgium
+19,DF,Eric Van Meir,"February 28, 1968 (aged 26)",2,Charleroi,Belgium
+20,GK,Dany Verlinden,"August 15, 1963 (aged 30)",0,Club Brugge,Belgium
+21,MF,Stephan Van der Heyden,"July 3, 1969 (aged 24)",3,Club Brugge,Belgium
+22,DF,Pascal Renier,"August 3, 1971 (aged 22)",1,Club Brugge,Belgium
+1,GK,Khalil Azmi,"August 23, 1964 (aged 29)",19,Raja CA,Morocco
+2,DF,Nacer Abdellah,"March 3, 1966 (aged 28)",10,Waregem,Morocco
+3,DF,Abdelkrim El Hadrioui,"March 6, 1972 (aged 22)",13,AS FAR,Morocco
+4,MF,Tahar El Khalej,"June 16, 1968 (aged 26)",19,KAC Marrakech,Morocco
+5,DF,Smahi Triki,"August 1, 1967 (aged 26)",4,Châteauroux,Morocco
+6,DF,Noureddine Naybet,"February 10, 1970 (aged 24)",20,Nantes,Morocco
+7,MF,Mustapha Hadji,"November 16, 1971 (aged 22)",5,Nancy,Morocco
+8,MF,Rachid Azzouzi,"January 10, 1971 (aged 23)",6,Duisburg,Morocco
+9,FW,Mohammed Chaouch,"December 12, 1966 (aged 27)",16,Nice,Morocco
+10,MF,Mustafa El Haddaoui (captain),"July 28, 1961 (aged 32)",46,Angers,Morocco
+11,MF,Rachid Daoudi,"February 21, 1966 (aged 28)",22,Wydad AC,Morocco
+12,GK,Said Dghay,"January 14, 1964 (aged 30)",2,CO Casablanca,Morocco
+13,FW,Ahmed Bahja,"December 6, 1970 (aged 23)",0,KAC Marrakech,Morocco
+14,DF,Ahmed Masbahi,"January 17, 1966 (aged 28)",14,KAC Marrakech,Morocco
+15,MF,El Arbi Hababi,"August 12, 1967 (aged 26)",9,OC Khouribga,Morocco
+16,FW,Hassan Nader,"July 8, 1965 (aged 28)",18,Farense,Morocco
+17,FW,Abdeslam Laghrissi,"January 5, 1962 (aged 32)",32,Raja CA,Morocco
+18,DF,Rachid Neqrouz,"April 10, 1972 (aged 22)",2,MC Oujda,Morocco
+19,FW,Abdelmajid Bouyboud,"October 24, 1966 (aged 27)",20,Wydad AC,Morocco
+20,MF,Hassan Kachloul,"February 19, 1973 (aged 21)",3,Nîmes,Morocco
+21,MF,Mohamed Samadi,"March 21, 1970 (aged 24)",11,AS FAR,Morocco
+22,GK,Zakaria Alaoui,"June 17, 1966 (aged 28)",5,KAC Marrakech,Morocco
+1,GK,Ed de Goey,"December 20, 1966 (aged 27)",14,Feyenoord,Netherlands
+2,DF,Frank de Boer,"May 15, 1970 (aged 24)",25,Ajax,Netherlands
+3,MF,Frank Rijkaard,"September 30, 1962 (aged 31)",69,Ajax,Netherlands
+4,DF,Ronald Koeman (captain),"March 21, 1963 (aged 31)",73,Barcelona,Netherlands
+5,MF,Rob Witschge,"August 22, 1966 (aged 27)",22,Feyenoord,Netherlands
+6,MF,Jan Wouters,"July 17, 1960 (aged 33)",66,PSV Eindhoven,Netherlands
+7,FW,Marc Overmars,"March 29, 1973 (aged 21)",13,Ajax,Netherlands
+8,MF,Wim Jonk,"October 12, 1966 (aged 27)",15,Inter Milan,Netherlands
+9,MF,Ronald de Boer,"May 15, 1970 (aged 24)",9,Ajax,Netherlands
+10,FW,Dennis Bergkamp,"May 10, 1969 (aged 25)",31,Inter Milan,Netherlands
+11,FW,Bryan Roy,"February 12, 1970 (aged 24)",21,Foggia,Netherlands
+12,FW,John Bosman,"February 1, 1965 (aged 29)",27,Anderlecht,Netherlands
+13,GK,Edwin van der Sar,"October 29, 1970 (aged 23)",0,Ajax,Netherlands
+14,DF,Ulrich van Gobbel,"January 16, 1971 (aged 23)",6,Feyenoord,Netherlands
+15,DF,Danny Blind,"August 1, 1961 (aged 32)",24,Ajax,Netherlands
+16,DF,Arthur Numan,"December 14, 1969 (aged 24)",4,PSV Eindhoven,Netherlands
+17,FW,Gaston Taument,"October 1, 1970 (aged 23)",6,Feyenoord,Netherlands
+18,DF,Stan Valckx,"October 20, 1963 (aged 30)",7,Sporting CP,Netherlands
+19,FW,Peter van Vossen,"April 21, 1968 (aged 26)",10,Ajax,Netherlands
+20,MF,Aron Winter,"March 1, 1967 (aged 27)",38,Lazio,Netherlands
+21,DF,John de Wolf,"December 10, 1962 (aged 31)",6,Feyenoord,Netherlands
+22,GK,Theo Snelders,"December 7, 1963 (aged 30)",1,Aberdeen,Netherlands
+1,GK,Mohamed Al-Deayea,"August 2, 1972 (aged 21)",32,Al-Ta'ee,Saudi Arabia
+2,DF,Abdullah Al-Dosari,"November 1, 1969 (aged 24)",12,Al-Ettifaq,Saudi Arabia
+3,DF,Mohammed Al-Khilaiwi,"August 21, 1971 (aged 22)",37,Al-Ittihad,Saudi Arabia
+4,DF,Abdullah Sulaiman,"November 15, 1973 (aged 20)",12,Al-Ahli,Saudi Arabia
+5,DF,Ahmed Jamil,"January 6, 1970 (aged 24)",69,Al-Ittihad,Saudi Arabia
+6,MF,Fuad Anwar,"October 13, 1972 (aged 21)",47,Al Shabab,Saudi Arabia
+7,FW,Fahad Al-Ghesheyan,"August 1, 1973 (aged 20)",0,Al Hilal,Saudi Arabia
+8,MF,Fahad Al-Bishi,"September 10, 1965 (aged 28)",15,Al Nassr,Saudi Arabia
+9,FW,Majed Abdullah (captain),"November 1, 1959 (aged 34)",114,Al Nassr,Saudi Arabia
+10,MF,Saeed Al-Owairan,"August 19, 1967 (aged 26)",7,Al Shabab,Saudi Arabia
+11,FW,Fahad Al-Mehallel,"November 11, 1970 (aged 23)",30,Al Shabab,Saudi Arabia
+12,FW,Sami Al-Jaber,"December 11, 1972 (aged 21)",32,Al Hilal,Saudi Arabia
+13,DF,Mohamed Abd Al-Jawad,"November 28, 1962 (aged 31)",117,Al Ahli,Saudi Arabia
+14,MF,Khaled Massad,"November 23, 1971 (aged 22)",51,Al Ahli,Saudi Arabia
+15,DF,Saleh Al-Dawod,"September 24, 1968 (aged 25)",0,Al Shabab,Saudi Arabia
+16,MF,Talal Jebreen,"September 25, 1973 (aged 20)",0,Al-Riyadh,Saudi Arabia
+17,DF,Yassir Al-Taifi,"May 10, 1971 (aged 23)",?,Al-Riyadh,Saudi Arabia
+18,DF,Awad Al-Anazi,"September 24, 1968 (aged 25)",1,Al Shabab,Saudi Arabia
+19,MF,Hamzah Saleh,"April 19, 1967 (aged 27)",0,Al Ahli,Saudi Arabia
+20,FW,Hamzah Idris,"October 8, 1972 (aged 21)",7,Ohod,Saudi Arabia
+21,GK,Hussein Al-Sadiq,"October 15, 1973 (aged 20)",0,Al Qadsiah,Saudi Arabia
+22,GK,Ibrahim Al-Helwah,"August 18, 1972 (aged 21)",?,Al-Riyadh,Saudi Arabia
