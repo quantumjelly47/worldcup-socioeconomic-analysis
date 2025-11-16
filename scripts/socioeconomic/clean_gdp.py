@@ -1,7 +1,13 @@
+from pathlib import Path
+
 import pandas as pd
+from scripts.utils.filter_countries import filter_world_cup_countries, check_country_coverage
+
+OUTPUT_DIR = Path("data/created_datasets/socioeconomic")
+
 
 def clean_gdp(path="data/raw_data_files/Socioeconomic Data/GDP per Capita Data.csv", verbose=True):
-    """Load, clean, and reshape the GDP per Capita dataset (1960–2024)."""
+    """Load, clean, and subset the GDP per Capita dataset (1960-2024)."""
 
     # Load dataset
     gdp = pd.read_csv(path, encoding="latin-1", skiprows=4)
@@ -38,18 +44,16 @@ def clean_gdp(path="data/raw_data_files/Socioeconomic Data/GDP per Capita Data.c
         .apply(interpolate_gdp)
     )
 
-    # Drop countries or years still missing GDP after interpolation
-    gdp_long = gdp_long.dropna(subset=["gdp_per_capita"])
-
     # Remove regional, income, and aggregate entities
     non_country_keywords = [
-        "World", "income", "IDA", "IBRD", "OECD", "Euro area", "European Union",
+        "World", "income", "IBRD", "OECD", "Euro area", "European Union",
         "Caribbean", "Sub-Saharan Africa", "Europe & Central Asia",
         "East Asia & Pacific", "Middle East", "North America", "Latin America",
         "Arab World", "South Asia", "Fragile", "Small states", "Pre-demographic",
         "Post-demographic", "demographic dividend", "Not classified",
         "Heavily indebted", "Least developed", "Low & middle",
-        "High income", "Lower middle", "Upper middle"
+        "High income", "Lower middle", "Upper middle", "IDA total",
+        "IDA blend", "IDA only", "IDA & IBRD"
     ]
 
     mask = gdp_long["country"].apply(
@@ -57,13 +61,30 @@ def clean_gdp(path="data/raw_data_files/Socioeconomic Data/GDP per Capita Data.c
     )
     gdp_long = gdp_long[mask].copy()
 
-    if verbose:
-        print("\nSample cleaned rows:")
-        print(gdp_long.head(10))
-        print("Final shape:", gdp_long.shape)
+    # Keep observations from 1990 onward
+    gdp_long = gdp_long[gdp_long["year"] >= 1990].reset_index(drop=True)
 
-    return gdp_long
+    world_cup_gdp, non_world_cup_gdp = filter_world_cup_countries(
+        gdp_long, column="country", include_non_world_cup=True
+    )
+
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    world_cup_path = OUTPUT_DIR / "gdp_world_cup.csv"
+    world_cup_gdp.to_csv(world_cup_path, index=False)
+
+    if verbose:
+        print("\nWorld Cup GDP overview:")
+        print(
+            f" - Rows: {world_cup_gdp.shape[0]} | Countries: {world_cup_gdp['country'].nunique()} "
+            f"| Years: {world_cup_gdp['year'].min()}-{world_cup_gdp['year'].max()}"
+        )
+        print(" - gdp_per_capita summary:")
+        print(world_cup_gdp["gdp_per_capita"].describe())
+        print(f" - Saved CSV: {world_cup_path}")
+        check_country_coverage(world_cup_gdp)
+
+    return world_cup_gdp, non_world_cup_gdp, gdp_long
 
 
 if __name__ == "__main__":
-    clean_gdp()
+    world_cup_gdp, non_world_cup_gdp, gdp_long = clean_gdp()

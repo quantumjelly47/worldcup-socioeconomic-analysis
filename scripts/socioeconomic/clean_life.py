@@ -1,7 +1,13 @@
+from pathlib import Path
+
 import pandas as pd
+from scripts.utils.filter_countries import filter_world_cup_countries, check_country_coverage
+
+OUTPUT_DIR = Path("data/created_datasets/socioeconomic")
+
 
 def clean_life_expectancy(path="data/raw_data_files/Socioeconomic Data/HDI 1990-2023.csv", verbose=True):
-    """Load, clean, and reshape the UNDP Life Expectancy dataset (1990–2023)."""
+    """Load, clean, and subset the UNDP Life Expectancy dataset (1990-2023)."""
 
     # Load dataset
     undp = pd.read_csv(path, encoding="latin-1")
@@ -69,7 +75,18 @@ def clean_life_expectancy(path="data/raw_data_files/Socioeconomic Data/HDI 1990-
         .transform(lambda x: x.fillna(x.mean()))
     )
 
-    # Optional diagnostics
+    # Keep observations from 1990 onward
+    le_long = le_long[le_long["year"] >= 1990].reset_index(drop=True)
+
+    # Split into World Cup and non-World Cup countries
+    world_cup_life, non_world_cup_life = filter_world_cup_countries(
+        le_long, column="country", include_non_world_cup=True
+    )
+
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    world_cup_path = OUTPUT_DIR / "life_expectancy_world_cup.csv"
+    world_cup_life.to_csv(world_cup_path, index=False)
+
     if verbose:
         missing = le_long[le_long["life_expectancy"].isna()]["country"].unique()
         print(f"\nRemaining missing Life Expectancy values: {le_long['life_expectancy'].isna().sum()}")
@@ -77,13 +94,21 @@ def clean_life_expectancy(path="data/raw_data_files/Socioeconomic Data/HDI 1990-
             print("Countries still missing data:", missing)
         else:
             print("All Life Expectancy values filled successfully.")
-        print(f"Final dataset shape: {le_long.shape}")
+        print("\nWorld Cup Life Expectancy overview:")
+        print(
+            f" - Rows: {world_cup_life.shape[0]} | Countries: {world_cup_life['country'].nunique()} "
+            f"| Years: {world_cup_life['year'].min()}-{world_cup_life['year'].max()}"
+        )
+        print(" - life_expectancy summary:")
+        print(world_cup_life["life_expectancy"].describe())
+        print(f" - Saved CSV: {world_cup_path}")
+        check_country_coverage(world_cup_life)
 
-    return le_long
+    return world_cup_life, non_world_cup_life, le_long
 
 
 if __name__ == "__main__":
-    le_long = clean_life_expectancy()
+    world_cup_life, non_world_cup_life, le_long = clean_life_expectancy()
     sample = ["United States", "France", "India", "Brazil", "Nigeria"]
     print("\nSample Life Expectancy values:")
     print(le_long[le_long["country"].isin(sample)].head(10))

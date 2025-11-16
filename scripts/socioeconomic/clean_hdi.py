@@ -1,4 +1,9 @@
+from pathlib import Path
+
 import pandas as pd
+from scripts.utils.filter_countries import filter_world_cup_countries, check_country_coverage
+
+OUTPUT_DIR = Path("data/created_datasets/socioeconomic")
 
 
 def clean_hdi(path="data/raw_data_files/Socioeconomic Data/HDI 1990-2023.csv", verbose=True):
@@ -70,21 +75,33 @@ def clean_hdi(path="data/raw_data_files/Socioeconomic Data/HDI 1990-2023.csv", v
         .transform(lambda x: x.fillna(x.mean()))
     )
 
-    # Optional diagnostics
-    if verbose:
-        missing = hdi_long[hdi_long["hdi"].isna()]["country"].unique()
-        print(f"\nRemaining missing HDI values: {hdi_long['hdi'].isna().sum()}")
-        if len(missing) > 0:
-            print("Countries still missing HDI data:", missing)
-        else:
-            print("All HDI values filled successfully.")
-        print(f"Final dataset shape: {hdi_long.shape}")
+    # Keep observations from 1990 onward
+    hdi_long = hdi_long[hdi_long["year"] >= 1990].reset_index(drop=True)
 
-    return hdi_long
+    # Filter to World Cup countries (and optionally keep non–World Cup data)
+    world_cup_hdi, non_world_cup_hdi = filter_world_cup_countries(hdi_long, "country", include_non_world_cup=True)
+
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    world_cup_path = OUTPUT_DIR / "hdi_world_cup.csv"
+    world_cup_hdi.to_csv(world_cup_path, index=False)
+
+    if verbose:
+        print("\nWorld Cup HDI overview:")
+        print(
+            f" - Rows: {world_cup_hdi.shape[0]} | Countries: {world_cup_hdi['country'].nunique()} "
+            f"| Years: {world_cup_hdi['year'].min()}-{world_cup_hdi['year'].max()}"
+        )
+        print(" - HDI summary stats:")
+        print(world_cup_hdi["hdi"].describe())
+        print(f" - Saved CSV: {world_cup_path}")
+        check_country_coverage(world_cup_hdi)
+
+    return world_cup_hdi, non_world_cup_hdi, hdi_long
 
 
 if __name__ == "__main__":
-    hdi_long = clean_hdi()
+    world_cup_hdi, non_world_cup_hdi, hdi_long = clean_hdi()
+
     sample = ["United States", "France", "India", "Brazil", "Nigeria"]
     print("\nSample HDI values:")
-    print(hdi_long[hdi_long["country"].isin(sample)].head(10))
+    print(hdi_long[hdi_long["country"].isin(sample)].sort_values(["country", "year"]))
