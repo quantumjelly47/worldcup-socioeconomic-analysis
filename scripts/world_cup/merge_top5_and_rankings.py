@@ -52,8 +52,8 @@ performance_w_2022 = pd.read_csv("../../data/created_datasets/world_cup/perf_by_
 share_of_top5 = pd.read_csv("../../data/created_datasets/world_cup/prop_big5.csv")
 # Rankings data (raw)
 rankings = pd.read_csv("../../data/raw_data_files/World Cup Data/Rankings/fifa_ranking-2024-06-20.csv")
-
-
+# Match level data
+match_level_data = pd.read_csv("../../data/created_datasets/world_cup/match_level_data.csv") 
 
 ############### SANITY CHECKING
 
@@ -88,6 +88,10 @@ stage_mapping_pre_2022 = performance_wo_2022[["max_stage", "max_stage_numeric"]]
 perf_2022 = (performance_w_2022[(performance_w_2022['world_cup_year'] == 2022) & (performance_w_2022['max_stage_numeric'] > 0)]
              .drop(columns = 'max_stage')
              .merge(stage_mapping_pre_2022, on = 'max_stage_numeric', how = 'left')
+             .assign(team = lambda df: df['team'].replace({
+            'IR Iran': 'Iran',
+            'Korea Republic': 'South Korea'
+        }))
 )
 
 row_keys = ['team', 'world_cup_year']
@@ -216,4 +220,90 @@ na_big5_by_wc_year = (
 
 ############################ Merge rankings
 
+## Investigations
+ranking_dates = (
+    rankings
+    .groupby('rank_date', as_index = False)
+    .agg(num_rows = ('rank', 'count'))
+    .sort_values(by = ['rank_date'])
+    )
+
+ranking_dates['rank_date'] = pd.to_datetime(ranking_dates['rank_date'])
+
+# compute lag in days
+ranking_dates['lag_days'] = (
+    ranking_dates['rank_date'] - ranking_dates['rank_date'].shift(1)
+).dt.days
+
+ranking_countries = (
+    rankings
+    .groupby('country_full')
+    .size())
+
+wc_countries = np.sort(team_year_performance_and_share_of_top5['team'].unique())
+ranking_countries = np.sort(rankings['country_full'].unique())
+countries_in_wc_not_rankings = set(wc_countries) - set(ranking_countries)
+print("Before cleaning:", countries_in_wc_not_rankings)
+
+country_mapping = {'Czechia': 'Czech Republic',
+                   'IR Iran': 'Iran',
+                   "Côte d'Ivoire": 'Ivory Coast',
+                   'USA': 'United States',
+                   'China PR': 'China',
+                   'Korea Republic': 'South Korea',
+                   'Korea DPR': 'North Korea'}
+
+rankings_clean_country = rankings.assign(
+    clean_country = rankings['country_full'].replace(country_mapping)
+)
+
+updated_countries_in_wc_not_rankings = set(wc_countries) - set(rankings_clean_country['clean_country'].unique())
+print("After cleaning:", updated_countries_in_wc_not_rankings)
+
+
+# For each world cup, identify the closest ranking date
+world_cup_start_dates = (
+    match_level_data
+    .assign(date = lambda df: pd.to_datetime(df['Date']).dt.date)
+    .groupby('Year', as_index = False)
+    .agg(start_date = ('Date', 'min'))
+    .rename(columns = {'Year': 'world_cup_year'})
+    )
+
+world_cup_start_dates = (pd.concat([world_cup_start_dates,
+                                  pd.DataFrame({'world_cup_year': [2022],
+                                                'start_date': ['2022-11-20']})
+                                  .assign(start_date = lambda df: pd.to_datetime(df['start_date']).dt.date)])
+                         .reset_index(drop = True)
+)
+
+merge_world_cup_start_dates = (team_year_performance_and_share_of_top5
+                        .merge(world_cup_start_dates, on = 'world_cup_year', how = 'left')
+                        [lambda df: df['world_cup_year'] >= 1994]
+ )
+
+# Identify closest rank date beforeeach world cup start date
+rankings_clean_country['rank_date'] = pd.to_datetime(rankings_clean_country['rank_date'])
+merge_world_cup_start_dates['start_date'] = pd.to_datetime(merge_world_cup_start_dates['start_date'])
+rankings_clean_country = rankings_clean_country.sort_values('rank_date')
+merge_world_cup_start_dates = merge_world_cup_start_dates.sort_values('start_date')
+
+closest_rank_date_by_wc = pd.merge_asof(
+    merge_world_cup_start_dates,
+    rankings_clean_country[['rank_date']],
+    left_on='start_date',
+    right_on='rank_date',
+    direction='backward'
+)
+
+merge_country_ranks_before_wc = (pd.merge(closest_rank_date_by_wc,
+                                         rankings_clean_country[['rank_date', 'clean_country', 'rank']],
+                                         left_on = ['rank_date', 'team'],
+                                         right_on = ['rank_date', 'clean_country'],
+                                         how = 'left')
+                                 .sort_values(by = ['team', 'world_cup_year']))
+
+merge_failures = (
+    merge_country_ranks_before_wc[merge_country_ranks_before_wc['clean_country'].isna()]
+    )
 

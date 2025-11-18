@@ -58,7 +58,7 @@ world_cup_matches_wide = (
 # Reshape data so that data is (match, team) level rather than match level
 ## Pivot home goals, away goals, home team, away team long
 long_init = world_cup_matches_wide.melt(
-    id_vars=['ID', 'Year', 'Stage', 'clean_stage', 'penalty_winner'],
+    id_vars=['ID', 'Year', 'Date', 'Stage', 'clean_stage', 'penalty_winner'],
     value_vars=['Home Team', 'Away Team', 'Home Goals', 'Away Goals'],
     var_name='col_name',
     value_name='col_value'
@@ -70,11 +70,11 @@ long_init['team_or_goals'] = long_init['col_name'].str.extract(r'(Team|Goals)', 
 
 world_cup_matches_long = (
     long_init
-    .pivot(index=['ID', 'Year', 'Stage', 'clean_stage', 'home_or_away', 'penalty_winner'], 
+    .pivot(index=['ID', 'Year', 'Date', 'Stage', 'clean_stage', 'home_or_away', 'penalty_winner'], 
            columns='team_or_goals', 
            values='col_value')
     .reset_index()
-    [['ID', 'Year', 'Stage', 'clean_stage', 'home_or_away', 'Team', 'Goals', 'penalty_winner']]
+    [['ID', 'Year', 'Date', 'Stage', 'clean_stage', 'home_or_away', 'Team', 'Goals', 'penalty_winner']]
     .sort_values(by = ['Year', 'clean_stage', 'ID', 'home_or_away'],
                  ascending = [True, False, True, True])
     .assign(goals_against = lambda df: df.groupby(['Year','ID'])['Goals'].transform('sum')-df['Goals'])
@@ -83,7 +83,6 @@ world_cup_matches_long = (
             win = lambda df: df[['match_win', 'penalty_win']].max(axis = 1))
     .reset_index(drop = True)
 )
-
 
 # Summarize max stage reached by team in each world cup
 ## Store indices of rows corresponding to the latest game played by each team in each world cup
@@ -197,3 +196,6 @@ expanded_summary_w_host.to_csv(os.path.join(dataset_folder,
                                             "performance_by_world_cup_and_team.csv"), 
                                index=False)
 
+world_cup_matches_long.to_csv(os.path.join(dataset_folder, 
+                                            "match_level_data.csv"), 
+                               index=False)
