@@ -1,0 +1,577 @@
+world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matches_won,goals_for,goals_against,Big5_flag,start_date,rank_date,clean_country,rank
+1994,Algeria,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Algeria,48.0
+1998,Algeria,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Algeria,57.0
+2002,Algeria,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Algeria,79.0
+2006,Algeria,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Algeria,87.0
+2010,Algeria,South Africa,Group stage,1.0,3.0,0.0,0.0,2.0,0.4782608695652174,2010-06-11,2010-05-26,Algeria,30.0
+2014,Algeria,Brazil,Round of 16,2.0,4.0,1.0,7.0,7.0,0.4782608695652174,2014-06-12,2014-06-05,Algeria,22.0
+2018,Algeria,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Algeria,66.0
+2022,Algeria,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Algeria,37.0
+1994,Angola,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Angola,124.0
+1998,Angola,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Angola,56.0
+2002,Angola,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Angola,58.0
+2006,Angola,Germany,Group stage,1.0,3.0,0.0,1.0,2.0,0.0,2006-06-09,2006-05-17,Angola,57.0
+2010,Angola,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Angola,88.0
+2014,Angola,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Angola,93.0
+2018,Angola,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Angola,137.0
+2022,Angola,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Angola,119.0
+1994,Argentina,USA,Round of 16,2.0,4.0,2.0,8.0,6.0,0.3636363636363636,1994-06-17,1994-06-14,Argentina,8.0
+1998,Argentina,France,Quarter-finals,3.0,5.0,4.0,10.0,4.0,0.7272727272727273,1998-06-10,1998-05-20,Argentina,6.0
+2002,Argentina,Korea/Japan,Group stage,1.0,3.0,1.0,2.0,2.0,0.7391304347826086,2002-05-31,2002-05-15,Argentina,3.0
+2006,Argentina,Germany,Quarter-finals,3.0,5.0,3.0,11.0,3.0,0.7391304347826086,2006-06-09,2006-05-17,Argentina,9.0
+2010,Argentina,South Africa,Quarter-finals,3.0,5.0,4.0,10.0,6.0,0.6086956521739131,2010-06-11,2010-05-26,Argentina,7.0
+2014,Argentina,Brazil,Runners-up,6.0,7.0,6.0,8.0,4.0,0.6956521739130435,2014-06-12,2014-06-05,Argentina,5.0
+2018,Argentina,Russia,Round of 16,2.0,4.0,1.0,6.0,9.0,0.6086956521739131,2018-06-14,2018-06-07,Argentina,5.0
+2022,Argentina,Qatar,Winner,7.0,7.0,6.0,15.0,8.0,,2022-11-20,2022-10-06,Argentina,3.0
+1994,Australia,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Australia,47.0
+1998,Australia,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Australia,32.0
+2002,Australia,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Australia,48.0
+2006,Australia,Germany,Round of 16,2.0,4.0,1.0,5.0,6.0,0.5217391304347826,2006-06-09,2006-05-17,Australia,42.0
+2010,Australia,South Africa,Group stage,1.0,3.0,1.0,3.0,6.0,0.2608695652173913,2010-06-11,2010-05-26,Australia,20.0
+2014,Australia,Brazil,Group stage,1.0,3.0,0.0,3.0,9.0,0.0869565217391304,2014-06-12,2014-06-05,Australia,62.0
+2018,Australia,Russia,Group stage,1.0,3.0,0.0,2.0,5.0,0.0434782608695652,2018-06-14,2018-06-07,Australia,36.0
+2022,Australia,Qatar,Round of 16,2.0,4.0,2.0,4.0,6.0,,2022-11-20,2022-10-06,Australia,38.0
+1994,Austria,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Austria,36.0
+1998,Austria,France,Group stage,1.0,3.0,0.0,3.0,4.0,0.4545454545454545,1998-06-10,1998-05-20,Austria,31.0
+2002,Austria,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Austria,61.0
+2006,Austria,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Austria,79.0
+2010,Austria,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Austria,68.0
+2014,Austria,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Austria,42.0
+2018,Austria,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Austria,26.0
+2022,Austria,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Austria,34.0
+1994,Belgium,USA,Round of 16,2.0,4.0,2.0,4.0,4.0,0.0909090909090909,1994-06-17,1994-06-14,Belgium,27.0
+1998,Belgium,France,Group stage,1.0,3.0,0.0,3.0,3.0,0.1818181818181818,1998-06-10,1998-05-20,Belgium,36.0
+2002,Belgium,Korea/Japan,Round of 16,2.0,4.0,1.0,6.0,7.0,0.3043478260869565,2002-05-31,2002-05-15,Belgium,23.0
+2006,Belgium,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Belgium,56.0
+2010,Belgium,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Belgium,59.0
+2014,Belgium,Brazil,Quarter-finals,3.0,5.0,4.0,6.0,3.0,0.7391304347826086,2014-06-12,2014-06-05,Belgium,11.0
+2018,Belgium,Russia,Third place,5.0,7.0,6.0,16.0,6.0,0.8260869565217391,2018-06-14,2018-06-07,Belgium,3.0
+2022,Belgium,Qatar,Group stage,1.0,3.0,1.0,1.0,2.0,,2022-11-20,2022-10-06,Belgium,2.0
+1994,Bolivia,USA,Group stage,1.0,3.0,0.0,1.0,4.0,0.0,1994-06-17,1994-06-14,Bolivia,43.0
+1998,Bolivia,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Bolivia,33.0
+2002,Bolivia,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Bolivia,70.0
+2006,Bolivia,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Bolivia,102.0
+2010,Bolivia,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Bolivia,65.0
+2014,Bolivia,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Bolivia,67.0
+2018,Bolivia,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Bolivia,59.0
+2022,Bolivia,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Bolivia,82.0
+1994,Bosnia and Herzegovina,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,,
+1998,Bosnia and Herzegovina,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Bosnia and Herzegovina,102.0
+2002,Bosnia and Herzegovina,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Bosnia and Herzegovina,72.0
+2006,Bosnia and Herzegovina,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Bosnia and Herzegovina,63.0
+2010,Bosnia and Herzegovina,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Bosnia and Herzegovina,51.0
+2014,Bosnia and Herzegovina,Brazil,Group stage,1.0,3.0,1.0,4.0,4.0,0.3478260869565217,2014-06-12,2014-06-05,Bosnia and Herzegovina,21.0
+2018,Bosnia and Herzegovina,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Bosnia and Herzegovina,40.0
+2022,Bosnia and Herzegovina,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Bosnia and Herzegovina,58.0
+1994,Brazil,USA,Winner,7.0,7.0,6.0,11.0,3.0,0.4545454545454545,1994-06-17,1994-06-14,Brazil,3.0
+1998,Brazil,France,Runners-up,6.0,7.0,5.0,14.0,10.0,0.4090909090909091,1998-06-10,1998-05-20,Brazil,1.0
+2002,Brazil,Korea/Japan,Winner,7.0,7.0,7.0,18.0,4.0,0.391304347826087,2002-05-31,2002-05-15,Brazil,2.0
+2006,Brazil,Germany,Quarter-finals,3.0,5.0,4.0,10.0,2.0,0.6521739130434783,2006-06-09,2006-05-17,Brazil,1.0
+2010,Brazil,South Africa,Quarter-finals,3.0,5.0,3.0,9.0,4.0,0.6956521739130435,2010-06-11,2010-05-26,Brazil,1.0
+2014,Brazil,Brazil,Fourth place,4.0,7.0,4.0,11.0,14.0,0.6956521739130435,2014-06-12,2014-06-05,Brazil,3.0
+2018,Brazil,Russia,Quarter-finals,3.0,5.0,3.0,8.0,3.0,0.7391304347826086,2018-06-14,2018-06-07,Brazil,2.0
+2022,Brazil,Qatar,Quarter-finals,3.0,5.0,3.0,8.0,3.0,,2022-11-20,2022-10-06,Brazil,1.0
+1994,Bulgaria,USA,Fourth place,4.0,7.0,4.0,10.0,11.0,0.1818181818181818,1994-06-17,1994-06-14,Bulgaria,29.0
+1998,Bulgaria,France,Group stage,1.0,3.0,0.0,1.0,7.0,0.2272727272727272,1998-06-10,1998-05-20,Bulgaria,35.0
+2002,Bulgaria,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Bulgaria,54.0
+2006,Bulgaria,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Bulgaria,37.0
+2010,Bulgaria,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Bulgaria,39.0
+2014,Bulgaria,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Bulgaria,78.0
+2018,Bulgaria,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Bulgaria,49.0
+2022,Bulgaria,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Bulgaria,72.0
+1994,Cameroon,USA,Group stage,1.0,3.0,0.0,3.0,11.0,0.1818181818181818,1994-06-17,1994-06-14,Cameroon,24.0
+1998,Cameroon,France,Group stage,1.0,3.0,0.0,2.0,5.0,0.3181818181818182,1998-06-10,1998-05-20,Cameroon,49.0
+2002,Cameroon,Korea/Japan,Group stage,1.0,3.0,1.0,2.0,3.0,0.5652173913043478,2002-05-31,2002-05-15,Cameroon,17.0
+2006,Cameroon,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Cameroon,15.0
+2010,Cameroon,South Africa,Group stage,1.0,3.0,0.0,2.0,5.0,0.6521739130434783,2010-06-11,2010-05-26,Cameroon,19.0
+2014,Cameroon,Brazil,Group stage,1.0,3.0,0.0,1.0,9.0,0.4782608695652174,2014-06-12,2014-06-05,Cameroon,56.0
+2018,Cameroon,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Cameroon,49.0
+2022,Cameroon,Qatar,Group stage,1.0,3.0,1.0,4.0,4.0,,2022-11-20,2022-10-06,Cameroon,43.0
+1994,Canada,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Canada,54.0
+1998,Canada,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Canada,77.0
+2002,Canada,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Canada,75.0
+2006,Canada,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Canada,83.0
+2010,Canada,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Canada,63.0
+2014,Canada,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Canada,110.0
+2018,Canada,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Canada,79.0
+2022,Canada,Qatar,Group stage,1.0,3.0,0.0,2.0,7.0,,2022-11-20,2022-10-06,Canada,41.0
+1994,Chile,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Chile,40.0
+1998,Chile,France,Round of 16,2.0,4.0,0.0,5.0,8.0,0.0454545454545454,1998-06-10,1998-05-20,Chile,9.0
+2002,Chile,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Chile,45.0
+2006,Chile,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Chile,64.0
+2010,Chile,South Africa,Round of 16,2.0,4.0,2.0,3.0,5.0,0.1739130434782608,2010-06-11,2010-05-26,Chile,18.0
+2014,Chile,Brazil,Round of 16,2.0,4.0,2.0,6.0,4.0,0.4347826086956521,2014-06-12,2014-06-05,Chile,14.0
+2018,Chile,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Chile,9.0
+2022,Chile,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Chile,29.0
+1994,China,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,China,59.0
+1998,China,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,China,51.0
+2002,China,Korea/Japan,Group stage,1.0,3.0,0.0,0.0,9.0,0.0,2002-05-31,2002-05-15,China,50.0
+2006,China,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,China,68.0
+2010,China,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,China,84.0
+2014,China,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,China,103.0
+2018,China,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,China,75.0
+2022,China,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,China,79.0
+1994,Colombia,USA,Group stage,1.0,3.0,1.0,4.0,5.0,0.1363636363636363,1994-06-17,1994-06-14,Colombia,17.0
+1998,Colombia,France,Group stage,1.0,3.0,1.0,1.0,3.0,0.1363636363636363,1998-06-10,1998-05-20,Colombia,10.0
+2002,Colombia,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Colombia,4.0
+2006,Colombia,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Colombia,27.0
+2010,Colombia,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Colombia,35.0
+2014,Colombia,Brazil,Quarter-finals,3.0,5.0,4.0,12.0,4.0,0.5652173913043478,2014-06-12,2014-06-05,Colombia,8.0
+2018,Colombia,Russia,Round of 16,2.0,4.0,2.0,6.0,3.0,0.5217391304347826,2018-06-14,2018-06-07,Colombia,16.0
+2022,Colombia,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Colombia,17.0
+1994,Costa Rica,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Costa Rica,51.0
+1998,Costa Rica,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Costa Rica,58.0
+2002,Costa Rica,Korea/Japan,Group stage,1.0,3.0,1.0,5.0,6.0,0.0434782608695652,2002-05-31,2002-05-15,Costa Rica,29.0
+2006,Costa Rica,Germany,Group stage,1.0,3.0,0.0,3.0,9.0,0.0,2006-06-09,2006-05-17,Costa Rica,26.0
+2010,Costa Rica,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Costa Rica,40.0
+2014,Costa Rica,Brazil,Quarter-finals,3.0,5.0,2.0,5.0,2.0,0.0869565217391304,2014-06-12,2014-06-05,Costa Rica,28.0
+2018,Costa Rica,Russia,Group stage,1.0,3.0,0.0,2.0,5.0,0.217391304347826,2018-06-14,2018-06-07,Costa Rica,23.0
+2022,Costa Rica,Qatar,Group stage,1.0,3.0,1.0,3.0,11.0,,2022-11-20,2022-10-06,Costa Rica,31.0
+1994,Croatia,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Croatia,91.0
+1998,Croatia,France,Third place,5.0,7.0,5.0,11.0,5.0,0.4545454545454545,1998-06-10,1998-05-20,Croatia,19.0
+2002,Croatia,Korea/Japan,Group stage,1.0,3.0,1.0,2.0,3.0,0.4782608695652174,2002-05-31,2002-05-15,Croatia,21.0
+2006,Croatia,Germany,Group stage,1.0,3.0,0.0,2.0,3.0,0.2608695652173913,2006-06-09,2006-05-17,Croatia,23.0
+2010,Croatia,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Croatia,10.0
+2014,Croatia,Brazil,Group stage,1.0,3.0,1.0,6.0,6.0,0.5652173913043478,2014-06-12,2014-06-05,Croatia,18.0
+2018,Croatia,Russia,Runners-up,6.0,7.0,6.0,14.0,9.0,0.6521739130434783,2018-06-14,2018-06-07,Croatia,20.0
+2022,Croatia,Qatar,Third place,5.0,7.0,4.0,8.0,7.0,,2022-11-20,2022-10-06,Croatia,12.0
+1994,Czech Republic,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Czech Republic,45.0
+1998,Czech Republic,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Czech Republic,3.0
+2002,Czech Republic,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Czech Republic,16.0
+2006,Czech Republic,Germany,Group stage,1.0,3.0,1.0,3.0,4.0,0.4782608695652174,2006-06-09,2006-05-17,Czech Republic,2.0
+2010,Czech Republic,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Czech Republic,33.0
+2014,Czech Republic,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Czech Republic,34.0
+2018,Czech Republic,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Czech Republic,46.0
+2022,Czech Republic,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Czech Republic,35.0
+1994,Denmark,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Denmark,9.0
+1998,Denmark,France,Quarter-finals,3.0,5.0,2.0,9.0,7.0,0.3181818181818182,1998-06-10,1998-05-20,Denmark,27.0
+2002,Denmark,Korea/Japan,Round of 16,2.0,4.0,2.0,5.0,5.0,0.391304347826087,2002-05-31,2002-05-15,Denmark,20.0
+2006,Denmark,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Denmark,11.0
+2010,Denmark,South Africa,Group stage,1.0,3.0,1.0,3.0,6.0,0.4347826086956521,2010-06-11,2010-05-26,Denmark,36.0
+2014,Denmark,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Denmark,23.0
+2018,Denmark,Russia,Round of 16,2.0,4.0,1.0,3.0,2.0,0.5652173913043478,2018-06-14,2018-06-07,Denmark,12.0
+2022,Denmark,Qatar,Group stage,1.0,3.0,0.0,1.0,3.0,,2022-11-20,2022-10-06,Denmark,10.0
+1994,Ecuador,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Ecuador,39.0
+1998,Ecuador,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Ecuador,26.0
+2002,Ecuador,Korea/Japan,Group stage,1.0,3.0,1.0,2.0,4.0,0.0434782608695652,2002-05-31,2002-05-15,Ecuador,36.0
+2006,Ecuador,Germany,Round of 16,2.0,4.0,2.0,5.0,4.0,0.0434782608695652,2006-06-09,2006-05-17,Ecuador,39.0
+2010,Ecuador,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Ecuador,44.0
+2014,Ecuador,Brazil,Group stage,1.0,3.0,1.0,3.0,3.0,0.0869565217391304,2014-06-12,2014-06-05,Ecuador,26.0
+2018,Ecuador,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Ecuador,60.0
+2022,Ecuador,Qatar,Group stage,1.0,3.0,1.0,4.0,3.0,,2022-11-20,2022-10-06,Ecuador,44.0
+1994,Egypt,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Egypt,25.0
+1998,Egypt,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Egypt,17.0
+2002,Egypt,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Egypt,43.0
+2006,Egypt,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Egypt,17.0
+2010,Egypt,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Egypt,12.0
+2014,Egypt,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Egypt,36.0
+2018,Egypt,Russia,Group stage,1.0,3.0,0.0,2.0,6.0,0.217391304347826,2018-06-14,2018-06-07,Egypt,45.0
+2022,Egypt,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Egypt,39.0
+1994,England,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,England,15.0
+1998,England,France,Round of 16,2.0,4.0,2.0,7.0,4.0,0.9545454545454546,1998-06-10,1998-05-20,England,5.0
+2002,England,Korea/Japan,Quarter-finals,3.0,5.0,2.0,6.0,3.0,1.0,2002-05-31,2002-05-15,England,12.0
+2006,England,Germany,Quarter-finals,3.0,5.0,3.0,6.0,2.0,1.0,2006-06-09,2006-05-17,England,10.0
+2010,England,South Africa,Round of 16,2.0,4.0,1.0,3.0,5.0,1.0,2010-06-11,2010-05-26,England,8.0
+2014,England,Brazil,Group stage,1.0,3.0,0.0,2.0,4.0,0.9565217391304348,2014-06-12,2014-06-05,England,10.0
+2018,England,Russia,Fourth place,4.0,7.0,4.0,12.0,8.0,1.0,2018-06-14,2018-06-07,England,12.0
+2022,England,Qatar,Quarter-finals,3.0,5.0,3.0,13.0,4.0,,2022-11-20,2022-10-06,England,5.0
+1994,France,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,France,13.0
+1998,France,France,Winner,7.0,7.0,7.0,15.0,2.0,1.0,1998-06-10,1998-05-20,France,18.0
+2002,France,Korea/Japan,Group stage,1.0,3.0,0.0,0.0,3.0,1.0,2002-05-31,2002-05-15,France,1.0
+2006,France,Germany,Runners-up,6.0,7.0,4.0,9.0,3.0,1.0,2006-06-09,2006-05-17,France,8.0
+2010,France,South Africa,Group stage,1.0,3.0,0.0,1.0,4.0,0.9565217391304348,2010-06-11,2010-05-26,France,9.0
+2014,France,Brazil,Quarter-finals,3.0,5.0,3.0,10.0,3.0,0.9565217391304348,2014-06-12,2014-06-05,France,17.0
+2018,France,Russia,Winner,7.0,7.0,6.0,14.0,6.0,1.0,2018-06-14,2018-06-07,France,7.0
+2022,France,Qatar,Runners-up,6.0,7.0,5.0,16.0,8.0,,2022-11-20,2022-10-06,France,4.0
+1994,Germany,USA,Quarter-finals,3.0,5.0,3.0,9.0,7.0,0.9545454545454546,1994-06-17,1994-06-14,Germany,1.0
+1998,Germany,France,Quarter-finals,3.0,5.0,3.0,8.0,6.0,0.9090909090909092,1998-06-10,1998-05-20,Germany,2.0
+2002,Germany,Korea/Japan,Runners-up,6.0,7.0,5.0,14.0,3.0,0.782608695652174,2002-05-31,2002-05-15,Germany,11.0
+2006,Germany,Germany,Third place,5.0,7.0,6.0,14.0,6.0,0.8695652173913043,2006-06-09,2006-05-17,Germany,19.0
+2010,Germany,South Africa,Third place,5.0,7.0,5.0,16.0,5.0,0.9130434782608696,2010-06-11,2010-05-26,Germany,6.0
+2014,Germany,Brazil,Winner,7.0,7.0,6.0,18.0,4.0,1.0,2014-06-12,2014-06-05,Germany,2.0
+2018,Germany,Russia,Group stage,1.0,3.0,1.0,2.0,4.0,1.0,2018-06-14,2018-06-07,Germany,1.0
+2022,Germany,Qatar,Group stage,1.0,3.0,1.0,6.0,5.0,,2022-11-20,2022-10-06,Germany,11.0
+1994,Ghana,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Ghana,26.0
+1998,Ghana,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Ghana,65.0
+2002,Ghana,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Ghana,52.0
+2006,Ghana,Germany,Round of 16,2.0,4.0,2.0,4.0,6.0,0.3043478260869565,2006-06-09,2006-05-17,Ghana,48.0
+2010,Ghana,South Africa,Quarter-finals,3.0,5.0,2.0,5.0,4.0,0.4347826086956521,2010-06-11,2010-05-26,Ghana,32.0
+2014,Ghana,Brazil,Group stage,1.0,3.0,0.0,4.0,6.0,0.4782608695652174,2014-06-12,2014-06-05,Ghana,37.0
+2018,Ghana,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Ghana,47.0
+2022,Ghana,Qatar,Group stage,1.0,3.0,1.0,5.0,7.0,,2022-11-20,2022-10-06,Ghana,61.0
+1994,Greece,USA,Group stage,1.0,3.0,0.0,0.0,10.0,0.0,1994-06-17,1994-06-14,Greece,31.0
+1998,Greece,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Greece,55.0
+2002,Greece,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Greece,53.0
+2006,Greece,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Greece,20.0
+2010,Greece,South Africa,Group stage,1.0,3.0,1.0,2.0,5.0,0.2608695652173913,2010-06-11,2010-05-26,Greece,13.0
+2014,Greece,Brazil,Round of 16,2.0,4.0,1.0,3.0,5.0,0.4782608695652174,2014-06-12,2014-06-05,Greece,12.0
+2018,Greece,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Greece,44.0
+2022,Greece,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Greece,52.0
+1994,Honduras,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Honduras,50.0
+1998,Honduras,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Honduras,86.0
+2002,Honduras,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Honduras,26.0
+2006,Honduras,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Honduras,42.0
+2010,Honduras,South Africa,Group stage,1.0,3.0,0.0,0.0,3.0,0.217391304347826,2010-06-11,2010-05-26,Honduras,38.0
+2014,Honduras,Brazil,Group stage,1.0,3.0,0.0,1.0,8.0,0.0869565217391304,2014-06-12,2014-06-05,Honduras,33.0
+2018,Honduras,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Honduras,62.0
+2022,Honduras,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Honduras,80.0
+1994,Hungary,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Hungary,56.0
+1998,Hungary,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Hungary,62.0
+2002,Hungary,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Hungary,68.0
+2006,Hungary,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Hungary,76.0
+2010,Hungary,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Hungary,57.0
+2014,Hungary,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Hungary,47.0
+2018,Hungary,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Hungary,51.0
+2022,Hungary,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Hungary,36.0
+1994,Iceland,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Iceland,38.0
+1998,Iceland,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Iceland,72.0
+2002,Iceland,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Iceland,56.0
+2006,Iceland,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Iceland,99.0
+2010,Iceland,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Iceland,90.0
+2014,Iceland,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Iceland,52.0
+2018,Iceland,Russia,Group stage,1.0,3.0,0.0,2.0,5.0,0.1304347826086956,2018-06-14,2018-06-07,Iceland,22.0
+2022,Iceland,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Iceland,62.0
+1994,Iran,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Iran,58.0
+1998,Iran,France,Group stage,1.0,3.0,1.0,2.0,4.0,0.0454545454545454,1998-06-10,1998-05-20,Iran,42.0
+2002,Iran,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Iran,30.0
+2006,Iran,Germany,Group stage,1.0,3.0,0.0,2.0,6.0,0.217391304347826,2006-06-09,2006-05-17,Iran,23.0
+2010,Iran,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Iran,61.0
+2014,Iran,Brazil,Group stage,1.0,3.0,0.0,1.0,4.0,0.0434782608695652,2014-06-12,2014-06-05,Iran,43.0
+2018,Iran,Russia,Group stage,1.0,3.0,1.0,2.0,2.0,0.0,2018-06-14,2018-06-07,Iran,37.0
+2022,Iran,Qatar,Group stage,1.0,3.0,1.0,4.0,7.0,,2022-11-20,2022-10-06,Iran,20.0
+1994,Iraq,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Iraq,65.0
+1998,Iraq,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Iraq,85.0
+2002,Iraq,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Iraq,71.0
+2006,Iraq,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Iraq,52.0
+2010,Iraq,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Iraq,80.0
+2014,Iraq,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Iraq,104.0
+2018,Iraq,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Iraq,89.0
+2022,Iraq,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Iraq,68.0
+1994,Italy,USA,Runners-up,6.0,7.0,4.0,8.0,5.0,1.0,1994-06-17,1994-06-14,Italy,4.0
+1998,Italy,France,Quarter-finals,3.0,5.0,3.0,8.0,3.0,1.0,1998-06-10,1998-05-20,Italy,14.0
+2002,Italy,Korea/Japan,Round of 16,2.0,4.0,1.0,5.0,5.0,1.0,2002-05-31,2002-05-15,Italy,6.0
+2006,Italy,Germany,Winner,7.0,7.0,6.0,12.0,2.0,0.9565217391304348,2006-06-09,2006-05-17,Italy,13.0
+2010,Italy,South Africa,Group stage,1.0,3.0,0.0,4.0,5.0,1.0,2010-06-11,2010-05-26,Italy,5.0
+2014,Italy,Brazil,Group stage,1.0,3.0,1.0,2.0,3.0,1.0,2014-06-12,2014-06-05,Italy,9.0
+2018,Italy,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Italy,19.0
+2022,Italy,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Italy,6.0
+1994,Ivory Coast,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Ivory Coast,21.0
+1998,Ivory Coast,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Ivory Coast,44.0
+2002,Ivory Coast,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Ivory Coast,46.0
+2006,Ivory Coast,Germany,Group stage,1.0,3.0,1.0,5.0,6.0,0.6956521739130435,2006-06-09,2006-05-17,Ivory Coast,32.0
+2010,Ivory Coast,South Africa,Group stage,1.0,3.0,1.0,4.0,3.0,0.6521739130434783,2010-06-11,2010-05-26,Ivory Coast,27.0
+2014,Ivory Coast,Brazil,Group stage,1.0,3.0,1.0,4.0,5.0,0.5652173913043478,2014-06-12,2014-06-05,Ivory Coast,23.0
+2018,Ivory Coast,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Ivory Coast,68.0
+2022,Ivory Coast,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Ivory Coast,48.0
+1994,Jamaica,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Jamaica,70.0
+1998,Jamaica,France,Group stage,1.0,3.0,1.0,3.0,9.0,0.2272727272727272,1998-06-10,1998-05-20,Jamaica,30.0
+2002,Jamaica,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Jamaica,57.0
+2006,Jamaica,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Jamaica,46.0
+2010,Jamaica,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Jamaica,81.0
+2014,Jamaica,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Jamaica,81.0
+2018,Jamaica,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Jamaica,54.0
+2022,Jamaica,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Jamaica,64.0
+1994,Japan,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Japan,52.0
+1998,Japan,France,Group stage,1.0,3.0,0.0,1.0,4.0,0.0,1998-06-10,1998-05-20,Japan,12.0
+2002,Japan,Korea/Japan,Round of 16,2.0,4.0,2.0,5.0,3.0,0.0869565217391304,2002-05-31,2002-05-15,Japan,32.0
+2006,Japan,Germany,Group stage,1.0,3.0,0.0,2.0,7.0,0.1304347826086956,2006-06-09,2006-05-17,Japan,18.0
+2010,Japan,South Africa,Round of 16,2.0,4.0,2.0,4.0,2.0,0.1304347826086956,2010-06-11,2010-05-26,Japan,45.0
+2014,Japan,Brazil,Group stage,1.0,3.0,0.0,2.0,6.0,0.4347826086956521,2014-06-12,2014-06-05,Japan,46.0
+2018,Japan,Russia,Round of 16,2.0,4.0,1.0,6.0,7.0,0.4782608695652174,2018-06-14,2018-06-07,Japan,61.0
+2022,Japan,Qatar,Round of 16,2.0,4.0,2.0,5.0,4.0,,2022-11-20,2022-10-06,Japan,24.0
+1994,Mexico,USA,Round of 16,2.0,4.0,1.0,4.0,4.0,0.0909090909090909,1994-06-17,1994-06-14,Mexico,16.0
+1998,Mexico,France,Round of 16,2.0,4.0,1.0,8.0,7.0,0.0,1998-06-10,1998-05-20,Mexico,4.0
+2002,Mexico,Korea/Japan,Round of 16,2.0,4.0,2.0,4.0,4.0,0.1739130434782608,2002-05-31,2002-05-15,Mexico,7.0
+2006,Mexico,Germany,Round of 16,2.0,4.0,1.0,5.0,5.0,0.1304347826086956,2006-06-09,2006-05-17,Mexico,4.0
+2010,Mexico,South Africa,Round of 16,2.0,4.0,1.0,4.0,5.0,0.217391304347826,2010-06-11,2010-05-26,Mexico,17.0
+2014,Mexico,Brazil,Round of 16,2.0,4.0,2.0,5.0,3.0,0.2608695652173913,2014-06-12,2014-06-05,Mexico,20.0
+2018,Mexico,Russia,Round of 16,2.0,4.0,2.0,3.0,6.0,0.2608695652173913,2018-06-14,2018-06-07,Mexico,15.0
+2022,Mexico,Qatar,Group stage,1.0,3.0,1.0,2.0,3.0,,2022-11-20,2022-10-06,Mexico,13.0
+1994,Morocco,USA,Group stage,1.0,3.0,0.0,2.0,5.0,0.1363636363636363,1994-06-17,1994-06-14,Morocco,28.0
+1998,Morocco,France,Group stage,1.0,3.0,1.0,5.0,5.0,0.3181818181818182,1998-06-10,1998-05-20,Morocco,13.0
+2002,Morocco,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Morocco,39.0
+2006,Morocco,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Morocco,36.0
+2010,Morocco,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Morocco,70.0
+2014,Morocco,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Morocco,77.0
+2018,Morocco,Russia,Group stage,1.0,3.0,0.0,2.0,4.0,0.391304347826087,2018-06-14,2018-06-07,Morocco,41.0
+2022,Morocco,Qatar,Fourth place,4.0,7.0,4.0,6.0,5.0,,2022-11-20,2022-10-06,Morocco,22.0
+1994,Netherlands,USA,Quarter-finals,3.0,5.0,3.0,8.0,6.0,0.2272727272727272,1994-06-17,1994-06-14,Netherlands,2.0
+1998,Netherlands,France,Fourth place,4.0,7.0,3.0,13.0,7.0,0.5,1998-06-10,1998-05-20,Netherlands,25.0
+2002,Netherlands,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Netherlands,9.0
+2006,Netherlands,Germany,Round of 16,2.0,4.0,2.0,3.0,2.0,0.391304347826087,2006-06-09,2006-05-17,Netherlands,3.0
+2010,Netherlands,South Africa,Runners-up,6.0,7.0,6.0,12.0,6.0,0.5652173913043478,2010-06-11,2010-05-26,Netherlands,4.0
+2014,Netherlands,Brazil,Third place,5.0,7.0,6.0,15.0,4.0,0.391304347826087,2014-06-12,2014-06-05,Netherlands,15.0
+2018,Netherlands,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Netherlands,17.0
+2022,Netherlands,Qatar,Quarter-finals,3.0,5.0,3.0,10.0,4.0,,2022-11-20,2022-10-06,Netherlands,8.0
+1994,New Zealand,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,New Zealand,90.0
+1998,New Zealand,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,New Zealand,117.0
+2002,New Zealand,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,New Zealand,87.0
+2006,New Zealand,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,New Zealand,118.0
+2010,New Zealand,South Africa,Group stage,1.0,3.0,0.0,2.0,2.0,0.0434782608695652,2010-06-11,2010-05-26,New Zealand,78.0
+2014,New Zealand,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,New Zealand,97.0
+2018,New Zealand,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,New Zealand,120.0
+2022,New Zealand,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,New Zealand,105.0
+1994,Nigeria,USA,Round of 16,2.0,4.0,2.0,7.0,4.0,0.2727272727272727,1994-06-17,1994-06-14,Nigeria,11.0
+1998,Nigeria,France,Round of 16,2.0,4.0,2.0,6.0,9.0,0.4090909090909091,1998-06-10,1998-05-20,Nigeria,74.0
+2002,Nigeria,Korea/Japan,Group stage,1.0,3.0,0.0,1.0,3.0,0.2608695652173913,2002-05-31,2002-05-15,Nigeria,27.0
+2006,Nigeria,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Nigeria,11.0
+2010,Nigeria,South Africa,Group stage,1.0,3.0,0.0,3.0,5.0,0.5652173913043478,2010-06-11,2010-05-26,Nigeria,21.0
+2014,Nigeria,Brazil,Round of 16,2.0,4.0,1.0,3.0,5.0,0.3478260869565217,2014-06-12,2014-06-05,Nigeria,44.0
+2018,Nigeria,Russia,Group stage,1.0,3.0,1.0,3.0,4.0,0.4347826086956521,2018-06-14,2018-06-07,Nigeria,48.0
+2022,Nigeria,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Nigeria,32.0
+1994,North Korea,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,North Korea,71.0
+1998,North Korea,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,North Korea,170.0
+2002,North Korea,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,North Korea,126.0
+2006,North Korea,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,North Korea,88.0
+2010,North Korea,South Africa,Group stage,1.0,3.0,0.0,1.0,12.0,0.0,2010-06-11,2010-05-26,North Korea,105.0
+2014,North Korea,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,North Korea,146.0
+2018,North Korea,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,North Korea,108.0
+2022,North Korea,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,North Korea,112.0
+1994,Northern Ireland,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Northern Ireland,41.0
+1998,Northern Ireland,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Northern Ireland,90.0
+2002,Northern Ireland,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Northern Ireland,90.0
+2006,Northern Ireland,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Northern Ireland,96.0
+2010,Northern Ireland,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Northern Ireland,56.0
+2014,Northern Ireland,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Northern Ireland,90.0
+2018,Northern Ireland,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Northern Ireland,29.0
+2022,Northern Ireland,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Northern Ireland,59.0
+1994,Norway,USA,Group stage,1.0,3.0,1.0,1.0,1.0,0.4090909090909091,1994-06-17,1994-06-14,Norway,6.0
+1998,Norway,France,Round of 16,2.0,4.0,1.0,5.0,5.0,0.6363636363636364,1998-06-10,1998-05-20,Norway,7.0
+2002,Norway,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Norway,33.0
+2006,Norway,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Norway,40.0
+2010,Norway,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Norway,22.0
+2014,Norway,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Norway,55.0
+2018,Norway,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Norway,53.0
+2022,Norway,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Norway,42.0
+1994,Panama,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Panama,131.0
+1998,Panama,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Panama,127.0
+2002,Panama,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Panama,111.0
+2006,Panama,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Panama,81.0
+2010,Panama,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Panama,74.0
+2014,Panama,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Panama,31.0
+2018,Panama,Russia,Group stage,1.0,3.0,0.0,2.0,11.0,0.0,2018-06-14,2018-06-07,Panama,55.0
+2022,Panama,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Panama,60.0
+1994,Paraguay,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Paraguay,60.0
+1998,Paraguay,France,Round of 16,2.0,4.0,1.0,3.0,2.0,0.0909090909090909,1998-06-10,1998-05-20,Paraguay,29.0
+2002,Paraguay,Korea/Japan,Round of 16,2.0,4.0,1.0,6.0,7.0,0.0869565217391304,2002-05-31,2002-05-15,Paraguay,18.0
+2006,Paraguay,Germany,Group stage,1.0,3.0,1.0,2.0,2.0,0.2608695652173913,2006-06-09,2006-05-17,Paraguay,33.0
+2010,Paraguay,South Africa,Quarter-finals,3.0,5.0,2.0,3.0,2.0,0.3043478260869565,2010-06-11,2010-05-26,Paraguay,31.0
+2014,Paraguay,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Paraguay,50.0
+2018,Paraguay,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Paraguay,32.0
+2022,Paraguay,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Paraguay,47.0
+1994,Peru,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Peru,67.0
+1998,Peru,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Peru,37.0
+2002,Peru,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Peru,47.0
+2006,Peru,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Peru,66.0
+2010,Peru,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Peru,53.0
+2014,Peru,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Peru,45.0
+2018,Peru,Russia,Group stage,1.0,3.0,1.0,2.0,2.0,0.0434782608695652,2018-06-14,2018-06-07,Peru,11.0
+2022,Peru,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Peru,23.0
+1994,Poland,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Poland,32.0
+1998,Poland,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Poland,54.0
+2002,Poland,Korea/Japan,Group stage,1.0,3.0,1.0,3.0,7.0,0.3478260869565217,2002-05-31,2002-05-15,Poland,38.0
+2006,Poland,Germany,Group stage,1.0,3.0,1.0,2.0,4.0,0.1739130434782608,2006-06-09,2006-05-17,Poland,29.0
+2010,Poland,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Poland,58.0
+2014,Poland,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Poland,69.0
+2018,Poland,Russia,Group stage,1.0,3.0,1.0,2.0,5.0,0.6086956521739131,2018-06-14,2018-06-07,Poland,8.0
+2022,Poland,Qatar,Round of 16,2.0,4.0,1.0,3.0,5.0,,2022-11-20,2022-10-06,Poland,26.0
+1994,Portugal,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Portugal,22.0
+1998,Portugal,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Portugal,39.0
+2002,Portugal,Korea/Japan,Group stage,1.0,3.0,1.0,6.0,4.0,0.3478260869565217,2002-05-31,2002-05-15,Portugal,5.0
+2006,Portugal,Germany,Fourth place,4.0,7.0,5.0,7.0,5.0,0.5652173913043478,2006-06-09,2006-05-17,Portugal,7.0
+2010,Portugal,South Africa,Round of 16,2.0,4.0,1.0,7.0,1.0,0.4782608695652174,2010-06-11,2010-05-26,Portugal,3.0
+2014,Portugal,Brazil,Group stage,1.0,3.0,1.0,4.0,7.0,0.4347826086956521,2014-06-12,2014-06-05,Portugal,4.0
+2018,Portugal,Russia,Round of 16,2.0,4.0,1.0,6.0,6.0,0.4782608695652174,2018-06-14,2018-06-07,Portugal,4.0
+2022,Portugal,Qatar,Quarter-finals,3.0,5.0,3.0,12.0,6.0,,2022-11-20,2022-10-06,Portugal,9.0
+1994,Qatar,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Qatar,69.0
+1998,Qatar,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Qatar,70.0
+2002,Qatar,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Qatar,73.0
+2006,Qatar,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Qatar,78.0
+2010,Qatar,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Qatar,96.0
+2014,Qatar,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Qatar,100.0
+2018,Qatar,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Qatar,98.0
+2022,Qatar,Qatar,Group stage,1.0,3.0,0.0,1.0,7.0,,2022-11-20,2022-10-06,Qatar,50.0
+1994,Republic of Ireland,USA,Round of 16,2.0,4.0,1.0,2.0,4.0,0.7272727272727273,1994-06-17,1994-06-14,Republic of Ireland,14.0
+1998,Republic of Ireland,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Republic of Ireland,46.0
+2002,Republic of Ireland,Korea/Japan,Round of 16,2.0,4.0,1.0,6.0,3.0,0.7391304347826086,2002-05-31,2002-05-15,Republic of Ireland,15.0
+2006,Republic of Ireland,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Republic of Ireland,31.0
+2010,Republic of Ireland,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Republic of Ireland,41.0
+2014,Republic of Ireland,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Republic of Ireland,70.0
+2018,Republic of Ireland,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Republic of Ireland,31.0
+2022,Republic of Ireland,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Republic of Ireland,49.0
+1994,Romania,USA,Quarter-finals,3.0,5.0,3.0,10.0,9.0,0.1818181818181818,1994-06-17,1994-06-14,Romania,7.0
+1998,Romania,France,Round of 16,2.0,4.0,2.0,4.0,3.0,0.3636363636363636,1998-06-10,1998-05-20,Romania,22.0
+2002,Romania,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Romania,14.0
+2006,Romania,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Romania,25.0
+2010,Romania,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Romania,28.0
+2014,Romania,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Romania,29.0
+2018,Romania,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Romania,30.0
+2022,Romania,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Romania,53.0
+1994,Russia,USA,Group stage,1.0,3.0,1.0,7.0,6.0,0.3181818181818182,1994-06-17,1994-06-14,Russia,19.0
+1998,Russia,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Russia,16.0
+2002,Russia,Korea/Japan,Group stage,1.0,3.0,1.0,4.0,4.0,0.217391304347826,2002-05-31,2002-05-15,Russia,28.0
+2006,Russia,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Russia,37.0
+2010,Russia,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Russia,11.0
+2014,Russia,Brazil,Group stage,1.0,3.0,0.0,2.0,3.0,0.0,2014-06-12,2014-06-05,Russia,19.0
+2018,Russia,Russia,Quarter-finals,3.0,5.0,3.0,11.0,7.0,0.0434782608695652,2018-06-14,2018-06-07,Russia,70.0
+2022,Russia,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Russia,33.0
+1994,Saudi Arabia,USA,Round of 16,2.0,4.0,2.0,5.0,6.0,0.0,1994-06-17,1994-06-14,Saudi Arabia,34.0
+1998,Saudi Arabia,France,Group stage,1.0,3.0,0.0,2.0,7.0,0.0,1998-06-10,1998-05-20,Saudi Arabia,34.0
+2002,Saudi Arabia,Korea/Japan,Group stage,1.0,3.0,0.0,0.0,12.0,0.0,2002-05-31,2002-05-15,Saudi Arabia,34.0
+2006,Saudi Arabia,Germany,Group stage,1.0,3.0,0.0,2.0,7.0,0.0,2006-06-09,2006-05-17,Saudi Arabia,34.0
+2010,Saudi Arabia,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Saudi Arabia,66.0
+2014,Saudi Arabia,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Saudi Arabia,90.0
+2018,Saudi Arabia,Russia,Group stage,1.0,3.0,1.0,2.0,7.0,0.1304347826086956,2018-06-14,2018-06-07,Saudi Arabia,67.0
+2022,Saudi Arabia,Qatar,Group stage,1.0,3.0,1.0,3.0,5.0,,2022-11-20,2022-10-06,Saudi Arabia,51.0
+1994,Scotland,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Scotland,33.0
+1998,Scotland,France,Group stage,1.0,3.0,0.0,2.0,6.0,0.3636363636363636,1998-06-10,1998-05-20,Scotland,41.0
+2002,Scotland,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Scotland,55.0
+2006,Scotland,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Scotland,59.0
+2010,Scotland,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Scotland,43.0
+2014,Scotland,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Scotland,27.0
+2018,Scotland,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Scotland,42.0
+2022,Scotland,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Scotland,40.0
+1994,Senegal,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Senegal,55.0
+1998,Senegal,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Senegal,78.0
+2002,Senegal,Korea/Japan,Quarter-finals,3.0,5.0,2.0,7.0,6.0,0.7391304347826086,2002-05-31,2002-05-15,Senegal,42.0
+2006,Senegal,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Senegal,28.0
+2010,Senegal,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Senegal,75.0
+2014,Senegal,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Senegal,74.0
+2018,Senegal,Russia,Group stage,1.0,3.0,1.0,4.0,4.0,0.6956521739130435,2018-06-14,2018-06-07,Senegal,27.0
+2022,Senegal,Qatar,Round of 16,2.0,4.0,2.0,5.0,7.0,,2022-11-20,2022-10-06,Senegal,18.0
+1994,Serbia,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,,
+1998,Serbia,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,,
+2002,Serbia,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,,
+2006,Serbia,Germany,Group stage,1.0,3.0,0.0,2.0,10.0,0.3478260869565217,2006-06-09,2006-05-17,,
+2010,Serbia,South Africa,Group stage,1.0,3.0,1.0,2.0,3.0,0.5652173913043478,2010-06-11,2010-05-26,Serbia,15.0
+2014,Serbia,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Serbia,30.0
+2018,Serbia,Russia,Group stage,1.0,3.0,1.0,2.0,4.0,0.5217391304347826,2018-06-14,2018-06-07,Serbia,34.0
+2022,Serbia,Qatar,Group stage,1.0,3.0,0.0,5.0,8.0,,2022-11-20,2022-10-06,Serbia,21.0
+1994,Slovakia,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Slovakia,44.0
+1998,Slovakia,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Slovakia,40.0
+2002,Slovakia,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Slovakia,49.0
+2006,Slovakia,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Slovakia,41.0
+2010,Slovakia,South Africa,Round of 16,2.0,4.0,1.0,5.0,7.0,0.2608695652173913,2010-06-11,2010-05-26,Slovakia,34.0
+2014,Slovakia,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Slovakia,49.0
+2018,Slovakia,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Slovakia,28.0
+2022,Slovakia,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Slovakia,55.0
+1994,Slovenia,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Slovenia,79.0
+1998,Slovenia,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Slovenia,94.0
+2002,Slovenia,Korea/Japan,Group stage,1.0,3.0,0.0,2.0,7.0,0.1739130434782608,2002-05-31,2002-05-15,Slovenia,25.0
+2006,Slovenia,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Slovenia,71.0
+2010,Slovenia,South Africa,Group stage,1.0,3.0,1.0,3.0,3.0,0.3043478260869565,2010-06-11,2010-05-26,Slovenia,25.0
+2014,Slovenia,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Slovenia,25.0
+2018,Slovenia,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Slovenia,56.0
+2022,Slovenia,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Slovenia,63.0
+1994,South Africa,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,South Africa,76.0
+1998,South Africa,France,Group stage,1.0,3.0,0.0,3.0,6.0,0.1739130434782608,1998-06-10,1998-05-20,South Africa,24.0
+2002,South Africa,Korea/Japan,Group stage,1.0,3.0,1.0,5.0,5.0,0.1739130434782608,2002-05-31,2002-05-15,South Africa,37.0
+2006,South Africa,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,South Africa,53.0
+2010,South Africa,South Africa,Group stage,1.0,3.0,1.0,3.0,5.0,0.1304347826086956,2010-06-11,2010-05-26,South Africa,83.0
+2014,South Africa,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,South Africa,65.0
+2018,South Africa,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,South Africa,74.0
+2022,South Africa,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,South Africa,67.0
+1994,South Korea,USA,Group stage,1.0,3.0,0.0,4.0,5.0,0.0,1994-06-17,1994-06-14,South Korea,37.0
+1998,South Korea,France,Group stage,1.0,3.0,0.0,2.0,9.0,0.0454545454545454,1998-06-10,1998-05-20,South Korea,20.0
+2002,South Korea,Korea/Japan,Fourth place,4.0,7.0,3.0,8.0,6.0,0.0434782608695652,2002-05-31,2002-05-15,South Korea,40.0
+2006,South Korea,Germany,Group stage,1.0,3.0,1.0,3.0,4.0,0.1304347826086956,2006-06-09,2006-05-17,South Korea,29.0
+2010,South Korea,South Africa,Round of 16,2.0,4.0,1.0,6.0,8.0,0.1739130434782608,2010-06-11,2010-05-26,South Korea,47.0
+2014,South Korea,Brazil,Group stage,1.0,3.0,0.0,3.0,6.0,0.217391304347826,2014-06-12,2014-06-05,South Korea,57.0
+2018,South Korea,Russia,Group stage,1.0,3.0,1.0,3.0,3.0,0.1304347826086956,2018-06-14,2018-06-07,South Korea,57.0
+2022,South Korea,Qatar,Round of 16,2.0,4.0,1.0,5.0,8.0,,2022-11-20,2022-10-06,South Korea,28.0
+1994,Spain,USA,Quarter-finals,3.0,5.0,2.0,10.0,6.0,1.0,1994-06-17,1994-06-14,Spain,5.0
+1998,Spain,France,Group stage,1.0,3.0,1.0,8.0,4.0,1.0,1998-06-10,1998-05-20,Spain,15.0
+2002,Spain,Korea/Japan,Quarter-finals,3.0,5.0,4.0,10.0,5.0,1.0,2002-05-31,2002-05-15,Spain,8.0
+2006,Spain,Germany,Round of 16,2.0,4.0,3.0,9.0,4.0,1.0,2006-06-09,2006-05-17,Spain,5.0
+2010,Spain,South Africa,Winner,7.0,7.0,6.0,8.0,2.0,1.0,2010-06-11,2010-05-26,Spain,2.0
+2014,Spain,Brazil,Group stage,1.0,3.0,1.0,4.0,7.0,1.0,2014-06-12,2014-06-05,Spain,1.0
+2018,Spain,Russia,Round of 16,2.0,4.0,1.0,7.0,6.0,1.0,2018-06-14,2018-06-07,Spain,10.0
+2022,Spain,Qatar,Round of 16,2.0,4.0,1.0,9.0,3.0,,2022-11-20,2022-10-06,Spain,7.0
+1994,Sweden,USA,Third place,5.0,7.0,4.0,15.0,8.0,0.3181818181818182,1994-06-17,1994-06-14,Sweden,10.0
+1998,Sweden,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Sweden,28.0
+2002,Sweden,Korea/Japan,Round of 16,2.0,4.0,1.0,5.0,5.0,0.4347826086956521,2002-05-31,2002-05-15,Sweden,19.0
+2006,Sweden,Germany,Round of 16,2.0,4.0,1.0,3.0,4.0,0.3043478260869565,2006-06-09,2006-05-17,Sweden,16.0
+2010,Sweden,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Sweden,37.0
+2014,Sweden,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Sweden,32.0
+2018,Sweden,Russia,Quarter-finals,3.0,5.0,3.0,6.0,4.0,0.6086956521739131,2018-06-14,2018-06-07,Sweden,24.0
+2022,Sweden,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Sweden,25.0
+1994,Switzerland,USA,Round of 16,2.0,4.0,1.0,5.0,7.0,0.1818181818181818,1994-06-17,1994-06-14,Switzerland,12.0
+1998,Switzerland,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Switzerland,81.0
+2002,Switzerland,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Switzerland,64.0
+2006,Switzerland,Germany,Round of 16,2.0,4.0,2.0,4.0,0.0,0.5652173913043478,2006-06-09,2006-05-17,Switzerland,35.0
+2010,Switzerland,South Africa,Group stage,1.0,3.0,1.0,1.0,1.0,0.5652173913043478,2010-06-11,2010-05-26,Switzerland,24.0
+2014,Switzerland,Brazil,Round of 16,2.0,4.0,2.0,7.0,7.0,0.6956521739130435,2014-06-12,2014-06-05,Switzerland,6.0
+2018,Switzerland,Russia,Round of 16,2.0,4.0,1.0,5.0,5.0,0.782608695652174,2018-06-14,2018-06-07,Switzerland,6.0
+2022,Switzerland,Qatar,Round of 16,2.0,4.0,2.0,5.0,9.0,,2022-11-20,2022-10-06,Switzerland,15.0
+1994,Togo,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Togo,123.0
+1998,Togo,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Togo,73.0
+2002,Togo,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Togo,69.0
+2006,Togo,Germany,Group stage,1.0,3.0,0.0,1.0,6.0,0.1304347826086956,2006-06-09,2006-05-17,Togo,61.0
+2010,Togo,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Togo,76.0
+2014,Togo,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Togo,88.0
+2018,Togo,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Togo,125.0
+2022,Togo,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Togo,127.0
+1994,Trinidad and Tobago,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Trinidad and Tobago,84.0
+1998,Trinidad and Tobago,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Trinidad and Tobago,48.0
+2002,Trinidad and Tobago,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Trinidad and Tobago,35.0
+2006,Trinidad and Tobago,Germany,Group stage,1.0,3.0,0.0,0.0,4.0,0.0434782608695652,2006-06-09,2006-05-17,Trinidad and Tobago,47.0
+2010,Trinidad and Tobago,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Trinidad and Tobago,95.0
+2014,Trinidad and Tobago,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Trinidad and Tobago,71.0
+2018,Trinidad and Tobago,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Trinidad and Tobago,91.0
+2022,Trinidad and Tobago,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Trinidad and Tobago,104.0
+1994,Tunisia,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Tunisia,30.0
+1998,Tunisia,France,Group stage,1.0,3.0,0.0,1.0,4.0,0.0454545454545454,1998-06-10,1998-05-20,Tunisia,21.0
+2002,Tunisia,Korea/Japan,Group stage,1.0,3.0,0.0,1.0,5.0,0.0434782608695652,2002-05-31,2002-05-15,Tunisia,31.0
+2006,Tunisia,Germany,Group stage,1.0,3.0,0.0,3.0,6.0,0.4347826086956521,2006-06-09,2006-05-17,Tunisia,21.0
+2010,Tunisia,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Tunisia,55.0
+2014,Tunisia,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Tunisia,48.0
+2018,Tunisia,Russia,Group stage,1.0,3.0,1.0,5.0,8.0,0.3043478260869565,2018-06-14,2018-06-07,Tunisia,21.0
+2022,Tunisia,Qatar,Group stage,1.0,3.0,1.0,1.0,1.0,,2022-11-20,2022-10-06,Tunisia,30.0
+1994,Turkey,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Turkey,57.0
+1998,Turkey,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Turkey,53.0
+2002,Turkey,Korea/Japan,Third place,5.0,7.0,4.0,10.0,6.0,0.391304347826087,2002-05-31,2002-05-15,Turkey,22.0
+2006,Turkey,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Turkey,14.0
+2010,Turkey,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Turkey,29.0
+2014,Turkey,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Turkey,35.0
+2018,Turkey,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Turkey,38.0
+2022,Turkey,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Turkey,45.0
+1994,Ukraine,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Ukraine,83.0
+1998,Ukraine,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Ukraine,64.0
+2002,Ukraine,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Ukraine,44.0
+2006,Ukraine,Germany,Quarter-finals,3.0,5.0,3.0,5.0,7.0,0.0,2006-06-09,2006-05-17,Ukraine,45.0
+2010,Ukraine,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Ukraine,23.0
+2014,Ukraine,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Ukraine,16.0
+2018,Ukraine,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Ukraine,35.0
+2022,Ukraine,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,Ukraine,27.0
+1994,United Arab Emirates,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,United Arab Emirates,62.0
+1998,United Arab Emirates,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,United Arab Emirates,59.0
+2002,United Arab Emirates,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,United Arab Emirates,63.0
+2006,United Arab Emirates,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,United Arab Emirates,71.0
+2010,United Arab Emirates,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,United Arab Emirates,101.0
+2014,United Arab Emirates,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,United Arab Emirates,72.0
+2018,United Arab Emirates,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,United Arab Emirates,77.0
+2022,United Arab Emirates,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2022-11-20,2022-10-06,United Arab Emirates,70.0
+1994,United States,USA,Round of 16,2.0,4.0,1.0,3.0,4.0,0.0454545454545454,1994-06-17,1994-06-14,United States,23.0
+1998,United States,France,Group stage,1.0,3.0,0.0,1.0,5.0,0.1363636363636363,1998-06-10,1998-05-20,United States,11.0
+2002,United States,Korea/Japan,Quarter-finals,3.0,5.0,2.0,7.0,7.0,0.3043478260869565,2002-05-31,2002-05-15,United States,13.0
+2006,United States,Germany,Group stage,1.0,3.0,0.0,2.0,6.0,0.2608695652173913,2006-06-09,2006-05-17,United States,5.0
+2010,United States,South Africa,Round of 16,2.0,4.0,1.0,5.0,5.0,0.5217391304347826,2010-06-11,2010-05-26,United States,14.0
+2014,United States,Brazil,Round of 16,2.0,4.0,1.0,5.0,6.0,0.3478260869565217,2014-06-12,2014-06-05,United States,13.0
+2018,United States,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,United States,25.0
+2022,United States,Qatar,Round of 16,2.0,4.0,1.0,3.0,4.0,,2022-11-20,2022-10-06,United States,16.0
+1994,Uruguay,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Uruguay,18.0
+1998,Uruguay,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Uruguay,38.0
+2002,Uruguay,Korea/Japan,Group stage,1.0,3.0,0.0,4.0,5.0,0.5652173913043478,2002-05-31,2002-05-15,Uruguay,24.0
+2006,Uruguay,Germany,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Uruguay,22.0
+2010,Uruguay,South Africa,Fourth place,4.0,7.0,4.0,11.0,8.0,0.3043478260869565,2010-06-11,2010-05-26,Uruguay,16.0
+2014,Uruguay,Brazil,Round of 16,2.0,4.0,2.0,4.0,6.0,0.5217391304347826,2014-06-12,2014-06-05,Uruguay,7.0
+2018,Uruguay,Russia,Quarter-finals,3.0,5.0,4.0,7.0,3.0,0.4782608695652174,2018-06-14,2018-06-07,Uruguay,14.0
+2022,Uruguay,Qatar,Group stage,1.0,3.0,1.0,2.0,2.0,,2022-11-20,2022-10-06,Uruguay,14.0
+1994,Wales,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Wales,35.0
+1998,Wales,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Wales,103.0
+2002,Wales,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Wales,96.0
+2006,Wales,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2006-06-09,2006-05-17,Wales,74.0
+2010,Wales,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Wales,77.0
+2014,Wales,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Wales,41.0
+2018,Wales,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Wales,18.0
+2022,Wales,Qatar,Group stage,1.0,3.0,0.0,1.0,6.0,,2022-11-20,2022-10-06,Wales,19.0

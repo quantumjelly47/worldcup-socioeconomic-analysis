@@ -1,4 +1,3 @@
-%reset -f
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
@@ -8,7 +7,10 @@ Created on Mon Nov 17 21:16:49 2025
 """
 import numpy as np
 import pandas as pd
+from pathlib import Path
 import os
+
+BASE_DIR = Path(__file__).resolve().parents[2]
 
 ################ Comparison function
 def compare_datasets(A, B, key):
@@ -46,14 +48,14 @@ def compare_datasets(A, B, key):
 
 ################ Imports
 ##Baseline performance by (team, world cup)
-performance_wo_2022 = pd.read_csv("../../data/created_datasets/world_cup/performance_by_world_cup_and_team.csv") # sachin
-performance_w_2022 = pd.read_csv("../../data/created_datasets/world_cup/perf_by_wc_team_incl2022.csv") # estee
+performance_wo_2022 = pd.read_csv(BASE_DIR / "data/created_datasets/world_cup/performance_by_world_cup_and_team.csv") # sachin
+performance_w_2022 = pd.read_csv(BASE_DIR / "data/created_datasets/world_cup/perf_by_wc_team_incl2022.csv") # estee
 # Share of top 5 league players in each (team, world cup)
-share_of_top5 = pd.read_csv("../../data/created_datasets/world_cup/prop_big5.csv")
+share_of_top5 = pd.read_csv(BASE_DIR / "data/created_datasets/world_cup/prop_big5.csv")
 # Rankings data (raw)
-rankings = pd.read_csv("../../data/raw_data_files/World Cup Data/Rankings/fifa_ranking-2024-06-20.csv")
+rankings = pd.read_csv(BASE_DIR / "data/raw_data_files/World Cup Data/Rankings/fifa_ranking-2024-06-20.csv")
 # Match level data
-match_level_data = pd.read_csv("../../data/created_datasets/world_cup/match_level_data.csv") 
+match_level_data = pd.read_csv(BASE_DIR / "data/created_datasets/world_cup/match_level_data.csv") 
 
 ############### SANITY CHECKING
 
@@ -306,4 +308,10 @@ merge_country_ranks_before_wc = (pd.merge(closest_rank_date_by_wc,
 merge_failures = (
     merge_country_ranks_before_wc[merge_country_ranks_before_wc['clean_country'].isna()]
     )
+
+
+OUTPUT_DIR = BASE_DIR / "data/created_datasets/world_cup"
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+world_cup_path = OUTPUT_DIR / "merge_country_ranks_before_wc.csv"
+merge_country_ranks_before_wc.to_csv(world_cup_path, index=False)
 
