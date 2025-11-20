@@ -647,38 +647,38 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Yugoslavia,Did not qualify,0.0,0.0,0.0,0.0,0.0
 2014,Brazil,Yugoslavia,Did not qualify,0.0,0.0,0.0,0.0,0.0
 2018,Russia,Yugoslavia,Did not qualify,0.0,0.0,0.0,0.0,0.0
-2022,Qatar,Argentina,Did not qualify,7.0,7.0,6.0,15.0,8.0
-2022,Qatar,Australia,Did not qualify,2.0,4.0,2.0,4.0,6.0
-2022,Qatar,Belgium,Did not qualify,1.0,3.0,1.0,1.0,2.0
-2022,Qatar,Brazil,Did not qualify,3.0,5.0,3.0,8.0,3.0
-2022,Qatar,Cameroon,Did not qualify,1.0,3.0,1.0,4.0,4.0
-2022,Qatar,Canada,Did not qualify,1.0,3.0,0.0,2.0,7.0
-2022,Qatar,Costa Rica,Did not qualify,1.0,3.0,1.0,3.0,11.0
-2022,Qatar,Croatia,Did not qualify,5.0,7.0,4.0,8.0,7.0
-2022,Qatar,Denmark,Did not qualify,1.0,3.0,0.0,1.0,3.0
-2022,Qatar,Ecuador,Did not qualify,1.0,3.0,1.0,4.0,3.0
-2022,Qatar,England,Did not qualify,3.0,5.0,3.0,13.0,4.0
-2022,Qatar,France,Did not qualify,6.0,7.0,5.0,16.0,8.0
-2022,Qatar,Germany,Did not qualify,1.0,3.0,1.0,6.0,5.0
-2022,Qatar,Ghana,Did not qualify,1.0,3.0,1.0,5.0,7.0
-2022,Qatar,IR Iran,Did not qualify,1.0,3.0,1.0,4.0,7.0
-2022,Qatar,Japan,Did not qualify,2.0,4.0,2.0,5.0,4.0
-2022,Qatar,Korea Republic,Did not qualify,2.0,4.0,1.0,5.0,8.0
-2022,Qatar,Mexico,Did not qualify,1.0,3.0,1.0,2.0,3.0
-2022,Qatar,Morocco,Did not qualify,4.0,7.0,4.0,6.0,5.0
-2022,Qatar,Netherlands,Did not qualify,3.0,5.0,3.0,10.0,4.0
-2022,Qatar,Poland,Did not qualify,2.0,4.0,1.0,3.0,5.0
-2022,Qatar,Portugal,Did not qualify,3.0,5.0,3.0,12.0,6.0
-2022,Qatar,Qatar,Did not qualify,1.0,3.0,0.0,1.0,7.0
-2022,Qatar,Saudi Arabia,Did not qualify,1.0,3.0,1.0,3.0,5.0
-2022,Qatar,Senegal,Did not qualify,2.0,4.0,2.0,5.0,7.0
-2022,Qatar,Serbia,Did not qualify,1.0,3.0,0.0,5.0,8.0
-2022,Qatar,Spain,Did not qualify,2.0,4.0,1.0,9.0,3.0
-2022,Qatar,Switzerland,Did not qualify,2.0,4.0,2.0,5.0,9.0
-2022,Qatar,Tunisia,Did not qualify,1.0,3.0,1.0,1.0,1.0
-2022,Qatar,United States,Did not qualify,2.0,4.0,1.0,3.0,4.0
-2022,Qatar,Uruguay,Did not qualify,1.0,3.0,1.0,2.0,2.0
-2022,Qatar,Wales,Did not qualify,1.0,3.0,0.0,1.0,6.0
+2022,Qatar,Argentina,Winner,7.0,7.0,6.0,15.0,8.0
+2022,Qatar,Australia,Round of 16,2.0,4.0,2.0,4.0,6.0
+2022,Qatar,Belgium,Group stage,1.0,3.0,1.0,1.0,2.0
+2022,Qatar,Brazil,Quarter-finals,3.0,5.0,3.0,8.0,3.0
+2022,Qatar,Cameroon,Group stage,1.0,3.0,1.0,4.0,4.0
+2022,Qatar,Canada,Group stage,1.0,3.0,0.0,2.0,7.0
+2022,Qatar,Costa Rica,Group stage,1.0,3.0,1.0,3.0,11.0
+2022,Qatar,Croatia,Third place,5.0,7.0,4.0,8.0,7.0
+2022,Qatar,Denmark,Group stage,1.0,3.0,0.0,1.0,3.0
+2022,Qatar,Ecuador,Group stage,1.0,3.0,1.0,4.0,3.0
+2022,Qatar,England,Quarter-finals,3.0,5.0,3.0,13.0,4.0
+2022,Qatar,France,Runners-up,6.0,7.0,5.0,16.0,8.0
+2022,Qatar,Germany,Group stage,1.0,3.0,1.0,6.0,5.0
+2022,Qatar,Ghana,Group stage,1.0,3.0,1.0,5.0,7.0
+2022,Qatar,IR Iran,Group stage,1.0,3.0,1.0,4.0,7.0
+2022,Qatar,Japan,Round of 16,2.0,4.0,2.0,5.0,4.0
+2022,Qatar,Korea Republic,Round of 16,2.0,4.0,1.0,5.0,8.0
+2022,Qatar,Mexico,Group stage,1.0,3.0,1.0,2.0,3.0
+2022,Qatar,Morocco,Fourth place,4.0,7.0,4.0,6.0,5.0
+2022,Qatar,Netherlands,Quarter-finals,3.0,5.0,3.0,10.0,4.0
+2022,Qatar,Poland,Round of 16,2.0,4.0,1.0,3.0,5.0
+2022,Qatar,Portugal,Quarter-finals,3.0,5.0,3.0,12.0,6.0
+2022,Qatar,Qatar,Group stage,1.0,3.0,0.0,1.0,7.0
+2022,Qatar,Saudi Arabia,Group stage,1.0,3.0,1.0,3.0,5.0
+2022,Qatar,Senegal,Round of 16,2.0,4.0,2.0,5.0,7.0
+2022,Qatar,Serbia,Group stage,1.0,3.0,0.0,5.0,8.0
+2022,Qatar,Spain,Round of 16,2.0,4.0,1.0,9.0,3.0
+2022,Qatar,Switzerland,Round of 16,2.0,4.0,2.0,5.0,9.0
+2022,Qatar,Tunisia,Group stage,1.0,3.0,1.0,1.0,1.0
+2022,Qatar,United States,Round of 16,2.0,4.0,1.0,3.0,4.0
+2022,Qatar,Uruguay,Group stage,1.0,3.0,1.0,2.0,2.0
+2022,Qatar,Wales,Group stage,1.0,3.0,0.0,1.0,6.0
 2022,Qatar,Italy,Did not qualify,0.0,0.0,0.0,0.0,0.0
 2022,Qatar,Colombia,Did not qualify,0.0,0.0,0.0,0.0,0.0
 2022,Qatar,Peru,Did not qualify,0.0,0.0,0.0,0.0,0.0

@@ -215,3 +215,35 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2014,Brazil,Uruguay,Round of 16,2.0,4.0,2.0,4.0,6.0,0.5217391304347826
 2018,Russia,Uruguay,Quarter-finals,3.0,5.0,4.0,7.0,3.0,0.4782608695652174
 1998,France,Yugoslavia,Round of 16,2.0,4.0,2.0,5.0,4.0,0.7272727272727273
+2022,Qatar,Argentina,Winner,7.0,7.0,6.0,15.0,8.0,0.8076923076923077
+2022,Qatar,Australia,Round of 16,2.0,4.0,2.0,4.0,6.0,0.07692307692307693
+2022,Qatar,Belgium,Group stage,1.0,3.0,1.0,1.0,2.0,0.6923076923076923
+2022,Qatar,Brazil,Quarter-finals,3.0,5.0,3.0,8.0,3.0,0.8461538461538461
+2022,Qatar,Cameroon,Group stage,1.0,3.0,1.0,4.0,4.0,0.38461538461538464
+2022,Qatar,Canada,Group stage,1.0,3.0,0.0,2.0,7.0,0.11538461538461539
+2022,Qatar,Costa Rica,Group stage,1.0,3.0,1.0,3.0,11.0,0.038461538461538464
+2022,Qatar,Croatia,Third place,5.0,7.0,4.0,8.0,7.0,0.5384615384615384
+2022,Qatar,Denmark,Group stage,1.0,3.0,0.0,1.0,3.0,0.7307692307692307
+2022,Qatar,Ecuador,Group stage,1.0,3.0,1.0,4.0,3.0,0.07692307692307693
+2022,Qatar,England,Quarter-finals,3.0,5.0,3.0,13.0,4.0,1.0
+2022,Qatar,France,Runners-up,6.0,7.0,5.0,16.0,8.0,1.0
+2022,Qatar,Germany,Group stage,1.0,3.0,1.0,6.0,5.0,0.9615384615384616
+2022,Qatar,Ghana,Group stage,1.0,3.0,1.0,5.0,7.0,0.4230769230769231
+2022,Qatar,Iran,Group stage,1.0,3.0,1.0,4.0,7.0,0.08
+2022,Qatar,Japan,Round of 16,2.0,4.0,2.0,5.0,4.0,0.38461538461538464
+2022,Qatar,South Korea,Round of 16,2.0,4.0,1.0,5.0,8.0,0.23076923076923078
+2022,Qatar,Mexico,Group stage,1.0,3.0,1.0,2.0,3.0,0.11538461538461539
+2022,Qatar,Morocco,Fourth place,4.0,7.0,4.0,6.0,5.0,0.5
+2022,Qatar,Netherlands,Quarter-finals,3.0,5.0,3.0,10.0,4.0,0.4230769230769231
+2022,Qatar,Poland,Round of 16,2.0,4.0,1.0,3.0,5.0,0.5769230769230769
+2022,Qatar,Portugal,Quarter-finals,3.0,5.0,3.0,12.0,6.0,0.6923076923076923
+2022,Qatar,Qatar,Group stage,1.0,3.0,0.0,1.0,7.0,0.0
+2022,Qatar,Saudi Arabia,Group stage,1.0,3.0,1.0,3.0,5.0,0.0
+2022,Qatar,Senegal,Round of 16,2.0,4.0,2.0,5.0,7.0,0.6538461538461539
+2022,Qatar,Serbia,Group stage,1.0,3.0,0.0,5.0,8.0,0.6153846153846154
+2022,Qatar,Spain,Round of 16,2.0,4.0,1.0,9.0,3.0,0.9615384615384616
+2022,Qatar,Switzerland,Round of 16,2.0,4.0,2.0,5.0,9.0,0.5769230769230769
+2022,Qatar,Tunisia,Group stage,1.0,3.0,1.0,1.0,1.0,0.15384615384615385
+2022,Qatar,United States,Round of 16,2.0,4.0,1.0,3.0,4.0,0.46153846153846156
+2022,Qatar,Uruguay,Group stage,1.0,3.0,1.0,2.0,2.0,0.38461538461538464
+2022,Qatar,Wales,Group stage,1.0,3.0,0.0,1.0,6.0,0.23076923076923078
