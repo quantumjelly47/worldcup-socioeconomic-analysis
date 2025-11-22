@@ -22,7 +22,7 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,Argentina,South Africa,Quarter-finals,3.0,5.0,4.0,10.0,6.0,0.6086956521739131,2010-06-11,2010-05-26,Argentina,7.0
 2014,Argentina,Brazil,Runners-up,6.0,7.0,6.0,8.0,4.0,0.6956521739130435,2014-06-12,2014-06-05,Argentina,5.0
 2018,Argentina,Russia,Round of 16,2.0,4.0,1.0,6.0,9.0,0.6086956521739131,2018-06-14,2018-06-07,Argentina,5.0
-2022,Argentina,Qatar,Winner,7.0,7.0,6.0,15.0,8.0,,2022-11-20,2022-10-06,Argentina,3.0
+2022,Argentina,Qatar,Winner,7.0,7.0,6.0,15.0,8.0,0.8076923076923077,2022-11-20,2022-10-06,Argentina,3.0
 1994,Australia,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Australia,47.0
 1998,Australia,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Australia,32.0
 2002,Australia,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Australia,48.0
@@ -30,7 +30,7 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,Australia,South Africa,Group stage,1.0,3.0,1.0,3.0,6.0,0.2608695652173913,2010-06-11,2010-05-26,Australia,20.0
 2014,Australia,Brazil,Group stage,1.0,3.0,0.0,3.0,9.0,0.0869565217391304,2014-06-12,2014-06-05,Australia,62.0
 2018,Australia,Russia,Group stage,1.0,3.0,0.0,2.0,5.0,0.0434782608695652,2018-06-14,2018-06-07,Australia,36.0
-2022,Australia,Qatar,Round of 16,2.0,4.0,2.0,4.0,6.0,,2022-11-20,2022-10-06,Australia,38.0
+2022,Australia,Qatar,Round of 16,2.0,4.0,2.0,4.0,6.0,0.0769230769230769,2022-11-20,2022-10-06,Australia,38.0
 1994,Austria,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Austria,36.0
 1998,Austria,France,Group stage,1.0,3.0,0.0,3.0,4.0,0.4545454545454545,1998-06-10,1998-05-20,Austria,31.0
 2002,Austria,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Austria,61.0
@@ -46,7 +46,7 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,Belgium,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Belgium,59.0
 2014,Belgium,Brazil,Quarter-finals,3.0,5.0,4.0,6.0,3.0,0.7391304347826086,2014-06-12,2014-06-05,Belgium,11.0
 2018,Belgium,Russia,Third place,5.0,7.0,6.0,16.0,6.0,0.8260869565217391,2018-06-14,2018-06-07,Belgium,3.0
-2022,Belgium,Qatar,Group stage,1.0,3.0,1.0,1.0,2.0,,2022-11-20,2022-10-06,Belgium,2.0
+2022,Belgium,Qatar,Group stage,1.0,3.0,1.0,1.0,2.0,0.6923076923076923,2022-11-20,2022-10-06,Belgium,2.0
 1994,Bolivia,USA,Group stage,1.0,3.0,0.0,1.0,4.0,0.0,1994-06-17,1994-06-14,Bolivia,43.0
 1998,Bolivia,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Bolivia,33.0
 2002,Bolivia,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Bolivia,70.0
@@ -70,7 +70,7 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,Brazil,South Africa,Quarter-finals,3.0,5.0,3.0,9.0,4.0,0.6956521739130435,2010-06-11,2010-05-26,Brazil,1.0
 2014,Brazil,Brazil,Fourth place,4.0,7.0,4.0,11.0,14.0,0.6956521739130435,2014-06-12,2014-06-05,Brazil,3.0
 2018,Brazil,Russia,Quarter-finals,3.0,5.0,3.0,8.0,3.0,0.7391304347826086,2018-06-14,2018-06-07,Brazil,2.0
-2022,Brazil,Qatar,Quarter-finals,3.0,5.0,3.0,8.0,3.0,,2022-11-20,2022-10-06,Brazil,1.0
+2022,Brazil,Qatar,Quarter-finals,3.0,5.0,3.0,8.0,3.0,0.8461538461538461,2022-11-20,2022-10-06,Brazil,1.0
 1994,Bulgaria,USA,Fourth place,4.0,7.0,4.0,10.0,11.0,0.1818181818181818,1994-06-17,1994-06-14,Bulgaria,29.0
 1998,Bulgaria,France,Group stage,1.0,3.0,0.0,1.0,7.0,0.2272727272727272,1998-06-10,1998-05-20,Bulgaria,35.0
 2002,Bulgaria,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Bulgaria,54.0
@@ -86,7 +86,7 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,Cameroon,South Africa,Group stage,1.0,3.0,0.0,2.0,5.0,0.6521739130434783,2010-06-11,2010-05-26,Cameroon,19.0
 2014,Cameroon,Brazil,Group stage,1.0,3.0,0.0,1.0,9.0,0.4782608695652174,2014-06-12,2014-06-05,Cameroon,56.0
 2018,Cameroon,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Cameroon,49.0
-2022,Cameroon,Qatar,Group stage,1.0,3.0,1.0,4.0,4.0,,2022-11-20,2022-10-06,Cameroon,43.0
+2022,Cameroon,Qatar,Group stage,1.0,3.0,1.0,4.0,4.0,0.3846153846153846,2022-11-20,2022-10-06,Cameroon,43.0
 1994,Canada,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Canada,54.0
 1998,Canada,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Canada,77.0
 2002,Canada,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Canada,75.0
@@ -94,7 +94,7 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,Canada,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Canada,63.0
 2014,Canada,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Canada,110.0
 2018,Canada,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Canada,79.0
-2022,Canada,Qatar,Group stage,1.0,3.0,0.0,2.0,7.0,,2022-11-20,2022-10-06,Canada,41.0
+2022,Canada,Qatar,Group stage,1.0,3.0,0.0,2.0,7.0,0.1153846153846153,2022-11-20,2022-10-06,Canada,41.0
 1994,Chile,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Chile,40.0
 1998,Chile,France,Round of 16,2.0,4.0,0.0,5.0,8.0,0.0454545454545454,1998-06-10,1998-05-20,Chile,9.0
 2002,Chile,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Chile,45.0
@@ -126,7 +126,7 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,Costa Rica,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Costa Rica,40.0
 2014,Costa Rica,Brazil,Quarter-finals,3.0,5.0,2.0,5.0,2.0,0.0869565217391304,2014-06-12,2014-06-05,Costa Rica,28.0
 2018,Costa Rica,Russia,Group stage,1.0,3.0,0.0,2.0,5.0,0.217391304347826,2018-06-14,2018-06-07,Costa Rica,23.0
-2022,Costa Rica,Qatar,Group stage,1.0,3.0,1.0,3.0,11.0,,2022-11-20,2022-10-06,Costa Rica,31.0
+2022,Costa Rica,Qatar,Group stage,1.0,3.0,1.0,3.0,11.0,0.0384615384615384,2022-11-20,2022-10-06,Costa Rica,31.0
 1994,Croatia,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Croatia,91.0
 1998,Croatia,France,Third place,5.0,7.0,5.0,11.0,5.0,0.4545454545454545,1998-06-10,1998-05-20,Croatia,19.0
 2002,Croatia,Korea/Japan,Group stage,1.0,3.0,1.0,2.0,3.0,0.4782608695652174,2002-05-31,2002-05-15,Croatia,21.0
@@ -134,7 +134,7 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,Croatia,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Croatia,10.0
 2014,Croatia,Brazil,Group stage,1.0,3.0,1.0,6.0,6.0,0.5652173913043478,2014-06-12,2014-06-05,Croatia,18.0
 2018,Croatia,Russia,Runners-up,6.0,7.0,6.0,14.0,9.0,0.6521739130434783,2018-06-14,2018-06-07,Croatia,20.0
-2022,Croatia,Qatar,Third place,5.0,7.0,4.0,8.0,7.0,,2022-11-20,2022-10-06,Croatia,12.0
+2022,Croatia,Qatar,Third place,5.0,7.0,4.0,8.0,7.0,0.5384615384615384,2022-11-20,2022-10-06,Croatia,12.0
 1994,Czech Republic,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Czech Republic,45.0
 1998,Czech Republic,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Czech Republic,3.0
 2002,Czech Republic,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Czech Republic,16.0
@@ -150,7 +150,7 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,Denmark,South Africa,Group stage,1.0,3.0,1.0,3.0,6.0,0.4347826086956521,2010-06-11,2010-05-26,Denmark,36.0
 2014,Denmark,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Denmark,23.0
 2018,Denmark,Russia,Round of 16,2.0,4.0,1.0,3.0,2.0,0.5652173913043478,2018-06-14,2018-06-07,Denmark,12.0
-2022,Denmark,Qatar,Group stage,1.0,3.0,0.0,1.0,3.0,,2022-11-20,2022-10-06,Denmark,10.0
+2022,Denmark,Qatar,Group stage,1.0,3.0,0.0,1.0,3.0,0.7307692307692307,2022-11-20,2022-10-06,Denmark,10.0
 1994,Ecuador,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Ecuador,39.0
 1998,Ecuador,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Ecuador,26.0
 2002,Ecuador,Korea/Japan,Group stage,1.0,3.0,1.0,2.0,4.0,0.0434782608695652,2002-05-31,2002-05-15,Ecuador,36.0
@@ -158,7 +158,7 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,Ecuador,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Ecuador,44.0
 2014,Ecuador,Brazil,Group stage,1.0,3.0,1.0,3.0,3.0,0.0869565217391304,2014-06-12,2014-06-05,Ecuador,26.0
 2018,Ecuador,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Ecuador,60.0
-2022,Ecuador,Qatar,Group stage,1.0,3.0,1.0,4.0,3.0,,2022-11-20,2022-10-06,Ecuador,44.0
+2022,Ecuador,Qatar,Group stage,1.0,3.0,1.0,4.0,3.0,0.0769230769230769,2022-11-20,2022-10-06,Ecuador,44.0
 1994,Egypt,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Egypt,25.0
 1998,Egypt,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Egypt,17.0
 2002,Egypt,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Egypt,43.0
@@ -174,7 +174,7 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,England,South Africa,Round of 16,2.0,4.0,1.0,3.0,5.0,1.0,2010-06-11,2010-05-26,England,8.0
 2014,England,Brazil,Group stage,1.0,3.0,0.0,2.0,4.0,0.9565217391304348,2014-06-12,2014-06-05,England,10.0
 2018,England,Russia,Fourth place,4.0,7.0,4.0,12.0,8.0,1.0,2018-06-14,2018-06-07,England,12.0
-2022,England,Qatar,Quarter-finals,3.0,5.0,3.0,13.0,4.0,,2022-11-20,2022-10-06,England,5.0
+2022,England,Qatar,Quarter-finals,3.0,5.0,3.0,13.0,4.0,1.0,2022-11-20,2022-10-06,England,5.0
 1994,France,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,France,13.0
 1998,France,France,Winner,7.0,7.0,7.0,15.0,2.0,1.0,1998-06-10,1998-05-20,France,18.0
 2002,France,Korea/Japan,Group stage,1.0,3.0,0.0,0.0,3.0,1.0,2002-05-31,2002-05-15,France,1.0
@@ -182,7 +182,7 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,France,South Africa,Group stage,1.0,3.0,0.0,1.0,4.0,0.9565217391304348,2010-06-11,2010-05-26,France,9.0
 2014,France,Brazil,Quarter-finals,3.0,5.0,3.0,10.0,3.0,0.9565217391304348,2014-06-12,2014-06-05,France,17.0
 2018,France,Russia,Winner,7.0,7.0,6.0,14.0,6.0,1.0,2018-06-14,2018-06-07,France,7.0
-2022,France,Qatar,Runners-up,6.0,7.0,5.0,16.0,8.0,,2022-11-20,2022-10-06,France,4.0
+2022,France,Qatar,Runners-up,6.0,7.0,5.0,16.0,8.0,1.0,2022-11-20,2022-10-06,France,4.0
 1994,Germany,USA,Quarter-finals,3.0,5.0,3.0,9.0,7.0,0.9545454545454546,1994-06-17,1994-06-14,Germany,1.0
 1998,Germany,France,Quarter-finals,3.0,5.0,3.0,8.0,6.0,0.9090909090909092,1998-06-10,1998-05-20,Germany,2.0
 2002,Germany,Korea/Japan,Runners-up,6.0,7.0,5.0,14.0,3.0,0.782608695652174,2002-05-31,2002-05-15,Germany,11.0
@@ -190,7 +190,7 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,Germany,South Africa,Third place,5.0,7.0,5.0,16.0,5.0,0.9130434782608696,2010-06-11,2010-05-26,Germany,6.0
 2014,Germany,Brazil,Winner,7.0,7.0,6.0,18.0,4.0,1.0,2014-06-12,2014-06-05,Germany,2.0
 2018,Germany,Russia,Group stage,1.0,3.0,1.0,2.0,4.0,1.0,2018-06-14,2018-06-07,Germany,1.0
-2022,Germany,Qatar,Group stage,1.0,3.0,1.0,6.0,5.0,,2022-11-20,2022-10-06,Germany,11.0
+2022,Germany,Qatar,Group stage,1.0,3.0,1.0,6.0,5.0,0.9615384615384616,2022-11-20,2022-10-06,Germany,11.0
 1994,Ghana,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Ghana,26.0
 1998,Ghana,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Ghana,65.0
 2002,Ghana,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Ghana,52.0
@@ -198,7 +198,7 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,Ghana,South Africa,Quarter-finals,3.0,5.0,2.0,5.0,4.0,0.4347826086956521,2010-06-11,2010-05-26,Ghana,32.0
 2014,Ghana,Brazil,Group stage,1.0,3.0,0.0,4.0,6.0,0.4782608695652174,2014-06-12,2014-06-05,Ghana,37.0
 2018,Ghana,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Ghana,47.0
-2022,Ghana,Qatar,Group stage,1.0,3.0,1.0,5.0,7.0,,2022-11-20,2022-10-06,Ghana,61.0
+2022,Ghana,Qatar,Group stage,1.0,3.0,1.0,5.0,7.0,0.4230769230769231,2022-11-20,2022-10-06,Ghana,61.0
 1994,Greece,USA,Group stage,1.0,3.0,0.0,0.0,10.0,0.0,1994-06-17,1994-06-14,Greece,31.0
 1998,Greece,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Greece,55.0
 2002,Greece,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Greece,53.0
@@ -238,7 +238,7 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,Iran,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Iran,61.0
 2014,Iran,Brazil,Group stage,1.0,3.0,0.0,1.0,4.0,0.0434782608695652,2014-06-12,2014-06-05,Iran,43.0
 2018,Iran,Russia,Group stage,1.0,3.0,1.0,2.0,2.0,0.0,2018-06-14,2018-06-07,Iran,37.0
-2022,Iran,Qatar,Group stage,1.0,3.0,1.0,4.0,7.0,,2022-11-20,2022-10-06,Iran,20.0
+2022,Iran,Qatar,Group stage,1.0,3.0,1.0,4.0,7.0,0.08,2022-11-20,2022-10-06,Iran,20.0
 1994,Iraq,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Iraq,65.0
 1998,Iraq,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Iraq,85.0
 2002,Iraq,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Iraq,71.0
@@ -278,7 +278,7 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,Japan,South Africa,Round of 16,2.0,4.0,2.0,4.0,2.0,0.1304347826086956,2010-06-11,2010-05-26,Japan,45.0
 2014,Japan,Brazil,Group stage,1.0,3.0,0.0,2.0,6.0,0.4347826086956521,2014-06-12,2014-06-05,Japan,46.0
 2018,Japan,Russia,Round of 16,2.0,4.0,1.0,6.0,7.0,0.4782608695652174,2018-06-14,2018-06-07,Japan,61.0
-2022,Japan,Qatar,Round of 16,2.0,4.0,2.0,5.0,4.0,,2022-11-20,2022-10-06,Japan,24.0
+2022,Japan,Qatar,Round of 16,2.0,4.0,2.0,5.0,4.0,0.3846153846153846,2022-11-20,2022-10-06,Japan,24.0
 1994,Mexico,USA,Round of 16,2.0,4.0,1.0,4.0,4.0,0.0909090909090909,1994-06-17,1994-06-14,Mexico,16.0
 1998,Mexico,France,Round of 16,2.0,4.0,1.0,8.0,7.0,0.0,1998-06-10,1998-05-20,Mexico,4.0
 2002,Mexico,Korea/Japan,Round of 16,2.0,4.0,2.0,4.0,4.0,0.1739130434782608,2002-05-31,2002-05-15,Mexico,7.0
@@ -286,7 +286,7 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,Mexico,South Africa,Round of 16,2.0,4.0,1.0,4.0,5.0,0.217391304347826,2010-06-11,2010-05-26,Mexico,17.0
 2014,Mexico,Brazil,Round of 16,2.0,4.0,2.0,5.0,3.0,0.2608695652173913,2014-06-12,2014-06-05,Mexico,20.0
 2018,Mexico,Russia,Round of 16,2.0,4.0,2.0,3.0,6.0,0.2608695652173913,2018-06-14,2018-06-07,Mexico,15.0
-2022,Mexico,Qatar,Group stage,1.0,3.0,1.0,2.0,3.0,,2022-11-20,2022-10-06,Mexico,13.0
+2022,Mexico,Qatar,Group stage,1.0,3.0,1.0,2.0,3.0,0.1153846153846153,2022-11-20,2022-10-06,Mexico,13.0
 1994,Morocco,USA,Group stage,1.0,3.0,0.0,2.0,5.0,0.1363636363636363,1994-06-17,1994-06-14,Morocco,28.0
 1998,Morocco,France,Group stage,1.0,3.0,1.0,5.0,5.0,0.3181818181818182,1998-06-10,1998-05-20,Morocco,13.0
 2002,Morocco,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Morocco,39.0
@@ -294,7 +294,7 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,Morocco,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Morocco,70.0
 2014,Morocco,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Morocco,77.0
 2018,Morocco,Russia,Group stage,1.0,3.0,0.0,2.0,4.0,0.391304347826087,2018-06-14,2018-06-07,Morocco,41.0
-2022,Morocco,Qatar,Fourth place,4.0,7.0,4.0,6.0,5.0,,2022-11-20,2022-10-06,Morocco,22.0
+2022,Morocco,Qatar,Fourth place,4.0,7.0,4.0,6.0,5.0,0.5,2022-11-20,2022-10-06,Morocco,22.0
 1994,Netherlands,USA,Quarter-finals,3.0,5.0,3.0,8.0,6.0,0.2272727272727272,1994-06-17,1994-06-14,Netherlands,2.0
 1998,Netherlands,France,Fourth place,4.0,7.0,3.0,13.0,7.0,0.5,1998-06-10,1998-05-20,Netherlands,25.0
 2002,Netherlands,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Netherlands,9.0
@@ -302,7 +302,7 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,Netherlands,South Africa,Runners-up,6.0,7.0,6.0,12.0,6.0,0.5652173913043478,2010-06-11,2010-05-26,Netherlands,4.0
 2014,Netherlands,Brazil,Third place,5.0,7.0,6.0,15.0,4.0,0.391304347826087,2014-06-12,2014-06-05,Netherlands,15.0
 2018,Netherlands,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Netherlands,17.0
-2022,Netherlands,Qatar,Quarter-finals,3.0,5.0,3.0,10.0,4.0,,2022-11-20,2022-10-06,Netherlands,8.0
+2022,Netherlands,Qatar,Quarter-finals,3.0,5.0,3.0,10.0,4.0,0.4230769230769231,2022-11-20,2022-10-06,Netherlands,8.0
 1994,New Zealand,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,New Zealand,90.0
 1998,New Zealand,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,New Zealand,117.0
 2002,New Zealand,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,New Zealand,87.0
@@ -374,7 +374,7 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,Poland,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Poland,58.0
 2014,Poland,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Poland,69.0
 2018,Poland,Russia,Group stage,1.0,3.0,1.0,2.0,5.0,0.6086956521739131,2018-06-14,2018-06-07,Poland,8.0
-2022,Poland,Qatar,Round of 16,2.0,4.0,1.0,3.0,5.0,,2022-11-20,2022-10-06,Poland,26.0
+2022,Poland,Qatar,Round of 16,2.0,4.0,1.0,3.0,5.0,0.5769230769230769,2022-11-20,2022-10-06,Poland,26.0
 1994,Portugal,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Portugal,22.0
 1998,Portugal,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Portugal,39.0
 2002,Portugal,Korea/Japan,Group stage,1.0,3.0,1.0,6.0,4.0,0.3478260869565217,2002-05-31,2002-05-15,Portugal,5.0
@@ -382,7 +382,7 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,Portugal,South Africa,Round of 16,2.0,4.0,1.0,7.0,1.0,0.4782608695652174,2010-06-11,2010-05-26,Portugal,3.0
 2014,Portugal,Brazil,Group stage,1.0,3.0,1.0,4.0,7.0,0.4347826086956521,2014-06-12,2014-06-05,Portugal,4.0
 2018,Portugal,Russia,Round of 16,2.0,4.0,1.0,6.0,6.0,0.4782608695652174,2018-06-14,2018-06-07,Portugal,4.0
-2022,Portugal,Qatar,Quarter-finals,3.0,5.0,3.0,12.0,6.0,,2022-11-20,2022-10-06,Portugal,9.0
+2022,Portugal,Qatar,Quarter-finals,3.0,5.0,3.0,12.0,6.0,0.6923076923076923,2022-11-20,2022-10-06,Portugal,9.0
 1994,Qatar,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Qatar,69.0
 1998,Qatar,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Qatar,70.0
 2002,Qatar,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Qatar,73.0
@@ -390,7 +390,7 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,Qatar,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Qatar,96.0
 2014,Qatar,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Qatar,100.0
 2018,Qatar,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Qatar,98.0
-2022,Qatar,Qatar,Group stage,1.0,3.0,0.0,1.0,7.0,,2022-11-20,2022-10-06,Qatar,50.0
+2022,Qatar,Qatar,Group stage,1.0,3.0,0.0,1.0,7.0,0.0,2022-11-20,2022-10-06,Qatar,50.0
 1994,Republic of Ireland,USA,Round of 16,2.0,4.0,1.0,2.0,4.0,0.7272727272727273,1994-06-17,1994-06-14,Republic of Ireland,14.0
 1998,Republic of Ireland,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Republic of Ireland,46.0
 2002,Republic of Ireland,Korea/Japan,Round of 16,2.0,4.0,1.0,6.0,3.0,0.7391304347826086,2002-05-31,2002-05-15,Republic of Ireland,15.0
@@ -422,7 +422,7 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,Saudi Arabia,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Saudi Arabia,66.0
 2014,Saudi Arabia,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Saudi Arabia,90.0
 2018,Saudi Arabia,Russia,Group stage,1.0,3.0,1.0,2.0,7.0,0.1304347826086956,2018-06-14,2018-06-07,Saudi Arabia,67.0
-2022,Saudi Arabia,Qatar,Group stage,1.0,3.0,1.0,3.0,5.0,,2022-11-20,2022-10-06,Saudi Arabia,51.0
+2022,Saudi Arabia,Qatar,Group stage,1.0,3.0,1.0,3.0,5.0,0.0,2022-11-20,2022-10-06,Saudi Arabia,51.0
 1994,Scotland,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Scotland,33.0
 1998,Scotland,France,Group stage,1.0,3.0,0.0,2.0,6.0,0.3636363636363636,1998-06-10,1998-05-20,Scotland,41.0
 2002,Scotland,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Scotland,55.0
@@ -438,7 +438,7 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,Senegal,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Senegal,75.0
 2014,Senegal,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Senegal,74.0
 2018,Senegal,Russia,Group stage,1.0,3.0,1.0,4.0,4.0,0.6956521739130435,2018-06-14,2018-06-07,Senegal,27.0
-2022,Senegal,Qatar,Round of 16,2.0,4.0,2.0,5.0,7.0,,2022-11-20,2022-10-06,Senegal,18.0
+2022,Senegal,Qatar,Round of 16,2.0,4.0,2.0,5.0,7.0,0.6538461538461539,2022-11-20,2022-10-06,Senegal,18.0
 1994,Serbia,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,,
 1998,Serbia,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,,
 2002,Serbia,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,,
@@ -446,7 +446,7 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,Serbia,South Africa,Group stage,1.0,3.0,1.0,2.0,3.0,0.5652173913043478,2010-06-11,2010-05-26,Serbia,15.0
 2014,Serbia,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Serbia,30.0
 2018,Serbia,Russia,Group stage,1.0,3.0,1.0,2.0,4.0,0.5217391304347826,2018-06-14,2018-06-07,Serbia,34.0
-2022,Serbia,Qatar,Group stage,1.0,3.0,0.0,5.0,8.0,,2022-11-20,2022-10-06,Serbia,21.0
+2022,Serbia,Qatar,Group stage,1.0,3.0,0.0,5.0,8.0,0.6153846153846154,2022-11-20,2022-10-06,Serbia,21.0
 1994,Slovakia,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Slovakia,44.0
 1998,Slovakia,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Slovakia,40.0
 2002,Slovakia,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Slovakia,49.0
@@ -478,7 +478,7 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,South Korea,South Africa,Round of 16,2.0,4.0,1.0,6.0,8.0,0.1739130434782608,2010-06-11,2010-05-26,South Korea,47.0
 2014,South Korea,Brazil,Group stage,1.0,3.0,0.0,3.0,6.0,0.217391304347826,2014-06-12,2014-06-05,South Korea,57.0
 2018,South Korea,Russia,Group stage,1.0,3.0,1.0,3.0,3.0,0.1304347826086956,2018-06-14,2018-06-07,South Korea,57.0
-2022,South Korea,Qatar,Round of 16,2.0,4.0,1.0,5.0,8.0,,2022-11-20,2022-10-06,South Korea,28.0
+2022,South Korea,Qatar,Round of 16,2.0,4.0,1.0,5.0,8.0,0.2307692307692307,2022-11-20,2022-10-06,South Korea,28.0
 1994,Spain,USA,Quarter-finals,3.0,5.0,2.0,10.0,6.0,1.0,1994-06-17,1994-06-14,Spain,5.0
 1998,Spain,France,Group stage,1.0,3.0,1.0,8.0,4.0,1.0,1998-06-10,1998-05-20,Spain,15.0
 2002,Spain,Korea/Japan,Quarter-finals,3.0,5.0,4.0,10.0,5.0,1.0,2002-05-31,2002-05-15,Spain,8.0
@@ -486,7 +486,7 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,Spain,South Africa,Winner,7.0,7.0,6.0,8.0,2.0,1.0,2010-06-11,2010-05-26,Spain,2.0
 2014,Spain,Brazil,Group stage,1.0,3.0,1.0,4.0,7.0,1.0,2014-06-12,2014-06-05,Spain,1.0
 2018,Spain,Russia,Round of 16,2.0,4.0,1.0,7.0,6.0,1.0,2018-06-14,2018-06-07,Spain,10.0
-2022,Spain,Qatar,Round of 16,2.0,4.0,1.0,9.0,3.0,,2022-11-20,2022-10-06,Spain,7.0
+2022,Spain,Qatar,Round of 16,2.0,4.0,1.0,9.0,3.0,0.9615384615384616,2022-11-20,2022-10-06,Spain,7.0
 1994,Sweden,USA,Third place,5.0,7.0,4.0,15.0,8.0,0.3181818181818182,1994-06-17,1994-06-14,Sweden,10.0
 1998,Sweden,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Sweden,28.0
 2002,Sweden,Korea/Japan,Round of 16,2.0,4.0,1.0,5.0,5.0,0.4347826086956521,2002-05-31,2002-05-15,Sweden,19.0
@@ -502,7 +502,7 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,Switzerland,South Africa,Group stage,1.0,3.0,1.0,1.0,1.0,0.5652173913043478,2010-06-11,2010-05-26,Switzerland,24.0
 2014,Switzerland,Brazil,Round of 16,2.0,4.0,2.0,7.0,7.0,0.6956521739130435,2014-06-12,2014-06-05,Switzerland,6.0
 2018,Switzerland,Russia,Round of 16,2.0,4.0,1.0,5.0,5.0,0.782608695652174,2018-06-14,2018-06-07,Switzerland,6.0
-2022,Switzerland,Qatar,Round of 16,2.0,4.0,2.0,5.0,9.0,,2022-11-20,2022-10-06,Switzerland,15.0
+2022,Switzerland,Qatar,Round of 16,2.0,4.0,2.0,5.0,9.0,0.5769230769230769,2022-11-20,2022-10-06,Switzerland,15.0
 1994,Togo,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Togo,123.0
 1998,Togo,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Togo,73.0
 2002,Togo,Korea/Japan,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Togo,69.0
@@ -526,7 +526,7 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,Tunisia,South Africa,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Tunisia,55.0
 2014,Tunisia,Brazil,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Tunisia,48.0
 2018,Tunisia,Russia,Group stage,1.0,3.0,1.0,5.0,8.0,0.3043478260869565,2018-06-14,2018-06-07,Tunisia,21.0
-2022,Tunisia,Qatar,Group stage,1.0,3.0,1.0,1.0,1.0,,2022-11-20,2022-10-06,Tunisia,30.0
+2022,Tunisia,Qatar,Group stage,1.0,3.0,1.0,1.0,1.0,0.1538461538461538,2022-11-20,2022-10-06,Tunisia,30.0
 1994,Turkey,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Turkey,57.0
 1998,Turkey,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Turkey,53.0
 2002,Turkey,Korea/Japan,Third place,5.0,7.0,4.0,10.0,6.0,0.391304347826087,2002-05-31,2002-05-15,Turkey,22.0
@@ -558,7 +558,7 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,United States,South Africa,Round of 16,2.0,4.0,1.0,5.0,5.0,0.5217391304347826,2010-06-11,2010-05-26,United States,14.0
 2014,United States,Brazil,Round of 16,2.0,4.0,1.0,5.0,6.0,0.3478260869565217,2014-06-12,2014-06-05,United States,13.0
 2018,United States,Russia,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,United States,25.0
-2022,United States,Qatar,Round of 16,2.0,4.0,1.0,3.0,4.0,,2022-11-20,2022-10-06,United States,16.0
+2022,United States,Qatar,Round of 16,2.0,4.0,1.0,3.0,4.0,0.4615384615384615,2022-11-20,2022-10-06,United States,16.0
 1994,Uruguay,USA,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Uruguay,18.0
 1998,Uruguay,France,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Uruguay,38.0
 2002,Uruguay,Korea/Japan,Group stage,1.0,3.0,0.0,4.0,5.0,0.5652173913043478,2002-05-31,2002-05-15,Uruguay,24.0
@@ -566,7 +566,7 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,Uruguay,South Africa,Fourth place,4.0,7.0,4.0,11.0,8.0,0.3043478260869565,2010-06-11,2010-05-26,Uruguay,16.0
 2014,Uruguay,Brazil,Round of 16,2.0,4.0,2.0,4.0,6.0,0.5217391304347826,2014-06-12,2014-06-05,Uruguay,7.0
 2018,Uruguay,Russia,Quarter-finals,3.0,5.0,4.0,7.0,3.0,0.4782608695652174,2018-06-14,2018-06-07,Uruguay,14.0
-2022,Uruguay,Qatar,Group stage,1.0,3.0,1.0,2.0,2.0,,2022-11-20,2022-10-06,Uruguay,14.0
+2022,Uruguay,Qatar,Group stage,1.0,3.0,1.0,2.0,2.0,0.3846153846153846,2022-11-20,2022-10-06,Uruguay,14.0
 1994,Wales,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1994-06-17,1994-06-14,Wales,35.0
 1998,Wales,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,1998-06-10,1998-05-20,Wales,103.0
 2002,Wales,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2002-05-31,2002-05-15,Wales,96.0
@@ -574,4 +574,4 @@ world_cup_year,team,host_country,max_stage,max_stage_numeric,matches_played,matc
 2010,Wales,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2010-06-11,2010-05-26,Wales,77.0
 2014,Wales,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2014-06-12,2014-06-05,Wales,41.0
 2018,Wales,,Did not qualify,0.0,0.0,0.0,0.0,0.0,,2018-06-14,2018-06-07,Wales,18.0
-2022,Wales,Qatar,Group stage,1.0,3.0,0.0,1.0,6.0,,2022-11-20,2022-10-06,Wales,19.0
+2022,Wales,Qatar,Group stage,1.0,3.0,0.0,1.0,6.0,0.2307692307692307,2022-11-20,2022-10-06,Wales,19.0
