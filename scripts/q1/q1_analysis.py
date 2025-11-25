@@ -90,159 +90,180 @@ wc_perf_and_normalized_socio = pd.merge(data_for_analysis.drop(columns = normali
                                         left_index = True,
                                         right_index = True)
 
-################# Scatterplots of normalized socioeconomic indicators by wc stage in each world cup
-metrics = normalized_socio_data_each_wc.columns[normalized_socio_data_each_wc.columns.str.contains('0')]
-metric_mapping = {'gdp_per_capita': 'GDP Per Capita', 'hdi': 'HDI', 
-                  'life_expectancy': 'Life Expectancy', 'mean_school_years': 'Mean School Years'}
+################# Scatterplot/box plot/stage probability of normalized socioeconomic indicators by wc stage
+# ============================================================
+#                   SETUP AND HELPERS
+# ============================================================
 
 df = wc_perf_and_normalized_socio.reset_index()
-stage_order = (
-    df[['max_stage_numeric', 'max_stage']]
-    .drop_duplicates()
-    .sort_values('max_stage_numeric')['max_stage']
-    .tolist()
-)
 
-df['max_stage'] = pd.Categorical(df['max_stage'], categories=stage_order, ordered=True)
-df['world_cup_year'] = df['world_cup_year'].astype('category')
+# Mapping for nicer labels
+metric_labels = {
+    "gdp_per_capita": "GDP Per Capita",
+    "hdi": "HDI",
+    "life_expectancy": "Life Expectancy",
+    "mean_school_years": "Mean School Years"
+}
 
+# Helper to convert column names → human-readable text
+def pretty_metric(metric):
+    base = metric.replace("_tminus0", "")
+    return metric_labels.get(base, base.replace("_", " ").title())
 
-n = len(metrics)
-ncols = 2
-nrows = int(np.ceil(n / ncols))
-
-fig, axes = plt.subplots(nrows=nrows, ncols=ncols, figsize=(14, 10), sharey=True)
-axes = axes.flatten()
-
-# Build ordered stage list
+# Generate ordered stage ticks (numeric → string labels)
 stage_order_df = (
     df[['max_stage_numeric', 'max_stage']]
     .drop_duplicates()
     .sort_values('max_stage_numeric')
 )
-ticks = stage_order_df['max_stage_numeric'].tolist()
-ticklabels = stage_order_df['max_stage'].tolist()
+stage_ticks = stage_order_df['max_stage_numeric'].tolist()
+stage_labels = stage_order_df['max_stage'].tolist()
 
-for ax, metric in zip(axes, metrics):
-    
-    sns.scatterplot(
-        data=df,
-        x=metric,
-        y='max_stage_numeric',        
-        hue='world_cup_year',
-        palette='tab10',
-        alpha=0.75,
-        ax=ax
-    )
-    
-    # Replace numeric ticks with stage labels
-    ax.set_yticks(ticks)
-    ax.set_yticklabels(ticklabels)
+# Helper to quickly create subplot grids
+def make_grid(nrows=2, ncols=2, figsize=(16, 12), sharey=False):
+    fig, axes = plt.subplots(nrows=nrows, ncols=ncols,
+                             figsize=figsize, sharey=sharey)
+    return fig, axes.flatten()
 
-    ax.set_xlabel(metric_mapping[metric.replace("_tminus0", "")])
-    ax.set_ylabel("")   
-    ax.set_title(metric_mapping[metric.replace("_tminus0", "")])
-    ax.tick_params(axis='x')
+# Metrics to plot
+metrics = [
+    "gdp_per_capita_tminus0",
+    "hdi_tminus0",
+    "life_expectancy_tminus0",
+    "mean_school_years_tminus0"
+]
 
-# Hide empty axes
-for j in range(len(metrics), len(axes)):
-    axes[j].set_visible(False)
+SAVE_DIR = BASE_DIR / "plots" / "q1_analysis"
+SAVE_DIR.mkdir(parents=True, exist_ok=True)
 
-plt.suptitle(
-    "Normalized Socioeconomic Indicators vs Max Stage (All World Cups)",
-    fontsize=16
-)
-plt.tight_layout(rect=[0, 0, 1, 0.96])
-plt.show()
+def save_figure(fig, filename):
+    if filename is None:
+        return
+    out_path = SAVE_DIR / filename
+    fig.savefig(out_path, dpi=300, bbox_inches="tight")
+    print(f"Saved to: {out_path}")
 
+# ============================================================
+#               1. SCATTERPLOT PANEL
+# ============================================================
 
+def plot_scatter_panel(df, metrics, filename=None):
+    fig, axes = make_grid(2, 2, figsize=(14, 10), sharey=True)
 
-########################## Box plot of socio economic indicators by stage reached
-n = len(metrics)
-ncols = 2
-nrows = int(np.ceil(n / ncols))
-
-fig, axes = plt.subplots(nrows=nrows, ncols=ncols, figsize=(14, 10), sharey=False)
-axes = axes.flatten()
-
-for ax, metric in zip(axes, metrics):
-    
-    sns.boxplot(
-        data=df,
-        x='max_stage',
-        y=metric,
-        ax=ax
-    )
-    
-    ax.set_xlabel("Stage Reached")
-    ax.set_ylabel("")   # we add custom labels below
-    ax.set_title(metric_mapping[metric.replace("_tminus0", "")])
-    ax.tick_params(axis='x', rotation=45)
-
-# Hide any unused axes (if metrics count is odd)
-for j in range(len(metrics), len(axes)):
-    axes[j].set_visible(False)
-
-plt.suptitle("Normalized Socioeconomic Indicators by World Cup Stage, Across All World Cups", fontsize=16)
-plt.tight_layout(rect=[0, 0, 1, 0.96])
-plt.show()
-
-####################### Stage probability curve
-df_in_wc = df[df["max_stage_numeric"] > 0].copy()
-# Tournament stages you want to model
-stage_thresholds = {
-    
-    "Round of 16": 2,
-    "Quarter-finals": 3,
-    "Semi-finals": 4,
-    "Final": 5
-}
-
-# --- Setup the subplot grid ---
-fig, axes = plt.subplots(2, 2, figsize=(16, 12))
-axes = axes.flatten()
-
-# --- Loop through socioeconomic indicators ---
-for ax, metric in zip(axes, metrics):
-
-    # Bin into 20 quantile bins
-    df_in_wc["_bin"] = pd.qcut(df_in_wc[metric], 20, duplicates="drop")
-
-    # Prepare probability DataFrame
-    prob_df = (
-        df_in_wc.groupby("_bin")["max_stage_numeric"]
-                .apply(list)
-                .reset_index()
-    )
-    prob_df["x"] = prob_df["_bin"].apply(lambda b: b.mid)
-
-    # Compute probability for each stage threshold
-    for stage_name, threshold in stage_thresholds.items():
-        prob_df[stage_name] = prob_df["max_stage_numeric"].apply(
-            lambda lst: np.mean([x >= threshold for x in lst])
+    for ax, metric in zip(axes, metrics):
+        sns.scatterplot(
+            data=df,
+            x=metric,
+            y="max_stage_numeric",
+            hue="world_cup_year",
+            palette="tab10",
+            alpha=0.75,
+            ax=ax
         )
 
-    # Plot probability curves
-    for stage_name in stage_thresholds.keys():
-        ax.plot(
-            prob_df["x"],
-            prob_df[stage_name],
-            label=f"P(Reach {stage_name})",
-            linewidth=2.0
+        ax.set_yticks(stage_ticks)
+        ax.set_yticklabels(stage_labels)
+
+        clean = pretty_metric(metric)
+        ax.set_title(clean)
+        ax.set_xlabel(clean)
+        ax.set_ylabel("")
+        ax.legend_.remove()
+
+    axes[-1].legend(loc="center left", bbox_to_anchor=(1.05, 0.5),
+                    title="World Cup Year")
+
+    fig.suptitle("Normalized Socioeconomic Indicators vs Max Stage (All World Cups)", fontsize=16)
+    fig.tight_layout(rect=[0, 0, 1, 0.95])
+
+    # SAVE
+    save_figure(fig, filename)
+
+    plt.show()
+
+
+# ============================================================
+#               2. BOXPLOT PANEL
+# ============================================================
+
+def plot_box_panel(df, metrics, filename=None):
+    fig, axes = make_grid(2, 2, figsize=(14, 10))
+
+    for ax, metric in zip(axes, metrics):
+        sns.boxplot(data=df, x="max_stage", y=metric, ax=ax)
+
+        clean = pretty_metric(metric)
+        ax.set_title(clean)
+        ax.set_xlabel("Stage Reached")
+        ax.set_ylabel("")
+        ax.tick_params(axis='x', rotation=45)
+
+    fig.suptitle("Normalized Socioeconomic Indicators by World Cup Stage", fontsize=16)
+    fig.tight_layout(rect=[0, 0, 1, 0.95])
+
+    # SAVE
+    save_figure(fig, filename)
+
+    plt.show()
+
+
+# ============================================================
+#       3. STAGE PROBABILITY PANEL (“RAISES THE FLOOR”)
+# ============================================================
+
+def plot_stage_probability_panel(df, metrics, bins=20, filename=None):
+
+    df_in_wc = df[df["max_stage_numeric"] > 0].copy()
+
+    stage_thresholds = {
+        "Round of 16": 2,
+        "Quarter-finals": 3,
+        "Semi-finals": 4,
+        "Final": 5
+    }
+
+    fig, axes = make_grid(2, 2, figsize=(16, 12))
+
+    for ax, metric in zip(axes, metrics):
+
+        tmp = df_in_wc.copy()
+        tmp["_bin"] = pd.qcut(tmp[metric], bins, duplicates="drop")
+
+        prob_df = (
+            tmp.groupby("_bin")["max_stage_numeric"]
+               .apply(list)
+               .reset_index()
         )
-        
-    clean_metric = metric_mapping[metric.replace("_tminus0", "")]
-    ax.set_title(clean_metric, fontsize=14)
-    ax.set_xlabel(f"Normalized {clean_metric} (t=0)")
-    ax.set_ylabel("Probability of Reaching Stage")
-    ax.grid(True, alpha=0.25)
+        prob_df["x"] = prob_df["_bin"].apply(lambda b: b.mid)
 
-# Legend only on final plot
-axes[-1].legend(loc="center left", bbox_to_anchor=(1.05, 0.5), title="Stage")
+        for stage_name, thresh in stage_thresholds.items():
+            prob_df[stage_name] = prob_df["max_stage_numeric"].apply(
+                lambda lst: np.mean([v >= thresh for v in lst])
+            )
+            ax.plot(prob_df["x"], prob_df[stage_name], linewidth=2,
+                    label=f"P(Reach {stage_name})")
 
-plt.suptitle("How Socioeconomic Indicators 'Raise the Floor' of World Cup Performance", fontsize=18)
-plt.tight_layout(rect=[0, 0, 0.88, 0.95])
-plt.show()
+        clean = pretty_metric(metric)
+        ax.set_title(clean)
+        ax.set_xlabel(f"Normalized {clean} (t=0)")
+        ax.set_ylabel("Probability")
+        ax.grid(True, alpha=0.25)
+
+    axes[-1].legend(title="Stage", loc="center left", bbox_to_anchor=(1.05, 0.5))
+
+    fig.suptitle("How Socioeconomic Indicators 'Raise the Floor' of World Cup Performance", fontsize=18)
+    fig.tight_layout(rect=[0, 0, 0.88, 0.95])
+
+    # IMPORTANT: show before saving
+    plt.show()
 
 
 
+
+# ============================================================
+#                   RUN ALL THREE PANELS
+# ============================================================
+
+plot_scatter_panel(df, metrics, 'scatter.png')
+plot_box_panel(df, metrics, 'box.png')
+plot_stage_probability_panel(df, metrics)
