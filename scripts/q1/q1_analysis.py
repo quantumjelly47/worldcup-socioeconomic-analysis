@@ -7,6 +7,8 @@ Created on Mon Nov 17 21:16:49 2025
 """
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 from pathlib import Path
 import os
 
@@ -47,271 +49,200 @@ def compare_datasets(A, B, key):
     return differences, only_A_rows, only_B_rows
 
 ################ Imports
-##Baseline performance by (team, world cup)
-performance_wo_2022 = pd.read_csv(BASE_DIR / "data/created_datasets/world_cup/performance_by_world_cup_and_team.csv") # sachin
-performance_w_2022 = pd.read_csv(BASE_DIR / "data/created_datasets/world_cup/perf_by_wc_team_incl2022.csv") # estee
-# Share of top 5 league players in each (team, world cup)
-share_of_top5 = pd.read_csv(BASE_DIR / "data/created_datasets/world_cup/prop_big5.csv")
-# Rankings data (raw)
-rankings = pd.read_csv(BASE_DIR / "data/raw_data_files/World Cup Data/Rankings/fifa_ranking-2024-06-20.csv")
-# Match level data
-match_level_data = pd.read_csv(BASE_DIR / "data/created_datasets/world_cup/match_level_data.csv") 
+wc_socio_merged = pd.read_csv(BASE_DIR / "data/created_datasets/world_cup/merge_wc_with_socioeconomic.csv")
 
-############### SANITY CHECKING
-
-# Compare wo and w 2022 data
-col_check = print(performance_wo_2022.columns == performance_w_2022.columns)
-
-# Confirm 2022 is only addl year in estee dataset
-years_w = set(performance_w_2022['world_cup_year'])
-years_wo = set(performance_wo_2022['world_cup_year'])
-
-anti_years = years_w - years_wo
-print(anti_years)
-
-# Do a full check of the two datasets pre 2022
-differences, A_only, B_only = compare_datasets(
-    performance_wo_2022,
-    performance_w_2022,
-    key=['team', 'world_cup_year']
-)
-
-print("SS rows not in EN:",  A_only.shape[0])
-print("EG rows not in SS:", B_only.shape[0])
-print("Mismatched common rows:", differences.shape[0])
+#### TO REMOVE:  check that all countries are associated with all world cup years - both arrays below should have exactly one value
+print("Number of observations by country:", wc_socio_merged.groupby('team').size().unique())
+print("Number of observations by world_cup_year:", wc_socio_merged.groupby('world_cup_year').size().unique())
 
 
-########## Combine 2018 and 2022 data
-## From 2022 data:
-## 1) drop countries that never qualified for any world cup between 1986 and 2022, for consistency
-## 2) clean the "max_stage" variable based on pre-2022 -- appears to always be "Did Not Qualify"
-## 3) Handle Czechoslovakia and Yugoslavia
-stage_mapping_pre_2022 = performance_wo_2022[["max_stage", "max_stage_numeric"]].drop_duplicates()
-perf_2022 = (performance_w_2022[(performance_w_2022['world_cup_year'] == 2022) & (performance_w_2022['max_stage_numeric'] > 0)]
-             .drop(columns = 'max_stage')
-             .merge(stage_mapping_pre_2022, on = 'max_stage_numeric', how = 'left')
-             .assign(team = lambda df: df['team'].replace({
-            'IR Iran': 'Iran',
-            'Korea Republic': 'South Korea'
-        }))
-)
-
-row_keys = ['team', 'world_cup_year']
-
-concat_init = (
-    pd.concat([performance_wo_2022, perf_2022], axis = 0)
-    .sort_values(by = row_keys)
+########### Data preparation
+# Set wc year and team as index
+data_for_analysis = (
+    wc_socio_merged.set_index(['world_cup_year','team'])
     )
 
-all_team_years = (
-    pd.DataFrame({'world_cup_year': concat_init['world_cup_year'].unique()})
-    .merge(
-        pd.DataFrame({'team': concat_init['team'].unique()}),
-        how='cross'
+# Normalize data
+def normalize(df):
+    '''
+    Normalizes all columns in the input dataframe by subtracting their respective means and dividing by their respective standard deviations
+    Args:
+    df:  A dataframe with only numeric columns
+    Returns:
+    Normalized version of df
+    '''
+    return (df - df.mean())/df.std()
+
+socio_cols_pattern = r'^(gdp|hdi|life_expectancy|mean_school_years)'
+normalized_socio_data_each_wc = (
+    data_for_analysis
+    .filter(regex=socio_cols_pattern)
+    .groupby(level = 'world_cup_year')
+    .transform(normalize)
     )
+
+# check normalization
+print(normalized_socio_data_each_wc.groupby(level = 'world_cup_year').agg(['mean', 'std'])) # means should be close to 0, sd 1
+
+# Dataset with unadjusted performance metrics and socio metrics normalized across countries by year
+wc_perf_and_normalized_socio = pd.merge(data_for_analysis.drop(columns = normalized_socio_data_each_wc.columns),
+                                        normalized_socio_data_each_wc,
+                                        left_index = True,
+                                        right_index = True)
+
+################# Scatterplots of normalized socioeconomic indicators by wc stage in each world cup
+metrics = normalized_socio_data_each_wc.columns[normalized_socio_data_each_wc.columns.str.contains('0')]
+metric_mapping = {'gdp_per_capita': 'GDP Per Capita', 'hdi': 'HDI', 
+                  'life_expectancy': 'Life Expectancy', 'mean_school_years': 'Mean School Years'}
+
+df = wc_perf_and_normalized_socio.reset_index()
+stage_order = (
+    df[['max_stage_numeric', 'max_stage']]
+    .drop_duplicates()
+    .sort_values('max_stage_numeric')['max_stage']
+    .tolist()
 )
 
-fill_dict = {
-    'max_stage': 'Did not qualify',
-    'max_stage_numeric': 0,
-    'matches_played': 0,
-    'matches_won': 0,
-    'goals_for': 0,
-    'goals_against': 0
+df['max_stage'] = pd.Categorical(df['max_stage'], categories=stage_order, ordered=True)
+df['world_cup_year'] = df['world_cup_year'].astype('category')
+
+
+n = len(metrics)
+ncols = 2
+nrows = int(np.ceil(n / ncols))
+
+fig, axes = plt.subplots(nrows=nrows, ncols=ncols, figsize=(14, 10), sharey=True)
+axes = axes.flatten()
+
+# Build ordered stage list
+stage_order_df = (
+    df[['max_stage_numeric', 'max_stage']]
+    .drop_duplicates()
+    .sort_values('max_stage_numeric')
+)
+ticks = stage_order_df['max_stage_numeric'].tolist()
+ticklabels = stage_order_df['max_stage'].tolist()
+
+for ax, metric in zip(axes, metrics):
+    
+    sns.scatterplot(
+        data=df,
+        x=metric,
+        y='max_stage_numeric',        
+        hue='world_cup_year',
+        palette='tab10',
+        alpha=0.75,
+        ax=ax
+    )
+    
+    # Replace numeric ticks with stage labels
+    ax.set_yticks(ticks)
+    ax.set_yticklabels(ticklabels)
+
+    ax.set_xlabel(metric_mapping[metric.replace("_tminus0", "")])
+    ax.set_ylabel("")   
+    ax.set_title(metric_mapping[metric.replace("_tminus0", "")])
+    ax.tick_params(axis='x')
+
+# Hide empty axes
+for j in range(len(metrics), len(axes)):
+    axes[j].set_visible(False)
+
+plt.suptitle(
+    "Normalized Socioeconomic Indicators vs Max Stage (All World Cups)",
+    fontsize=16
+)
+plt.tight_layout(rect=[0, 0, 1, 0.96])
+plt.show()
+
+
+
+########################## Box plot of socio economic indicators by stage reached
+n = len(metrics)
+ncols = 2
+nrows = int(np.ceil(n / ncols))
+
+fig, axes = plt.subplots(nrows=nrows, ncols=ncols, figsize=(14, 10), sharey=False)
+axes = axes.flatten()
+
+for ax, metric in zip(axes, metrics):
+    
+    sns.boxplot(
+        data=df,
+        x='max_stage',
+        y=metric,
+        ax=ax
+    )
+    
+    ax.set_xlabel("Stage Reached")
+    ax.set_ylabel("")   # we add custom labels below
+    ax.set_title(metric_mapping[metric.replace("_tminus0", "")])
+    ax.tick_params(axis='x', rotation=45)
+
+# Hide any unused axes (if metrics count is odd)
+for j in range(len(metrics), len(axes)):
+    axes[j].set_visible(False)
+
+plt.suptitle("Normalized Socioeconomic Indicators by World Cup Stage, Across All World Cups", fontsize=16)
+plt.tight_layout(rect=[0, 0, 1, 0.96])
+plt.show()
+
+####################### Stage probability curve
+df_in_wc = df[df["max_stage_numeric"] > 0].copy()
+# Tournament stages you want to model
+stage_thresholds = {
+    
+    "Round of 16": 2,
+    "Quarter-finals": 3,
+    "Semi-finals": 4,
+    "Final": 5
 }
 
-stacked_data_1986_2022 = (
-    all_team_years.merge(concat_init, on=['world_cup_year', 'team'], how='left')
-        .fillna(fill_dict)
-        .sort_values(['world_cup_year', 'team'])
-)
+# --- Setup the subplot grid ---
+fig, axes = plt.subplots(2, 2, figsize=(16, 12))
+axes = axes.flatten()
 
-############ Clean countries
-df = stacked_data_1986_2022 
+# --- Loop through socioeconomic indicators ---
+for ax, metric in zip(axes, metrics):
 
-# ---- Define groups of country names ----
-cz_successors = ['Czech Republic', 'Slovakia']
-yugo_successors = [
-    'Croatia',
-    'Slovenia',
-    'Bosnia and Herzegovina',
-    'Serbia',
-    'Montenegro',
-    'Serbia and Montenegro',
-    'North Macedonia',
-]
+    # Bin into 20 quantile bins
+    df_in_wc["_bin"] = pd.qcut(df_in_wc[metric], 20, duplicates="drop")
 
-# ---- Build masks for rows you want to DROP ----
-
-# 1) Czechoslovakia block:
-#    - drop Czech/Slovak rows in early years when Czechoslovakia is the union
-drop_cz_early = (
-    df['team'].isin(cz_successors)
-    & (df['world_cup_year'] <= 1990)
-)
-
-#    - drop Czechoslovakia rows in later years after dissolution
-drop_cz_late = (
-    (df['team'] == 'Czechoslovakia')
-    & (df['world_cup_year'] >= 1994)
-)
-
-# 2) Yugoslavia block:
-#    - drop successor states in early years when Yugoslavia is the union
-drop_yugo_early = (
-    df['team'].isin(yugo_successors)
-    & (df['world_cup_year'] <= 1990)
-)
-
-#    - drop Yugoslavia rows in later years
-drop_yugo_late = (
-    (df['team'] == 'Yugoslavia')
-    & (df['world_cup_year'] >= 1994)
-)
-
-# Combine everything you want to drop
-drop_mask = drop_cz_early | drop_cz_late | drop_yugo_early | drop_yugo_late
-
-# Filter
-performance_data_1986_2022 = df[~drop_mask].copy()
-
-
-
-# ############## SANITY CHECK
-## Should be 10
-num_obs_by_country = (
-    performance_data_1986_2022.
-    groupby('team').
-    size().
-    unique()
+    # Prepare probability DataFrame
+    prob_df = (
+        df_in_wc.groupby("_bin")["max_stage_numeric"]
+                .apply(list)
+                .reset_index()
     )
+    prob_df["x"] = prob_df["_bin"].apply(lambda b: b.mid)
 
-## Should be the total number of countries that ever qualified for a wc in all years
-num_obs_by_wc = (
-    performance_data_1986_2022.
-    groupby('world_cup_year').
-    size().
-    unique()
-    )
+    # Compute probability for each stage threshold
+    for stage_name, threshold in stage_thresholds.items():
+        prob_df[stage_name] = prob_df["max_stage_numeric"].apply(
+            lambda lst: np.mean([x >= threshold for x in lst])
+        )
 
-## Check years for czechoslovakia, yugoslavia
-czech_yugo_check = (
-    performance_data_1986_2022[performance_data_1986_2022['team'].isin(cz_successors + yugo_successors + ['Czechoslovakia', 'Yugoslavia'])]
-    .groupby('team')['world_cup_year']
-    .agg(min_year = 'min',
-         max_year = 'max')
-    )
+    # Plot probability curves
+    for stage_name in stage_thresholds.keys():
+        ax.plot(
+            prob_df["x"],
+            prob_df[stage_name],
+            label=f"P(Reach {stage_name})",
+            linewidth=2.0
+        )
+        
+    clean_metric = metric_mapping[metric.replace("_tminus0", "")]
+    ax.set_title(clean_metric, fontsize=14)
+    ax.set_xlabel(f"Normalized {clean_metric} (t=0)")
+    ax.set_ylabel("Probability of Reaching Stage")
+    ax.grid(True, alpha=0.25)
 
-# ############################## Merge share of top 5 league
-team_year_performance_and_share_of_top5 = (
-    performance_data_1986_2022
-    .merge(share_of_top5[row_keys + ['Big5_flag']], on=row_keys, how='left')
-)
+# Legend only on final plot
+axes[-1].legend(loc="center left", bbox_to_anchor=(1.05, 0.5), title="Stage")
 
-na_big5_by_wc_year = (
-    team_year_performance_and_share_of_top5
-    .assign(qualified=lambda df: np.where(df['max_stage_numeric'] > 0, 1, 0))
-    .groupby(['world_cup_year', 'qualified'])['Big5_flag']
-    .agg(
-        non_missing=lambda x: x.notna().sum(),
-        missing=lambda x: x.isna().sum()
-    )
-)
-# #Missing for 1986, 1990, and 2022.  Populated for all qualified teams in all other years
+plt.suptitle("How Socioeconomic Indicators 'Raise the Floor' of World Cup Performance", fontsize=18)
+plt.tight_layout(rect=[0, 0, 0.88, 0.95])
+plt.show()
 
 
-############################ Merge rankings
-
-## Investigations
-ranking_dates = (
-    rankings
-    .groupby('rank_date', as_index = False)
-    .agg(num_rows = ('rank', 'count'))
-    .sort_values(by = ['rank_date'])
-    )
-
-ranking_dates['rank_date'] = pd.to_datetime(ranking_dates['rank_date'])
-
-# compute lag in days
-ranking_dates['lag_days'] = (
-    ranking_dates['rank_date'] - ranking_dates['rank_date'].shift(1)
-).dt.days
-
-ranking_countries = (
-    rankings
-    .groupby('country_full')
-    .size())
-
-wc_countries = np.sort(team_year_performance_and_share_of_top5['team'].unique())
-ranking_countries = np.sort(rankings['country_full'].unique())
-countries_in_wc_not_rankings = set(wc_countries) - set(ranking_countries)
-print("Before cleaning:", countries_in_wc_not_rankings)
-
-country_mapping = {'Czechia': 'Czech Republic',
-                   'IR Iran': 'Iran',
-                   "Côte d'Ivoire": 'Ivory Coast',
-                   'USA': 'United States',
-                   'China PR': 'China',
-                   'Korea Republic': 'South Korea',
-                   'Korea DPR': 'North Korea'}
-
-rankings_clean_country = rankings.assign(
-    clean_country = rankings['country_full'].replace(country_mapping)
-)
-
-updated_countries_in_wc_not_rankings = set(wc_countries) - set(rankings_clean_country['clean_country'].unique())
-print("After cleaning:", updated_countries_in_wc_not_rankings)
-
-
-# For each world cup, identify the closest ranking date
-world_cup_start_dates = (
-    match_level_data
-    .assign(date = lambda df: pd.to_datetime(df['Date']).dt.date)
-    .groupby('Year', as_index = False)
-    .agg(start_date = ('Date', 'min'))
-    .rename(columns = {'Year': 'world_cup_year'})
-    )
-
-world_cup_start_dates = (pd.concat([world_cup_start_dates,
-                                  pd.DataFrame({'world_cup_year': [2022],
-                                                'start_date': ['2022-11-20']})
-                                  .assign(start_date = lambda df: pd.to_datetime(df['start_date']).dt.date)])
-                         .reset_index(drop = True)
-)
-
-merge_world_cup_start_dates = (team_year_performance_and_share_of_top5
-                        .merge(world_cup_start_dates, on = 'world_cup_year', how = 'left')
-                        [lambda df: df['world_cup_year'] >= 1994]
- )
-
-# Identify closest rank date beforeeach world cup start date
-rankings_clean_country['rank_date'] = pd.to_datetime(rankings_clean_country['rank_date'])
-merge_world_cup_start_dates['start_date'] = pd.to_datetime(merge_world_cup_start_dates['start_date'])
-rankings_clean_country = rankings_clean_country.sort_values('rank_date')
-merge_world_cup_start_dates = merge_world_cup_start_dates.sort_values('start_date')
-
-closest_rank_date_by_wc = pd.merge_asof(
-    merge_world_cup_start_dates,
-    rankings_clean_country[['rank_date']],
-    left_on='start_date',
-    right_on='rank_date',
-    direction='backward'
-)
-
-merge_country_ranks_before_wc = (pd.merge(closest_rank_date_by_wc,
-                                         rankings_clean_country[['rank_date', 'clean_country', 'rank']],
-                                         left_on = ['rank_date', 'team'],
-                                         right_on = ['rank_date', 'clean_country'],
-                                         how = 'left')
-                                 .sort_values(by = ['team', 'world_cup_year']))
-
-merge_failures = (
-    merge_country_ranks_before_wc[merge_country_ranks_before_wc['clean_country'].isna()]
-    )
-
-
-OUTPUT_DIR = BASE_DIR / "data/created_datasets/world_cup"
-OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-world_cup_path = OUTPUT_DIR / "merge_country_ranks_before_wc.csv"
-merge_country_ranks_before_wc.to_csv(world_cup_path, index=False)
 
