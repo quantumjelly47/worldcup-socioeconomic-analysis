@@ -8,6 +8,8 @@ Created on Mon Nov 17 21:16:49 2025
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+import matplotlib.lines as mlines
 import seaborn as sns
 from pathlib import Path
 import os
@@ -105,6 +107,10 @@ metric_labels = {
     "mean_school_years": "Mean School Years"
 }
 
+xmin = min(df[m + "_tminus0"].min() for m in metric_labels.keys())
+xmax = max(df[m + "_tminus0"].max() for m in metric_labels.keys())
+
+
 # Helper to convert column names → human-readable text
 def pretty_metric(metric):
     base = metric.replace("_tminus0", "")
@@ -116,6 +122,7 @@ stage_order_df = (
     .drop_duplicates()
     .sort_values('max_stage_numeric')
 )
+
 stage_ticks = stage_order_df['max_stage_numeric'].tolist()
 stage_labels = stage_order_df['max_stage'].tolist()
 
@@ -166,6 +173,7 @@ def plot_scatter_panel(df, metrics, filename=None):
 
         clean = pretty_metric(metric)
         ax.set_title(clean)
+        ax.set_xlim(xmin, xmax)
         ax.set_xlabel(clean)
         ax.set_ylabel("")
         ax.legend_.remove()
@@ -187,31 +195,64 @@ def plot_scatter_panel(df, metrics, filename=None):
 # ============================================================
 
 def plot_box_panel(df, metrics, filename=None):
+
+    # Ensure consistent stage order
+
+    df = df.copy()
+    df["max_stage"] = pd.Categorical(df["max_stage"],
+                                     categories=stage_labels,
+                                     ordered=True)
+
     fig, axes = make_grid(2, 2, figsize=(14, 10))
+    
+    box_color = "#B0B0B0"   # medium gray
+    dot_color = "#2A9D8F"  # teal/green
 
     for ax, metric in zip(axes, metrics):
-        sns.boxplot(data=df, x="max_stage", y=metric, ax=ax)
-
+        sns.boxplot(data=df, x="max_stage", y=metric, ax=ax, color = box_color)
+        
+        sns.pointplot( # plot mean as data point
+            data=df,
+            x="max_stage",
+            y=metric,
+            estimator=np.mean,
+            color=dot_color,
+            markers="o",
+            scale=1.2,
+            errwidth=0,      # turn off confidence interval
+            linestyles="",   # no connecting line
+            ax=ax
+)
+        
         clean = pretty_metric(metric)
         ax.set_title(clean)
+        ax.set_ylim(xmin, xmax)
         ax.set_xlabel("Stage Reached")
         ax.set_ylabel("")
-        ax.tick_params(axis='x', rotation=45)
+        ax.tick_params(axis="x", rotation=45)
+        
+        
 
+    mean_handle = mlines.Line2D([], [], color=dot_color, marker='o',
+                                linestyle='None', markersize=8, label='Mean')
+
+    fig.legend(handles=[mean_handle],
+               loc='upper right',
+               bbox_to_anchor=(0.98, 0.98))
+    
     fig.suptitle("Normalized Socioeconomic Indicators by World Cup Stage", fontsize=16)
     fig.tight_layout(rect=[0, 0, 1, 0.95])
 
-    # SAVE
     save_figure(fig, filename)
-
     plt.show()
+
 
 
 # ============================================================
 #       3. STAGE PROBABILITY PANEL (“RAISES THE FLOOR”)
 # ============================================================
 
-def plot_stage_probability_panel(df, metrics, bins=20, filename=None):
+def plot_stage_probability_panel(df, metrics, filename=None):
 
     df_in_wc = df[df["max_stage_numeric"] > 0].copy()
 
@@ -227,7 +268,8 @@ def plot_stage_probability_panel(df, metrics, bins=20, filename=None):
     for ax, metric in zip(axes, metrics):
 
         tmp = df_in_wc.copy()
-        tmp["_bin"] = pd.qcut(tmp[metric], bins, duplicates="drop")
+        bins = np.linspace(df_in_wc[metric].min(), df_in_wc[metric].max(), 5)
+        tmp["_bin"] = pd.cut(tmp[metric], bins=bins, include_lowest=True)
 
         prob_df = (
             tmp.groupby("_bin")["max_stage_numeric"]
@@ -245,6 +287,7 @@ def plot_stage_probability_panel(df, metrics, bins=20, filename=None):
 
         clean = pretty_metric(metric)
         ax.set_title(clean)
+        ax.set_xlim(xmin, xmax)
         ax.set_xlabel(f"Normalized {clean} (t=0)")
         ax.set_ylabel("Probability")
         ax.grid(True, alpha=0.25)
