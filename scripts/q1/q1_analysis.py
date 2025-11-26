@@ -252,54 +252,57 @@ def plot_box_panel(df, metrics, filename=None):
 #       3. STAGE PROBABILITY PANEL (“RAISES THE FLOOR”)
 # ============================================================
 
-def plot_stage_probability_panel(df, metrics, filename=None):
+from sklearn.neighbors import KernelDensity
 
-    df_in_wc = df[df["max_stage_numeric"] > 0].copy()
+def plot_stage_smoothed_cdf_panel(df, metrics, bandwidth=0.35, filename=None):
 
-    stage_thresholds = {
-        "Round of 16": 2,
-        "Quarter-finals": 3,
-        "Semi-finals": 4,
-        "Final": 5
-    }
+    # Convert stage labels into a mapping
+    stage_map = dict(zip(stage_ticks, stage_labels))
+
+    # Exclude DNQ (0) + Group Stage (1)
+    valid_stages = [s for s in stage_ticks if s > 1]
 
     fig, axes = make_grid(2, 2, figsize=(16, 12))
 
     for ax, metric in zip(axes, metrics):
 
-        tmp = df_in_wc.copy()
-        bins = np.linspace(df_in_wc[metric].min(), df_in_wc[metric].max(), 5)
-        tmp["_bin"] = pd.cut(tmp[metric], bins=bins, include_lowest=True)
+        # Shared X scale across stages for clean comparison
+        x_grid = np.linspace(df[metric].min(), df[metric].max(), 300)
 
-        prob_df = (
-            tmp.groupby("_bin")["max_stage_numeric"]
-               .apply(list)
-               .reset_index()
-        )
-        prob_df["x"] = prob_df["_bin"].apply(lambda b: b.mid)
+        # Plot each stage as smoothed CDF
+        for stage_num in valid_stages:
 
-        for stage_name, thresh in stage_thresholds.items():
-            prob_df[stage_name] = prob_df["max_stage_numeric"].apply(
-                lambda lst: np.mean([v >= thresh for v in lst])
+            vals = df.loc[df.max_stage_numeric == stage_num, metric].dropna()
+
+            # if sample < 8, skip (avoid overfitting noise)
+            if len(vals) < 8:
+                continue
+
+            kde = KernelDensity(kernel="gaussian", bandwidth=bandwidth).fit(vals.values.reshape(-1,1))
+            pdf = np.exp(kde.score_samples(x_grid.reshape(-1,1)))
+            cdf = np.cumsum(pdf) / np.sum(pdf)
+
+            ax.plot(
+                x_grid, cdf, lw=2.2, alpha=0.9,
+                label=stage_map[stage_num],
             )
-            ax.plot(prob_df["x"], prob_df[stage_name], linewidth=2,
-                    label=f"P(Reach {stage_name})")
 
+        # Label + formatting
         clean = pretty_metric(metric)
-        ax.set_title(clean)
-        ax.set_xlim(xmin, xmax)
+        ax.set_title(clean, fontsize=14)
         ax.set_xlabel(f"Normalized {clean} (t=0)")
-        ax.set_ylabel("Probability")
-        ax.grid(True, alpha=0.25)
+        ax.set_ylabel("Cumulative Probability")
+        ax.grid(alpha=0.25)
 
+    # Add legend only once
     axes[-1].legend(title="Stage", loc="center left", bbox_to_anchor=(1.05, 0.5))
 
-    fig.suptitle("How Socioeconomic Indicators 'Raise the Floor' of World Cup Performance", fontsize=18)
-    fig.tight_layout(rect=[0, 0, 0.88, 0.95])
+    fig.suptitle("Smoothed CDF of Socioeconomic Indicators by Stage (Excluding DNQ + Group Stage)", fontsize=18)
+    fig.tight_layout(rect=[0,0,0.88,0.95])
 
-    # IMPORTANT: show before saving
+    # Optional export
+    save_figure(fig, filename)
     plt.show()
-
 
 
 
@@ -309,4 +312,4 @@ def plot_stage_probability_panel(df, metrics, filename=None):
 
 plot_scatter_panel(df, metrics, 'scatter.png')
 plot_box_panel(df, metrics, 'box.png')
-plot_stage_probability_panel(df, metrics)
+plot_stage_smoothed_cdf_panel(df, metrics)
