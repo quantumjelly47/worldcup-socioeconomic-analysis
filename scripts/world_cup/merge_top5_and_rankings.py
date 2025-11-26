@@ -175,6 +175,19 @@ drop_mask = drop_cz_early | drop_cz_late | drop_yugo_early | drop_yugo_late
 # Filter
 performance_data_1986_2022 = df[~drop_mask].copy()
 
+# Keep only countries that qualified for at least one World Cup from 1994–2022
+qualified_teams = (
+    performance_data_1986_2022[
+        (performance_data_1986_2022["world_cup_year"] >= 1994)
+        & (performance_data_1986_2022["max_stage_numeric"] > 0)
+    ]["team"]
+    .drop_duplicates()
+)
+
+performance_data_1986_2022 = performance_data_1986_2022[
+    performance_data_1986_2022["team"].isin(qualified_teams)
+].copy()
+
 
 
 # ############## SANITY CHECK

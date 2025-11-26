@@ -58,6 +58,7 @@ def main():
 
     merged = wc_df.copy()
     merged = attach_metric(merged, gdp_df, "gdp_per_capita", "gdp_per_capita")
+    merged = attach_metric(merged, gdp_df, "norm_gdp_per_capita", "norm_gdp_per_capita")
     merged = attach_metric(merged, hdi_df, "hdi", "hdi")
     merged = attach_metric(merged, life_df, "life_expectancy", "life_expectancy")
     merged = attach_metric(
