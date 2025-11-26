@@ -12,7 +12,7 @@ BGR,Bulgaria,Very High,Developed,55.0,1990,0.706
 CMR,Cameroon,Medium,SSA,155.0,1990,0.448
 CAN,Canada,Very High,Developed,16.0,1990,0.865
 CHL,Chile,Very High,LAC,45.0,1990,0.718
-CHN,China PR,High,EAP,78.0,1990,0.491
+CHN,China,High,EAP,78.0,1990,0.491
 COL,Colombia,High,LAC,83.0,1990,0.623
 CRI,Costa Rica,Very High,LAC,62.0,1990,0.677
 HRV,Croatia,Very High,Developed,41.0,1990,0.713
@@ -77,7 +77,7 @@ BGR,Bulgaria,Very High,Developed,55.0,1991,0.706
 CMR,Cameroon,Medium,SSA,155.0,1991,0.445
 CAN,Canada,Very High,Developed,16.0,1991,0.868
 CHL,Chile,Very High,LAC,45.0,1991,0.723
-CHN,China PR,High,EAP,78.0,1991,0.499
+CHN,China,High,EAP,78.0,1991,0.499
 COL,Colombia,High,LAC,83.0,1991,0.63
 CRI,Costa Rica,Very High,LAC,62.0,1991,0.682
 HRV,Croatia,Very High,Developed,41.0,1991,0.713
@@ -142,7 +142,7 @@ BGR,Bulgaria,Very High,Developed,55.0,1992,0.709
 CMR,Cameroon,Medium,SSA,155.0,1992,0.442
 CAN,Canada,Very High,Developed,16.0,1992,0.873
 CHL,Chile,Very High,LAC,45.0,1992,0.73
-CHN,China PR,High,EAP,78.0,1992,0.511
+CHN,China,High,EAP,78.0,1992,0.511
 COL,Colombia,High,LAC,83.0,1992,0.639
 CRI,Costa Rica,Very High,LAC,62.0,1992,0.691
 HRV,Croatia,Very High,Developed,41.0,1992,0.713
@@ -207,7 +207,7 @@ BGR,Bulgaria,Very High,Developed,55.0,1993,0.711
 CMR,Cameroon,Medium,SSA,155.0,1993,0.436
 CAN,Canada,Very High,Developed,16.0,1993,0.871
 CHL,Chile,Very High,LAC,45.0,1993,0.725
-CHN,China PR,High,EAP,78.0,1993,0.522
+CHN,China,High,EAP,78.0,1993,0.522
 COL,Colombia,High,LAC,83.0,1993,0.645
 CRI,Costa Rica,Very High,LAC,62.0,1993,0.696
 HRV,Croatia,Very High,Developed,41.0,1993,0.713
@@ -272,7 +272,7 @@ BGR,Bulgaria,Very High,Developed,55.0,1994,0.713
 CMR,Cameroon,Medium,SSA,155.0,1994,0.434
 CAN,Canada,Very High,Developed,16.0,1994,0.877
 CHL,Chile,Very High,LAC,45.0,1994,0.73
-CHN,China PR,High,EAP,78.0,1994,0.532
+CHN,China,High,EAP,78.0,1994,0.532
 COL,Colombia,High,LAC,83.0,1994,0.65
 CRI,Costa Rica,Very High,LAC,62.0,1994,0.701
 HRV,Croatia,Very High,Developed,41.0,1994,0.713
@@ -337,7 +337,7 @@ BGR,Bulgaria,Very High,Developed,55.0,1995,0.709
 CMR,Cameroon,Medium,SSA,155.0,1995,0.433
 CAN,Canada,Very High,Developed,16.0,1995,0.881
 CHL,Chile,Very High,LAC,45.0,1995,0.739
-CHN,China PR,High,EAP,78.0,1995,0.543
+CHN,China,High,EAP,78.0,1995,0.543
 COL,Colombia,High,LAC,83.0,1995,0.655
 CRI,Costa Rica,Very High,LAC,62.0,1995,0.706
 HRV,Croatia,Very High,Developed,41.0,1995,0.713
@@ -402,7 +402,7 @@ BGR,Bulgaria,Very High,Developed,55.0,1996,0.718
 CMR,Cameroon,Medium,SSA,155.0,1996,0.432
 CAN,Canada,Very High,Developed,16.0,1996,0.884
 CHL,Chile,Very High,LAC,45.0,1996,0.745
-CHN,China PR,High,EAP,78.0,1996,0.555
+CHN,China,High,EAP,78.0,1996,0.555
 COL,Colombia,High,LAC,83.0,1996,0.663
 CRI,Costa Rica,Very High,LAC,62.0,1996,0.707
 HRV,Croatia,Very High,Developed,41.0,1996,0.725
@@ -467,7 +467,7 @@ BGR,Bulgaria,Very High,Developed,55.0,1997,0.713
 CMR,Cameroon,Medium,SSA,155.0,1997,0.432
 CAN,Canada,Very High,Developed,16.0,1997,0.884
 CHL,Chile,Very High,LAC,45.0,1997,0.752
-CHN,China PR,High,EAP,78.0,1997,0.566
+CHN,China,High,EAP,78.0,1997,0.566
 COL,Colombia,High,LAC,83.0,1997,0.67
 CRI,Costa Rica,Very High,LAC,62.0,1997,0.712
 HRV,Croatia,Very High,Developed,41.0,1997,0.734
@@ -532,7 +532,7 @@ BGR,Bulgaria,Very High,Developed,55.0,1998,0.723
 CMR,Cameroon,Medium,SSA,155.0,1998,0.433
 CAN,Canada,Very High,Developed,16.0,1998,0.883
 CHL,Chile,Very High,LAC,45.0,1998,0.759
-CHN,China PR,High,EAP,78.0,1998,0.576
+CHN,China,High,EAP,78.0,1998,0.576
 COL,Colombia,High,LAC,83.0,1998,0.676
 CRI,Costa Rica,Very High,LAC,62.0,1998,0.714
 HRV,Croatia,Very High,Developed,41.0,1998,0.744
@@ -597,7 +597,7 @@ BGR,Bulgaria,Very High,Developed,55.0,1999,0.728
 CMR,Cameroon,Medium,SSA,155.0,1999,0.434
 CAN,Canada,Very High,Developed,16.0,1999,0.888
 CHL,Chile,Very High,LAC,45.0,1999,0.766
-CHN,China PR,High,EAP,78.0,1999,0.587
+CHN,China,High,EAP,78.0,1999,0.587
 COL,Colombia,High,LAC,83.0,1999,0.673
 CRI,Costa Rica,Very High,LAC,62.0,1999,0.717
 HRV,Croatia,Very High,Developed,41.0,1999,0.753
@@ -662,7 +662,7 @@ BGR,Bulgaria,Very High,Developed,55.0,2000,0.733
 CMR,Cameroon,Medium,SSA,155.0,2000,0.439
 CAN,Canada,Very High,Developed,16.0,2000,0.894
 CHL,Chile,Very High,LAC,45.0,2000,0.771
-CHN,China PR,High,EAP,78.0,2000,0.598
+CHN,China,High,EAP,78.0,2000,0.598
 COL,Colombia,High,LAC,83.0,2000,0.679
 CRI,Costa Rica,Very High,LAC,62.0,2000,0.72
 HRV,Croatia,Very High,Developed,41.0,2000,0.769
@@ -727,7 +727,7 @@ BGR,Bulgaria,Very High,Developed,55.0,2001,0.742
 CMR,Cameroon,Medium,SSA,155.0,2001,0.458
 CAN,Canada,Very High,Developed,16.0,2001,0.897
 CHL,Chile,Very High,LAC,45.0,2001,0.778
-CHN,China PR,High,EAP,78.0,2001,0.608
+CHN,China,High,EAP,78.0,2001,0.608
 COL,Colombia,High,LAC,83.0,2001,0.681
 CRI,Costa Rica,Very High,LAC,62.0,2001,0.726
 HRV,Croatia,Very High,Developed,41.0,2001,0.785
@@ -792,7 +792,7 @@ BGR,Bulgaria,Very High,Developed,55.0,2002,0.753
 CMR,Cameroon,Medium,SSA,155.0,2002,0.458
 CAN,Canada,Very High,Developed,16.0,2002,0.899
 CHL,Chile,Very High,LAC,45.0,2002,0.784
-CHN,China PR,High,EAP,78.0,2002,0.619
+CHN,China,High,EAP,78.0,2002,0.619
 COL,Colombia,High,LAC,83.0,2002,0.684
 CRI,Costa Rica,Very High,LAC,62.0,2002,0.73
 HRV,Croatia,Very High,Developed,41.0,2002,0.792
@@ -857,7 +857,7 @@ BGR,Bulgaria,Very High,Developed,55.0,2003,0.762
 CMR,Cameroon,Medium,SSA,155.0,2003,0.465
 CAN,Canada,Very High,Developed,16.0,2003,0.902
 CHL,Chile,Very High,LAC,45.0,2003,0.789
-CHN,China PR,High,EAP,78.0,2003,0.63
+CHN,China,High,EAP,78.0,2003,0.63
 COL,Colombia,High,LAC,83.0,2003,0.691
 CRI,Costa Rica,Very High,LAC,62.0,2003,0.736
 HRV,Croatia,Very High,Developed,41.0,2003,0.798
@@ -922,7 +922,7 @@ BGR,Bulgaria,Very High,Developed,55.0,2004,0.769
 CMR,Cameroon,Medium,SSA,155.0,2004,0.47
 CAN,Canada,Very High,Developed,16.0,2004,0.906
 CHL,Chile,Very High,LAC,45.0,2004,0.797
-CHN,China PR,High,EAP,78.0,2004,0.642
+CHN,China,High,EAP,78.0,2004,0.642
 COL,Colombia,High,LAC,83.0,2004,0.699
 CRI,Costa Rica,Very High,LAC,62.0,2004,0.741
 HRV,Croatia,Very High,Developed,41.0,2004,0.807
@@ -987,7 +987,7 @@ BGR,Bulgaria,Very High,Developed,55.0,2005,0.775
 CMR,Cameroon,Medium,SSA,155.0,2005,0.472
 CAN,Canada,Very High,Developed,16.0,2005,0.909
 CHL,Chile,Very High,LAC,45.0,2005,0.804
-CHN,China PR,High,EAP,78.0,2005,0.654
+CHN,China,High,EAP,78.0,2005,0.654
 COL,Colombia,High,LAC,83.0,2005,0.711
 CRI,Costa Rica,Very High,LAC,62.0,2005,0.748
 HRV,Croatia,Very High,Developed,41.0,2005,0.814
@@ -1052,7 +1052,7 @@ BGR,Bulgaria,Very High,Developed,55.0,2006,0.779
 CMR,Cameroon,Medium,SSA,155.0,2006,0.473
 CAN,Canada,Very High,Developed,16.0,2006,0.913
 CHL,Chile,Very High,LAC,45.0,2006,0.804
-CHN,China PR,High,EAP,78.0,2006,0.666
+CHN,China,High,EAP,78.0,2006,0.666
 COL,Colombia,High,LAC,83.0,2006,0.712
 CRI,Costa Rica,Very High,LAC,62.0,2006,0.755
 HRV,Croatia,Very High,Developed,41.0,2006,0.819
@@ -1117,7 +1117,7 @@ BGR,Bulgaria,Very High,Developed,55.0,2007,0.785
 CMR,Cameroon,Medium,SSA,155.0,2007,0.485
 CAN,Canada,Very High,Developed,16.0,2007,0.914
 CHL,Chile,Very High,LAC,45.0,2007,0.812
-CHN,China PR,High,EAP,78.0,2007,0.68
+CHN,China,High,EAP,78.0,2007,0.68
 COL,Colombia,High,LAC,83.0,2007,0.724
 CRI,Costa Rica,Very High,LAC,62.0,2007,0.76
 HRV,Croatia,Very High,Developed,41.0,2007,0.825
@@ -1182,7 +1182,7 @@ BGR,Bulgaria,Very High,Developed,55.0,2008,0.791
 CMR,Cameroon,Medium,SSA,155.0,2008,0.501
 CAN,Canada,Very High,Developed,16.0,2008,0.916
 CHL,Chile,Very High,LAC,45.0,2008,0.82
-CHN,China PR,High,EAP,78.0,2008,0.689
+CHN,China,High,EAP,78.0,2008,0.689
 COL,Colombia,High,LAC,83.0,2008,0.731
 CRI,Costa Rica,Very High,LAC,62.0,2008,0.769
 HRV,Croatia,Very High,Developed,41.0,2008,0.827
@@ -1247,7 +1247,7 @@ BGR,Bulgaria,Very High,Developed,55.0,2009,0.793
 CMR,Cameroon,Medium,SSA,155.0,2009,0.516
 CAN,Canada,Very High,Developed,16.0,2009,0.915
 CHL,Chile,Very High,LAC,45.0,2009,0.819
-CHN,China PR,High,EAP,78.0,2009,0.7
+CHN,China,High,EAP,78.0,2009,0.7
 COL,Colombia,High,LAC,83.0,2009,0.736
 CRI,Costa Rica,Very High,LAC,62.0,2009,0.773
 HRV,Croatia,Very High,Developed,41.0,2009,0.826
@@ -1312,7 +1312,7 @@ BGR,Bulgaria,Very High,Developed,55.0,2010,0.799
 CMR,Cameroon,Medium,SSA,155.0,2010,0.529
 CAN,Canada,Very High,Developed,16.0,2010,0.918
 CHL,Chile,Very High,LAC,45.0,2010,0.823
-CHN,China PR,High,EAP,78.0,2010,0.71
+CHN,China,High,EAP,78.0,2010,0.71
 COL,Colombia,High,LAC,83.0,2010,0.741
 CRI,Costa Rica,Very High,LAC,62.0,2010,0.776
 HRV,Croatia,Very High,Developed,41.0,2010,0.831
@@ -1377,7 +1377,7 @@ BGR,Bulgaria,Very High,Developed,55.0,2011,0.803
 CMR,Cameroon,Medium,SSA,155.0,2011,0.538
 CAN,Canada,Very High,Developed,16.0,2011,0.921
 CHL,Chile,Very High,LAC,45.0,2011,0.823
-CHN,China PR,High,EAP,78.0,2011,0.717
+CHN,China,High,EAP,78.0,2011,0.717
 COL,Colombia,High,LAC,83.0,2011,0.747
 CRI,Costa Rica,Very High,LAC,62.0,2011,0.783
 HRV,Croatia,Very High,Developed,41.0,2011,0.836
@@ -1442,7 +1442,7 @@ BGR,Bulgaria,Very High,Developed,55.0,2012,0.807
 CMR,Cameroon,Medium,SSA,155.0,2012,0.549
 CAN,Canada,Very High,Developed,16.0,2012,0.927
 CHL,Chile,Very High,LAC,45.0,2012,0.832
-CHN,China PR,High,EAP,78.0,2012,0.725
+CHN,China,High,EAP,78.0,2012,0.725
 COL,Colombia,High,LAC,83.0,2012,0.748
 CRI,Costa Rica,Very High,LAC,62.0,2012,0.789
 HRV,Croatia,Very High,Developed,41.0,2012,0.839
@@ -1507,7 +1507,7 @@ BGR,Bulgaria,Very High,Developed,55.0,2013,0.815
 CMR,Cameroon,Medium,SSA,155.0,2013,0.558
 CAN,Canada,Very High,Developed,16.0,2013,0.93
 CHL,Chile,Very High,LAC,45.0,2013,0.845
-CHN,China PR,High,EAP,78.0,2013,0.733
+CHN,China,High,EAP,78.0,2013,0.733
 COL,Colombia,High,LAC,83.0,2013,0.76
 CRI,Costa Rica,Very High,LAC,62.0,2013,0.795
 HRV,Croatia,Very High,Developed,41.0,2013,0.846
@@ -1572,7 +1572,7 @@ BGR,Bulgaria,Very High,Developed,55.0,2014,0.819
 CMR,Cameroon,Medium,SSA,155.0,2014,0.566
 CAN,Canada,Very High,Developed,16.0,2014,0.932
 CHL,Chile,Very High,LAC,45.0,2014,0.849
-CHN,China PR,High,EAP,78.0,2014,0.742
+CHN,China,High,EAP,78.0,2014,0.742
 COL,Colombia,High,LAC,83.0,2014,0.763
 CRI,Costa Rica,Very High,LAC,62.0,2014,0.802
 HRV,Croatia,Very High,Developed,41.0,2014,0.848
@@ -1637,7 +1637,7 @@ BGR,Bulgaria,Very High,Developed,55.0,2015,0.824
 CMR,Cameroon,Medium,SSA,155.0,2015,0.575
 CAN,Canada,Very High,Developed,16.0,2015,0.932
 CHL,Chile,Very High,LAC,45.0,2015,0.855
-CHN,China PR,High,EAP,78.0,2015,0.75
+CHN,China,High,EAP,78.0,2015,0.75
 COL,Colombia,High,LAC,83.0,2015,0.767
 CRI,Costa Rica,Very High,LAC,62.0,2015,0.803
 HRV,Croatia,Very High,Developed,41.0,2015,0.852
@@ -1702,7 +1702,7 @@ BGR,Bulgaria,Very High,Developed,55.0,2016,0.827
 CMR,Cameroon,Medium,SSA,155.0,2016,0.579
 CAN,Canada,Very High,Developed,16.0,2016,0.933
 CHL,Chile,Very High,LAC,45.0,2016,0.859
-CHN,China PR,High,EAP,78.0,2016,0.758
+CHN,China,High,EAP,78.0,2016,0.758
 COL,Colombia,High,LAC,83.0,2016,0.772
 CRI,Costa Rica,Very High,LAC,62.0,2016,0.805
 HRV,Croatia,Very High,Developed,41.0,2016,0.856
@@ -1767,7 +1767,7 @@ BGR,Bulgaria,Very High,Developed,55.0,2017,0.829
 CMR,Cameroon,Medium,SSA,155.0,2017,0.581
 CAN,Canada,Very High,Developed,16.0,2017,0.935
 CHL,Chile,Very High,LAC,45.0,2017,0.862
-CHN,China PR,High,EAP,78.0,2017,0.765
+CHN,China,High,EAP,78.0,2017,0.765
 COL,Colombia,High,LAC,83.0,2017,0.774
 CRI,Costa Rica,Very High,LAC,62.0,2017,0.809
 HRV,Croatia,Very High,Developed,41.0,2017,0.862
@@ -1832,7 +1832,7 @@ BGR,Bulgaria,Very High,Developed,55.0,2018,0.832
 CMR,Cameroon,Medium,SSA,155.0,2018,0.582
 CAN,Canada,Very High,Developed,16.0,2018,0.935
 CHL,Chile,Very High,LAC,45.0,2018,0.866
-CHN,China PR,High,EAP,78.0,2018,0.774
+CHN,China,High,EAP,78.0,2018,0.774
 COL,Colombia,High,LAC,83.0,2018,0.775
 CRI,Costa Rica,Very High,LAC,62.0,2018,0.813
 HRV,Croatia,Very High,Developed,41.0,2018,0.867
@@ -1897,7 +1897,7 @@ BGR,Bulgaria,Very High,Developed,55.0,2019,0.835
 CMR,Cameroon,Medium,SSA,155.0,2019,0.582
 CAN,Canada,Very High,Developed,16.0,2019,0.937
 CHL,Chile,Very High,LAC,45.0,2019,0.867
-CHN,China PR,High,EAP,78.0,2019,0.781
+CHN,China,High,EAP,78.0,2019,0.781
 COL,Colombia,High,LAC,83.0,2019,0.777
 CRI,Costa Rica,Very High,LAC,62.0,2019,0.821
 HRV,Croatia,Very High,Developed,41.0,2019,0.872
@@ -1962,7 +1962,7 @@ BGR,Bulgaria,Very High,Developed,55.0,2020,0.826
 CMR,Cameroon,Medium,SSA,155.0,2020,0.579
 CAN,Canada,Very High,Developed,16.0,2020,0.931
 CHL,Chile,Very High,LAC,45.0,2020,0.856
-CHN,China PR,High,EAP,78.0,2020,0.786
+CHN,China,High,EAP,78.0,2020,0.786
 COL,Colombia,High,LAC,83.0,2020,0.764
 CRI,Costa Rica,Very High,LAC,62.0,2020,0.819
 HRV,Croatia,Very High,Developed,41.0,2020,0.867
@@ -2027,7 +2027,7 @@ BGR,Bulgaria,Very High,Developed,55.0,2021,0.817
 CMR,Cameroon,Medium,SSA,155.0,2021,0.574
 CAN,Canada,Very High,Developed,16.0,2021,0.937
 CHL,Chile,Very High,LAC,45.0,2021,0.865
-CHN,China PR,High,EAP,78.0,2021,0.794
+CHN,China,High,EAP,78.0,2021,0.794
 COL,Colombia,High,LAC,83.0,2021,0.762
 CRI,Costa Rica,Very High,LAC,62.0,2021,0.817
 HRV,Croatia,Very High,Developed,41.0,2021,0.876
@@ -2092,7 +2092,7 @@ BGR,Bulgaria,Very High,Developed,55.0,2022,0.835
 CMR,Cameroon,Medium,SSA,155.0,2022,0.581
 CAN,Canada,Very High,Developed,16.0,2022,0.935
 CHL,Chile,Very High,LAC,45.0,2022,0.869
-CHN,China PR,High,EAP,78.0,2022,0.796
+CHN,China,High,EAP,78.0,2022,0.796
 COL,Colombia,High,LAC,83.0,2022,0.782
 CRI,Costa Rica,Very High,LAC,62.0,2022,0.823
 HRV,Croatia,Very High,Developed,41.0,2022,0.886
@@ -2157,7 +2157,7 @@ BGR,Bulgaria,Very High,Developed,55.0,2023,0.845
 CMR,Cameroon,Medium,SSA,155.0,2023,0.588
 CAN,Canada,Very High,Developed,16.0,2023,0.939
 CHL,Chile,Very High,LAC,45.0,2023,0.878
-CHN,China PR,High,EAP,78.0,2023,0.797
+CHN,China,High,EAP,78.0,2023,0.797
 COL,Colombia,High,LAC,83.0,2023,0.788
 CRI,Costa Rica,Very High,LAC,62.0,2023,0.833
 HRV,Croatia,Very High,Developed,41.0,2023,0.889
