@@ -61,6 +61,11 @@ def clean_gdp(path="data/raw_data_files/Socioeconomic Data/GDP per Capita Data.c
     )
     gdp_long = gdp_long[mask].copy()
 
+    # Normalize GDP per capita using global mean/std (before World Cup filtering)
+    gdp_mean = gdp_long["gdp_per_capita"].mean()
+    gdp_std = gdp_long["gdp_per_capita"].std()
+    gdp_long["norm_gdp_per_capita"] = (gdp_long["gdp_per_capita"] - gdp_mean) / gdp_std
+
     # Keep observations from 1990 onward
     gdp_long = gdp_long[gdp_long["year"] >= 1990].reset_index(drop=True)
 
@@ -80,6 +85,8 @@ def clean_gdp(path="data/raw_data_files/Socioeconomic Data/GDP per Capita Data.c
         )
         print(" - gdp_per_capita summary:")
         print(world_cup_gdp["gdp_per_capita"].describe())
+        print(" - norm_gdp_per_capita summary:")
+        print(world_cup_gdp["norm_gdp_per_capita"].describe())
         print(f" - Saved CSV: {world_cup_path}")
         check_country_coverage(world_cup_gdp)
 

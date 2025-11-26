@@ -8,7 +8,8 @@ def normalize_country_names(df, column="country"):
     replacements = {
         "Bahamas, The": "Bahamas",
         "Bolivia (Plurinational State of)": "Bolivia",
-        "China": "China PR",
+        "China PR": "China",
+        "China PR": "China PR",
         "CA'te d'Ivoire": "Ivory Coast",
         "C�te d'Ivoire": "Ivory Coast",
         "Côte d'Ivoire": "Ivory Coast",
@@ -96,7 +97,7 @@ def expand_legacy_countries(df, column="country"):
 WORLD_CUP_COUNTRIES = [
     'Algeria', 'Angola', 'Argentina', 'Australia', 'Austria', 'Belgium', 'Bolivia',
     'Bosnia and Herzegovina', 'Brazil', 'Bulgaria', 'Cameroon', 'Canada', 'Chile',
-    'China PR', 'Colombia', 'Costa Rica', 'Croatia', 'Czech Republic', 'Denmark',
+    'China', 'Colombia', 'Costa Rica', 'Croatia', 'Czech Republic', 'Denmark',
     'Ecuador', 'Egypt', 'England', 'FR Yugoslavia', 'France', 'Germany', 'Ghana',
     'Greece', 'Honduras', 'Iceland', 'Iran', 'Italy', 'Ivory Coast', 'Jamaica',
     'Japan', 'Mexico', 'Morocco', 'Netherlands', 'New Zealand', 'Nigeria',
