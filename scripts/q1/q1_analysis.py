@@ -106,7 +106,7 @@ xmax = max(df[m + "_tminus0"].max() for m in metric_labels.keys())
 # Helper to convert column names → human-readable text
 def pretty_metric(metric):
     base = metric.replace("_tminus0", "")
-    return metric_labels.get(base, base.replace("_", " ").title())
+    return metric_labels.get(base)
 
 # Generate ordered stage ticks (numeric → string labels)
 stage_order_df = (
@@ -395,5 +395,10 @@ def plot_milestone_prob_curves(model, df_reg, filename=None):
         save_figure(plt.gcf(), filename)
 
 plot_milestone_prob_curves(model, df_reg, "milestone_prob_vs_composite_score.png")
+
+
+########################################### Changes from t-3 to t
+df["gdp_growth_3yr"] = df["gdp_per_capita_tminus0"] - df["gdp_per_capita_tminus3"]
+
 
 
