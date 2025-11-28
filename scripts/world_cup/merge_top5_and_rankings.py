@@ -126,7 +126,7 @@ stacked_data_1986_2022 = (
         .sort_values(['world_cup_year', 'team'])
 )
 
-############ Clean countries
+################################### Clean countries
 df = stacked_data_1986_2022 
 
 # ---- Define groups of country names ----
@@ -140,8 +140,6 @@ yugo_successors = [
     'Serbia and Montenegro',
     'North Macedonia',
 ]
-
-# ---- Build masks for rows you want to DROP ----
 
 # 1) Czechoslovakia block:
 #    - drop Czech/Slovak rows in early years when Czechoslovakia is the union
@@ -297,7 +295,7 @@ merge_world_cup_start_dates = (team_year_performance_and_share_of_top5
                         [lambda df: df['world_cup_year'] >= 1994]
  )
 
-# Identify closest rank date beforeeach world cup start date
+# Identify closest rank date before each world cup start date
 rankings_clean_country['rank_date'] = pd.to_datetime(rankings_clean_country['rank_date'])
 merge_world_cup_start_dates['start_date'] = pd.to_datetime(merge_world_cup_start_dates['start_date'])
 rankings_clean_country = rankings_clean_country.sort_values('rank_date')
