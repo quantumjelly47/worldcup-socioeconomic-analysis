@@ -1,91 +1,71 @@
 from pathlib import Path
 
 import pandas as pd
-from scripts.utils.filter_countries import filter_world_cup_countries, check_country_coverage
 
-OUTPUT_DIR = Path("data/created_datasets/socioeconomic")
+from scripts.utils.filter_countries import check_country_coverage
+from scripts.utils.socio_helpers import (
+    BASE_DIR,
+    assign_developed,
+    drop_aggregates,
+    fill_by_region,
+    filter_wc,
+    interpolate_by_group,
+    load_csv,
+    save_world_cup,
+)
+
+OUTPUT_DIR = BASE_DIR / "data" / "created_datasets" / "socioeconomic"
 
 
 def clean_life_expectancy(path="data/raw_data_files/Socioeconomic Data/HDI 1990-2023.csv", verbose=True):
-    """Load, clean, and subset the UNDP Life Expectancy dataset (1990-2023)."""
+    """
+    Load, clean, and subset the UNDP Life Expectancy dataset (1990–2023), interpolate/fill missing values,
+    and produce World Cup vs. non–World Cup splits.
 
-    # Load dataset
-    undp = pd.read_csv(path, encoding="latin-1")
+    Args:
+        path (str): Path to the raw HDI CSV (life expectancy columns included).
+        verbose (bool): Whether to print summary stats and coverage.
+
+    Returns:
+        tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]: (world_cup_life, non_world_cup_life, full_long)
+    """
+
+    undp = load_csv(path)
     undp.columns = undp.columns.str.strip()
+    undp = assign_developed(undp)
 
-    # Assign missing regions for developed countries
-    developed_countries = [
-        'Andorra', 'Australia', 'Austria', 'Belgium', 'Bulgaria', 'Canada', 'Croatia',
-        'Cyprus', 'Czechia', 'Denmark', 'Estonia', 'Finland', 'France', 'Germany',
-        'Greece', 'Hong Kong, China (SAR)', 'Hungary', 'Iceland', 'Ireland', 'Israel',
-        'Italy', 'Japan', 'Korea (Republic of)', 'Latvia', 'Liechtenstein', 'Lithuania',
-        'Luxembourg', 'Malta', 'Netherlands', 'New Zealand', 'Norway', 'Poland',
-        'Portugal', 'Romania', 'Russian Federation', 'San Marino', 'Slovakia',
-        'Slovenia', 'Spain', 'Sweden', 'Switzerland', 'United Kingdom', 'United States'
-    ]
-    undp.loc[undp["country"].isin(developed_countries), "region"] = "Developed"
-
-    # Select relevant columns for life expectancy
-    le_cols = ['iso3', 'country', 'hdicode', 'region', 'hdi_rank_2023'] + [
-        c for c in undp.columns if c.startswith('le_') and not c.startswith(('le_f', 'le_m'))
+    le_cols = ["iso3", "country", "hdicode", "region", "hdi_rank_2023"] + [
+        c for c in undp.columns if c.startswith("le_") and not c.startswith(("le_f", "le_m"))
     ]
     le_subset = undp[le_cols].loc[:, ~undp[le_cols].columns.duplicated()]
 
-    # Reshape from wide to long format
     le_long = le_subset.melt(
         id_vars=["iso3", "country", "hdicode", "region", "hdi_rank_2023"],
         var_name="year",
-        value_name="life_expectancy"
+        value_name="life_expectancy",
     )
     le_long["year"] = le_long["year"].str.replace("le_", "").astype(int)
     le_long["life_expectancy"] = pd.to_numeric(le_long["life_expectancy"], errors="coerce")
 
-    # Remove regional/aggregate rows
-    non_countries = [
-        "Very high human development", "High human development",
-        "Medium human development", "Low human development",
-        "Arab States", "East Asia and the Pacific", "Europe and Central Asia",
-        "Latin America and the Caribbean", "South Asia",
-        "Sub-Saharan Africa", "World"
-    ]
-    le_long = le_long[~le_long["country"].isin(non_countries)].copy()
+    le_long = drop_aggregates(le_long)
+    le_long = interpolate_by_group(le_long, "life_expectancy")
+    le_long = fill_by_region(le_long, "life_expectancy")
 
-    # Interpolation helper
-    def interpolate_safely(series):
-        if series.notna().sum() > 1:
-            return series.interpolate(limit_direction="both")
-        return series
-
-    # Interpolate missing life expectancy by country
-    le_long["life_expectancy"] = (
-        le_long.groupby("country", group_keys=False)["life_expectancy"]
-        .apply(interpolate_safely)
-    )
-
-    # Fill missing life expectancy with regional averages
-    le_long["life_expectancy"] = (
-        le_long.groupby(["region", "year"])["life_expectancy"]
-        .transform(lambda x: x.fillna(x.mean()))
-    )
-
-    # Final fallback for any remaining missing values
     le_long["region"] = le_long["region"].fillna("GLOBAL")
-    le_long["life_expectancy"] = (
-        le_long.groupby(["region", "year"])["life_expectancy"]
-        .transform(lambda x: x.fillna(x.mean()))
-    )
+    le_long = fill_by_region(le_long, "life_expectancy")
 
-    # Keep observations from 1990 onward
+    # Normalize life expectancy globally (mean/std over all countries before WC filter)
+    life_mean = le_long["life_expectancy"].mean()
+    life_std = le_long["life_expectancy"].std()
+    le_long["norm_life_expectancy"] = (le_long["life_expectancy"] - life_mean) / life_std
+
     le_long = le_long[le_long["year"] >= 1990].reset_index(drop=True)
 
-    # Split into World Cup and non-World Cup countries
-    world_cup_life, non_world_cup_life = filter_world_cup_countries(
-        le_long, column="country", include_non_world_cup=True
+    world_cup_life, non_world_cup_life = filter_wc(
+        le_long, "country", include_non=True
     )
 
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    world_cup_path = OUTPUT_DIR / "life_expectancy_world_cup.csv"
-    world_cup_life.to_csv(world_cup_path, index=False)
+    world_cup_path = save_world_cup(world_cup_life, "life_expectancy", OUTPUT_DIR)
 
     if verbose:
         missing = le_long[le_long["life_expectancy"].isna()]["country"].unique()
@@ -101,6 +81,8 @@ def clean_life_expectancy(path="data/raw_data_files/Socioeconomic Data/HDI 1990-
         )
         print(" - life_expectancy summary:")
         print(world_cup_life["life_expectancy"].describe())
+        print(" - norm_life_expectancy summary:")
+        print(world_cup_life["norm_life_expectancy"].describe())
         print(f" - Saved CSV: {world_cup_path}")
         check_country_coverage(world_cup_life)
 

@@ -21,11 +21,13 @@ def normalize_country_names(df, column="country"):
         "Iran (Islamic Republic of)": "Iran",
         "Iran, Islamic Rep.": "Iran",
         "Ireland": "Republic of Ireland",
+        "Dem. People's Republic of Korea": 'North Korea',
         "Korea (Democratic People's Rep. of)": "North Korea",
         "Korea, Dem. Rep.": "North Korea",
         "Korea, Dem. People's Rep.": "North Korea",
         "Korea (Republic of)": "South Korea",
         "Korea, Rep.": "South Korea",
+        'Republic of Korea': 'South Korea',
         "Lao PDR": "Lao People's Democratic Republic",
         "Micronesia, Fed. Sts.": "Micronesia (Federated States of)",
         "Moldova": "Moldova (Republic of)",
@@ -41,6 +43,8 @@ def normalize_country_names(df, column="country"):
         "Venezuela (Bolivarian Republic of)": "Venezuela",
         "Venezuela, RB": "Venezuela",
         "Viet Nam": "Vietnam",
+        'United States of America': 'United States',
+
     }
 
     df[column] = df[column].replace(replacements)
