@@ -384,7 +384,7 @@ plt.show()
 df_reg = (
     qualified_teams_charting_data[['world_cup_year', 'team', 'stage_expanded_num', 'stage_expanded'] + non_growth_metrics]
     .dropna()
-    .sort_values(["world_cup_year", "team", "stage_expanded_num"])
+    .sort_values(["world_cup_year", "team", "stage_expanded"])
     .groupby(["world_cup_year", "team"], as_index=False)
     .tail(1)   # keep the row with the max stage_expanded_num
 )
@@ -393,13 +393,30 @@ df_reg = (
 df_reg["socio_index"] = df_reg[non_growth_metrics].mean(axis=1)
 
 # Run ordered logistic model
-model = OrderedModel(df_reg['stage_expanded_num'], df_reg[['socio_index']],
-                     distr='logit').fit(method = 'bfgs', disp = False)
-print(model.summary())
+model = OrderedModel(df_reg['stage_expanded'], df_reg[['socio_index']],
+                     distr='probit').fit(method = 'bfgs', disp = False)
+
+# Print out model results
+coef = model.params['socio_index']
+pval = model.pvalues['socio_index']
+print("\n=== SES Coefficient ===")
+print(f"Coefficient (β): {coef:.4f}")
+print(f"P-value: {pval:.4f}")
+delta_names = [name for name in model.params.index if '/' in name]
+deltas = model.params[delta_names].values
+taus = [None for i in range(len(deltas))]
+for i in range(len(deltas)):
+    if i == 0:
+        taus[i] = deltas[i]
+    else:
+        taus[i] = taus[i-1] + np.exp(deltas[i])
+print("\n=== Estimated Thresholds (τ) ===")
+for i, t in enumerate(taus, start=1):
+    print(f"τ{i}: {t:.4f}")
 
 
 # Create a series of socio_economic index values
-x_vals = np.linspace(df_reg["socio_index"].min(), df_reg["socio_index"].max(), 200)
+x_vals = np.linspace(df_reg["socio_index"].min(), df_reg["socio_index"].max(), 300)
 exog = pd.DataFrame({"socio_index": x_vals})
 # predict the probability of reaching each stage (same number of rows as x_val, one column for each stage)
 pred = model.predict(exog=exog, which="prob")
@@ -421,9 +438,9 @@ plt.plot(x_vals, p_sf, linewidth=3, label="Reach Semi-finals", color="#d62728")
 plt.plot(x_vals, p_final,linewidth=3, label="Reach Final", color="#9467bd")
 plt.plot(x_vals, p_winner, linewidth = 3, label = "Win", color = "#b58900")
 
-plt.title("Probability of Reaching World Cup Milestones\nas Normalized Socioeconomic Index Increases", fontsize=18)
+plt.title("Probability of Reaching World Cup Milestones\nas Normalized Socioeconomic Index Increases (Probit Model)", fontsize=18)
 plt.xlabel("Normalized Socioeconomic Index (Composite of GDP, HDI, Life Expectancy, Education)")
-plt.ylabel("Predicted Probability")
+plt.ylabel("Predicted Probability (Probit)")
 plt.ylim(0,1)
 plt.grid(alpha=0.25)
 plt.legend(title="Milestone", fontsize=11)
@@ -431,3 +448,4 @@ plt.legend(title="Milestone", fontsize=11)
 plt.show()
 
 save_figure(plt.gcf(), "milestone_prob_vs_composite_score.png")
+
