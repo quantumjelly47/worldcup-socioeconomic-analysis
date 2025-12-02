@@ -21,6 +21,8 @@ BASE_DIR = Path(__file__).resolve().parents[2]
 # Import input file
 wc_socio_merged = pd.read_csv(BASE_DIR / "data/created_datasets/world_cup/merge_wc_with_socioeconomic.csv")
 
+# Create a qualified vs did not qualify flag and create a variable indicating the stage that each team reached (slightly different from max_stage, used in qualified_teams_charting_data)
+# Create 3-year delta for each socieconomic indicator - tells you whether a country moved up or down the global socioeconomic ladder
 data_for_analysis = (
     wc_socio_merged
     .assign(qualified = lambda df: np.where(df['max_stage_numeric'] == 0, 
@@ -33,21 +35,38 @@ data_for_analysis = (
         choicelist = [df['max_stage_numeric'],
                       4,
                       df['max_stage_numeric']-1]))
-    .assign(gdp_per_capita_growth_3yr = lambda df: (df['gdp_per_capita_tminus0'] - df['gdp_per_capita_tminus3'])/df['gdp_per_capita_tminus3'],
-            hdi_growth_3yr = lambda df: (df['hdi_tminus0'] - df['hdi_tminus3'])/df['hdi_tminus3'],
-            life_expectancy_growth_3yr = lambda df: (df['life_expectancy_tminus0'] - df['life_expectancy_tminus3'])/df['life_expectancy_tminus3'],
-            mean_school_years_growth_3yr = lambda df: (df['mean_school_years_tminus0'] - df['mean_school_years_tminus3'])/df['mean_school_years_tminus3'])
+    .assign(gdp_per_capita_growth_3yr = lambda df: df['gdp_per_capita_tminus0'] - df['gdp_per_capita_tminus3'],
+            hdi_growth_3yr = lambda df: df['hdi_tminus0'] - df['hdi_tminus3'],
+            life_expectancy_growth_3yr = lambda df: df['life_expectancy_tminus0'] - df['life_expectancy_tminus3'],
+            mean_school_years_growth_3yr = lambda df: df['mean_school_years_tminus0'] - df['mean_school_years_tminus3'])
 )
 
+# Make qualified an ordered categorical variable
 data_for_analysis['qualified'] = pd.Categorical(
     data_for_analysis['qualified'], 
     categories=['Did Not Qualify','Qualified'], 
     ordered=True
 )
 
+test = pd.read_csv(BASE_DIR / "data/created_datasets/socioeconomic")
+
+# Demean 3 year growth percentages relative to mean growth percentage across all countries in a given world cup year.
+growth_cols = [
+    "gdp_per_capita_growth_3yr",
+    "hdi_growth_3yr",
+    "life_expectancy_growth_3yr",
+    "mean_school_years_growth_3yr"
+]
+
+data_for_analysis[growth_cols] = (
+    data_for_analysis
+    .groupby("world_cup_year")[growth_cols]
+    .transform(lambda g: g - g.mean())
+)
+
 
 ################ Charting data for did not qualify vs qualified charts
-socio_cols_pattern = r'(gdp|hdi|life_expectancy|mean_school_years)'
+socio_cols_pattern = r'^(norm_|.*growth_3yr$)'
 
 all_teams_charting_data = (
     data_for_analysis
@@ -69,7 +88,7 @@ for _, row in data_for_analysis.iterrows():
         r["stage_expanded"] = stage_map[stage_num]
         expanded_rows.append(r)
 
-qualified_teams_charting_data = pd.DataFrame(expanded_rows)
+qualified_teams_charting_data = pd.DataFrame(expanded_rows).reset_index(drop = True)
 
 # Make stage_expanded an ordered category for consistent plotting
 qualified_teams_charting_data["stage_expanded"] = pd.Categorical(
@@ -148,170 +167,217 @@ growth_metrics = [
 # ############################################################
 # #  1. BOXPLOTS
 # ############################################################
-
-# def plot_box(df, growth_flag=False, filename=None):
-
-#     df = df.copy()
-
-#     fig, axes = make_grid(2, 2, figsize=(14, 10))
-
-#     box_color = "#B0B0B0"
-#     dot_color = "#2A9D8F"
-
-#     if growth_flag:
-#         metrics = growth_metrics
-#         shared_ylim = None # Allow variation in y-axis across subplots when looking at growth               
-#     else:
-#         metrics = non_growth_metrics
-#         shared_ylim = (-3, 6) # Limits based on min and max normalized score across all four indicators, rounded to nearest integer            
-
-#     for ax, metric in zip(axes, metrics):
-
-#         sns.boxplot(data=df, x="max_stage", y=metric, ax=ax, color=box_color)
-
-#         sns.pointplot(
-#             data=df,
-#             x="max_stage",
-#             y=metric,
-#             estimator=np.mean,
-#             errorbar=None,
-#             markers="o",
-#             markersize=8,
-#             linestyles="",
-#             err_kws={"linewidth": 0},
-#             ax=ax,
-#             color=dot_color
-#         )
-
-#         clean = pretty_metric(metric)
-#         ax.set_title(clean)
-#         ax.set_xlabel("Stage Reached")
-#         ax.set_ylabel("")
-#         ax.tick_params(axis="x", rotation=45)
-
-#         if shared_ylim:
-#             ax.set_ylim(shared_ylim)
-#         else:
-#             ymin, ymax = df[metric].min(), df[metric].max()
-#             pad = (ymax - ymin) * 0.1
-#             ax.set_ylim(ymin - pad, ymax + pad)
-
-#     mean_handle = mlines.Line2D([], [], color=dot_color, marker='o',
-#                                 linestyle='None', markersize=8, label='Mean')
-#     fig.legend(handles=[mean_handle],
-#                loc='upper right',
-#                bbox_to_anchor=(0.98, 0.98))
-
-#     title = ("Distribution of Past 3-Year Socioeconomic Change by World Cup Stage"
-#              if growth_flag else
-#              "Normalized Socioeconomic Indicators by World Cup Stage")
-
-#     fig.suptitle(title, fontsize=16)
-#     fig.tight_layout(rect=[0, 0, 1, 0.95])
-
-#     save_figure(fig, filename)
-#     plt.show()
+from matplotlib.ticker import PercentFormatter
 
 
+def plot_box(df, x_axis_var, growth_flag=False, filename=None):
 
+    df = df.copy()
 
+    fig, axes = make_grid(2, 2, figsize=(14, 10))
+
+    box_color = "#B0B0B0"
+    dot_color = "#2A9D8F"
+
+    if growth_flag:
+        metrics = growth_metrics
+        base_ylabel = "Percentage Growth"
+        shared_ylim = None
+        suptitle_txt_1 = "Distribution of Past 3-Year Normalized Socioeconomic Change"
+    else:
+        metrics = non_growth_metrics
+        base_ylabel = ""
+        shared_ylim = (-3, 6)
+        suptitle_txt_1 = "Distribution of Normalized Socioeconomic Indicators"
+
+    if x_axis_var == "qualified":
+        x_label = "Qualification Status"
+        suptitle_txt_2 = "Among Teams that Qualified vs Teams that Did Not Qualify"
+    elif x_axis_var == "stage_expanded":
+        x_label = "Stage"
+        suptitle_txt_2 = "Among Teams At Each World Cup Stage"
+
+    for ax, metric in zip(axes, metrics):
+
+        sns.boxplot(data=df, x=x_axis_var, y=metric, ax=ax, color=box_color)
+
+        sns.pointplot(
+            data=df,
+            x=x_axis_var,
+            y=metric,
+            estimator=np.mean,
+            errorbar=None,
+            markers="o",
+            markersize=8,
+            linestyles="",
+            err_kws={"linewidth": 0},
+            ax=ax,
+            color=dot_color
+        )
+
+        clean = pretty_metric(metric)
+        ax.set_title(clean)
+
+        # Local Y-label logic (fix)
+        if base_ylabel == "":
+            local_ylabel = f"Normalized {clean}"
+        else:
+            local_ylabel = base_ylabel
+        ax.set_ylabel(local_ylabel)
+
+        ax.set_xlabel(x_label)
+        ax.tick_params(axis="x", rotation=45)
+
+        # Correct shared_ylim logic
+        if shared_ylim is not None:
+            ax.set_ylim(shared_ylim)
+        else:
+            ymin, ymax = df[metric].min(), df[metric].max()
+            pad = (ymax - ymin) * 0.1
+            ax.set_ylim(ymin - pad, ymax + pad)
+        
+        if growth_flag:
+            ax.yaxis.set_major_formatter(PercentFormatter(1.0))
+
+    mean_handle = mlines.Line2D([], [], color=dot_color, marker='o',
+                                linestyle='None', markersize=8, label='Mean')
+
+    fig.legend(handles=[mean_handle], loc='upper right', bbox_to_anchor=(0.98, 0.98))
+
+    # Better title formatting
+    title = f"{suptitle_txt_1}\n{suptitle_txt_2}"
+
+    fig.suptitle(title, fontsize=16)
+    fig.tight_layout(rect=[0, 0, 1, 0.92])
+
+    save_figure(fig, filename)
+    plt.show()
+
+plot_box(all_teams_charting_data, 'qualified', False, 'qualifed_vs_not_level_box.png')
+plot_box(all_teams_charting_data, 'qualified', True, 'qualifed_vs_not_growth_box.png')
+plot_box(qualified_teams_charting_data, 'stage_expanded', False, 'by_stage_level_box.png')
+plot_box(qualified_teams_charting_data, 'stage_expanded', True, 'by_stage_growth_box.png')
 
 # # ============================================================
 # #       2. STACKED BAR CHART
 # # ============================================================
 
-# from matplotlib.colors import LinearSegmentedColormap
+from matplotlib.colors import LinearSegmentedColormap
+# Strong contrast SES green palette
+quartile_cmap = LinearSegmentedColormap.from_list(
+    "ses_green_strong",
+    ["#e6f5d0", "#a1d76a", "#4daf4a", "#006837"]
+)
 
-# # --- SES Strong Green Palette (Contrast-Optimized) ---
-# quartile_cmap = LinearSegmentedColormap.from_list(
-#     "ses_green_strong",
-#     ["#e6f5d0", "#a1d76a", "#4daf4a", "#006837"]   # pale → lime → deep green
-# )
+def plot_stacked_bar(df, x_axis_var, growth_flag=False, filename=None):
 
-# def plot_stacked_bar(df, growth_flag=False, filename=None):
+    df = df.copy()
 
-#     df = df.copy()
+    # Choose metrics based on flag
+    if growth_flag:
+        metrics = growth_metrics
+        suptitle_txt_1 = "Distribution of Past 3-Year Socioeconomic Growth"
+    else:
+        metrics = non_growth_metrics
+        suptitle_txt_1 = "Distribution of Normalized Socioeconomic Indicators"
 
-#     # Set metric and title based on growth_flag
-#     if growth_flag:
-#         metrics = growth_metrics
-#         title = "Distribution of 3-Year Socioeconomic Growth by Stage"
-#     else:
-#         metrics = non_growth_metrics
-#         title = "Percentage of Teams in Each Socioeconomic Quartile by Stage"
+    # Handle x-axis type (qualification vs stage)
+    if x_axis_var == "qualified":
+        x_label = "Qualification Status"
+        suptitle_txt_2 = "Among Teams that Qualified vs Teams that Did Not Qualify"
+        x_order = ['Did Not Qualify', 'Qualified']
+    elif x_axis_var == "stage_expanded":
+        x_label = "Stage"
+        suptitle_txt_2 = "Among Teams At Each World Cup Stage"
+        x_order = stage_labels
+    else:
+        raise ValueError("x_axis_var must be 'qualified' or 'stage_expanded'")
 
-#     # Create percentile buckets
-#     q = 4
-#     bucket_labels = [f"{int(100*i/q)}-{int(100*(i+1)/q)}%" for i in range(q)]
-#     for m in metrics:
-#         df[f"{m}_bucket"] = pd.qcut(
-#             df[m], q, labels=bucket_labels, duplicates="drop"
-#         )
+    # Ensure x-axis is categorical in correct order
+    df[x_axis_var] = pd.Categorical(df[x_axis_var], categories=x_order, ordered=True)
 
-#     fig, axes = make_grid(2, 2, figsize=(16, 12))
-#     legend_handles = None   # capture legend once globally
+    # Build percentile buckets
+    q = 4
+    bucket_labels = [f"{int(100*i/q)}-{int(100*(i+1)/q)}%" for i in range(q)]
 
-#     for ax, metric in zip(axes, metrics):
+    # Create subplots
+    fig, axes = make_grid(2, 2, figsize=(16, 12))
 
-#         # Proportion of each SES bucket within each stage
-#         counts = (
-#             df.groupby(["max_stage", f"{metric}_bucket"], observed=True)
-#               .size()
-#               .reset_index(name="count")
-#         )
-#         counts["proportion"] = (
-#             counts.groupby("max_stage")["count"].transform(lambda x: x/x.sum())
-#         )
+    legend_handles = None
 
-#         wide = counts.pivot(
-#             index="max_stage",
-#             columns=f"{metric}_bucket",
-#             values="proportion"
-#         ).reindex(stage_labels)
+    for ax, metric in zip(axes, metrics):
 
-#         clean = pretty_metric(metric.replace("_tminus0","").replace("_growth_3yr",""))
+        # Assign quartiles for each metric
+        df[f"{metric}_bucket"] = pd.qcut(
+            df[metric], q, labels=bucket_labels, duplicates="drop"
+        )
 
-#         # Plot stacked bars
-#         barplot = wide.plot(
-#             kind="bar",
-#             stacked=True,
-#             colormap=quartile_cmap,
-#             width=0.90,
-#             ax=ax
-#         )
+        # Compute proportion inside each x-axis group
+        temp = (
+            df.groupby([x_axis_var, f"{metric}_bucket"], observed=True)
+              .size()
+              .reset_index(name="count")
+        )
 
-#         # Store handles once to build single global legend later
-#         if legend_handles is None:
-#             legend_handles = barplot.get_legend_handles_labels()
+        temp["proportion"] = (
+            temp.groupby(x_axis_var)["count"].transform(lambda x: x / x.sum())
+        )
 
-#         # ─── Formatting ──────────────────────────────────────────────
-#         ax.set_title(f"{clean} Quartile Composition by Stage", fontsize=13)
-#         ax.set_ylim(0, 1)
-#         ax.grid(axis='y', alpha=0.3)
-#         ax.set_xlabel("Stage Reached")
-#         ax.set_ylabel("Share of Teams")
-#         ax.set_xticklabels(ax.get_xticklabels(), rotation=45, ha='right')
+        # Wide format for stacked bars
+        wide = (
+            temp.pivot(index=x_axis_var,
+                       columns=f"{metric}_bucket",
+                       values="proportion")
+                .reindex(x_order)
+        )
 
-#         ax.legend().remove()  # suppress subplot legends
+        # Human-readable label
+        clean = pretty_metric(metric.replace("_tminus0","").replace("_growth_3yr",""))
 
-#     # --- One global legend ---
-#     fig.legend(*legend_handles,
-#                title="Percentile Bucket",
-#                loc="upper right",
-#                bbox_to_anchor=(0.98, 0.97))
+        # Plot stacked bars
+        barplot = wide.plot(
+            kind="bar",
+            stacked=True,
+            colormap=quartile_cmap,
+            width=0.90,
+            ax=ax
+        )
 
-#     fig.tight_layout(rect=[0,0,0.92,0.92])
-#     fig.suptitle(title, fontsize=18, y=0.99)
+        # Capture legend only once
+        if legend_handles is None:
+            legend_handles = barplot.get_legend_handles_labels()
+
+        # Formatting
+        ax.set_title(f"{clean} Percentile Composition", fontsize=13)
+        ax.set_xlabel(x_label)
+        ax.set_ylabel("Share of Teams")
+        ax.set_ylim(0, 1)
+        ax.grid(axis='y', alpha=0.3)
+        ax.set_xticklabels(ax.get_xticklabels(), rotation=45, ha='right')
+        ax.yaxis.set_major_formatter(PercentFormatter(1.0))
+
+        ax.legend().remove()  # remove subplot legends
+
+    # Global legend
+    fig.legend(*legend_handles,
+               title="Percentile Bucket",
+               loc="upper right",
+               bbox_to_anchor=(0.98, 0.97))
+
+    # Combined title
+    fig.suptitle(f"{suptitle_txt_1}\n{suptitle_txt_2}", fontsize=18)
+
+    fig.tight_layout(rect=[0, 0, 0.92, 0.90])
+
+    save_figure(fig, filename)
+    plt.show()
+
+plot_stacked_bar(all_teams_charting_data, "qualified", False, "qualified_vs_not_level_stacked.png")
+plot_stacked_bar(all_teams_charting_data, "qualified", True, "qualified_vs_not_growth_stacked.png")
+plot_stacked_bar(qualified_teams_charting_data, "stage_expanded", False, "by_stage_level_stacked.png")
+plot_stacked_bar(qualified_teams_charting_data, "stage_expanded", True,"by_stage_growth_stacked.png")
 
 
-#     if filename:
-#         save_figure(fig, filename)
-
-#     plt.show()
-
-
-# plot_box(data_for_analysis, False, 'box.png')
-# plot_box(data_for_analysis, True, 'growth_box.png')
 # plot_stacked_bar(data_for_analysis, False, "stacked_bar_chart.png")
 # plot_stacked_bar(data_for_analysis, True, "growth_stacked_bar_chart.png")
 
