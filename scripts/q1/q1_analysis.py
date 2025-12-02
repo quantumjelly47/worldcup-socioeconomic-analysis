@@ -11,6 +11,9 @@ import matplotlib.pyplot as plt
 import matplotlib.lines as mlines
 import seaborn as sns
 from pathlib import Path
+from matplotlib.colors import LinearSegmentedColormap
+from matplotlib.ticker import PercentFormatter
+from statsmodels.miscmodels.ordinal_model import OrderedModel
 
 BASE_DIR = Path(__file__).resolve().parents[2]
 
@@ -35,10 +38,10 @@ data_for_analysis = (
         choicelist = [df['max_stage_numeric'],
                       4,
                       df['max_stage_numeric']-1]))
-    .assign(gdp_per_capita_growth_3yr = lambda df: df['gdp_per_capita_tminus0'] - df['gdp_per_capita_tminus3'],
-            hdi_growth_3yr = lambda df: df['hdi_tminus0'] - df['hdi_tminus3'],
-            life_expectancy_growth_3yr = lambda df: df['life_expectancy_tminus0'] - df['life_expectancy_tminus3'],
-            mean_school_years_growth_3yr = lambda df: df['mean_school_years_tminus0'] - df['mean_school_years_tminus3'])
+    .assign(gdp_per_capita_growth_3yr = lambda df: df['norm_gdp_per_capita_tminus0'] - df['norm_gdp_per_capita_tminus3'],
+            hdi_growth_3yr = lambda df: df['norm_hdi_tminus0'] - df['norm_hdi_tminus3'],
+            life_expectancy_growth_3yr = lambda df: df['norm_life_expectancy_tminus0'] - df['norm_life_expectancy_tminus3'],
+            mean_school_years_growth_3yr = lambda df: df['norm_mean_school_years_tminus0'] - df['norm_mean_school_years_tminus3'])
 )
 
 # Make qualified an ordered categorical variable
@@ -46,22 +49,6 @@ data_for_analysis['qualified'] = pd.Categorical(
     data_for_analysis['qualified'], 
     categories=['Did Not Qualify','Qualified'], 
     ordered=True
-)
-
-test = pd.read_csv(BASE_DIR / "data/created_datasets/socioeconomic")
-
-# Demean 3 year growth percentages relative to mean growth percentage across all countries in a given world cup year.
-growth_cols = [
-    "gdp_per_capita_growth_3yr",
-    "hdi_growth_3yr",
-    "life_expectancy_growth_3yr",
-    "mean_school_years_growth_3yr"
-]
-
-data_for_analysis[growth_cols] = (
-    data_for_analysis
-    .groupby("world_cup_year")[growth_cols]
-    .transform(lambda g: g - g.mean())
 )
 
 
@@ -165,11 +152,8 @@ growth_metrics = [
 
 
 # ############################################################
-# #  1. BOXPLOTS
+# #  1. BOX PLOTS
 # ############################################################
-from matplotlib.ticker import PercentFormatter
-
-
 def plot_box(df, x_axis_var, growth_flag=False, filename=None):
 
     df = df.copy()
@@ -182,12 +166,10 @@ def plot_box(df, x_axis_var, growth_flag=False, filename=None):
     if growth_flag:
         metrics = growth_metrics
         base_ylabel = "Percentage Growth"
-        shared_ylim = None
         suptitle_txt_1 = "Distribution of Past 3-Year Normalized Socioeconomic Change"
     else:
         metrics = non_growth_metrics
         base_ylabel = ""
-        shared_ylim = (-3, 6)
         suptitle_txt_1 = "Distribution of Normalized Socioeconomic Indicators"
 
     if x_axis_var == "qualified":
@@ -228,16 +210,9 @@ def plot_box(df, x_axis_var, growth_flag=False, filename=None):
         ax.set_xlabel(x_label)
         ax.tick_params(axis="x", rotation=45)
 
-        # Correct shared_ylim logic
-        if shared_ylim is not None:
-            ax.set_ylim(shared_ylim)
-        else:
-            ymin, ymax = df[metric].min(), df[metric].max()
-            pad = (ymax - ymin) * 0.1
-            ax.set_ylim(ymin - pad, ymax + pad)
-        
-        if growth_flag:
-            ax.yaxis.set_major_formatter(PercentFormatter(1.0))
+        ymin, ymax = df[metric].min(), df[metric].max()
+        pad = (ymax - ymin) * 0.1
+        ax.set_ylim(ymin - pad, ymax + pad)
 
     mean_handle = mlines.Line2D([], [], color=dot_color, marker='o',
                                 linestyle='None', markersize=8, label='Mean')
@@ -261,25 +236,18 @@ plot_box(qualified_teams_charting_data, 'stage_expanded', True, 'by_stage_growth
 # # ============================================================
 # #       2. STACKED BAR CHART
 # # ============================================================
-
-from matplotlib.colors import LinearSegmentedColormap
 # Strong contrast SES green palette
 quartile_cmap = LinearSegmentedColormap.from_list(
     "ses_green_strong",
     ["#e6f5d0", "#a1d76a", "#4daf4a", "#006837"]
 )
 
-def plot_stacked_bar(df, x_axis_var, growth_flag=False, filename=None):
+def plot_stacked_bar(df, x_axis_var, filename=None):
 
     df = df.copy()
 
-    # Choose metrics based on flag
-    if growth_flag:
-        metrics = growth_metrics
-        suptitle_txt_1 = "Distribution of Past 3-Year Socioeconomic Growth"
-    else:
-        metrics = non_growth_metrics
-        suptitle_txt_1 = "Distribution of Normalized Socioeconomic Indicators"
+    metrics = non_growth_metrics
+    suptitle_txt_1 = "Proportion of Teams in Each Socioeconomic Quartile"
 
     # Handle x-axis type (qualification vs stage)
     if x_axis_var == "qualified":
@@ -348,7 +316,7 @@ def plot_stacked_bar(df, x_axis_var, growth_flag=False, filename=None):
             legend_handles = barplot.get_legend_handles_labels()
 
         # Formatting
-        ax.set_title(f"{clean} Percentile Composition", fontsize=13)
+        ax.set_title(f"{clean} Quartile Composition", fontsize=13)
         ax.set_xlabel(x_label)
         ax.set_ylabel("Share of Teams")
         ax.set_ylim(0, 1)
@@ -372,76 +340,94 @@ def plot_stacked_bar(df, x_axis_var, growth_flag=False, filename=None):
     save_figure(fig, filename)
     plt.show()
 
-plot_stacked_bar(all_teams_charting_data, "qualified", False, "qualified_vs_not_level_stacked.png")
-plot_stacked_bar(all_teams_charting_data, "qualified", True, "qualified_vs_not_growth_stacked.png")
-plot_stacked_bar(qualified_teams_charting_data, "stage_expanded", False, "by_stage_level_stacked.png")
-plot_stacked_bar(qualified_teams_charting_data, "stage_expanded", True,"by_stage_growth_stacked.png")
+plot_stacked_bar(all_teams_charting_data, "qualified", "qualified_vs_not_level_stacked.png")
+plot_stacked_bar(qualified_teams_charting_data, "stage_expanded", "by_stage_level_stacked.png")
 
 
-# plot_stacked_bar(data_for_analysis, False, "stacked_bar_chart.png")
-# plot_stacked_bar(data_for_analysis, True, "growth_stacked_bar_chart.png")
 
-# # ######################### Ordinal regression
+# ############################################################
+# #  CORRELATION MATRIX FOR NORMALIZED SOCIECONOMIC VARIABLES
+# ############################################################
 
 # # ##### Check correlation between socioeconomic indicators for multicollinearity
-# # fig, ax = plt.subplots(figsize=(8,6))  # <-- capture figure first
+fig, ax = plt.subplots(figsize=(8, 6))
 
-# # sns.heatmap(df[metrics].corr(), annot=True, cmap="coolwarm", vmin=-1, vmax=1, ax=ax)
-# # ax.set_title("Correlation Between Socioeconomic Predictors")
+# 1. Compute correlation matrix
+corr = qualified_teams_charting_data[non_growth_metrics].corr()
 
-# # save_figure(fig, "socio_corr_heatmap.png")   # <-- save here
+# 2. Apply pretty_metric() to row/column labels
+pretty_names = ["Normailzed " + pretty_metric(col) for col in corr.columns]
+corr.index = pretty_names
+corr.columns = pretty_names
 
-# # plt.show()
+# 3. Plot heatmap
+sns.heatmap(
+    corr,
+    annot=True,
+    cmap="coolwarm",
+    vmin=-1,
+    vmax=1,
+    ax=ax,
+    fmt=".2f"
+)
 
+ax.set_title("Correlation Between Socioeconomic Predictors")
+plt.tight_layout()
+save_figure(fig, "socio_corr_heatmap.png")   # <-- save here
+plt.show()
 
-# # #### Run ordered model on a socio score that is just mean of normalized scores across the four indicators
-# # from statsmodels.miscmodels.ordinal_model import OrderedModel
+# ############################################################
+# #  ORDINAL LOGISTIC REGRESSION
+# ############################################################
 
-# # df_reg = df[metrics+['max_stage_numeric']].dropna()
-# # df_reg["socio_index"] = df[metrics].mean(axis=1)
-# # model = OrderedModel(df_reg['max_stage_numeric'], df_reg[['socio_index']],   # one variable at a time
-# #         distr='logit').fit(method = 'bfgs', disp = False)
-# # print(model.summary())
-# # odds_ratio = np.exp(0.2913)
+# Keep only the row corresponding to the latest stage reached for each (world_cup_year, team)
+df_reg = (
+    qualified_teams_charting_data[['world_cup_year', 'team', 'stage_expanded_num', 'stage_expanded'] + non_growth_metrics]
+    .dropna()
+    .sort_values(["world_cup_year", "team", "stage_expanded_num"])
+    .groupby(["world_cup_year", "team"], as_index=False)
+    .tail(1)   # keep the row with the max stage_expanded_num
+)
 
-# # def plot_milestone_prob_curves(model, df_reg, filename=None):
+# Create a composite score that is the average of the normalized values across all four indicators
+df_reg["socio_index"] = df_reg[non_growth_metrics].mean(axis=1)
 
-# #     x_vals = np.linspace(df_reg["socio_index"].min(), df_reg["socio_index"].max(), 200)
-# #     exog = pd.DataFrame({"socio_index": x_vals})
-
-# #     # This returns a pandas DataFrame — let's keep it that way
-# #     pred = model.predict(exog=exog, which="prob")  # shape: (N rows, 7–8 outcome classes)
-
-# #     # Probability of reaching AT LEAST a given milestone
-# #     p_knockout = pred.iloc[:, 2:].sum(axis=1)   # stage ≥ Round of 16
-# #     p_qf       = pred.iloc[:, 3:].sum(axis=1)   # stage ≥ QF
-# #     p_sf       = pred.iloc[:, 4:].sum(axis=1)   # stage ≥ SF
-# #     p_final    = pred.iloc[:, 6:].sum(axis=1)   # stage ≥ Final (Final or Winner)
-    
-
-# #     # === Plot === #
-# #     plt.figure(figsize=(12,7))
-
-# #     plt.plot(x_vals, p_knockout, linewidth=3, label="Reach Knockouts (R16+)", color="#1f77b4")
-# #     plt.plot(x_vals, p_qf,       linewidth=3, label="Reach Quarter-finals", color="#2ca02c")
-# #     plt.plot(x_vals, p_sf,       linewidth=3, label="Reach Semi-finals", color="#d62728")
-# #     plt.plot(x_vals, p_final,    linewidth=3, label="Reach Final/Win", color="#9467bd")
-
-# #     plt.title("Probability of Reaching World Cup Milestones\nas Socioeconomic Index Increases", fontsize=18)
-# #     plt.xlabel("Socioeconomic Index (Composite of GDP, HDI, Life Expectancy, Education)")
-# #     plt.ylabel("Predicted Probability")
-# #     plt.ylim(0,1)
-# #     plt.grid(alpha=0.25)
-# #     plt.legend(title="Milestone", fontsize=11)
-
-# #     if filename:
-# #         save_figure(plt.gcf(), filename)
-
-# # plot_milestone_prob_curves(model, df_reg, "milestone_prob_vs_composite_score.png")
+# Run ordered logistic model
+model = OrderedModel(df_reg['stage_expanded_num'], df_reg[['socio_index']],
+                     distr='logit').fit(method = 'bfgs', disp = False)
+print(model.summary())
 
 
-# # ########################################### Changes from t-3 to t
-# # df["gdp_growth_3yr"] = df["gdp_per_capita_tminus0"] - df["gdp_per_capita_tminus3"]
+# Create a series of socio_economic index values
+x_vals = np.linspace(df_reg["socio_index"].min(), df_reg["socio_index"].max(), 200)
+exog = pd.DataFrame({"socio_index": x_vals})
+# predict the probability of reaching each stage (same number of rows as x_val, one column for each stage)
+pred = model.predict(exog=exog, which="prob")
+
+# Probability of reaching AT LEAST a given milestone
+p_knockout = pred.iloc[:, 1:].sum(axis=1)   # stage ≥ Round of 16
+p_qf = pred.iloc[:, 2:].sum(axis=1)   # stage ≥ QF
+p_sf = pred.iloc[:, 3:].sum(axis=1)   # stage ≥ SF
+p_final = pred.iloc[:, 4:].sum(axis=1)   # stage ≥ Final
+p_winner = pred.iloc[:, 5:] # Stage = winner
 
 
+# === Plot === #
+plt.figure(figsize=(12,7))
 
+plt.plot(x_vals, p_knockout, linewidth=3, label="Reach Knockouts (R16+)", color="#1f77b4")
+plt.plot(x_vals, p_qf, linewidth=3, label="Reach Quarter-finals", color="#2ca02c")
+plt.plot(x_vals, p_sf, linewidth=3, label="Reach Semi-finals", color="#d62728")
+plt.plot(x_vals, p_final,linewidth=3, label="Reach Final", color="#9467bd")
+plt.plot(x_vals, p_winner, linewidth = 3, label = "Win", color = "#b58900")
+
+plt.title("Probability of Reaching World Cup Milestones\nas Normalized Socioeconomic Index Increases", fontsize=18)
+plt.xlabel("Normalized Socioeconomic Index (Composite of GDP, HDI, Life Expectancy, Education)")
+plt.ylabel("Predicted Probability")
+plt.ylim(0,1)
+plt.grid(alpha=0.25)
+plt.legend(title="Milestone", fontsize=11)
+
+plt.show()
+
+save_figure(plt.gcf(), "milestone_prob_vs_composite_score.png")
