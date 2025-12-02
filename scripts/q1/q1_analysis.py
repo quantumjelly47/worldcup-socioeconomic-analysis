@@ -11,11 +11,14 @@ import matplotlib.pyplot as plt
 import matplotlib.lines as mlines
 import seaborn as sns
 from pathlib import Path
-from matplotlib.colors import LinearSegmentedColormap
+from matplotlib.colors import ListedColormap
 from matplotlib.ticker import PercentFormatter
+from matplotlib.ticker import FormatStrFormatter
 from statsmodels.miscmodels.ordinal_model import OrderedModel
 
-BASE_DIR = Path(__file__).resolve().parents[2]
+BASE_DIR = Path(__file__).resolve().parents[2] # Base directory
+SAVE_DIR = BASE_DIR / "plots" / "q1_analysis" # Directory to save plots
+SAVE_DIR.mkdir(parents=True, exist_ok=True)
 
 # ============================================================
 #                       DATA PREPARATION
@@ -115,21 +118,57 @@ metric_labels = {
 
 # Helper to convert column names → human-readable text
 def pretty_metric(metric):
+    """
+    Convert a raw metric column name into a cleaner human-readable label to use in charts.
+
+    This function removes suffixes like `_tminus0`, `norm_`, and `_growth_3yr`,
+    then maps the cleaned term to a descriptive label defined in `metric_labels`.
+
+    Args:
+        metric (str): Raw column name from one of the charting datasets
+
+    Returns:
+        str or None: A cleaned, human-readable metric label. Returns None
+            if the cleaned name is not found in `metric_labels`.
+    """
     base = metric.replace("_tminus0", "").replace("norm_","").replace("_growth_3yr", "")
     return metric_labels.get(base)
 
 
 # Helper to quickly create subplot grids
 def make_grid(nrows=2, ncols=2, figsize=(16, 12), sharey=False):
+    """
+    Create a grid of subplots and return the figure and a flattened axes array.
+
+    Args:
+        nrows (int, optional): Number of subplot rows. Defaults to 2.
+        ncols (int, optional): Number of subplot columns. Defaults to 2.
+        figsize (tuple, optional): Figure size in inches (width, height).
+            Defaults to (16, 12).
+        sharey (bool, optional): Whether to share the y-axis across subplots.
+
+    Returns:
+        tuple:
+            fig (matplotlib.figure.Figure): The created figure.
+            axes (np.ndarray): Flattened array of Axes objects.
+    """
     fig, axes = plt.subplots(nrows=nrows, ncols=ncols,
                              figsize=figsize, sharey=sharey)
     return fig, axes.flatten()
 
-
-SAVE_DIR = BASE_DIR / "plots" / "q1_analysis"
-SAVE_DIR.mkdir(parents=True, exist_ok=True)
-
 def save_figure(fig, filename):
+    """
+    Save a Matplotlib figure to the project's standard plot directory.
+
+    Args:
+        fig (matplotlib.figure.Figure): The figure to save.
+        filename (str or None): Output filename (without directory).  
+            If None, the function performs no action.
+
+    Returns:
+        None
+    """
+
     if filename is None:
         return
     out_path = SAVE_DIR / filename
@@ -155,17 +194,37 @@ growth_metrics = [
 # #  1. BOX PLOTS
 # ############################################################
 def plot_box(df, x_axis_var, growth_flag=False, filename=None):
+    """
+    Generate a 2×2 grid of boxplots comparing socioeconomic variables
+    across qualification categories or World Cup stages.
+
+    The figure also overlays mean markers and applies dynamic y-axis labels.
+    When `growth_flag=True`, the function uses 3-year socioeconomic deltas.
+
+    Args:
+        df (pd.DataFrame): Input dataset containing socioeconomic variables
+            and either a 'qualified' or 'stage_expanded' column.
+        x_axis_var (str): Column used for the x-axis. Must be either
+            'qualified' or 'stage_expanded'.
+        growth_flag (bool, optional): If True, plots growth_metrics; if False,
+            plots non_growth_metrics. Defaults to False.
+        filename (str or None): If provided, the figure is saved under this
+            filename using `save_figure`.
+
+    Returns:
+        None
+    """
 
     df = df.copy()
 
     fig, axes = make_grid(2, 2, figsize=(14, 10))
 
-    box_color = "#B0B0B0"
-    dot_color = "#2A9D8F"
+    box_color = "#5B8CC0"
+    dot_color = "#0A3D91"
 
     if growth_flag:
         metrics = growth_metrics
-        base_ylabel = "Percentage Growth"
+        base_ylabel = "Past 3-Year Normalized Score Change"
         suptitle_txt_1 = "Distribution of Past 3-Year Normalized Socioeconomic Change"
     else:
         metrics = non_growth_metrics
@@ -206,6 +265,7 @@ def plot_box(df, x_axis_var, growth_flag=False, filename=None):
         else:
             local_ylabel = base_ylabel
         ax.set_ylabel(local_ylabel)
+        ax.yaxis.set_major_formatter(FormatStrFormatter('%.1f'))
 
         ax.set_xlabel(x_label)
         ax.tick_params(axis="x", rotation=45)
@@ -237,12 +297,36 @@ plot_box(qualified_teams_charting_data, 'stage_expanded', True, 'by_stage_growth
 # #       2. STACKED BAR CHART
 # # ============================================================
 # Strong contrast SES green palette
-quartile_cmap = LinearSegmentedColormap.from_list(
-    "ses_green_strong",
-    ["#e6f5d0", "#a1d76a", "#4daf4a", "#006837"]
-)
+quartile_colors = [
+    "#DCE6F2",
+    "#A9C2E3",
+    "#5B8CC0",
+    "#1F4F82"
+]
+quartile_cmap = ListedColormap(quartile_colors)
 
 def plot_stacked_bar(df, x_axis_var, filename=None):
+    """
+    Plot 2×2 stacked bar charts showing the distribution of teams across
+    socioeconomic quartiles for each metric.  Only considers levels (i.e. non_growth_metrics).
+
+    Quartiles are computed independently for each metric using `pd.qcut`.
+    Bars are grouped by qualification or World Cup stage.
+
+    Args:
+        df (pd.DataFrame): Input dataset containing socioeconomic variables
+            and either 'qualified' or 'stage_expanded'.
+        x_axis_var (str): Categorical variable on the x-axis. Must be either
+            'qualified' or 'stage_expanded'.
+        filename (str or None): If provided, the final figure is saved under
+            this name in the standard plot directory.
+
+    Raises:
+        ValueError: If `x_axis_var` is not one of the accepted values.
+
+    Returns:
+        None
+    """
 
     df = df.copy()
 
@@ -364,7 +448,7 @@ corr.columns = pretty_names
 sns.heatmap(
     corr,
     annot=True,
-    cmap="coolwarm",
+    cmap="Blues",
     vmin=-1,
     vmax=1,
     ax=ax,
@@ -448,4 +532,3 @@ plt.legend(title="Milestone", fontsize=11)
 plt.show()
 
 save_figure(fig, "milestone_prob_vs_composite_score.png")
-

@@ -8,7 +8,7 @@ BASE_DIR = Path(__file__).resolve().parents[2]
 RAW_DIR = BASE_DIR / "data" / "raw_data_files" / "World Cup Data" / "World+Cup"
 OUTPUT_DIR = BASE_DIR / "data" / "created_datasets" / "world_cup"
 
-MIN_YEAR = 1986
+MIN_YEAR = 1994
 MAX_YEAR = 2018
 
 STAGE_ORDER = [
