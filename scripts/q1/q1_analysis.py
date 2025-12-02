@@ -430,7 +430,7 @@ p_winner = pred.iloc[:, 5:] # Stage = winner
 
 
 # === Plot === #
-plt.figure(figsize=(12,7))
+fig = plt.figure(figsize=(12,7))
 
 plt.plot(x_vals, p_knockout, linewidth=3, label="Reach Knockouts (R16+)", color="#1f77b4")
 plt.plot(x_vals, p_qf, linewidth=3, label="Reach Quarter-finals", color="#2ca02c")
@@ -447,5 +447,5 @@ plt.legend(title="Milestone", fontsize=11)
 
 plt.show()
 
-save_figure(plt.gcf(), "milestone_prob_vs_composite_score.png")
+save_figure(fig, "milestone_prob_vs_composite_score.png")
 
