@@ -8,8 +8,13 @@ BASE_DIR = Path(__file__).resolve().parents[2]
 RAW_DIR = BASE_DIR / "data" / "raw_data_files" / "World Cup Data" / "World+Cup"
 OUTPUT_DIR = BASE_DIR / "data" / "created_datasets" / "world_cup"
 
+# ============================================================
+#                       GLOBAL VARIABLES
+# ============================================================
+
+
 MIN_YEAR = 1994
-MAX_YEAR = 2018
+MAX_YEAR = 2022
 
 STAGE_ORDER = [
     "Group stage",
@@ -32,6 +37,9 @@ POSITIONS = [
 ]
 POSITIONS_MAPPING = {stage: i + 1 for i, stage in enumerate(POSITIONS)}
 
+# ============================================================
+#                       IMPORT FUNCTIONS
+# ============================================================
 
 def read_csv(name: str) -> pd.DataFrame:
     """Load a CSV from the World Cup raw data directory."""
@@ -39,14 +47,18 @@ def read_csv(name: str) -> pd.DataFrame:
 
 
 def load_sources():
-    """Load hosts, historical matches (1986–2018), and 2022 matches (kept for future use)."""
+    """Load hosts, historical matches (1986–2018), and 2022 matches."""
     hosts = read_csv("world_cups.csv")
     matches_1986_2018 = read_csv("world_cup_matches.csv")
-    matches_2022 = read_csv("2022_world_cup_matches.csv")  # kept for future if needed
+    matches_2022 = read_csv("matches_1930_2022.csv")
     return hosts, matches_1986_2018, matches_2022
 
 
-def build_match_level(matches: pd.DataFrame) -> pd.DataFrame:
+
+# ============================================================
+#                       PRE-2022 DATA PROCESSING
+# ============================================================
+def build_match_level_pre_2022(matches: pd.DataFrame) -> pd.DataFrame:
     """
     Convert match-level data to team-level rows with wins, goals for/against, and penalty outcomes.
     Filters to years within MIN_YEAR..MAX_YEAR.
@@ -109,7 +121,7 @@ def build_match_level(matches: pd.DataFrame) -> pd.DataFrame:
     return match_long
 
 
-def summarize_by_team(match_long: pd.DataFrame) -> pd.DataFrame:
+def summarize_by_team_pre_2022(match_long: pd.DataFrame) -> pd.DataFrame:
     """
     Summarize by (Year, Team): max stage reached (numeric and label),
     matches played/won, goals for/against.
@@ -147,28 +159,240 @@ def summarize_by_team(match_long: pd.DataFrame) -> pd.DataFrame:
 
     merged = (
         stage_by_team_wc.merge(stats_by_team_wc, on=["Year", "Team"], how="outer")
-        .assign(Team = lambda df: np.where((df['Team'] == 'Yugoslavia') & (df['Year'] >= 1998),
+        .assign(team = lambda df: np.where((df['Team'] == 'Yugoslavia') & (df['Year'] >= 1998),
                                            "Serbia",
                                            df['Team']))
+        .filter(['Year', 'team', 'max_stage', 'max_stage_numeric', 'matches_played', 'matches_won', 'goals_for', 'goals_against'])
         .sort_values(by=["Year", "max_stage_numeric"], ascending=[False, False])
     )
     
     
     return merged
 
+# ============================================================
+#                       2022 DATA PROCESSING
+# ============================================================
 
-def expand_all_pairs(summary: pd.DataFrame) -> pd.DataFrame:
+def summarize_by_team_2022(df:  pd.DataFrame) -> pd.DataFrame:
+    """
+    Summarize World Cup performance for a given year by team.
+    Returns max stage (numeric and label), matches played/won, goals for/against.
+    """
+    # Pull all matches for the target year from the archive
+    matches = df[df["Year"] == 2022]
+
+    # Keep match fields we need, parse shootout info, and standardize column names
+    matches = (
+        matches[
+            [
+                "home_team",
+                "away_team",
+                "home_score",
+                "away_score",
+                "Round",
+                "Date",
+                "Score",
+                "Host",
+                "Year",
+                "home_penalty_shootout_goal_long",
+                "away_penalty_shootout_goal_long",
+            ]
+        ]
+        .assign(
+            home_penalty_shootout_goal_long=lambda x: x["home_penalty_shootout_goal_long"]
+            .str.split(",")
+            .str.len(),
+            away_penalty_shootout_goal_long=lambda x: x["away_penalty_shootout_goal_long"]
+            .str.split(",")
+            .str.len(),
+        )
+        .rename(
+            columns={
+                "Round": "Stage",
+                "Host": "Host Team",
+                "home_team": "Home Team",
+                "away_team": "Away Team",
+                "home_score": "Home Goals",
+                "away_score": "Away Goals",
+                "home_penalty_shootout_goal_long": "home_shootout",
+                "away_penalty_shootout_goal_long": "away_shootout",
+            }
+        )
+    )
+
+    # Build home-side rows
+    home_df = matches.assign(
+        team=matches["Home Team"],
+        home_away="home",
+        opponent=matches["Away Team"],
+        goals_scored=matches["Home Goals"],
+        goals_conceded=matches["Away Goals"],
+        shootout_status=lambda d: np.where(
+            d["home_shootout"].isna() & d["away_shootout"].isna(),
+            np.nan,
+            (d["home_shootout"].fillna(0) > d["away_shootout"].fillna(0)).astype(int),
+        ),
+    )[
+        [
+            "team",
+            "home_away",
+            "opponent",
+            "Stage",
+            "Date",
+            "goals_scored",
+            "goals_conceded",
+            "shootout_status",
+        ]
+    ]
+
+    # Build away-side rows
+    away_df = matches.assign(
+        team=matches["Away Team"],
+        home_away="away",
+        opponent=matches["Home Team"],
+        goals_scored=matches["Away Goals"],
+        goals_conceded=matches["Home Goals"],
+        shootout_status=lambda d: np.where(
+            d["home_shootout"].isna() & d["away_shootout"].isna(),
+            np.nan,
+            (d["away_shootout"].fillna(0) > d["home_shootout"].fillna(0)).astype(int),
+        ),
+    )[
+        [
+            "team",
+            "home_away",
+            "opponent",
+            "Stage",
+            "Date",
+            "goals_scored",
+            "goals_conceded",
+            "shootout_status",
+        ]
+    ]
+
+    # Combine home/away rows into one team-level frame
+    reshaped_df = pd.concat([home_df, away_df], ignore_index=True).reset_index(drop=True)
+
+    # Match outcome: win=1 if ahead in goals or wins shootout
+    reshaped_df["win"] = np.where(
+        (reshaped_df["goals_scored"] > reshaped_df["goals_conceded"])
+        | (reshaped_df["shootout_status"] == 1),
+        1,
+        np.where(
+            (reshaped_df["goals_scored"] < reshaped_df["goals_conceded"])
+            | (reshaped_df["shootout_status"] == 0),
+            0,
+            0,
+        ),
+    )
+
+    # Stage numeric: handle Final/Third-place win/loss explicitly, otherwise map standard stages
+    stage_order = {"Group stage": 1, "Round of 16": 2, "Quarter-finals": 3}
+    reshaped_df["stage_numeric"] = np.where(
+        (reshaped_df["Stage"] == "Final") & (reshaped_df["win"] == 1),
+        7,
+        np.where(
+            (reshaped_df["Stage"] == "Final") & (reshaped_df["win"] == 0),
+            6,
+            np.where(
+                (reshaped_df["Stage"] == "Third-place match") & (reshaped_df["win"] == 1),
+                5,
+                np.where(
+                    (reshaped_df["Stage"] == "Third-place match") & (reshaped_df["win"] == 0),
+                    4,
+                    reshaped_df["Stage"].map(stage_order),
+                ),
+            ),
+        ),
+    )
+
+    # Team-level aggregates
+    df_by_year = (
+        reshaped_df.groupby("team")
+        .agg(
+            max_stage_numeric=("stage_numeric", "max"),
+            matches_played=("opponent", "count"),
+            matches_won=("win", "sum"),
+            goals_for=("goals_scored", "sum"),
+            goals_against=("goals_conceded", "sum"),
+        )
+        .reset_index()
+    )
+
+    # Pull the representative row (stage) to recover stage label later
+    df_by_year = df_by_year.merge(
+        reshaped_df[["team", "stage_numeric", "win"]],
+        left_on=["team", "max_stage_numeric"],
+        right_on=["team", "stage_numeric"],
+    )
+
+    # Map numeric stage back to text label
+    df_by_year["max_stage"] = np.where(
+        df_by_year["max_stage_numeric"] == 7,
+        "Winner",
+        np.where(
+            df_by_year["max_stage_numeric"] == 6,
+            "Runners-up",
+            np.where(
+                df_by_year["max_stage_numeric"] == 5,
+                "Third place",
+                np.where(
+                    df_by_year["max_stage_numeric"] == 4,
+                    "Fourth place",
+                    np.where(
+                        df_by_year["max_stage_numeric"] == 3,
+                        "Quarter-finals",
+                        np.where(
+                            df_by_year["max_stage_numeric"] == 2, "Round of 16", "Group stage"
+                        ),
+                    ),
+                ),
+            ),
+        ),
+    )
+
+    df_by_year = df_by_year.drop(columns=["win", "stage_numeric"]).drop_duplicates().reset_index(drop=True)
+    
+    out_df = (
+        df_by_year
+        .assign(Year = 2022,
+                team = lambda df: df["team"].replace({"IR Iran": "Iran", "Korea Republic": "South Korea"}),
+                max_stage_numeric = lambda df: df['max_stage_numeric'].astype(int))
+        .filter(['Year', 'team', 'max_stage', 'max_stage_numeric', 'matches_played', 'matches_won', 'goals_for', 'goals_against'])
+        .sort_values(by=["Year", "max_stage_numeric"], ascending=[False, False])
+)
+    
+    return out_df
+
+# ============================================================
+#                       CONSOLIDATE
+# ============================================================
+
+
+def stack_pre_2022_and_2022(pre_2022_df: pd.DataFrame, df_2022: pd.DataFrame):
+    """
+    Stacks pre 2022 and 2022 data into a single dataframe, sorted by team and year.
+    """
+    stacked = (
+        pd.concat([pre_2022_df, df_2022], axis=0)
+        .sort_values(by=['team', 'Year'])
+    )
+    
+    return stacked
+
+
+def expand_all_pairs(stacked: pd.DataFrame) -> pd.DataFrame:
     """
     Expand to all (Year, Team) combinations present in the summary, filling non-qualifiers
     with defaults (Did not qualify, zeros for stats).
     """
-    all_years = summary["Year"].unique()
-    all_teams = summary["Team"].unique()
-    all_year_team = pd.MultiIndex.from_product([all_years, all_teams], names=["Year", "Team"])
+    all_years = stacked["Year"].unique()
+    all_teams = stacked["team"].unique()
+    all_year_team = pd.MultiIndex.from_product([all_years, all_teams], names=["Year", "team"])
     all_combos = pd.DataFrame(index=all_year_team).reset_index()
 
     expanded = (
-        all_combos.merge(summary, on=["Year", "Team"], how="left")
+        all_combos.merge(stacked, on=["Year", "team"], how="left")
         .fillna(
             {
                 "max_stage": "Did not qualify",
@@ -179,14 +403,14 @@ def expand_all_pairs(summary: pd.DataFrame) -> pd.DataFrame:
                 "goals_against": 0,
             }
         )
-        .sort_values(by=["Team", "Year"], ascending=[True, True])
+        .sort_values(by=["team", "Year"], ascending=[True, True])
     )
     return expanded
 
 
 def add_hosts(expanded: pd.DataFrame, hosts: pd.DataFrame) -> pd.DataFrame:
     """Attach host country info and rename columns for the final performance dataset."""
-    return (
+    expanded_w_host = (
         expanded.merge(hosts[["Year", "Host Country"]], on="Year", how="left")
         .rename(
             columns={
@@ -208,24 +432,53 @@ def add_hosts(expanded: pd.DataFrame, hosts: pd.DataFrame) -> pd.DataFrame:
             ]
         ]
     )
+    return expanded_w_host
 
+def add_wc_start_dates(expanded_w_host: pd.DataFrame, match_long: pd.DataFrame):
+    """Attach world cup start date to use for merging rankings later"""
+    world_cup_start_dates = (
+        match_long.assign(date=lambda df: pd.to_datetime(df["Date"]).dt.date)
+        .groupby("Year", as_index=False)
+        .agg(start_date=("Date", "min"))
+        .rename(columns={"Year": "world_cup_year"})
+    )
+    
+    # Add 2022 start date
+    world_cup_start_dates = (
+        pd.concat(
+            [
+                world_cup_start_dates,
+                pd.DataFrame({"world_cup_year": [2022], "start_date": ["2022-11-20"]}).assign(
+                    start_date=lambda df: pd.to_datetime(df["start_date"]).dt.date
+                ),
+            ]
+        )
+        .reset_index(drop=True)
+    )
+    
+    expanded_w_host_and_start_date = (
+        expanded_w_host.merge(world_cup_start_dates, on="world_cup_year", how="left")
+        .loc[lambda df: df["world_cup_year"] >= 1994]
+    )
+    return expanded_w_host_and_start_date
 
 def main():
     """Build performance_by_world_cup_and_team.csv and match_level_data.csv."""
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-
     hosts, matches_1986_2018, _matches_2022 = load_sources()
-
-    match_long = build_match_level(matches_1986_2018)
-    summary = summarize_by_team(match_long)
-    expanded = expand_all_pairs(summary)
+    match_long = build_match_level_pre_2022(matches_1986_2018)
+    summary = summarize_by_team_pre_2022(match_long)
+    summary_2022 = summarize_by_team_2022(_matches_2022)
+    stacked = stack_pre_2022_and_2022(summary, summary_2022)
+    expanded = expand_all_pairs(stacked)
     expanded_with_host = add_hosts(expanded, hosts)
+    expanded_with_host_and_start_date = add_wc_start_dates(expanded_with_host, match_long)
 
     # Save outputs
-    expanded_with_host.to_csv(OUTPUT_DIR / "performance_by_world_cup_and_team.csv", index=False)
+    expanded_with_host_and_start_date.to_csv(OUTPUT_DIR / "performance_by_world_cup_and_team.csv", index=False)
     match_long.to_csv(OUTPUT_DIR / "match_level_data.csv", index=False)
 
-    print(f"Saved performance_by_world_cup_and_team.csv ({expanded_with_host.shape})")
+    print(f"Saved performance_by_world_cup_and_team.csv ({expanded_with_host_and_start_date.shape})")
     print(f"Saved match_level_data.csv ({match_long.shape})")
 
 
