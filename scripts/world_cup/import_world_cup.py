@@ -147,8 +147,13 @@ def summarize_by_team(match_long: pd.DataFrame) -> pd.DataFrame:
 
     merged = (
         stage_by_team_wc.merge(stats_by_team_wc, on=["Year", "Team"], how="outer")
+        .assign(Team = lambda df: np.where((df['Team'] == 'Yugoslavia') & (df['Year'] >= 1998),
+                                           "Serbia",
+                                           df['Team']))
         .sort_values(by=["Year", "max_stage_numeric"], ascending=[False, False])
     )
+    
+    
     return merged
 
 

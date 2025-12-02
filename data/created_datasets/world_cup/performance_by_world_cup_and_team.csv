@@ -1,6 +1,4 @@
 world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matches_won,goals_for,goals_against
-1986,Mexico,Algeria,Group stage,1.0,3.0,0.0,1,5
-1990,Italy,Algeria,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Algeria,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Algeria,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,Algeria,Did not qualify,0.0,0.0,0.0,0,0
@@ -8,8 +6,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Algeria,Group stage,1.0,3.0,0.0,0,2
 2014,Brazil,Algeria,Round of 16,2.0,4.0,1.0,7,7
 2018,Russia,Algeria,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Angola,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Angola,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Angola,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Angola,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,Angola,Did not qualify,0.0,0.0,0.0,0,0
@@ -17,8 +13,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Angola,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Angola,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,Angola,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Argentina,Winner,7.0,7.0,6.0,14,5
-1990,Italy,Argentina,Runners-up,6.0,7.0,4.0,5,4
 1994,USA,Argentina,Round of 16,2.0,4.0,2.0,8,6
 1998,France,Argentina,Quarter-finals,3.0,5.0,4.0,10,4
 2002,Korea/Japan,Argentina,Group stage,1.0,3.0,1.0,2,2
@@ -26,8 +20,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Argentina,Quarter-finals,3.0,5.0,4.0,10,6
 2014,Brazil,Argentina,Runners-up,6.0,7.0,6.0,8,4
 2018,Russia,Argentina,Round of 16,2.0,4.0,1.0,6,9
-1986,Mexico,Australia,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Australia,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Australia,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Australia,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,Australia,Did not qualify,0.0,0.0,0.0,0,0
@@ -35,8 +27,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Australia,Group stage,1.0,3.0,1.0,3,6
 2014,Brazil,Australia,Group stage,1.0,3.0,0.0,3,9
 2018,Russia,Australia,Group stage,1.0,3.0,0.0,2,5
-1986,Mexico,Austria,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Austria,Group stage,1.0,3.0,1.0,2,3
 1994,USA,Austria,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Austria,Group stage,1.0,3.0,0.0,3,4
 2002,Korea/Japan,Austria,Did not qualify,0.0,0.0,0.0,0,0
@@ -44,8 +34,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Austria,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Austria,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,Austria,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Belgium,Fourth place,4.0,7.0,3.0,12,15
-1990,Italy,Belgium,Round of 16,2.0,4.0,2.0,6,4
 1994,USA,Belgium,Round of 16,2.0,4.0,2.0,4,4
 1998,France,Belgium,Group stage,1.0,3.0,0.0,3,3
 2002,Korea/Japan,Belgium,Round of 16,2.0,4.0,1.0,6,7
@@ -53,8 +41,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Belgium,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Belgium,Quarter-finals,3.0,5.0,4.0,6,3
 2018,Russia,Belgium,Third place,5.0,7.0,6.0,16,6
-1986,Mexico,Bolivia,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Bolivia,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Bolivia,Group stage,1.0,3.0,0.0,1,4
 1998,France,Bolivia,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,Bolivia,Did not qualify,0.0,0.0,0.0,0,0
@@ -62,8 +48,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Bolivia,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Bolivia,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,Bolivia,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Bosnia and Herzegovina,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Bosnia and Herzegovina,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Bosnia and Herzegovina,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Bosnia and Herzegovina,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,Bosnia and Herzegovina,Did not qualify,0.0,0.0,0.0,0,0
@@ -71,8 +55,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Bosnia and Herzegovina,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Bosnia and Herzegovina,Group stage,1.0,3.0,1.0,4,4
 2018,Russia,Bosnia and Herzegovina,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Brazil,Quarter-finals,3.0,5.0,4.0,10,1
-1990,Italy,Brazil,Round of 16,2.0,4.0,3.0,4,2
 1994,USA,Brazil,Winner,7.0,7.0,6.0,11,3
 1998,France,Brazil,Runners-up,6.0,7.0,5.0,14,10
 2002,Korea/Japan,Brazil,Winner,7.0,7.0,7.0,18,4
@@ -80,8 +62,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Brazil,Quarter-finals,3.0,5.0,3.0,9,4
 2014,Brazil,Brazil,Fourth place,4.0,7.0,4.0,11,14
 2018,Russia,Brazil,Quarter-finals,3.0,5.0,3.0,8,3
-1986,Mexico,Bulgaria,Round of 16,2.0,4.0,0.0,2,6
-1990,Italy,Bulgaria,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Bulgaria,Fourth place,4.0,7.0,4.0,10,11
 1998,France,Bulgaria,Group stage,1.0,3.0,0.0,1,7
 2002,Korea/Japan,Bulgaria,Did not qualify,0.0,0.0,0.0,0,0
@@ -89,8 +69,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Bulgaria,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Bulgaria,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,Bulgaria,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Cameroon,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Cameroon,Quarter-finals,3.0,5.0,3.0,7,9
 1994,USA,Cameroon,Group stage,1.0,3.0,0.0,3,11
 1998,France,Cameroon,Group stage,1.0,3.0,0.0,2,5
 2002,Korea/Japan,Cameroon,Group stage,1.0,3.0,1.0,2,3
@@ -98,17 +76,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Cameroon,Group stage,1.0,3.0,0.0,2,5
 2014,Brazil,Cameroon,Group stage,1.0,3.0,0.0,1,9
 2018,Russia,Cameroon,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Canada,Group stage,1.0,3.0,0.0,0,5
-1990,Italy,Canada,Did not qualify,0.0,0.0,0.0,0,0
-1994,USA,Canada,Did not qualify,0.0,0.0,0.0,0,0
-1998,France,Canada,Did not qualify,0.0,0.0,0.0,0,0
-2002,Korea/Japan,Canada,Did not qualify,0.0,0.0,0.0,0,0
-2006,Germany,Canada,Did not qualify,0.0,0.0,0.0,0,0
-2010,South Africa,Canada,Did not qualify,0.0,0.0,0.0,0,0
-2014,Brazil,Canada,Did not qualify,0.0,0.0,0.0,0,0
-2018,Russia,Canada,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Chile,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Chile,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Chile,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Chile,Round of 16,2.0,4.0,0.0,5,8
 2002,Korea/Japan,Chile,Did not qualify,0.0,0.0,0.0,0,0
@@ -116,8 +83,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Chile,Round of 16,2.0,4.0,2.0,3,5
 2014,Brazil,Chile,Round of 16,2.0,4.0,2.0,6,4
 2018,Russia,Chile,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,China,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,China,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,China,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,China,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,China,Group stage,1.0,3.0,0.0,0,9
@@ -125,8 +90,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,China,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,China,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,China,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Colombia,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Colombia,Round of 16,2.0,4.0,1.0,4,4
 1994,USA,Colombia,Group stage,1.0,3.0,1.0,4,5
 1998,France,Colombia,Group stage,1.0,3.0,1.0,1,3
 2002,Korea/Japan,Colombia,Did not qualify,0.0,0.0,0.0,0,0
@@ -134,8 +97,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Colombia,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Colombia,Quarter-finals,3.0,5.0,4.0,12,4
 2018,Russia,Colombia,Round of 16,2.0,4.0,2.0,6,3
-1986,Mexico,Costa Rica,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Costa Rica,Round of 16,2.0,4.0,2.0,4,6
 1994,USA,Costa Rica,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Costa Rica,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,Costa Rica,Group stage,1.0,3.0,1.0,5,6
@@ -143,8 +104,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Costa Rica,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Costa Rica,Quarter-finals,3.0,5.0,2.0,5,2
 2018,Russia,Costa Rica,Group stage,1.0,3.0,0.0,2,5
-1986,Mexico,Croatia,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Croatia,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Croatia,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Croatia,Third place,5.0,7.0,5.0,11,5
 2002,Korea/Japan,Croatia,Group stage,1.0,3.0,1.0,2,3
@@ -152,8 +111,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Croatia,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Croatia,Group stage,1.0,3.0,1.0,6,6
 2018,Russia,Croatia,Runners-up,6.0,7.0,6.0,14,9
-1986,Mexico,Czech Republic,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Czech Republic,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Czech Republic,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Czech Republic,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,Czech Republic,Did not qualify,0.0,0.0,0.0,0,0
@@ -161,17 +118,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Czech Republic,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Czech Republic,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,Czech Republic,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Czechoslovakia,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Czechoslovakia,Quarter-finals,3.0,5.0,3.0,10,5
-1994,USA,Czechoslovakia,Did not qualify,0.0,0.0,0.0,0,0
-1998,France,Czechoslovakia,Did not qualify,0.0,0.0,0.0,0,0
-2002,Korea/Japan,Czechoslovakia,Did not qualify,0.0,0.0,0.0,0,0
-2006,Germany,Czechoslovakia,Did not qualify,0.0,0.0,0.0,0,0
-2010,South Africa,Czechoslovakia,Did not qualify,0.0,0.0,0.0,0,0
-2014,Brazil,Czechoslovakia,Did not qualify,0.0,0.0,0.0,0,0
-2018,Russia,Czechoslovakia,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Denmark,Round of 16,2.0,4.0,3.0,10,6
-1990,Italy,Denmark,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Denmark,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Denmark,Quarter-finals,3.0,5.0,2.0,9,7
 2002,Korea/Japan,Denmark,Round of 16,2.0,4.0,2.0,5,5
@@ -179,8 +125,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Denmark,Group stage,1.0,3.0,1.0,3,6
 2014,Brazil,Denmark,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,Denmark,Round of 16,2.0,4.0,1.0,3,2
-1986,Mexico,Ecuador,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Ecuador,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Ecuador,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Ecuador,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,Ecuador,Group stage,1.0,3.0,1.0,2,4
@@ -188,8 +132,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Ecuador,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Ecuador,Group stage,1.0,3.0,1.0,3,3
 2018,Russia,Ecuador,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Egypt,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Egypt,Group stage,1.0,3.0,0.0,1,2
 1994,USA,Egypt,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Egypt,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,Egypt,Did not qualify,0.0,0.0,0.0,0,0
@@ -197,8 +139,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Egypt,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Egypt,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,Egypt,Group stage,1.0,3.0,0.0,2,6
-1986,Mexico,England,Quarter-finals,3.0,5.0,2.0,7,3
-1990,Italy,England,Fourth place,4.0,7.0,3.0,8,6
 1994,USA,England,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,England,Round of 16,2.0,4.0,2.0,7,4
 2002,Korea/Japan,England,Quarter-finals,3.0,5.0,2.0,6,3
@@ -206,8 +146,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,England,Round of 16,2.0,4.0,1.0,3,5
 2014,Brazil,England,Group stage,1.0,3.0,0.0,2,4
 2018,Russia,England,Fourth place,4.0,7.0,4.0,12,8
-1986,Mexico,France,Third place,5.0,7.0,5.0,12,6
-1990,Italy,France,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,France,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,France,Winner,7.0,7.0,7.0,15,2
 2002,Korea/Japan,France,Group stage,1.0,3.0,0.0,0,3
@@ -215,8 +153,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,France,Group stage,1.0,3.0,0.0,1,4
 2014,Brazil,France,Quarter-finals,3.0,5.0,3.0,10,3
 2018,Russia,France,Winner,7.0,7.0,6.0,14,6
-1986,Mexico,Germany,Runners-up,6.0,7.0,4.0,8,7
-1990,Italy,Germany,Winner,7.0,7.0,6.0,15,5
 1994,USA,Germany,Quarter-finals,3.0,5.0,3.0,9,7
 1998,France,Germany,Quarter-finals,3.0,5.0,3.0,8,6
 2002,Korea/Japan,Germany,Runners-up,6.0,7.0,5.0,14,3
@@ -224,8 +160,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Germany,Third place,5.0,7.0,5.0,16,5
 2014,Brazil,Germany,Winner,7.0,7.0,6.0,18,4
 2018,Russia,Germany,Group stage,1.0,3.0,1.0,2,4
-1986,Mexico,Ghana,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Ghana,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Ghana,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Ghana,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,Ghana,Did not qualify,0.0,0.0,0.0,0,0
@@ -233,8 +167,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Ghana,Quarter-finals,3.0,5.0,2.0,5,4
 2014,Brazil,Ghana,Group stage,1.0,3.0,0.0,4,6
 2018,Russia,Ghana,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Greece,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Greece,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Greece,Group stage,1.0,3.0,0.0,0,10
 1998,France,Greece,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,Greece,Did not qualify,0.0,0.0,0.0,0,0
@@ -242,8 +174,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Greece,Group stage,1.0,3.0,1.0,2,5
 2014,Brazil,Greece,Round of 16,2.0,4.0,1.0,3,5
 2018,Russia,Greece,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Honduras,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Honduras,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Honduras,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Honduras,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,Honduras,Did not qualify,0.0,0.0,0.0,0,0
@@ -251,17 +181,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Honduras,Group stage,1.0,3.0,0.0,0,3
 2014,Brazil,Honduras,Group stage,1.0,3.0,0.0,1,8
 2018,Russia,Honduras,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Hungary,Group stage,1.0,3.0,1.0,2,9
-1990,Italy,Hungary,Did not qualify,0.0,0.0,0.0,0,0
-1994,USA,Hungary,Did not qualify,0.0,0.0,0.0,0,0
-1998,France,Hungary,Did not qualify,0.0,0.0,0.0,0,0
-2002,Korea/Japan,Hungary,Did not qualify,0.0,0.0,0.0,0,0
-2006,Germany,Hungary,Did not qualify,0.0,0.0,0.0,0,0
-2010,South Africa,Hungary,Did not qualify,0.0,0.0,0.0,0,0
-2014,Brazil,Hungary,Did not qualify,0.0,0.0,0.0,0,0
-2018,Russia,Hungary,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Iceland,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Iceland,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Iceland,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Iceland,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,Iceland,Did not qualify,0.0,0.0,0.0,0,0
@@ -269,8 +188,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Iceland,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Iceland,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,Iceland,Group stage,1.0,3.0,0.0,2,5
-1986,Mexico,Iran,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Iran,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Iran,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Iran,Group stage,1.0,3.0,1.0,2,4
 2002,Korea/Japan,Iran,Did not qualify,0.0,0.0,0.0,0,0
@@ -278,17 +195,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Iran,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Iran,Group stage,1.0,3.0,0.0,1,4
 2018,Russia,Iran,Group stage,1.0,3.0,1.0,2,2
-1986,Mexico,Iraq,Group stage,1.0,3.0,0.0,1,4
-1990,Italy,Iraq,Did not qualify,0.0,0.0,0.0,0,0
-1994,USA,Iraq,Did not qualify,0.0,0.0,0.0,0,0
-1998,France,Iraq,Did not qualify,0.0,0.0,0.0,0,0
-2002,Korea/Japan,Iraq,Did not qualify,0.0,0.0,0.0,0,0
-2006,Germany,Iraq,Did not qualify,0.0,0.0,0.0,0,0
-2010,South Africa,Iraq,Did not qualify,0.0,0.0,0.0,0,0
-2014,Brazil,Iraq,Did not qualify,0.0,0.0,0.0,0,0
-2018,Russia,Iraq,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Italy,Round of 16,2.0,4.0,1.0,5,6
-1990,Italy,Italy,Third place,5.0,7.0,6.0,10,2
 1994,USA,Italy,Runners-up,6.0,7.0,4.0,8,5
 1998,France,Italy,Quarter-finals,3.0,5.0,3.0,8,3
 2002,Korea/Japan,Italy,Round of 16,2.0,4.0,1.0,5,5
@@ -296,8 +202,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Italy,Group stage,1.0,3.0,0.0,4,5
 2014,Brazil,Italy,Group stage,1.0,3.0,1.0,2,3
 2018,Russia,Italy,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Ivory Coast,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Ivory Coast,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Ivory Coast,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Ivory Coast,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,Ivory Coast,Did not qualify,0.0,0.0,0.0,0,0
@@ -305,8 +209,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Ivory Coast,Group stage,1.0,3.0,1.0,4,3
 2014,Brazil,Ivory Coast,Group stage,1.0,3.0,1.0,4,5
 2018,Russia,Ivory Coast,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Jamaica,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Jamaica,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Jamaica,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Jamaica,Group stage,1.0,3.0,1.0,3,9
 2002,Korea/Japan,Jamaica,Did not qualify,0.0,0.0,0.0,0,0
@@ -314,8 +216,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Jamaica,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Jamaica,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,Jamaica,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Japan,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Japan,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Japan,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Japan,Group stage,1.0,3.0,0.0,1,4
 2002,Korea/Japan,Japan,Round of 16,2.0,4.0,2.0,5,3
@@ -323,8 +223,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Japan,Round of 16,2.0,4.0,2.0,4,2
 2014,Brazil,Japan,Group stage,1.0,3.0,0.0,2,6
 2018,Russia,Japan,Round of 16,2.0,4.0,1.0,6,7
-1986,Mexico,Mexico,Quarter-finals,3.0,5.0,3.0,6,2
-1990,Italy,Mexico,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Mexico,Round of 16,2.0,4.0,1.0,4,4
 1998,France,Mexico,Round of 16,2.0,4.0,1.0,8,7
 2002,Korea/Japan,Mexico,Round of 16,2.0,4.0,2.0,4,4
@@ -332,8 +230,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Mexico,Round of 16,2.0,4.0,1.0,4,5
 2014,Brazil,Mexico,Round of 16,2.0,4.0,2.0,5,3
 2018,Russia,Mexico,Round of 16,2.0,4.0,2.0,3,6
-1986,Mexico,Morocco,Round of 16,2.0,4.0,1.0,3,2
-1990,Italy,Morocco,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Morocco,Group stage,1.0,3.0,0.0,2,5
 1998,France,Morocco,Group stage,1.0,3.0,1.0,5,5
 2002,Korea/Japan,Morocco,Did not qualify,0.0,0.0,0.0,0,0
@@ -341,8 +237,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Morocco,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Morocco,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,Morocco,Group stage,1.0,3.0,0.0,2,4
-1986,Mexico,Netherlands,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Netherlands,Round of 16,2.0,4.0,0.0,3,4
 1994,USA,Netherlands,Quarter-finals,3.0,5.0,3.0,8,6
 1998,France,Netherlands,Fourth place,4.0,7.0,3.0,13,7
 2002,Korea/Japan,Netherlands,Did not qualify,0.0,0.0,0.0,0,0
@@ -350,8 +244,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Netherlands,Runners-up,6.0,7.0,6.0,12,6
 2014,Brazil,Netherlands,Third place,5.0,7.0,6.0,15,4
 2018,Russia,Netherlands,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,New Zealand,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,New Zealand,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,New Zealand,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,New Zealand,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,New Zealand,Did not qualify,0.0,0.0,0.0,0,0
@@ -359,8 +251,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,New Zealand,Group stage,1.0,3.0,0.0,2,2
 2014,Brazil,New Zealand,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,New Zealand,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Nigeria,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Nigeria,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Nigeria,Round of 16,2.0,4.0,2.0,7,4
 1998,France,Nigeria,Round of 16,2.0,4.0,2.0,6,9
 2002,Korea/Japan,Nigeria,Group stage,1.0,3.0,0.0,1,3
@@ -368,8 +258,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Nigeria,Group stage,1.0,3.0,0.0,3,5
 2014,Brazil,Nigeria,Round of 16,2.0,4.0,1.0,3,5
 2018,Russia,Nigeria,Group stage,1.0,3.0,1.0,3,4
-1986,Mexico,North Korea,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,North Korea,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,North Korea,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,North Korea,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,North Korea,Did not qualify,0.0,0.0,0.0,0,0
@@ -377,17 +265,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,North Korea,Group stage,1.0,3.0,0.0,1,12
 2014,Brazil,North Korea,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,North Korea,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Northern Ireland,Group stage,1.0,3.0,0.0,2,6
-1990,Italy,Northern Ireland,Did not qualify,0.0,0.0,0.0,0,0
-1994,USA,Northern Ireland,Did not qualify,0.0,0.0,0.0,0,0
-1998,France,Northern Ireland,Did not qualify,0.0,0.0,0.0,0,0
-2002,Korea/Japan,Northern Ireland,Did not qualify,0.0,0.0,0.0,0,0
-2006,Germany,Northern Ireland,Did not qualify,0.0,0.0,0.0,0,0
-2010,South Africa,Northern Ireland,Did not qualify,0.0,0.0,0.0,0,0
-2014,Brazil,Northern Ireland,Did not qualify,0.0,0.0,0.0,0,0
-2018,Russia,Northern Ireland,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Norway,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Norway,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Norway,Group stage,1.0,3.0,1.0,1,1
 1998,France,Norway,Round of 16,2.0,4.0,1.0,5,5
 2002,Korea/Japan,Norway,Did not qualify,0.0,0.0,0.0,0,0
@@ -395,8 +272,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Norway,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Norway,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,Norway,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Panama,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Panama,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Panama,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Panama,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,Panama,Did not qualify,0.0,0.0,0.0,0,0
@@ -404,8 +279,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Panama,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Panama,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,Panama,Group stage,1.0,3.0,0.0,2,11
-1986,Mexico,Paraguay,Round of 16,2.0,4.0,1.0,4,6
-1990,Italy,Paraguay,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Paraguay,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Paraguay,Round of 16,2.0,4.0,1.0,3,2
 2002,Korea/Japan,Paraguay,Round of 16,2.0,4.0,1.0,6,7
@@ -413,8 +286,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Paraguay,Quarter-finals,3.0,5.0,2.0,3,2
 2014,Brazil,Paraguay,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,Paraguay,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Peru,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Peru,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Peru,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Peru,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,Peru,Did not qualify,0.0,0.0,0.0,0,0
@@ -422,8 +293,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Peru,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Peru,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,Peru,Group stage,1.0,3.0,1.0,2,2
-1986,Mexico,Poland,Round of 16,2.0,4.0,1.0,1,7
-1990,Italy,Poland,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Poland,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Poland,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,Poland,Group stage,1.0,3.0,1.0,3,7
@@ -431,8 +300,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Poland,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Poland,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,Poland,Group stage,1.0,3.0,1.0,2,5
-1986,Mexico,Portugal,Group stage,1.0,3.0,1.0,2,4
-1990,Italy,Portugal,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Portugal,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Portugal,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,Portugal,Group stage,1.0,3.0,1.0,6,4
@@ -440,8 +307,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Portugal,Round of 16,2.0,4.0,1.0,7,1
 2014,Brazil,Portugal,Group stage,1.0,3.0,1.0,4,7
 2018,Russia,Portugal,Round of 16,2.0,4.0,1.0,6,6
-1986,Mexico,Republic of Ireland,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Republic of Ireland,Quarter-finals,3.0,5.0,0.0,2,3
 1994,USA,Republic of Ireland,Round of 16,2.0,4.0,1.0,2,4
 1998,France,Republic of Ireland,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,Republic of Ireland,Round of 16,2.0,4.0,1.0,6,3
@@ -449,8 +314,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Republic of Ireland,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Republic of Ireland,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,Republic of Ireland,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Romania,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Romania,Round of 16,2.0,4.0,1.0,4,3
 1994,USA,Romania,Quarter-finals,3.0,5.0,3.0,10,9
 1998,France,Romania,Round of 16,2.0,4.0,2.0,4,3
 2002,Korea/Japan,Romania,Did not qualify,0.0,0.0,0.0,0,0
@@ -458,8 +321,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Romania,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Romania,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,Romania,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Russia,Round of 16,2.0,4.0,2.0,12,5
-1990,Italy,Russia,Group stage,1.0,3.0,1.0,4,4
 1994,USA,Russia,Group stage,1.0,3.0,1.0,7,6
 1998,France,Russia,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,Russia,Group stage,1.0,3.0,1.0,4,4
@@ -467,8 +328,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Russia,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Russia,Group stage,1.0,3.0,0.0,2,3
 2018,Russia,Russia,Quarter-finals,3.0,5.0,3.0,11,7
-1986,Mexico,Saudi Arabia,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Saudi Arabia,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Saudi Arabia,Round of 16,2.0,4.0,2.0,5,6
 1998,France,Saudi Arabia,Group stage,1.0,3.0,0.0,2,7
 2002,Korea/Japan,Saudi Arabia,Group stage,1.0,3.0,0.0,0,12
@@ -476,8 +335,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Saudi Arabia,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Saudi Arabia,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,Saudi Arabia,Group stage,1.0,3.0,1.0,2,7
-1986,Mexico,Scotland,Group stage,1.0,3.0,0.0,1,3
-1990,Italy,Scotland,Group stage,1.0,3.0,1.0,2,3
 1994,USA,Scotland,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Scotland,Group stage,1.0,3.0,0.0,2,6
 2002,Korea/Japan,Scotland,Did not qualify,0.0,0.0,0.0,0,0
@@ -485,8 +342,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Scotland,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Scotland,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,Scotland,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Senegal,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Senegal,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Senegal,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Senegal,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,Senegal,Quarter-finals,3.0,5.0,2.0,7,6
@@ -494,17 +349,13 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Senegal,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Senegal,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,Senegal,Group stage,1.0,3.0,1.0,4,4
-1986,Mexico,Serbia,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Serbia,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Serbia,Did not qualify,0.0,0.0,0.0,0,0
-1998,France,Serbia,Did not qualify,0.0,0.0,0.0,0,0
+1998,France,Serbia,Round of 16,2.0,4.0,2.0,5,4
 2002,Korea/Japan,Serbia,Did not qualify,0.0,0.0,0.0,0,0
 2006,Germany,Serbia,Group stage,1.0,3.0,0.0,2,10
 2010,South Africa,Serbia,Group stage,1.0,3.0,1.0,2,3
 2014,Brazil,Serbia,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,Serbia,Group stage,1.0,3.0,1.0,2,4
-1986,Mexico,Slovakia,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Slovakia,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Slovakia,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Slovakia,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,Slovakia,Did not qualify,0.0,0.0,0.0,0,0
@@ -512,8 +363,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Slovakia,Round of 16,2.0,4.0,1.0,5,7
 2014,Brazil,Slovakia,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,Slovakia,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Slovenia,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Slovenia,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Slovenia,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Slovenia,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,Slovenia,Group stage,1.0,3.0,0.0,2,7
@@ -521,8 +370,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Slovenia,Group stage,1.0,3.0,1.0,3,3
 2014,Brazil,Slovenia,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,Slovenia,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,South Africa,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,South Africa,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,South Africa,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,South Africa,Group stage,1.0,3.0,0.0,3,6
 2002,Korea/Japan,South Africa,Group stage,1.0,3.0,1.0,5,5
@@ -530,8 +377,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,South Africa,Group stage,1.0,3.0,1.0,3,5
 2014,Brazil,South Africa,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,South Africa,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,South Korea,Group stage,1.0,3.0,0.0,4,7
-1990,Italy,South Korea,Group stage,1.0,3.0,0.0,1,6
 1994,USA,South Korea,Group stage,1.0,3.0,0.0,4,5
 1998,France,South Korea,Group stage,1.0,3.0,0.0,2,9
 2002,Korea/Japan,South Korea,Fourth place,4.0,7.0,3.0,8,6
@@ -539,8 +384,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,South Korea,Round of 16,2.0,4.0,1.0,6,8
 2014,Brazil,South Korea,Group stage,1.0,3.0,0.0,3,6
 2018,Russia,South Korea,Group stage,1.0,3.0,1.0,3,3
-1986,Mexico,Spain,Quarter-finals,3.0,5.0,3.0,11,4
-1990,Italy,Spain,Round of 16,2.0,4.0,2.0,6,4
 1994,USA,Spain,Quarter-finals,3.0,5.0,2.0,10,6
 1998,France,Spain,Group stage,1.0,3.0,1.0,8,4
 2002,Korea/Japan,Spain,Quarter-finals,3.0,5.0,4.0,10,5
@@ -548,8 +391,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Spain,Winner,7.0,7.0,6.0,8,2
 2014,Brazil,Spain,Group stage,1.0,3.0,1.0,4,7
 2018,Russia,Spain,Round of 16,2.0,4.0,1.0,7,6
-1986,Mexico,Sweden,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Sweden,Group stage,1.0,3.0,0.0,3,6
 1994,USA,Sweden,Third place,5.0,7.0,4.0,15,8
 1998,France,Sweden,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,Sweden,Round of 16,2.0,4.0,1.0,5,5
@@ -557,8 +398,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Sweden,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Sweden,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,Sweden,Quarter-finals,3.0,5.0,3.0,6,4
-1986,Mexico,Switzerland,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Switzerland,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Switzerland,Round of 16,2.0,4.0,1.0,5,7
 1998,France,Switzerland,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,Switzerland,Did not qualify,0.0,0.0,0.0,0,0
@@ -566,8 +405,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Switzerland,Group stage,1.0,3.0,1.0,1,1
 2014,Brazil,Switzerland,Round of 16,2.0,4.0,2.0,7,7
 2018,Russia,Switzerland,Round of 16,2.0,4.0,1.0,5,5
-1986,Mexico,Togo,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Togo,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Togo,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Togo,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,Togo,Did not qualify,0.0,0.0,0.0,0,0
@@ -575,8 +412,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Togo,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Togo,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,Togo,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Trinidad and Tobago,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Trinidad and Tobago,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Trinidad and Tobago,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Trinidad and Tobago,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,Trinidad and Tobago,Did not qualify,0.0,0.0,0.0,0,0
@@ -584,8 +419,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Trinidad and Tobago,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Trinidad and Tobago,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,Trinidad and Tobago,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Tunisia,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Tunisia,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Tunisia,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Tunisia,Group stage,1.0,3.0,0.0,1,4
 2002,Korea/Japan,Tunisia,Group stage,1.0,3.0,0.0,1,5
@@ -593,8 +426,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Tunisia,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Tunisia,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,Tunisia,Group stage,1.0,3.0,1.0,5,8
-1986,Mexico,Turkey,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Turkey,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Turkey,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Turkey,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,Turkey,Third place,5.0,7.0,4.0,10,6
@@ -602,8 +433,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Turkey,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Turkey,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,Turkey,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Ukraine,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Ukraine,Did not qualify,0.0,0.0,0.0,0,0
 1994,USA,Ukraine,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Ukraine,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,Ukraine,Did not qualify,0.0,0.0,0.0,0,0
@@ -611,17 +440,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Ukraine,Did not qualify,0.0,0.0,0.0,0,0
 2014,Brazil,Ukraine,Did not qualify,0.0,0.0,0.0,0,0
 2018,Russia,Ukraine,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,United Arab Emirates,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,United Arab Emirates,Group stage,1.0,3.0,0.0,2,11
-1994,USA,United Arab Emirates,Did not qualify,0.0,0.0,0.0,0,0
-1998,France,United Arab Emirates,Did not qualify,0.0,0.0,0.0,0,0
-2002,Korea/Japan,United Arab Emirates,Did not qualify,0.0,0.0,0.0,0,0
-2006,Germany,United Arab Emirates,Did not qualify,0.0,0.0,0.0,0,0
-2010,South Africa,United Arab Emirates,Did not qualify,0.0,0.0,0.0,0,0
-2014,Brazil,United Arab Emirates,Did not qualify,0.0,0.0,0.0,0,0
-2018,Russia,United Arab Emirates,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,United States,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,United States,Group stage,1.0,3.0,0.0,2,8
 1994,USA,United States,Round of 16,2.0,4.0,1.0,3,4
 1998,France,United States,Group stage,1.0,3.0,0.0,1,5
 2002,Korea/Japan,United States,Quarter-finals,3.0,5.0,2.0,7,7
@@ -629,8 +447,6 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,United States,Round of 16,2.0,4.0,1.0,5,5
 2014,Brazil,United States,Round of 16,2.0,4.0,1.0,5,6
 2018,Russia,United States,Did not qualify,0.0,0.0,0.0,0,0
-1986,Mexico,Uruguay,Round of 16,2.0,4.0,0.0,2,8
-1990,Italy,Uruguay,Round of 16,2.0,4.0,1.0,2,5
 1994,USA,Uruguay,Did not qualify,0.0,0.0,0.0,0,0
 1998,France,Uruguay,Did not qualify,0.0,0.0,0.0,0,0
 2002,Korea/Japan,Uruguay,Group stage,1.0,3.0,0.0,4,5
@@ -638,12 +454,3 @@ world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matc
 2010,South Africa,Uruguay,Fourth place,4.0,7.0,4.0,11,8
 2014,Brazil,Uruguay,Round of 16,2.0,4.0,2.0,4,6
 2018,Russia,Uruguay,Quarter-finals,3.0,5.0,4.0,7,3
-1986,Mexico,Yugoslavia,Did not qualify,0.0,0.0,0.0,0,0
-1990,Italy,Yugoslavia,Quarter-finals,3.0,5.0,3.0,8,6
-1994,USA,Yugoslavia,Did not qualify,0.0,0.0,0.0,0,0
-1998,France,Yugoslavia,Round of 16,2.0,4.0,2.0,5,4
-2002,Korea/Japan,Yugoslavia,Did not qualify,0.0,0.0,0.0,0,0
-2006,Germany,Yugoslavia,Did not qualify,0.0,0.0,0.0,0,0
-2010,South Africa,Yugoslavia,Did not qualify,0.0,0.0,0.0,0,0
-2014,Brazil,Yugoslavia,Did not qualify,0.0,0.0,0.0,0,0
-2018,Russia,Yugoslavia,Did not qualify,0.0,0.0,0.0,0,0
