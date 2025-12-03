@@ -1,249 +1,249 @@
-world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matches_won,goals_for,goals_against,Big5_flag
-2010,South Africa,Algeria,Group stage,1.0,3.0,0.0,0.0,2.0,0.4782608695652174
-2014,Brazil,Algeria,Round of 16,2.0,4.0,1.0,7.0,7.0,0.4782608695652174
-2006,Germany,Angola,Group stage,1.0,3.0,0.0,1.0,2.0,0.0
-1994,USA,Argentina,Round of 16,2.0,4.0,2.0,8.0,6.0,0.36363636363636365
-1998,France,Argentina,Quarter-finals,3.0,5.0,4.0,10.0,4.0,0.7272727272727273
-2002,Korea/Japan,Argentina,Group stage,1.0,3.0,1.0,2.0,2.0,0.7391304347826086
-2006,Germany,Argentina,Quarter-finals,3.0,5.0,3.0,11.0,3.0,0.7391304347826086
-2010,South Africa,Argentina,Quarter-finals,3.0,5.0,4.0,10.0,6.0,0.6086956521739131
-2014,Brazil,Argentina,Runners-up,6.0,7.0,6.0,8.0,4.0,0.6956521739130435
-2018,Russia,Argentina,Round of 16,2.0,4.0,1.0,6.0,9.0,0.6086956521739131
-2006,Germany,Australia,Round of 16,2.0,4.0,1.0,5.0,6.0,0.5217391304347826
-2010,South Africa,Australia,Group stage,1.0,3.0,1.0,3.0,6.0,0.2608695652173913
-2014,Brazil,Australia,Group stage,1.0,3.0,0.0,3.0,9.0,0.08695652173913043
-2018,Russia,Australia,Group stage,1.0,3.0,0.0,2.0,5.0,0.043478260869565216
-1998,France,Austria,Group stage,1.0,3.0,0.0,3.0,4.0,0.45454545454545453
-1994,USA,Belgium,Round of 16,2.0,4.0,2.0,4.0,4.0,0.09090909090909091
-1998,France,Belgium,Group stage,1.0,3.0,0.0,3.0,3.0,0.18181818181818182
-2002,Korea/Japan,Belgium,Round of 16,2.0,4.0,1.0,6.0,7.0,0.30434782608695654
-2014,Brazil,Belgium,Quarter-finals,3.0,5.0,4.0,6.0,3.0,0.7391304347826086
-2018,Russia,Belgium,Third place,5.0,7.0,6.0,16.0,6.0,0.8260869565217391
-1994,USA,Bolivia,Group stage,1.0,3.0,0.0,1.0,4.0,0.0
-2014,Brazil,Bosnia and Herzegovina,Group stage,1.0,3.0,1.0,4.0,4.0,0.34782608695652173
-1994,USA,Brazil,Winner,7.0,7.0,6.0,11.0,3.0,0.45454545454545453
-1998,France,Brazil,Runners-up,6.0,7.0,5.0,14.0,10.0,0.4090909090909091
-2002,Korea/Japan,Brazil,Winner,7.0,7.0,7.0,18.0,4.0,0.391304347826087
-2006,Germany,Brazil,Quarter-finals,3.0,5.0,4.0,10.0,2.0,0.6521739130434783
-2010,South Africa,Brazil,Quarter-finals,3.0,5.0,3.0,9.0,4.0,0.6956521739130435
-2014,Brazil,Brazil,Fourth place,4.0,7.0,4.0,11.0,14.0,0.6956521739130435
-2018,Russia,Brazil,Quarter-finals,3.0,5.0,3.0,8.0,3.0,0.7391304347826086
-1994,USA,Bulgaria,Fourth place,4.0,7.0,4.0,10.0,11.0,0.18181818181818182
-1998,France,Bulgaria,Group stage,1.0,3.0,0.0,1.0,7.0,0.22727272727272727
-1994,USA,Cameroon,Group stage,1.0,3.0,0.0,3.0,11.0,0.18181818181818182
-1998,France,Cameroon,Group stage,1.0,3.0,0.0,2.0,5.0,0.3181818181818182
-2002,Korea/Japan,Cameroon,Group stage,1.0,3.0,1.0,2.0,3.0,0.5652173913043478
-2010,South Africa,Cameroon,Group stage,1.0,3.0,0.0,2.0,5.0,0.6521739130434783
-2014,Brazil,Cameroon,Group stage,1.0,3.0,0.0,1.0,9.0,0.4782608695652174
-1998,France,Chile,Round of 16,2.0,4.0,0.0,5.0,8.0,0.045454545454545456
-2010,South Africa,Chile,Round of 16,2.0,4.0,2.0,3.0,5.0,0.17391304347826086
-2014,Brazil,Chile,Round of 16,2.0,4.0,2.0,6.0,4.0,0.43478260869565216
-2002,Korea/Japan,China,Group stage,1.0,3.0,0.0,0.0,9.0,0.0
-1994,USA,Colombia,Group stage,1.0,3.0,1.0,4.0,5.0,0.13636363636363635
-1998,France,Colombia,Group stage,1.0,3.0,1.0,1.0,3.0,0.13636363636363635
-2014,Brazil,Colombia,Quarter-finals,3.0,5.0,4.0,12.0,4.0,0.5652173913043478
-2018,Russia,Colombia,Round of 16,2.0,4.0,2.0,6.0,3.0,0.5217391304347826
-2002,Korea/Japan,Costa Rica,Group stage,1.0,3.0,1.0,5.0,6.0,0.043478260869565216
-2006,Germany,Costa Rica,Group stage,1.0,3.0,0.0,3.0,9.0,0.0
-2014,Brazil,Costa Rica,Quarter-finals,3.0,5.0,2.0,5.0,2.0,0.08695652173913043
-2018,Russia,Costa Rica,Group stage,1.0,3.0,0.0,2.0,5.0,0.21739130434782608
-1998,France,Croatia,Third place,5.0,7.0,5.0,11.0,5.0,0.45454545454545453
-2002,Korea/Japan,Croatia,Group stage,1.0,3.0,1.0,2.0,3.0,0.4782608695652174
-2006,Germany,Croatia,Group stage,1.0,3.0,0.0,2.0,3.0,0.2608695652173913
-2014,Brazil,Croatia,Group stage,1.0,3.0,1.0,6.0,6.0,0.5652173913043478
-2018,Russia,Croatia,Runners-up,6.0,7.0,6.0,14.0,9.0,0.6521739130434783
-2006,Germany,Czech Republic,Group stage,1.0,3.0,1.0,3.0,4.0,0.4782608695652174
-1998,France,Denmark,Quarter-finals,3.0,5.0,2.0,9.0,7.0,0.3181818181818182
-2002,Korea/Japan,Denmark,Round of 16,2.0,4.0,2.0,5.0,5.0,0.391304347826087
-2010,South Africa,Denmark,Group stage,1.0,3.0,1.0,3.0,6.0,0.43478260869565216
-2018,Russia,Denmark,Round of 16,2.0,4.0,1.0,3.0,2.0,0.5652173913043478
-2002,Korea/Japan,Ecuador,Group stage,1.0,3.0,1.0,2.0,4.0,0.043478260869565216
-2006,Germany,Ecuador,Round of 16,2.0,4.0,2.0,5.0,4.0,0.043478260869565216
-2014,Brazil,Ecuador,Group stage,1.0,3.0,1.0,3.0,3.0,0.08695652173913043
-2018,Russia,Egypt,Group stage,1.0,3.0,0.0,2.0,6.0,0.21739130434782608
-1998,France,England,Round of 16,2.0,4.0,2.0,7.0,4.0,0.9545454545454546
-2002,Korea/Japan,England,Quarter-finals,3.0,5.0,2.0,6.0,3.0,1.0
-2006,Germany,England,Quarter-finals,3.0,5.0,3.0,6.0,2.0,1.0
-2010,South Africa,England,Round of 16,2.0,4.0,1.0,3.0,5.0,1.0
-2014,Brazil,England,Group stage,1.0,3.0,0.0,2.0,4.0,0.9565217391304348
-2018,Russia,England,Fourth place,4.0,7.0,4.0,12.0,8.0,1.0
-1998,France,France,Winner,7.0,7.0,7.0,15.0,2.0,1.0
-2002,Korea/Japan,France,Group stage,1.0,3.0,0.0,0.0,3.0,1.0
-2006,Germany,France,Runners-up,6.0,7.0,4.0,9.0,3.0,1.0
-2010,South Africa,France,Group stage,1.0,3.0,0.0,1.0,4.0,0.9565217391304348
-2014,Brazil,France,Quarter-finals,3.0,5.0,3.0,10.0,3.0,0.9565217391304348
-2018,Russia,France,Winner,7.0,7.0,6.0,14.0,6.0,1.0
-1994,USA,Germany,Quarter-finals,3.0,5.0,3.0,9.0,7.0,0.9545454545454546
-1998,France,Germany,Quarter-finals,3.0,5.0,3.0,8.0,6.0,0.9090909090909091
-2002,Korea/Japan,Germany,Runners-up,6.0,7.0,5.0,14.0,3.0,0.782608695652174
-2006,Germany,Germany,Third place,5.0,7.0,6.0,14.0,6.0,0.8695652173913043
-2010,South Africa,Germany,Third place,5.0,7.0,5.0,16.0,5.0,0.9130434782608695
-2014,Brazil,Germany,Winner,7.0,7.0,6.0,18.0,4.0,1.0
-2018,Russia,Germany,Group stage,1.0,3.0,1.0,2.0,4.0,1.0
-2006,Germany,Ghana,Round of 16,2.0,4.0,2.0,4.0,6.0,0.30434782608695654
-2010,South Africa,Ghana,Quarter-finals,3.0,5.0,2.0,5.0,4.0,0.43478260869565216
-2014,Brazil,Ghana,Group stage,1.0,3.0,0.0,4.0,6.0,0.4782608695652174
-1994,USA,Greece,Group stage,1.0,3.0,0.0,0.0,10.0,0.0
-2010,South Africa,Greece,Group stage,1.0,3.0,1.0,2.0,5.0,0.2608695652173913
-2014,Brazil,Greece,Round of 16,2.0,4.0,1.0,3.0,5.0,0.4782608695652174
-2010,South Africa,Honduras,Group stage,1.0,3.0,0.0,0.0,3.0,0.21739130434782608
-2014,Brazil,Honduras,Group stage,1.0,3.0,0.0,1.0,8.0,0.08695652173913043
-2018,Russia,Iceland,Group stage,1.0,3.0,0.0,2.0,5.0,0.13043478260869565
-1998,France,Iran,Group stage,1.0,3.0,1.0,2.0,4.0,0.045454545454545456
-2006,Germany,Iran,Group stage,1.0,3.0,0.0,2.0,6.0,0.21739130434782608
-2014,Brazil,Iran,Group stage,1.0,3.0,0.0,1.0,4.0,0.043478260869565216
-2018,Russia,Iran,Group stage,1.0,3.0,1.0,2.0,2.0,0.0
-1994,USA,Italy,Runners-up,6.0,7.0,4.0,8.0,5.0,1.0
-1998,France,Italy,Quarter-finals,3.0,5.0,3.0,8.0,3.0,1.0
-2002,Korea/Japan,Italy,Round of 16,2.0,4.0,1.0,5.0,5.0,1.0
-2006,Germany,Italy,Winner,7.0,7.0,6.0,12.0,2.0,0.9565217391304348
-2010,South Africa,Italy,Group stage,1.0,3.0,0.0,4.0,5.0,1.0
-2014,Brazil,Italy,Group stage,1.0,3.0,1.0,2.0,3.0,1.0
-2006,Germany,Ivory Coast,Group stage,1.0,3.0,1.0,5.0,6.0,0.6956521739130435
-2010,South Africa,Ivory Coast,Group stage,1.0,3.0,1.0,4.0,3.0,0.6521739130434783
-2014,Brazil,Ivory Coast,Group stage,1.0,3.0,1.0,4.0,5.0,0.5652173913043478
-1998,France,Jamaica,Group stage,1.0,3.0,1.0,3.0,9.0,0.22727272727272727
-1998,France,Japan,Group stage,1.0,3.0,0.0,1.0,4.0,0.0
-2002,Korea/Japan,Japan,Round of 16,2.0,4.0,2.0,5.0,3.0,0.08695652173913043
-2006,Germany,Japan,Group stage,1.0,3.0,0.0,2.0,7.0,0.13043478260869565
-2010,South Africa,Japan,Round of 16,2.0,4.0,2.0,4.0,2.0,0.13043478260869565
-2014,Brazil,Japan,Group stage,1.0,3.0,0.0,2.0,6.0,0.43478260869565216
-2018,Russia,Japan,Round of 16,2.0,4.0,1.0,6.0,7.0,0.4782608695652174
-1994,USA,Mexico,Round of 16,2.0,4.0,1.0,4.0,4.0,0.09090909090909091
-1998,France,Mexico,Round of 16,2.0,4.0,1.0,8.0,7.0,0.0
-2002,Korea/Japan,Mexico,Round of 16,2.0,4.0,2.0,4.0,4.0,0.17391304347826086
-2006,Germany,Mexico,Round of 16,2.0,4.0,1.0,5.0,5.0,0.13043478260869565
-2010,South Africa,Mexico,Round of 16,2.0,4.0,1.0,4.0,5.0,0.21739130434782608
-2014,Brazil,Mexico,Round of 16,2.0,4.0,2.0,5.0,3.0,0.2608695652173913
-2018,Russia,Mexico,Round of 16,2.0,4.0,2.0,3.0,6.0,0.2608695652173913
-1994,USA,Morocco,Group stage,1.0,3.0,0.0,2.0,5.0,0.13636363636363635
-1998,France,Morocco,Group stage,1.0,3.0,1.0,5.0,5.0,0.3181818181818182
-2018,Russia,Morocco,Group stage,1.0,3.0,0.0,2.0,4.0,0.391304347826087
-1994,USA,Netherlands,Quarter-finals,3.0,5.0,3.0,8.0,6.0,0.22727272727272727
-1998,France,Netherlands,Fourth place,4.0,7.0,3.0,13.0,7.0,0.5
-2006,Germany,Netherlands,Round of 16,2.0,4.0,2.0,3.0,2.0,0.391304347826087
-2010,South Africa,Netherlands,Runners-up,6.0,7.0,6.0,12.0,6.0,0.5652173913043478
-2014,Brazil,Netherlands,Third place,5.0,7.0,6.0,15.0,4.0,0.391304347826087
-2010,South Africa,New Zealand,Group stage,1.0,3.0,0.0,2.0,2.0,0.043478260869565216
-1994,USA,Nigeria,Round of 16,2.0,4.0,2.0,7.0,4.0,0.2727272727272727
-1998,France,Nigeria,Round of 16,2.0,4.0,2.0,6.0,9.0,0.4090909090909091
-2002,Korea/Japan,Nigeria,Group stage,1.0,3.0,0.0,1.0,3.0,0.2608695652173913
-2010,South Africa,Nigeria,Group stage,1.0,3.0,0.0,3.0,5.0,0.5652173913043478
-2014,Brazil,Nigeria,Round of 16,2.0,4.0,1.0,3.0,5.0,0.34782608695652173
-2018,Russia,Nigeria,Group stage,1.0,3.0,1.0,3.0,4.0,0.43478260869565216
-2010,South Africa,North Korea,Group stage,1.0,3.0,0.0,1.0,12.0,0.0
-1994,USA,Norway,Group stage,1.0,3.0,1.0,1.0,1.0,0.4090909090909091
-1998,France,Norway,Round of 16,2.0,4.0,1.0,5.0,5.0,0.6363636363636364
-2018,Russia,Panama,Group stage,1.0,3.0,0.0,2.0,11.0,0.0
-1998,France,Paraguay,Round of 16,2.0,4.0,1.0,3.0,2.0,0.09090909090909091
-2002,Korea/Japan,Paraguay,Round of 16,2.0,4.0,1.0,6.0,7.0,0.08695652173913043
-2006,Germany,Paraguay,Group stage,1.0,3.0,1.0,2.0,2.0,0.2608695652173913
-2010,South Africa,Paraguay,Quarter-finals,3.0,5.0,2.0,3.0,2.0,0.30434782608695654
-2018,Russia,Peru,Group stage,1.0,3.0,1.0,2.0,2.0,0.043478260869565216
-2002,Korea/Japan,Poland,Group stage,1.0,3.0,1.0,3.0,7.0,0.34782608695652173
-2006,Germany,Poland,Group stage,1.0,3.0,1.0,2.0,4.0,0.17391304347826086
-2018,Russia,Poland,Group stage,1.0,3.0,1.0,2.0,5.0,0.6086956521739131
-2002,Korea/Japan,Portugal,Group stage,1.0,3.0,1.0,6.0,4.0,0.34782608695652173
-2006,Germany,Portugal,Fourth place,4.0,7.0,5.0,7.0,5.0,0.5652173913043478
-2010,South Africa,Portugal,Round of 16,2.0,4.0,1.0,7.0,1.0,0.4782608695652174
-2014,Brazil,Portugal,Group stage,1.0,3.0,1.0,4.0,7.0,0.43478260869565216
-2018,Russia,Portugal,Round of 16,2.0,4.0,1.0,6.0,6.0,0.4782608695652174
-1994,USA,Republic of Ireland,Round of 16,2.0,4.0,1.0,2.0,4.0,0.7272727272727273
-2002,Korea/Japan,Republic of Ireland,Round of 16,2.0,4.0,1.0,6.0,3.0,0.7391304347826086
-1994,USA,Romania,Quarter-finals,3.0,5.0,3.0,10.0,9.0,0.18181818181818182
-1998,France,Romania,Round of 16,2.0,4.0,2.0,4.0,3.0,0.36363636363636365
-1994,USA,Russia,Group stage,1.0,3.0,1.0,7.0,6.0,0.3181818181818182
-2002,Korea/Japan,Russia,Group stage,1.0,3.0,1.0,4.0,4.0,0.21739130434782608
-2014,Brazil,Russia,Group stage,1.0,3.0,0.0,2.0,3.0,0.0
-2018,Russia,Russia,Quarter-finals,3.0,5.0,3.0,11.0,7.0,0.043478260869565216
-1994,USA,Saudi Arabia,Round of 16,2.0,4.0,2.0,5.0,6.0,0.0
-1998,France,Saudi Arabia,Group stage,1.0,3.0,0.0,2.0,7.0,0.0
-2002,Korea/Japan,Saudi Arabia,Group stage,1.0,3.0,0.0,0.0,12.0,0.0
-2006,Germany,Saudi Arabia,Group stage,1.0,3.0,0.0,2.0,7.0,0.0
-2018,Russia,Saudi Arabia,Group stage,1.0,3.0,1.0,2.0,7.0,0.13043478260869565
-1998,France,Scotland,Group stage,1.0,3.0,0.0,2.0,6.0,0.36363636363636365
-2002,Korea/Japan,Senegal,Quarter-finals,3.0,5.0,2.0,7.0,6.0,0.7391304347826086
-2018,Russia,Senegal,Group stage,1.0,3.0,1.0,4.0,4.0,0.6956521739130435
-2006,Germany,Serbia,Group stage,1.0,3.0,0.0,2.0,10.0,0.34782608695652173
-2010,South Africa,Serbia,Group stage,1.0,3.0,1.0,2.0,3.0,0.5652173913043478
-2018,Russia,Serbia,Group stage,1.0,3.0,1.0,2.0,4.0,0.5217391304347826
-2010,South Africa,Slovakia,Round of 16,2.0,4.0,1.0,5.0,7.0,0.2608695652173913
-2002,Korea/Japan,Slovenia,Group stage,1.0,3.0,0.0,2.0,7.0,0.17391304347826086
-2010,South Africa,Slovenia,Group stage,1.0,3.0,1.0,3.0,3.0,0.30434782608695654
-1998,France,South Africa,Group stage,1.0,3.0,0.0,3.0,6.0,0.17391304347826086
-2002,Korea/Japan,South Africa,Group stage,1.0,3.0,1.0,5.0,5.0,0.17391304347826086
-2010,South Africa,South Africa,Group stage,1.0,3.0,1.0,3.0,5.0,0.13043478260869565
-1994,USA,South Korea,Group stage,1.0,3.0,0.0,4.0,5.0,0.0
-1998,France,South Korea,Group stage,1.0,3.0,0.0,2.0,9.0,0.045454545454545456
-2002,Korea/Japan,South Korea,Fourth place,4.0,7.0,3.0,8.0,6.0,0.043478260869565216
-2006,Germany,South Korea,Group stage,1.0,3.0,1.0,3.0,4.0,0.13043478260869565
-2010,South Africa,South Korea,Round of 16,2.0,4.0,1.0,6.0,8.0,0.17391304347826086
-2014,Brazil,South Korea,Group stage,1.0,3.0,0.0,3.0,6.0,0.21739130434782608
-2018,Russia,South Korea,Group stage,1.0,3.0,1.0,3.0,3.0,0.13043478260869565
-1994,USA,Spain,Quarter-finals,3.0,5.0,2.0,10.0,6.0,1.0
-1998,France,Spain,Group stage,1.0,3.0,1.0,8.0,4.0,1.0
-2002,Korea/Japan,Spain,Quarter-finals,3.0,5.0,4.0,10.0,5.0,1.0
-2006,Germany,Spain,Round of 16,2.0,4.0,3.0,9.0,4.0,1.0
-2010,South Africa,Spain,Winner,7.0,7.0,6.0,8.0,2.0,1.0
-2014,Brazil,Spain,Group stage,1.0,3.0,1.0,4.0,7.0,1.0
-2018,Russia,Spain,Round of 16,2.0,4.0,1.0,7.0,6.0,1.0
-1994,USA,Sweden,Third place,5.0,7.0,4.0,15.0,8.0,0.3181818181818182
-2002,Korea/Japan,Sweden,Round of 16,2.0,4.0,1.0,5.0,5.0,0.43478260869565216
-2006,Germany,Sweden,Round of 16,2.0,4.0,1.0,3.0,4.0,0.30434782608695654
-2018,Russia,Sweden,Quarter-finals,3.0,5.0,3.0,6.0,4.0,0.6086956521739131
-1994,USA,Switzerland,Round of 16,2.0,4.0,1.0,5.0,7.0,0.18181818181818182
-2006,Germany,Switzerland,Round of 16,2.0,4.0,2.0,4.0,0.0,0.5652173913043478
-2010,South Africa,Switzerland,Group stage,1.0,3.0,1.0,1.0,1.0,0.5652173913043478
-2014,Brazil,Switzerland,Round of 16,2.0,4.0,2.0,7.0,7.0,0.6956521739130435
-2018,Russia,Switzerland,Round of 16,2.0,4.0,1.0,5.0,5.0,0.782608695652174
-2006,Germany,Togo,Group stage,1.0,3.0,0.0,1.0,6.0,0.13043478260869565
-2006,Germany,Trinidad and Tobago,Group stage,1.0,3.0,0.0,0.0,4.0,0.043478260869565216
-1998,France,Tunisia,Group stage,1.0,3.0,0.0,1.0,4.0,0.045454545454545456
-2002,Korea/Japan,Tunisia,Group stage,1.0,3.0,0.0,1.0,5.0,0.043478260869565216
-2006,Germany,Tunisia,Group stage,1.0,3.0,0.0,3.0,6.0,0.43478260869565216
-2018,Russia,Tunisia,Group stage,1.0,3.0,1.0,5.0,8.0,0.30434782608695654
-2002,Korea/Japan,Turkey,Third place,5.0,7.0,4.0,10.0,6.0,0.391304347826087
-2006,Germany,Ukraine,Quarter-finals,3.0,5.0,3.0,5.0,7.0,0.0
-1994,USA,United States,Round of 16,2.0,4.0,1.0,3.0,4.0,0.045454545454545456
-1998,France,United States,Group stage,1.0,3.0,0.0,1.0,5.0,0.13636363636363635
-2002,Korea/Japan,United States,Quarter-finals,3.0,5.0,2.0,7.0,7.0,0.30434782608695654
-2006,Germany,United States,Group stage,1.0,3.0,0.0,2.0,6.0,0.2608695652173913
-2010,South Africa,United States,Round of 16,2.0,4.0,1.0,5.0,5.0,0.5217391304347826
-2014,Brazil,United States,Round of 16,2.0,4.0,1.0,5.0,6.0,0.34782608695652173
-2002,Korea/Japan,Uruguay,Group stage,1.0,3.0,0.0,4.0,5.0,0.5652173913043478
-2010,South Africa,Uruguay,Fourth place,4.0,7.0,4.0,11.0,8.0,0.30434782608695654
-2014,Brazil,Uruguay,Round of 16,2.0,4.0,2.0,4.0,6.0,0.5217391304347826
-2018,Russia,Uruguay,Quarter-finals,3.0,5.0,4.0,7.0,3.0,0.4782608695652174
-1998,France,Yugoslavia,Round of 16,2.0,4.0,2.0,5.0,4.0,0.7272727272727273
-2022,Qatar,Argentina,Winner,7.0,7.0,6.0,15.0,8.0,0.8076923076923077
-2022,Qatar,Australia,Round of 16,2.0,4.0,2.0,4.0,6.0,0.07692307692307693
-2022,Qatar,Belgium,Group stage,1.0,3.0,1.0,1.0,2.0,0.6923076923076923
-2022,Qatar,Brazil,Quarter-finals,3.0,5.0,3.0,8.0,3.0,0.8461538461538461
-2022,Qatar,Cameroon,Group stage,1.0,3.0,1.0,4.0,4.0,0.38461538461538464
-2022,Qatar,Canada,Group stage,1.0,3.0,0.0,2.0,7.0,0.11538461538461539
-2022,Qatar,Costa Rica,Group stage,1.0,3.0,1.0,3.0,11.0,0.038461538461538464
-2022,Qatar,Croatia,Third place,5.0,7.0,4.0,8.0,7.0,0.5384615384615384
-2022,Qatar,Denmark,Group stage,1.0,3.0,0.0,1.0,3.0,0.7307692307692307
-2022,Qatar,Ecuador,Group stage,1.0,3.0,1.0,4.0,3.0,0.07692307692307693
-2022,Qatar,England,Quarter-finals,3.0,5.0,3.0,13.0,4.0,1.0
-2022,Qatar,France,Runners-up,6.0,7.0,5.0,16.0,8.0,1.0
-2022,Qatar,Germany,Group stage,1.0,3.0,1.0,6.0,5.0,0.9615384615384616
-2022,Qatar,Ghana,Group stage,1.0,3.0,1.0,5.0,7.0,0.4230769230769231
-2022,Qatar,Iran,Group stage,1.0,3.0,1.0,4.0,7.0,0.08
-2022,Qatar,Japan,Round of 16,2.0,4.0,2.0,5.0,4.0,0.38461538461538464
-2022,Qatar,South Korea,Round of 16,2.0,4.0,1.0,5.0,8.0,0.23076923076923078
-2022,Qatar,Mexico,Group stage,1.0,3.0,1.0,2.0,3.0,0.11538461538461539
-2022,Qatar,Morocco,Fourth place,4.0,7.0,4.0,6.0,5.0,0.5
-2022,Qatar,Netherlands,Quarter-finals,3.0,5.0,3.0,10.0,4.0,0.4230769230769231
-2022,Qatar,Poland,Round of 16,2.0,4.0,1.0,3.0,5.0,0.5769230769230769
-2022,Qatar,Portugal,Quarter-finals,3.0,5.0,3.0,12.0,6.0,0.6923076923076923
-2022,Qatar,Qatar,Group stage,1.0,3.0,0.0,1.0,7.0,0.0
-2022,Qatar,Saudi Arabia,Group stage,1.0,3.0,1.0,3.0,5.0,0.0
-2022,Qatar,Senegal,Round of 16,2.0,4.0,2.0,5.0,7.0,0.6538461538461539
-2022,Qatar,Serbia,Group stage,1.0,3.0,0.0,5.0,8.0,0.6153846153846154
-2022,Qatar,Spain,Round of 16,2.0,4.0,1.0,9.0,3.0,0.9615384615384616
-2022,Qatar,Switzerland,Round of 16,2.0,4.0,2.0,5.0,9.0,0.5769230769230769
-2022,Qatar,Tunisia,Group stage,1.0,3.0,1.0,1.0,1.0,0.15384615384615385
-2022,Qatar,United States,Round of 16,2.0,4.0,1.0,3.0,4.0,0.46153846153846156
-2022,Qatar,Uruguay,Group stage,1.0,3.0,1.0,2.0,2.0,0.38461538461538464
-2022,Qatar,Wales,Group stage,1.0,3.0,0.0,1.0,6.0,0.23076923076923078
+world_cup_year,host_country,team,max_stage,max_stage_numeric,matches_played,matches_won,goals_for,goals_against,start_date,Big5_flag
+2010,South Africa,Algeria,Group stage,1.0,3.0,0.0,0,2,2010-06-11,0.4782608695652174
+2014,Brazil,Algeria,Round of 16,2.0,4.0,1.0,7,7,2014-06-12,0.4782608695652174
+2006,Germany,Angola,Group stage,1.0,3.0,0.0,1,2,2006-06-09,0.0
+1994,USA,Argentina,Round of 16,2.0,4.0,2.0,8,6,1994-06-17,0.36363636363636365
+1998,France,Argentina,Quarter-finals,3.0,5.0,4.0,10,4,1998-06-10,0.7272727272727273
+2002,Korea/Japan,Argentina,Group stage,1.0,3.0,1.0,2,2,2002-05-31,0.7391304347826086
+2006,Germany,Argentina,Quarter-finals,3.0,5.0,3.0,11,3,2006-06-09,0.7391304347826086
+2010,South Africa,Argentina,Quarter-finals,3.0,5.0,4.0,10,6,2010-06-11,0.6086956521739131
+2014,Brazil,Argentina,Runners-up,6.0,7.0,6.0,8,4,2014-06-12,0.6956521739130435
+2018,Russia,Argentina,Round of 16,2.0,4.0,1.0,6,9,2018-06-14,0.6086956521739131
+2022,Qatar,Argentina,Winner,7.0,7.0,6.0,15,8,2022-11-20,0.8076923076923077
+2006,Germany,Australia,Round of 16,2.0,4.0,1.0,5,6,2006-06-09,0.5217391304347826
+2010,South Africa,Australia,Group stage,1.0,3.0,1.0,3,6,2010-06-11,0.2608695652173913
+2014,Brazil,Australia,Group stage,1.0,3.0,0.0,3,9,2014-06-12,0.08695652173913043
+2018,Russia,Australia,Group stage,1.0,3.0,0.0,2,5,2018-06-14,0.043478260869565216
+2022,Qatar,Australia,Round of 16,2.0,4.0,2.0,4,6,2022-11-20,0.07692307692307693
+1998,France,Austria,Group stage,1.0,3.0,0.0,3,4,1998-06-10,0.45454545454545453
+1994,USA,Belgium,Round of 16,2.0,4.0,2.0,4,4,1994-06-17,0.09090909090909091
+1998,France,Belgium,Group stage,1.0,3.0,0.0,3,3,1998-06-10,0.18181818181818182
+2002,Korea/Japan,Belgium,Round of 16,2.0,4.0,1.0,6,7,2002-05-31,0.30434782608695654
+2014,Brazil,Belgium,Quarter-finals,3.0,5.0,4.0,6,3,2014-06-12,0.7391304347826086
+2018,Russia,Belgium,Third place,5.0,7.0,6.0,16,6,2018-06-14,0.8260869565217391
+2022,Qatar,Belgium,Group stage,1.0,3.0,1.0,1,2,2022-11-20,0.6923076923076923
+1994,USA,Bolivia,Group stage,1.0,3.0,0.0,1,4,1994-06-17,0.0
+2014,Brazil,Bosnia and Herzegovina,Group stage,1.0,3.0,1.0,4,4,2014-06-12,0.34782608695652173
+1994,USA,Brazil,Winner,7.0,7.0,6.0,11,3,1994-06-17,0.45454545454545453
+1998,France,Brazil,Runners-up,6.0,7.0,5.0,14,10,1998-06-10,0.4090909090909091
+2002,Korea/Japan,Brazil,Winner,7.0,7.0,7.0,18,4,2002-05-31,0.391304347826087
+2006,Germany,Brazil,Quarter-finals,3.0,5.0,4.0,10,2,2006-06-09,0.6521739130434783
+2010,South Africa,Brazil,Quarter-finals,3.0,5.0,3.0,9,4,2010-06-11,0.6956521739130435
+2014,Brazil,Brazil,Fourth place,4.0,7.0,4.0,11,14,2014-06-12,0.6956521739130435
+2018,Russia,Brazil,Quarter-finals,3.0,5.0,3.0,8,3,2018-06-14,0.7391304347826086
+2022,Qatar,Brazil,Quarter-finals,3.0,5.0,3.0,8,3,2022-11-20,0.8461538461538461
+1994,USA,Bulgaria,Fourth place,4.0,7.0,4.0,10,11,1994-06-17,0.18181818181818182
+1998,France,Bulgaria,Group stage,1.0,3.0,0.0,1,7,1998-06-10,0.22727272727272727
+1994,USA,Cameroon,Group stage,1.0,3.0,0.0,3,11,1994-06-17,0.18181818181818182
+1998,France,Cameroon,Group stage,1.0,3.0,0.0,2,5,1998-06-10,0.3181818181818182
+2002,Korea/Japan,Cameroon,Group stage,1.0,3.0,1.0,2,3,2002-05-31,0.5652173913043478
+2010,South Africa,Cameroon,Group stage,1.0,3.0,0.0,2,5,2010-06-11,0.6521739130434783
+2014,Brazil,Cameroon,Group stage,1.0,3.0,0.0,1,9,2014-06-12,0.4782608695652174
+2022,Qatar,Cameroon,Group stage,1.0,3.0,1.0,4,4,2022-11-20,0.38461538461538464
+2022,Qatar,Canada,Group stage,1.0,3.0,0.0,2,7,2022-11-20,0.11538461538461539
+1998,France,Chile,Round of 16,2.0,4.0,0.0,5,8,1998-06-10,0.045454545454545456
+2010,South Africa,Chile,Round of 16,2.0,4.0,2.0,3,5,2010-06-11,0.17391304347826086
+2014,Brazil,Chile,Round of 16,2.0,4.0,2.0,6,4,2014-06-12,0.43478260869565216
+2002,Korea/Japan,China,Group stage,1.0,3.0,0.0,0,9,2002-05-31,0.0
+1994,USA,Colombia,Group stage,1.0,3.0,1.0,4,5,1994-06-17,0.13636363636363635
+1998,France,Colombia,Group stage,1.0,3.0,1.0,1,3,1998-06-10,0.13636363636363635
+2014,Brazil,Colombia,Quarter-finals,3.0,5.0,4.0,12,4,2014-06-12,0.5652173913043478
+2018,Russia,Colombia,Round of 16,2.0,4.0,2.0,6,3,2018-06-14,0.5217391304347826
+2002,Korea/Japan,Costa Rica,Group stage,1.0,3.0,1.0,5,6,2002-05-31,0.043478260869565216
+2006,Germany,Costa Rica,Group stage,1.0,3.0,0.0,3,9,2006-06-09,0.0
+2014,Brazil,Costa Rica,Quarter-finals,3.0,5.0,2.0,5,2,2014-06-12,0.08695652173913043
+2018,Russia,Costa Rica,Group stage,1.0,3.0,0.0,2,5,2018-06-14,0.21739130434782608
+2022,Qatar,Costa Rica,Group stage,1.0,3.0,1.0,3,11,2022-11-20,0.038461538461538464
+1998,France,Croatia,Third place,5.0,7.0,5.0,11,5,1998-06-10,0.45454545454545453
+2002,Korea/Japan,Croatia,Group stage,1.0,3.0,1.0,2,3,2002-05-31,0.4782608695652174
+2006,Germany,Croatia,Group stage,1.0,3.0,0.0,2,3,2006-06-09,0.2608695652173913
+2014,Brazil,Croatia,Group stage,1.0,3.0,1.0,6,6,2014-06-12,0.5652173913043478
+2018,Russia,Croatia,Runners-up,6.0,7.0,6.0,14,9,2018-06-14,0.6521739130434783
+2022,Qatar,Croatia,Third place,5.0,7.0,4.0,8,7,2022-11-20,0.5384615384615384
+2006,Germany,Czech Republic,Group stage,1.0,3.0,1.0,3,4,2006-06-09,0.4782608695652174
+1998,France,Denmark,Quarter-finals,3.0,5.0,2.0,9,7,1998-06-10,0.3181818181818182
+2002,Korea/Japan,Denmark,Round of 16,2.0,4.0,2.0,5,5,2002-05-31,0.391304347826087
+2010,South Africa,Denmark,Group stage,1.0,3.0,1.0,3,6,2010-06-11,0.43478260869565216
+2018,Russia,Denmark,Round of 16,2.0,4.0,1.0,3,2,2018-06-14,0.5652173913043478
+2022,Qatar,Denmark,Group stage,1.0,3.0,0.0,1,3,2022-11-20,0.7307692307692307
+2002,Korea/Japan,Ecuador,Group stage,1.0,3.0,1.0,2,4,2002-05-31,0.043478260869565216
+2006,Germany,Ecuador,Round of 16,2.0,4.0,2.0,5,4,2006-06-09,0.043478260869565216
+2014,Brazil,Ecuador,Group stage,1.0,3.0,1.0,3,3,2014-06-12,0.08695652173913043
+2022,Qatar,Ecuador,Group stage,1.0,3.0,1.0,4,3,2022-11-20,0.07692307692307693
+2018,Russia,Egypt,Group stage,1.0,3.0,0.0,2,6,2018-06-14,0.21739130434782608
+1998,France,England,Round of 16,2.0,4.0,2.0,7,4,1998-06-10,0.9545454545454546
+2002,Korea/Japan,England,Quarter-finals,3.0,5.0,2.0,6,3,2002-05-31,1.0
+2006,Germany,England,Quarter-finals,3.0,5.0,3.0,6,2,2006-06-09,1.0
+2010,South Africa,England,Round of 16,2.0,4.0,1.0,3,5,2010-06-11,1.0
+2014,Brazil,England,Group stage,1.0,3.0,0.0,2,4,2014-06-12,0.9565217391304348
+2018,Russia,England,Fourth place,4.0,7.0,4.0,12,8,2018-06-14,1.0
+2022,Qatar,England,Quarter-finals,3.0,5.0,3.0,13,4,2022-11-20,1.0
+1998,France,France,Winner,7.0,7.0,7.0,15,2,1998-06-10,1.0
+2002,Korea/Japan,France,Group stage,1.0,3.0,0.0,0,3,2002-05-31,1.0
+2006,Germany,France,Runners-up,6.0,7.0,4.0,9,3,2006-06-09,1.0
+2010,South Africa,France,Group stage,1.0,3.0,0.0,1,4,2010-06-11,0.9565217391304348
+2014,Brazil,France,Quarter-finals,3.0,5.0,3.0,10,3,2014-06-12,0.9565217391304348
+2018,Russia,France,Winner,7.0,7.0,6.0,14,6,2018-06-14,1.0
+2022,Qatar,France,Runners-up,6.0,7.0,5.0,16,8,2022-11-20,1.0
+1994,USA,Germany,Quarter-finals,3.0,5.0,3.0,9,7,1994-06-17,0.9545454545454546
+1998,France,Germany,Quarter-finals,3.0,5.0,3.0,8,6,1998-06-10,0.9090909090909091
+2002,Korea/Japan,Germany,Runners-up,6.0,7.0,5.0,14,3,2002-05-31,0.782608695652174
+2006,Germany,Germany,Third place,5.0,7.0,6.0,14,6,2006-06-09,0.8695652173913043
+2010,South Africa,Germany,Third place,5.0,7.0,5.0,16,5,2010-06-11,0.9130434782608695
+2014,Brazil,Germany,Winner,7.0,7.0,6.0,18,4,2014-06-12,1.0
+2018,Russia,Germany,Group stage,1.0,3.0,1.0,2,4,2018-06-14,1.0
+2022,Qatar,Germany,Group stage,1.0,3.0,1.0,6,5,2022-11-20,0.9615384615384616
+2006,Germany,Ghana,Round of 16,2.0,4.0,2.0,4,6,2006-06-09,0.30434782608695654
+2010,South Africa,Ghana,Quarter-finals,3.0,5.0,2.0,5,4,2010-06-11,0.43478260869565216
+2014,Brazil,Ghana,Group stage,1.0,3.0,0.0,4,6,2014-06-12,0.4782608695652174
+2022,Qatar,Ghana,Group stage,1.0,3.0,1.0,5,7,2022-11-20,0.4230769230769231
+1994,USA,Greece,Group stage,1.0,3.0,0.0,0,10,1994-06-17,0.0
+2010,South Africa,Greece,Group stage,1.0,3.0,1.0,2,5,2010-06-11,0.2608695652173913
+2014,Brazil,Greece,Round of 16,2.0,4.0,1.0,3,5,2014-06-12,0.4782608695652174
+2010,South Africa,Honduras,Group stage,1.0,3.0,0.0,0,3,2010-06-11,0.21739130434782608
+2014,Brazil,Honduras,Group stage,1.0,3.0,0.0,1,8,2014-06-12,0.08695652173913043
+2018,Russia,Iceland,Group stage,1.0,3.0,0.0,2,5,2018-06-14,0.13043478260869565
+1998,France,Iran,Group stage,1.0,3.0,1.0,2,4,1998-06-10,0.045454545454545456
+2006,Germany,Iran,Group stage,1.0,3.0,0.0,2,6,2006-06-09,0.21739130434782608
+2014,Brazil,Iran,Group stage,1.0,3.0,0.0,1,4,2014-06-12,0.043478260869565216
+2018,Russia,Iran,Group stage,1.0,3.0,1.0,2,2,2018-06-14,0.0
+2022,Qatar,Iran,Group stage,1.0,3.0,1.0,4,7,2022-11-20,0.08
+1994,USA,Italy,Runners-up,6.0,7.0,4.0,8,5,1994-06-17,1.0
+1998,France,Italy,Quarter-finals,3.0,5.0,3.0,8,3,1998-06-10,1.0
+2002,Korea/Japan,Italy,Round of 16,2.0,4.0,1.0,5,5,2002-05-31,1.0
+2006,Germany,Italy,Winner,7.0,7.0,6.0,12,2,2006-06-09,0.9565217391304348
+2010,South Africa,Italy,Group stage,1.0,3.0,0.0,4,5,2010-06-11,1.0
+2014,Brazil,Italy,Group stage,1.0,3.0,1.0,2,3,2014-06-12,1.0
+2006,Germany,Ivory Coast,Group stage,1.0,3.0,1.0,5,6,2006-06-09,0.6956521739130435
+2010,South Africa,Ivory Coast,Group stage,1.0,3.0,1.0,4,3,2010-06-11,0.6521739130434783
+2014,Brazil,Ivory Coast,Group stage,1.0,3.0,1.0,4,5,2014-06-12,0.5652173913043478
+1998,France,Jamaica,Group stage,1.0,3.0,1.0,3,9,1998-06-10,0.22727272727272727
+1998,France,Japan,Group stage,1.0,3.0,0.0,1,4,1998-06-10,0.0
+2002,Korea/Japan,Japan,Round of 16,2.0,4.0,2.0,5,3,2002-05-31,0.08695652173913043
+2006,Germany,Japan,Group stage,1.0,3.0,0.0,2,7,2006-06-09,0.13043478260869565
+2010,South Africa,Japan,Round of 16,2.0,4.0,2.0,4,2,2010-06-11,0.13043478260869565
+2014,Brazil,Japan,Group stage,1.0,3.0,0.0,2,6,2014-06-12,0.43478260869565216
+2018,Russia,Japan,Round of 16,2.0,4.0,1.0,6,7,2018-06-14,0.4782608695652174
+2022,Qatar,Japan,Round of 16,2.0,4.0,2.0,5,4,2022-11-20,0.38461538461538464
+1994,USA,Mexico,Round of 16,2.0,4.0,1.0,4,4,1994-06-17,0.09090909090909091
+1998,France,Mexico,Round of 16,2.0,4.0,1.0,8,7,1998-06-10,0.0
+2002,Korea/Japan,Mexico,Round of 16,2.0,4.0,2.0,4,4,2002-05-31,0.17391304347826086
+2006,Germany,Mexico,Round of 16,2.0,4.0,1.0,5,5,2006-06-09,0.13043478260869565
+2010,South Africa,Mexico,Round of 16,2.0,4.0,1.0,4,5,2010-06-11,0.21739130434782608
+2014,Brazil,Mexico,Round of 16,2.0,4.0,2.0,5,3,2014-06-12,0.2608695652173913
+2018,Russia,Mexico,Round of 16,2.0,4.0,2.0,3,6,2018-06-14,0.2608695652173913
+2022,Qatar,Mexico,Group stage,1.0,3.0,1.0,2,3,2022-11-20,0.11538461538461539
+1994,USA,Morocco,Group stage,1.0,3.0,0.0,2,5,1994-06-17,0.13636363636363635
+1998,France,Morocco,Group stage,1.0,3.0,1.0,5,5,1998-06-10,0.3181818181818182
+2018,Russia,Morocco,Group stage,1.0,3.0,0.0,2,4,2018-06-14,0.391304347826087
+2022,Qatar,Morocco,Fourth place,4.0,7.0,4.0,6,5,2022-11-20,0.5
+1994,USA,Netherlands,Quarter-finals,3.0,5.0,3.0,8,6,1994-06-17,0.22727272727272727
+1998,France,Netherlands,Fourth place,4.0,7.0,3.0,13,7,1998-06-10,0.5
+2006,Germany,Netherlands,Round of 16,2.0,4.0,2.0,3,2,2006-06-09,0.391304347826087
+2010,South Africa,Netherlands,Runners-up,6.0,7.0,6.0,12,6,2010-06-11,0.5652173913043478
+2014,Brazil,Netherlands,Third place,5.0,7.0,6.0,15,4,2014-06-12,0.391304347826087
+2022,Qatar,Netherlands,Quarter-finals,3.0,5.0,3.0,10,4,2022-11-20,0.4230769230769231
+2010,South Africa,New Zealand,Group stage,1.0,3.0,0.0,2,2,2010-06-11,0.043478260869565216
+1994,USA,Nigeria,Round of 16,2.0,4.0,2.0,7,4,1994-06-17,0.2727272727272727
+1998,France,Nigeria,Round of 16,2.0,4.0,2.0,6,9,1998-06-10,0.4090909090909091
+2002,Korea/Japan,Nigeria,Group stage,1.0,3.0,0.0,1,3,2002-05-31,0.2608695652173913
+2010,South Africa,Nigeria,Group stage,1.0,3.0,0.0,3,5,2010-06-11,0.5652173913043478
+2014,Brazil,Nigeria,Round of 16,2.0,4.0,1.0,3,5,2014-06-12,0.34782608695652173
+2018,Russia,Nigeria,Group stage,1.0,3.0,1.0,3,4,2018-06-14,0.43478260869565216
+2010,South Africa,North Korea,Group stage,1.0,3.0,0.0,1,12,2010-06-11,0.0
+1994,USA,Norway,Group stage,1.0,3.0,1.0,1,1,1994-06-17,0.4090909090909091
+1998,France,Norway,Round of 16,2.0,4.0,1.0,5,5,1998-06-10,0.6363636363636364
+2018,Russia,Panama,Group stage,1.0,3.0,0.0,2,11,2018-06-14,0.0
+1998,France,Paraguay,Round of 16,2.0,4.0,1.0,3,2,1998-06-10,0.09090909090909091
+2002,Korea/Japan,Paraguay,Round of 16,2.0,4.0,1.0,6,7,2002-05-31,0.08695652173913043
+2006,Germany,Paraguay,Group stage,1.0,3.0,1.0,2,2,2006-06-09,0.2608695652173913
+2010,South Africa,Paraguay,Quarter-finals,3.0,5.0,2.0,3,2,2010-06-11,0.30434782608695654
+2018,Russia,Peru,Group stage,1.0,3.0,1.0,2,2,2018-06-14,0.043478260869565216
+2002,Korea/Japan,Poland,Group stage,1.0,3.0,1.0,3,7,2002-05-31,0.34782608695652173
+2006,Germany,Poland,Group stage,1.0,3.0,1.0,2,4,2006-06-09,0.17391304347826086
+2018,Russia,Poland,Group stage,1.0,3.0,1.0,2,5,2018-06-14,0.6086956521739131
+2022,Qatar,Poland,Round of 16,2.0,4.0,1.0,3,5,2022-11-20,0.5769230769230769
+2002,Korea/Japan,Portugal,Group stage,1.0,3.0,1.0,6,4,2002-05-31,0.34782608695652173
+2006,Germany,Portugal,Fourth place,4.0,7.0,5.0,7,5,2006-06-09,0.5652173913043478
+2010,South Africa,Portugal,Round of 16,2.0,4.0,1.0,7,1,2010-06-11,0.4782608695652174
+2014,Brazil,Portugal,Group stage,1.0,3.0,1.0,4,7,2014-06-12,0.43478260869565216
+2018,Russia,Portugal,Round of 16,2.0,4.0,1.0,6,6,2018-06-14,0.4782608695652174
+2022,Qatar,Portugal,Quarter-finals,3.0,5.0,3.0,12,6,2022-11-20,0.6923076923076923
+2022,Qatar,Qatar,Group stage,1.0,3.0,0.0,1,7,2022-11-20,0.0
+1994,USA,Republic of Ireland,Round of 16,2.0,4.0,1.0,2,4,1994-06-17,0.7272727272727273
+2002,Korea/Japan,Republic of Ireland,Round of 16,2.0,4.0,1.0,6,3,2002-05-31,0.7391304347826086
+1994,USA,Romania,Quarter-finals,3.0,5.0,3.0,10,9,1994-06-17,0.18181818181818182
+1998,France,Romania,Round of 16,2.0,4.0,2.0,4,3,1998-06-10,0.36363636363636365
+1994,USA,Russia,Group stage,1.0,3.0,1.0,7,6,1994-06-17,0.3181818181818182
+2002,Korea/Japan,Russia,Group stage,1.0,3.0,1.0,4,4,2002-05-31,0.21739130434782608
+2014,Brazil,Russia,Group stage,1.0,3.0,0.0,2,3,2014-06-12,0.0
+2018,Russia,Russia,Quarter-finals,3.0,5.0,3.0,11,7,2018-06-14,0.043478260869565216
+1994,USA,Saudi Arabia,Round of 16,2.0,4.0,2.0,5,6,1994-06-17,0.0
+1998,France,Saudi Arabia,Group stage,1.0,3.0,0.0,2,7,1998-06-10,0.0
+2002,Korea/Japan,Saudi Arabia,Group stage,1.0,3.0,0.0,0,12,2002-05-31,0.0
+2006,Germany,Saudi Arabia,Group stage,1.0,3.0,0.0,2,7,2006-06-09,0.0
+2018,Russia,Saudi Arabia,Group stage,1.0,3.0,1.0,2,7,2018-06-14,0.13043478260869565
+2022,Qatar,Saudi Arabia,Group stage,1.0,3.0,1.0,3,5,2022-11-20,0.0
+1998,France,Scotland,Group stage,1.0,3.0,0.0,2,6,1998-06-10,0.36363636363636365
+2002,Korea/Japan,Senegal,Quarter-finals,3.0,5.0,2.0,7,6,2002-05-31,0.7391304347826086
+2018,Russia,Senegal,Group stage,1.0,3.0,1.0,4,4,2018-06-14,0.6956521739130435
+2022,Qatar,Senegal,Round of 16,2.0,4.0,2.0,5,7,2022-11-20,0.6538461538461539
+1998,France,Serbia,Round of 16,2.0,4.0,2.0,5,4,1998-06-10,0.7272727272727273
+2006,Germany,Serbia,Group stage,1.0,3.0,0.0,2,10,2006-06-09,0.34782608695652173
+2010,South Africa,Serbia,Group stage,1.0,3.0,1.0,2,3,2010-06-11,0.5652173913043478
+2018,Russia,Serbia,Group stage,1.0,3.0,1.0,2,4,2018-06-14,0.5217391304347826
+2022,Qatar,Serbia,Group stage,1.0,3.0,0.0,5,8,2022-11-20,0.6153846153846154
+2010,South Africa,Slovakia,Round of 16,2.0,4.0,1.0,5,7,2010-06-11,0.2608695652173913
+2002,Korea/Japan,Slovenia,Group stage,1.0,3.0,0.0,2,7,2002-05-31,0.17391304347826086
+2010,South Africa,Slovenia,Group stage,1.0,3.0,1.0,3,3,2010-06-11,0.30434782608695654
+1998,France,South Africa,Group stage,1.0,3.0,0.0,3,6,1998-06-10,0.17391304347826086
+2002,Korea/Japan,South Africa,Group stage,1.0,3.0,1.0,5,5,2002-05-31,0.17391304347826086
+2010,South Africa,South Africa,Group stage,1.0,3.0,1.0,3,5,2010-06-11,0.13043478260869565
+1994,USA,South Korea,Group stage,1.0,3.0,0.0,4,5,1994-06-17,0.0
+1998,France,South Korea,Group stage,1.0,3.0,0.0,2,9,1998-06-10,0.045454545454545456
+2002,Korea/Japan,South Korea,Fourth place,4.0,7.0,3.0,8,6,2002-05-31,0.043478260869565216
+2006,Germany,South Korea,Group stage,1.0,3.0,1.0,3,4,2006-06-09,0.13043478260869565
+2010,South Africa,South Korea,Round of 16,2.0,4.0,1.0,6,8,2010-06-11,0.17391304347826086
+2014,Brazil,South Korea,Group stage,1.0,3.0,0.0,3,6,2014-06-12,0.21739130434782608
+2018,Russia,South Korea,Group stage,1.0,3.0,1.0,3,3,2018-06-14,0.13043478260869565
+2022,Qatar,South Korea,Round of 16,2.0,4.0,1.0,5,8,2022-11-20,0.23076923076923078
+1994,USA,Spain,Quarter-finals,3.0,5.0,2.0,10,6,1994-06-17,1.0
+1998,France,Spain,Group stage,1.0,3.0,1.0,8,4,1998-06-10,1.0
+2002,Korea/Japan,Spain,Quarter-finals,3.0,5.0,4.0,10,5,2002-05-31,1.0
+2006,Germany,Spain,Round of 16,2.0,4.0,3.0,9,4,2006-06-09,1.0
+2010,South Africa,Spain,Winner,7.0,7.0,6.0,8,2,2010-06-11,1.0
+2014,Brazil,Spain,Group stage,1.0,3.0,1.0,4,7,2014-06-12,1.0
+2018,Russia,Spain,Round of 16,2.0,4.0,1.0,7,6,2018-06-14,1.0
+2022,Qatar,Spain,Round of 16,2.0,4.0,1.0,9,3,2022-11-20,0.9615384615384616
+1994,USA,Sweden,Third place,5.0,7.0,4.0,15,8,1994-06-17,0.3181818181818182
+2002,Korea/Japan,Sweden,Round of 16,2.0,4.0,1.0,5,5,2002-05-31,0.43478260869565216
+2006,Germany,Sweden,Round of 16,2.0,4.0,1.0,3,4,2006-06-09,0.30434782608695654
+2018,Russia,Sweden,Quarter-finals,3.0,5.0,3.0,6,4,2018-06-14,0.6086956521739131
+1994,USA,Switzerland,Round of 16,2.0,4.0,1.0,5,7,1994-06-17,0.18181818181818182
+2006,Germany,Switzerland,Round of 16,2.0,4.0,2.0,4,0,2006-06-09,0.5652173913043478
+2010,South Africa,Switzerland,Group stage,1.0,3.0,1.0,1,1,2010-06-11,0.5652173913043478
+2014,Brazil,Switzerland,Round of 16,2.0,4.0,2.0,7,7,2014-06-12,0.6956521739130435
+2018,Russia,Switzerland,Round of 16,2.0,4.0,1.0,5,5,2018-06-14,0.782608695652174
+2022,Qatar,Switzerland,Round of 16,2.0,4.0,2.0,5,9,2022-11-20,0.5769230769230769
+2006,Germany,Togo,Group stage,1.0,3.0,0.0,1,6,2006-06-09,0.13043478260869565
+2006,Germany,Trinidad and Tobago,Group stage,1.0,3.0,0.0,0,4,2006-06-09,0.043478260869565216
+1998,France,Tunisia,Group stage,1.0,3.0,0.0,1,4,1998-06-10,0.045454545454545456
+2002,Korea/Japan,Tunisia,Group stage,1.0,3.0,0.0,1,5,2002-05-31,0.043478260869565216
+2006,Germany,Tunisia,Group stage,1.0,3.0,0.0,3,6,2006-06-09,0.43478260869565216
+2018,Russia,Tunisia,Group stage,1.0,3.0,1.0,5,8,2018-06-14,0.30434782608695654
+2022,Qatar,Tunisia,Group stage,1.0,3.0,1.0,1,1,2022-11-20,0.15384615384615385
+2002,Korea/Japan,Turkey,Third place,5.0,7.0,4.0,10,6,2002-05-31,0.391304347826087
+2006,Germany,Ukraine,Quarter-finals,3.0,5.0,3.0,5,7,2006-06-09,0.0
+1994,USA,United States,Round of 16,2.0,4.0,1.0,3,4,1994-06-17,0.045454545454545456
+1998,France,United States,Group stage,1.0,3.0,0.0,1,5,1998-06-10,0.13636363636363635
+2002,Korea/Japan,United States,Quarter-finals,3.0,5.0,2.0,7,7,2002-05-31,0.30434782608695654
+2006,Germany,United States,Group stage,1.0,3.0,0.0,2,6,2006-06-09,0.2608695652173913
+2010,South Africa,United States,Round of 16,2.0,4.0,1.0,5,5,2010-06-11,0.5217391304347826
+2014,Brazil,United States,Round of 16,2.0,4.0,1.0,5,6,2014-06-12,0.34782608695652173
+2022,Qatar,United States,Round of 16,2.0,4.0,1.0,3,4,2022-11-20,0.46153846153846156
+2002,Korea/Japan,Uruguay,Group stage,1.0,3.0,0.0,4,5,2002-05-31,0.5652173913043478
+2010,South Africa,Uruguay,Fourth place,4.0,7.0,4.0,11,8,2010-06-11,0.30434782608695654
+2014,Brazil,Uruguay,Round of 16,2.0,4.0,2.0,4,6,2014-06-12,0.5217391304347826
+2018,Russia,Uruguay,Quarter-finals,3.0,5.0,4.0,7,3,2018-06-14,0.4782608695652174
+2022,Qatar,Uruguay,Group stage,1.0,3.0,1.0,2,2,2022-11-20,0.38461538461538464
+2022,Qatar,Wales,Group stage,1.0,3.0,0.0,1,6,2022-11-20,0.23076923076923078
