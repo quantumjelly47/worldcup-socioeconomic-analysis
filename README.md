@@ -218,7 +218,7 @@ Run:
 Main packages:
 
 * pandas, numpy, pathlib
-* matplotlib, plotly, ipywidgets, altair (visualization)
+* matplotlib, seaborn, plotly, ipywidgets, altair (visualization)
 * BeautifulSoup, requests (for squad scraping)
 * jupyter / ipykernel
 
