@@ -42,12 +42,23 @@ POSITIONS_MAPPING = {stage: i + 1 for i, stage in enumerate(POSITIONS)}
 # ============================================================
 
 def read_csv(name: str) -> pd.DataFrame:
-    """Load a CSV from the World Cup raw data directory."""
+    """Load a CSV from the World Cup raw data directory.
+
+    Args:
+        name: Filename within the World Cup raw folder.
+
+    Returns:
+        pd.DataFrame: Loaded contents.
+    """
     return pd.read_csv(RAW_DIR / name)
 
 
 def load_sources():
-    """Load hosts, historical matches (1986–2018), and 2022 matches."""
+    """Load hosts, historical matches (1986–2018), and 2022 matches.
+
+    Returns:
+        tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]: Hosts, matches 1986–2018, full archive including 2022.
+    """
     hosts = read_csv("world_cups.csv")
     matches_1986_2018 = read_csv("world_cup_matches.csv")
     matches_2022 = read_csv("matches_1930_2022.csv")
@@ -62,6 +73,12 @@ def build_match_level_pre_2022(matches: pd.DataFrame) -> pd.DataFrame:
     """
     Convert match-level data to team-level rows with wins, goals for/against, and penalty outcomes.
     Filters to years within MIN_YEAR..MAX_YEAR.
+
+    Args:
+        matches: Match-level DataFrame including Home/Away teams, goals, stage, dates.
+
+    Returns:
+        pd.DataFrame: Team-level rows with goals for/against, win flags, and clean_stage.
     """
     # Filter years and basic columns
     wide = (
@@ -125,6 +142,12 @@ def summarize_by_team_pre_2022(match_long: pd.DataFrame) -> pd.DataFrame:
     """
     Summarize by (Year, Team): max stage reached (numeric and label),
     matches played/won, goals for/against.
+
+    Args:
+        match_long: Team-level match rows with goals and win flags.
+
+    Returns:
+        pd.DataFrame: One row per (Year, Team) with stage and basic stats.
     """
     # Max stage reached
     max_stage_indices = match_long.groupby(["Year", "Team"])["clean_stage"].idxmax()
@@ -177,6 +200,12 @@ def summarize_by_team_2022(df:  pd.DataFrame) -> pd.DataFrame:
     """
     Summarize World Cup performance for a given year by team.
     Returns max stage (numeric and label), matches played/won, goals for/against.
+
+    Args:
+        df: Full match archive; rows for 2022 will be selected internally.
+
+    Returns:
+        pd.DataFrame: Team-level 2022 summary with stage and basic stats.
     """
     # Pull all matches for the target year from the archive
     matches = df[df["Year"] == 2022]
@@ -372,6 +401,13 @@ def summarize_by_team_2022(df:  pd.DataFrame) -> pd.DataFrame:
 def stack_pre_2022_and_2022(pre_2022_df: pd.DataFrame, df_2022: pd.DataFrame):
     """
     Stacks pre 2022 and 2022 data into a single dataframe, sorted by team and year.
+
+    Args:
+        pre_2022_df: Performance summary for years before 2022.
+        df_2022: Performance summary for 2022.
+
+    Returns:
+        pd.DataFrame: Combined, sorted performance summary.
     """
     stacked = (
         pd.concat([pre_2022_df, df_2022], axis=0)
@@ -385,6 +421,12 @@ def expand_all_pairs(stacked: pd.DataFrame) -> pd.DataFrame:
     """
     Expand to all (Year, Team) combinations present in the summary, filling non-qualifiers
     with defaults (Did not qualify, zeros for stats).
+
+    Args:
+        stacked: Combined performance summary.
+
+    Returns:
+        pd.DataFrame: Expanded grid with DNQ rows filled.
     """
     all_years = stacked["Year"].unique()
     all_teams = stacked["team"].unique()
@@ -409,7 +451,15 @@ def expand_all_pairs(stacked: pd.DataFrame) -> pd.DataFrame:
 
 
 def add_hosts(expanded: pd.DataFrame, hosts: pd.DataFrame) -> pd.DataFrame:
-    """Attach host country info and rename columns for the final performance dataset."""
+    """Attach host country info and rename columns for the final performance dataset.
+
+    Args:
+        expanded: Expanded performance grid with world cup years and teams.
+        hosts: Hosts DataFrame with Year and Host Country.
+
+    Returns:
+        pd.DataFrame: Performance data with host_country and renamed columns.
+    """
     expanded_w_host = (
         expanded.merge(hosts[["Year", "Host Country"]], on="Year", how="left")
         .rename(
@@ -435,7 +485,15 @@ def add_hosts(expanded: pd.DataFrame, hosts: pd.DataFrame) -> pd.DataFrame:
     return expanded_w_host
 
 def add_wc_start_dates(expanded_w_host: pd.DataFrame, match_long: pd.DataFrame):
-    """Attach world cup start date to use for merging rankings later"""
+    """Attach world cup start date to use for merging rankings later.
+
+    Args:
+        expanded_w_host: Performance data with host info.
+        match_long: Team-level match data (used to derive tournament start dates).
+
+    Returns:
+        pd.DataFrame: Performance data with start_date for each World Cup year.
+    """
     world_cup_start_dates = (
         match_long.assign(date=lambda df: pd.to_datetime(df["Date"]).dt.date)
         .groupby("Year", as_index=False)

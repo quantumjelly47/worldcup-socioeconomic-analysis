@@ -17,7 +17,11 @@ OUTPUT_PATH = WORLD_CUP_DIR / "merge_wc_with_socioeconomic.csv"
 
 
 def load_data():
-    """Load WC performance with rankings plus each socioeconomic panel."""
+    """Load WC performance with rankings plus each socioeconomic panel.
+
+    Returns:
+        tuple[pd.DataFrame, ...]: wc, gdp, hdi, life, school, pop DataFrames.
+    """
     wc = pd.read_csv(WC_PATH)
     gdp = pd.read_csv(GDP_PATH)
     hdi = pd.read_csv(HDI_PATH)
@@ -43,7 +47,7 @@ def attach_metric(
         prefix: Prefix to use for new columns.
 
     Returns:
-        base_df with new columns: f\"{prefix}_tminus0..3\".
+        pd.DataFrame: base_df with new columns f\"{prefix}_tminus0..3\".
     """
     lookup = (
         metric_df[["country", "year", value_col]]

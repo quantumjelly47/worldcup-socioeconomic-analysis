@@ -2,8 +2,14 @@ import pandas as pd
 
 
 def normalize_country_names(df, column="country"):
-    """
-    Standardize country names so they align with World Cup naming conventions.
+    """Standardize country names so they align with World Cup naming conventions.
+
+    Args:
+        df: Input DataFrame containing country names.
+        column: Column name holding country strings.
+
+    Returns:
+        pd.DataFrame: DataFrame with standardized country names.
     """
     replacements = {
         "Bahamas, The": "Bahamas",
@@ -52,8 +58,14 @@ def normalize_country_names(df, column="country"):
 
 
 def expand_united_kingdom(df, column="country"):
-    """
-    Replace 'United Kingdom' with England, Scotland, and Wales copies.
+    """Replace 'United Kingdom' with England, Scotland, and Wales copies.
+
+    Args:
+        df: Input DataFrame containing country names.
+        column: Column name holding country strings.
+
+    Returns:
+        pd.DataFrame: DataFrame with UK expanded to home nations.
     """
     if "United Kingdom" not in df[column].values:
         return df
@@ -72,8 +84,14 @@ def expand_united_kingdom(df, column="country"):
 
 
 def expand_legacy_countries(df, column="country"):
-    """
-    Duplicate modern teams for historical entrants lacking standalone records.
+    """Duplicate modern teams for historical entrants lacking standalone records.
+
+    Args:
+        df: Input DataFrame containing country names.
+        column: Column name holding country strings.
+
+    Returns:
+        pd.DataFrame: DataFrame with legacy country rows appended where needed.
     """
     legacy_map = {
         "Serbia": ["FR Yugoslavia", "Serbia and Montenegro"],
@@ -115,8 +133,15 @@ WORLD_CUP_COUNTRIES = [
 
 
 def filter_world_cup_countries(df, column="country", include_non_world_cup=False):
-    """
-    Filter dataset to keep only World Cup countries (optionally return the rest).
+    """Filter dataset to keep only World Cup countries (optionally return the rest).
+
+    Args:
+        df: Input DataFrame.
+        column: Column name holding country strings.
+        include_non_world_cup: If True, also return the non-WC subset.
+
+    Returns:
+        pd.DataFrame or tuple[pd.DataFrame, pd.DataFrame]: WC subset, and optionally non-WC subset.
     """
     normalized_df = normalize_country_names(df, column)
     expanded_df = expand_united_kingdom(normalized_df, column)
@@ -133,8 +158,11 @@ def filter_world_cup_countries(df, column="country", include_non_world_cup=False
 
 
 def check_country_coverage(df, column="country"):
-    """
-    Print which World Cup entrants are missing from the provided dataset.
+    """Print which World Cup entrants are missing from the provided dataset.
+
+    Args:
+        df: Input DataFrame.
+        column: Column name holding country strings.
     """
     df_countries = set(df[column].unique())
     missing = [c for c in WORLD_CUP_COUNTRIES if c not in df_countries]
